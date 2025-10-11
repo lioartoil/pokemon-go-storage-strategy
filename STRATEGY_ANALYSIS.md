@@ -23,20 +23,21 @@ Your storage strategy is **comprehensive and well-structured**, but at 97% capac
 
 **IMPORTANT**: Comparisons adjusted based on your play style (Collecting > Raids > Trading >>> PvP)
 
-| Aspect                      | Your Strategy                | Community Best Practice (PvP Players) | Best Practice (YOUR Profile) | Assessment          |
-| --------------------------- | ---------------------------- | ------------------------------------- | ---------------------------- | ------------------- |
-| **Free Space Target**       | 3% (316 slots)               | 5-10% (525-1,050 slots)               | 10-15% (1,050-1,575 slots)   | ⚠️ Too tight        |
-| **GL/UL IV Rank Cutoff**    | Rank ≤205                    | Rank ≤50 to ≤100                      | Rank ≤10 + Meta ≤50          | ⚠️ Too lenient      |
-| **ML IV Rank Cutoff**       | Rank ≤19                     | Rank ≤10 to ≤20                       | Rank ≤10 only                | ⚠️ Too lenient      |
-| **LL Approach**             | Percentile-based + rank ≤205 | Species-specific, rank ≤50            | Rank ≤10 (top tier only)     | ⚠️ Too lenient      |
-| **Legendary Reserve**       | Top 10 per species           | Top 6 per species (raid teams)        | Top 10-12 (raiding priority) | ✅ Appropriate      |
-| **Shadow Retention**        | All shadows (2 per species)  | Meta-relevant only                    | All (collecting priority)    | ✅ Appropriate      |
-| **General Reserve**         | Top 2 by level+IV            | Top 1-2 by level+IV                   | Top 2 (living dex)           | ✅ Appropriate      |
-| **Lucky Trade Strategy**    | Keep 364+ days until 3 years | Hold until 1 year (INCORRECT)         | Hold until 3 years (CORRECT) | ✅ **YOU ARE RIGHT**|
-| **Shiny Retention**         | 2 per species/form           | 1-2 per species/form                  | 2 per species (collecting)   | ✅ Appropriate      |
-| **Size Tracking (XXS/XXL)** | 1 each per species           | 1 each per species                    | 1 each (collecting)          | ✅ Appropriate      |
+| Aspect                      | Your Strategy                | Community Best Practice (PvP Players) | Best Practice (YOUR Profile) | Assessment           |
+| --------------------------- | ---------------------------- | ------------------------------------- | ---------------------------- | -------------------- |
+| **Free Space Target**       | 3% (316 slots)               | 5-10% (525-1,050 slots)               | 10-15% (1,050-1,575 slots)   | ⚠️ Too tight         |
+| **GL/UL IV Rank Cutoff**    | Rank ≤205                    | Rank ≤50 to ≤100                      | Rank ≤10 + Meta ≤50          | ⚠️ Too lenient       |
+| **ML IV Rank Cutoff**       | Rank ≤19                     | Rank ≤10 to ≤20                       | Rank ≤10 only                | ⚠️ Too lenient       |
+| **LL Approach**             | Percentile-based + rank ≤205 | Species-specific, rank ≤50            | Rank ≤10 (top tier only)     | ⚠️ Too lenient       |
+| **Legendary Reserve**       | Top 10 per species           | Top 6 per species (raid teams)        | Top 10-12 (raiding priority) | ✅ Appropriate       |
+| **Shadow Retention**        | All shadows (2 per species)  | Meta-relevant only                    | All (collecting priority)    | ✅ Appropriate       |
+| **General Reserve**         | Top 2 by level+IV            | Top 1-2 by level+IV                   | Top 2 (living dex)           | ✅ Appropriate       |
+| **Lucky Trade Strategy**    | Keep 364+ days until 3 years | Hold until 1 year (INCORRECT)         | Hold until 3 years (CORRECT) | ✅ **YOU ARE RIGHT** |
+| **Shiny Retention**         | 2 per species/form           | 1-2 per species/form                  | 2 per species (collecting)   | ✅ Appropriate       |
+| **Size Tracking (XXS/XXL)** | 1 each per species           | 1 each per species                    | 1 each (collecting)          | ✅ Appropriate       |
 
 **CORRECTION**: Lucky Trade mechanics research (Silph Road):
+
 - 0-364 days: 5% lucky chance
 - 365-729 days (1 year): 10% lucky chance
 - 730-1,094 days (2 years): 15% lucky chance
@@ -64,11 +65,11 @@ Your storage strategy is **comprehensive and well-structured**, but at 97% capac
 
 **Revised Recommendation (Meta-Aware)**:
 
-| Species Tier | Keep Rules |
-|--------------|------------|
+| Species Tier                                                  | Keep Rules                           |
+| ------------------------------------------------------------- | ------------------------------------ |
 | **Top 20 meta species** (Azumarill, Medicham, Skarmory, etc.) | Rank ≤50: Keep 1<br>Rank ≤10: Keep 2 |
-| **Other viable species** | Rank ≤10: Keep 1 |
-| **Personal favorites** | Rank ≤25: Keep 1 |
+| **Other viable species**                                      | Rank ≤10: Keep 1                     |
+| **Personal favorites**                                        | Rank ≤25: Keep 1                     |
 
 **Top 20 GL Meta**: Azumarill, Medicham, Skarmory, Altaria, Talonflame, Lickitung, Shadow Nidoqueen, Shadow Walrein, Shadow Swampert, Trevenant, Sableye, Registeel, Cresselia, Bastiodon, Vigoroth, Diggersby, Shadow Gligar, Charjabug, Lanturn
 
@@ -113,19 +114,24 @@ Your storage strategy is **comprehensive and well-structured**, but at 97% capac
 **Revised Structure**:
 
 #### Category 3a: Master League PvP Only
+
 **Recommendation**:
+
 - **Final Evolution**: Rank ≤10: Keep 1 per species
 - **Non-Final Evolution**: Keep 2 per species (future-proofing for new moves/forms)
 - **Estimated**: 200-300 Pokemon
 
 #### Category 3b: Raid/Gym Attackers (Merge to Category 11)
+
 **Recommendation**: Move raid attackers to Category 11 (Legendary + Raid Reserve)
+
 - **Frequent raid attackers** (Mewtwo, Kyogre, Groudon, Rayquaza, Mamoswine, Machamp): Keep 12
 - **Regular raid attackers**: Keep 10
 - **Situational raid attackers**: Keep 6
 - **Non-legendary raid attackers**: Keep 6 (Rhyperior, Machamp, Roserade, etc.)
 
 **Top Raid Attackers by Type** (see STRATEGY_REVISIONS_FINAL.md for complete list):
+
 - Fighting: Terrakion, Lucario, Conkeldurr, Machamp
 - Ground: Groudon (Primal), Garchomp, Rhyperior, Excadrill
 - Dragon: Rayquaza, Palkia, Salamence, Dragonite
@@ -134,6 +140,7 @@ Your storage strategy is **comprehensive and well-structured**, but at 97% capac
 - [See full list in STRATEGY_REVISIONS_FINAL.md]
 
 **Rationale**:
+
 - You don't do competitive Master League PvP → aggressive ML PvP reduction
 - You raid daily → expand raid attacker storage
 - Separating these clarifies storage purpose
@@ -261,6 +268,7 @@ Rename to **"Legendary + Raid Attacker Reserve"** and merge Category 3b here:
 **CORRECTION**: After Silph Road research verification, your strategy is **CORRECT**:
 
 **Lucky Trade Mechanics** (Silph Road Research):
+
 - 0-364 days: 5% lucky chance
 - 365-729 days (1 year): 10% lucky chance
 - 730-1,094 days (2 years): 15% lucky chance
@@ -271,11 +279,13 @@ Rename to **"Legendary + Raid Attacker Reserve"** and merge Category 3b here:
 **Previous analysis stating "1 year cap" was WRONG. You were right all along.**
 
 **Search Query** (see SEARCH_QUERIES.md):
+
 ```
 age364-&!age1095-&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultrabeast
 ```
 
 Or using your tag system:
+
 ```
 age364-&!age1095-&!keep1&!keep2&!keep3
 ```
@@ -300,21 +310,21 @@ Your largest categories by storage:
 
 Based on your priorities (Collecting > Raids > Trading >>> PvP):
 
-| Category                  | Current | Revised Recommendation | Savings/Cost  | Reason                        |
-| ------------------------- | ------- | ---------------------- | ------------- | ----------------------------- |
-| Category 1 (GL/UL)        | 1,370   | 400-500 (meta-aware)   | +800-1,000    | Minimal PvP usage             |
-| Category 2 (LL)           | 498     | 50-100                 | +350-400      | Minimal PvP usage             |
-| Category 3 (ML)           | 2,037   | 200-300 (PvP only)     | +1,600-1,700  | Minimal PvP usage             |
-| Category 4 (Shiny)        | 1,058   | 1,058                  | 0             | Collecting priority ✅        |
-| Category 5 (Costumed)     | 324     | 324                    | 0             | Collecting priority ✅        |
-| Category 6 (Shadow)       | 394     | 394                    | 0             | Collecting priority ✅        |
-| Category 7 (XXS/XXL)      | 1,058   | 1,058                  | 0             | Collecting priority ✅        |
-| Category 8-10 (Special)   | 212     | 212                    | 0             | New mechanics ✅              |
-| Category 11 (Legendary)   | 643     | 800-1,000              | -200 to -400  | Raiding priority + attackers  |
-| Category 12 (Transfer)    | 76      | 0-76                   | +76 (temp)    | Clear during events           |
-| Category 13 (General)     | 2,441   | 2,441                  | 0             | Collecting/trading priority ✅ |
-| Category 14 (Lucky Queue) | <100    | <100                   | 0             | Strategy is correct ✅        |
-| **TOTAL POTENTIAL**       | 10,184  | 8,900-9,400            | **+800-1,200**| Net savings                   |
+| Category                  | Current | Revised Recommendation | Savings/Cost   | Reason                         |
+| ------------------------- | ------- | ---------------------- | -------------- | ------------------------------ |
+| Category 1 (GL/UL)        | 1,370   | 400-500 (meta-aware)   | +800-1,000     | Minimal PvP usage              |
+| Category 2 (LL)           | 498     | 50-100                 | +350-400       | Minimal PvP usage              |
+| Category 3 (ML)           | 2,037   | 200-300 (PvP only)     | +1,600-1,700   | Minimal PvP usage              |
+| Category 4 (Shiny)        | 1,058   | 1,058                  | 0              | Collecting priority ✅         |
+| Category 5 (Costumed)     | 324     | 324                    | 0              | Collecting priority ✅         |
+| Category 6 (Shadow)       | 394     | 394                    | 0              | Collecting priority ✅         |
+| Category 7 (XXS/XXL)      | 1,058   | 1,058                  | 0              | Collecting priority ✅         |
+| Category 8-10 (Special)   | 212     | 212                    | 0              | New mechanics ✅               |
+| Category 11 (Legendary)   | 643     | 800-1,000              | -200 to -400   | Raiding priority + attackers   |
+| Category 12 (Transfer)    | 76      | 0-76                   | +76 (temp)     | Clear during events            |
+| Category 13 (General)     | 2,441   | 2,441                  | 0              | Collecting/trading priority ✅ |
+| Category 14 (Lucky Queue) | <100    | <100                   | 0              | Strategy is correct ✅         |
+| **TOTAL POTENTIAL**       | 10,184  | 8,900-9,400            | **+800-1,200** | Net savings                    |
 
 **Revised Target**: Free up **800-1,200 slots** by aggressively reducing PvP categories (which you don't use) and expanding raid attacker storage (which you do use).
 
@@ -327,6 +337,7 @@ Based on your priorities (Collecting > Raids > Trading >>> PvP):
 **Previous Analysis**: INCORRECTLY stated 1 year cap (this section was WRONG)
 
 **Silph Road Research** (Verified):
+
 - 0-364 days: 5% lucky chance
 - 365-729 days (1 year): 10% lucky chance
 - 730-1,094 days (2 years): 15% lucky chance
@@ -391,6 +402,7 @@ Your broad retention (rank ≤205) protects against meta shifts, but at **massiv
 **Revised Approach for YOUR Play Style**:
 
 Since you don't do competitive PvP:
+
 - Keep rank ≤10 for research/challenges (sufficient for non-competitive play)
 - Keep rank ≤50 ONLY for top 20 meta species (meta-awareness exception)
 - When meta shifts occur, you can:
@@ -409,9 +421,11 @@ Most collectors who rarely PvP keep rank ≤10 only, freeing storage for special
 ### Phase 1: Quick Wins (Week 1) - Target: 400-500 slots
 
 1. ✅ **Reduce Category 3 (Master League PvP)**: Rank ≤19 → Rank ≤10 for final evolutions (keep non-final at 2 for future-proofing)
+
    - **Estimated**: 400-500 slots
 
 2. ✅ **Clear Category 12 (Transfer Queue)**: Transfer during next 2× candy event
+
    - **Estimated**: 76 slots
 
 **Phase 1 Total**: 476-576 slots freed
@@ -421,12 +435,14 @@ Most collectors who rarely PvP keep rank ≤10 only, freeing storage for special
 ### Phase 2: Major Reductions (Weeks 2-3) - Target: 700-1,000 slots
 
 3. ✅ **Reduce Category 1 (GL/UL) with Meta-Awareness**:
+
    - Top 20 meta species: Rank ≤50: Keep 1, Rank ≤10: Keep 2
    - Other species: Rank ≤10: Keep 1
    - Favorites: Rank ≤25: Keep 1
    - **Estimated**: 800-900 slots (1,370 → 400-500)
 
 4. ✅ **Reduce Category 2 (Little League)**:
+
    - Rank ≤10 (80th+ percentile): Keep 1
    - Rank ≤10 (60-79th percentile, favorites only): Keep 1
    - **Estimated**: 350-400 slots (498 → 50-100)

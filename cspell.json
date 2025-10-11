@@ -1,0 +1,32 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "ignorePaths": [
+    ".git/**",
+    "*.min.js",
+    "build/**",
+    "dist/**",
+    "node_modules/**",
+    "package-lock.json",
+    "pnpm-lock.yaml"
+  ],
+  "words": [
+    "Dragonair",
+    "Dynamax",
+    "emptively",
+    "Gigantamax",
+    "Groudon",
+    "Kyogre",
+    "Legendaries",
+    "Mewtwo",
+    "Pokedex",
+    "Politoed",
+    "Rayquaza",
+    "Sentret",
+    "shinies",
+    "Silph",
+    "Swampert",
+    "Venusaur",
+    "Weedle"
+  ]
+}

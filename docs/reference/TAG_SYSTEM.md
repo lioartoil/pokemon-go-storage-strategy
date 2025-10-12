@@ -37,11 +37,13 @@
 ### PvP System (12 tags)
 
 **League Tags**:
+
 16. `Great` - Great League eligible (Rank 1-100)
 17. `Ultra` - Ultra League eligible (Rank 1-100)
 18. `Little` - Little League eligible (Rank 1-100)
 
 **Personal Collection Ranks** (best you own):
+
 19. `Rank1` - Your #1 best for species/league
 20. `Rank2` - Your #2 best for species/league
 21. `Rank3` - Your #3 best for species/league
@@ -50,6 +52,7 @@
 24. `Rank51-100` - Your 51-100 best (decent tier)
 
 **Absolute IV Ranks** (theoretical best globally):
+
 25. `First` - #1 rank possible in game
 26. `Second` - #2 rank possible in game
 27. `Third` - #3 rank possible in game
@@ -57,6 +60,7 @@
 **Purpose**: Track both personal collection quality and trophy Pokemon
 
 **Example**: Pokemon with `Rank1`, `Rank2`, `Second` means:
+
 - `Rank1` = Best YOU own in one league
 - `Rank2` = Second best YOU own in another league
 - `Second` = #2 best possible in entire game
@@ -76,12 +80,13 @@
 33. `NeedPurified` - Shadows to purify
 34. `PowerUp` - Marked for power up
 35. `TM` - Needs move changes (TM/Elite TM)
-36. `Trade` - For general trading
+36. `ToTrade` - For general trading
 37. `LuckyTrade` - For lucky friend trades (Category 14)
 
 **Purpose**: Track different resource needs and actions
 
 **Clarification**:
+
 - `NeedCandy` = Have distance, swap buddy to claim
 - `InTraining` = Currently walking for candy
 
@@ -112,19 +117,19 @@ Your rank tags now align with STRATEGY_MODERATE_PVP.md:
 
 ### Great & Ultra League (Category 1)
 
-| Strategy Breakpoint | Your Tags               | Copies to Keep |
-| ------------------- | ----------------------- | -------------- |
-| Rank ≤10            | `Rank1`, `Rank2`, `Rank3` | 2 copies       |
-| Rank 11-50          | `Rank4-20`, `Rank21-50`   | 1 copy         |
-| Rank 51-100         | `Rank51-100`            | 1 copy (meta only) |
-| Rank 101+           | (no tag)                | Transfer       |
+| Strategy Breakpoint | Your Tags                 | Copies to Keep     |
+| ------------------- | ------------------------- | ------------------ |
+| Rank ≤10            | `Rank1`, `Rank2`, `Rank3` | 2 copies           |
+| Rank 11-50          | `Rank4-20`, `Rank21-50`   | 1 copy             |
+| Rank 51-100         | `Rank51-100`              | 1 copy (meta only) |
+| Rank 101+           | (no tag)                  | Transfer           |
 
 ### Master League (Category 3)
 
-| Strategy Breakpoint | Your Tags               | Copies to Keep |
-| ------------------- | ----------------------- | -------------- |
+| Strategy Breakpoint | Your Tags                 | Copies to Keep |
+| ------------------- | ------------------------- | -------------- |
 | Rank ≤10            | `Rank1`, `Rank2`, `Rank3` | 2 copies       |
-| Rank 11-20          | `Rank4-20`              | 1 copy         |
+| Rank 11-20          | `Rank4-20`                | 1 copy         |
 | Rank 21+            | `Rank21-50`, `Rank51-100` | Transfer       |
 
 **Alignment**: Perfect! Your tags now match strategy breakpoints.
@@ -134,6 +139,7 @@ Your rank tags now align with STRATEGY_MODERATE_PVP.md:
 ## Tag Changes Made
 
 ### Tags Deleted (6 tags)
+
 - ❌ `Ready` - Not used
 - ❌ `Candidates` - Not used
 - ❌ `Archived` - Not used
@@ -142,6 +148,7 @@ Your rank tags now align with STRATEGY_MODERATE_PVP.md:
 - ❌ `Aged` - Not used
 
 ### Tags Renamed to PascalCase
+
 - `In Training` → `InTraining`
 - `Need Candy` → `NeedCandy`
 - `Need Purified` → `NeedPurified`
@@ -153,16 +160,20 @@ Your rank tags now align with STRATEGY_MODERATE_PVP.md:
 - `Time Evolve` → `TimeEvolve`
 - `Stage 1` → `Stage1`
 - `Stage 2` → `Stage2`
+- `To Trade` → `ToTrade`
 
 ### Tags Renamed for Clarity
+
 - `Waiting` → `Review`
 
 ### Tags Added (3 tags)
+
 - ✅ `TM` - Needs move changes
 - ✅ `LuckyTrade` - For lucky friend trades
 - ✅ `Review` - Needs recheck (renamed from `Waiting`)
 
 ### Tags Adjusted for Alignment (3 tags)
+
 - `Rank4-19` → `Rank4-20` (includes Rank 20 for ML)
 - `Rank20-82` → `Rank21-50` (better alignment)
 - `Rank83-205` → `Rank51-100` (matches GL/UL strategy)
@@ -222,27 +233,35 @@ shadow&4*               # Shadow hundo
 ## Common Tag Combinations
 
 ### Find transfer candidates
+
 ```
 Great&Rank51-100&!attackers&!def1&!def2&!def2.5
 ```
+
 Finds Great League Rank 51-100 that aren't used for raids/gyms
 
 ### Find trophy Pokemon
+
 ```
 #First | #Second | #Third
 ```
+
 All Pokemon with absolute top 3 ranks globally
 
 ### Find Pokemon needing resources
+
 ```
 #NeedCandy | #NeedPurified | #PowerUp | #TM
 ```
+
 All Pokemon needing some action
 
 ### Find lucky trade candidates
+
 ```
 #LuckyTrade&4*
 ```
+
 Hundos marked for lucky trades
 
 ---

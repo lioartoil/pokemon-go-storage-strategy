@@ -26,6 +26,7 @@
 - `Time Evolve` → `TimeEvolve`
 - `Stage 1` → `Stage1`
 - `Stage 2` → `Stage2`
+- `To Trade` → `ToTrade`
 - `Waiting` → `Review`
 
 **Tags Adjusted** (strategy alignment):
@@ -186,7 +187,7 @@ pokemon/
 33. NeedPurified
 34. PowerUp
 35. TM
-36. Trade
+36. ToTrade
 37. LuckyTrade
 
 **Storage Workflow** (4 tags):

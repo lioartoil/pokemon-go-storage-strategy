@@ -25,10 +25,10 @@
 
 ### Buddy System (6 tags)
 
-10. `Buddy1km` - 1km candy distance species
-11. `Buddy3km` - 3km candy distance species
-12. `Buddy5km` - 5km candy distance species
-13. `Buddy20km` - 20km candy distance species
+10. `Buddy1Km` - 1km candy distance species
+11. `Buddy3Km` - 3km candy distance species
+12. `Buddy5Km` - 5km candy distance species
+13. `Buddy20Km` - 20km candy distance species
 14. `CurrentBuddy` - Currently active buddy
 15. `InTraining` - Being powered up
 
@@ -80,7 +80,7 @@
 33. `NeedPurified` - Shadows to purify
 34. `PowerUp` - Marked for power up
 35. `TM` - Needs move changes (TM/Elite TM)
-36. `ToTrade` - For general trading
+36. `Trade` - For general trading
 37. `LuckyTrade` - For lucky friend trades (Category 14)
 
 **Purpose**: Track different resource needs and actions
@@ -102,8 +102,8 @@
 ### Special Categories (3 tags)
 
 42. `Mega` - Mega-capable Pokemon
-43. `var1` - Form variant 1 (e.g., Deoxys Attack)
-44. `var2` - Form variant 2 (e.g., Deoxys Defense)
+43. `Var1` - Form variant 1 (e.g., Deoxys Attack)
+44. `Var2` - Form variant 2 (e.g., Deoxys Defense)
 
 **Purpose**: Handle edge cases where query strings fail
 
@@ -160,7 +160,12 @@ Your rank tags now align with STRATEGY_MODERATE_PVP.md:
 - `Time Evolve` → `TimeEvolve`
 - `Stage 1` → `Stage1`
 - `Stage 2` → `Stage2`
-- `To Trade` → `ToTrade`
+- `Buddy1km` → `Buddy1Km`
+- `Buddy3km` → `Buddy3Km`
+- `Buddy5km` → `Buddy5Km`
+- `Buddy20km` → `Buddy20Km`
+- `var1` → `Var1`
+- `var2` → `Var2`
 
 ### Tags Renamed for Clarity
 

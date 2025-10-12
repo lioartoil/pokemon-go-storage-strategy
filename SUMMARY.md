@@ -26,7 +26,12 @@
 - `Time Evolve` → `TimeEvolve`
 - `Stage 1` → `Stage1`
 - `Stage 2` → `Stage2`
-- `To Trade` → `ToTrade`
+- `Buddy1km` → `Buddy1Km`
+- `Buddy3km` → `Buddy3Km`
+- `Buddy5km` → `Buddy5Km`
+- `Buddy20km` → `Buddy20Km`
+- `var1` → `Var1`
+- `var2` → `Var2`
 - `Waiting` → `Review`
 
 **Tags Adjusted** (strategy alignment):
@@ -155,10 +160,10 @@ pokemon/
 9. TimeEvolve
 
 **Buddy System** (6 tags):
-10. Buddy1km
-11. Buddy3km
-12. Buddy5km
-13. Buddy20km
+10. Buddy1Km
+11. Buddy3Km
+12. Buddy5Km
+13. Buddy20Km
 14. CurrentBuddy
 15. InTraining
 
@@ -187,7 +192,7 @@ pokemon/
 33. NeedPurified
 34. PowerUp
 35. TM
-36. ToTrade
+36. Trade
 37. LuckyTrade
 
 **Storage Workflow** (4 tags):
@@ -198,8 +203,8 @@ pokemon/
 
 **Special Categories** (3 tags):
 42. Mega
-43. var1
-44. var2
+43. Var1
+44. Var2
 
 ---
 
@@ -207,68 +212,40 @@ pokemon/
 
 ### In-Game Tag Updates Needed
 
-You need to update your in-game tags to match this system:
+**Already Completed** ✅:
+- Deleted unused tags (Ready, Candidates, Archived, Luckies, DoubleCandy, Aged)
+- Renamed all tags to PascalCase (InTraining, NeedCandy, PowerUp, Buddy1Km, Var1, etc.)
 
-**1. Rename tags to PascalCase** (remove spaces):
+**Still Needed**:
+
+**1. Adjust rank tags** (requires retagging Pokemon):
 ```
-In Training → InTraining
-Need Candy → NeedCandy
-Need Purified → NeedPurified
-Power Up → PowerUp
-Current Buddy → CurrentBuddy
-Special Evolve → SpecialEvolve
-Item Evolve → ItemEvolve
-Location Evolve → LocationEvolve
-Time Evolve → TimeEvolve
-Stage 1 → Stage1
-Stage 2 → Stage2
+Rank4-19 → Rank4-20 (retag Rank 20 Pokemon to include them)
+Rank20-82 → Rank21-50 (retag Pokemon in this range)
+Rank83-205 → Rank51-100 (retag Pokemon in this range)
 ```
 
-**2. Delete unused tags** (6 tags):
-```
-Ready
-Candidates
-Archived
-Luckies (use `lucky` query string instead)
-DoubleCandy
-Aged
-```
-
-**3. Rename for clarity**:
-```
-Waiting → Review
-```
-
-**4. Adjust rank tags** (requires retagging Pokemon):
-```
-Rank4-19 → Rank4-20 (retag Rank 20 Pokemon)
-Rank20-82 → Rank21-50 (retag Rank 51-100 Pokemon)
-Rank83-205 → Rank51-100 (delete this tag, Pokemon are now in Rank21-50 or Rank51-100)
-```
-
-**5. Add new tags** (3 tags):
+**2. Add new tags** (if not created yet):
 ```
 TM (for Pokemon needing move changes)
 LuckyTrade (for Category 14 lucky friend trades)
-Review (replacement for Waiting)
+Review (for Pokemon needing duplicate recheck)
 ```
 
 ### Implementation Priority
 
-**Week 1**:
-1. Create new tags: `TM`, `LuckyTrade`, `Review`
-2. Migrate `Waiting` → `Review`
-3. Delete unused tags (Ready, Candidates, etc.)
+**Now (if not done)**:
+1. Create new tags: `TM`, `LuckyTrade`, `Review` (if they don't exist yet)
 
-**Week 2**:
-4. Rename all tags to PascalCase (in-game Settings → Manage Tags)
+**Next**:
+2. Adjust rank tags (this requires retagging Pokemon - most work):
+   - Use PokeGenie to identify Pokemon with ranks 20, 21-50, 51-100
+   - Retag them to new tag ranges
+   - Delete old `Rank4-19`, `Rank20-82`, `Rank83-205` tags
 
-**Week 3**:
-5. Adjust rank tags (this requires retagging Pokemon - most work)
-
-**Week 4**:
-6. Verify all tags align with documentation
-7. Begin Phase 1 implementation
+**Then**:
+3. Verify all tags align with documentation
+4. Begin Phase 1 implementation (Master League reduction)
 
 ---
 

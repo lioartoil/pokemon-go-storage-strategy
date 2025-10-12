@@ -1,0 +1,46 @@
+{
+  "league": "Little League",
+  "cp_cap": 500,
+  "last_updated": "2025-10-12",
+  "source": "PvPoke Rankings (CSV Export - Custom Cup)",
+  "source_url": "https://pvpoke.com/rankings/little/500/overall/",
+  "top_20": [
+    { "rank": 1, "name": "Shuckle", "score": 100.0 },
+    { "rank": 2, "name": "Marill", "score": 99.3 },
+    { "rank": 3, "name": "Shuckle (Shadow)", "score": 99.2 },
+    { "rank": 4, "name": "Bronzor", "score": 96.2 },
+    { "rank": 5, "name": "Skrelp", "score": 92.0 },
+    { "rank": 6, "name": "Dewpider", "score": 91.1 },
+    { "rank": 7, "name": "Seel", "score": 86.6 },
+    { "rank": 8, "name": "Shelmet", "score": 86.6 },
+    { "rank": 9, "name": "Tinkaton", "score": 86.4 },
+    { "rank": 10, "name": "Tentacool", "score": 86.3 },
+    { "rank": 11, "name": "Araquanid", "score": 86.0 },
+    { "rank": 12, "name": "Shelmet (Shadow)", "score": 85.7 },
+    { "rank": 13, "name": "Grimer (Alolan) (Shadow)", "score": 85.4 },
+    { "rank": 14, "name": "Stunky (Shadow)", "score": 85.1 },
+    { "rank": 15, "name": "Wobbuffet", "score": 84.8 },
+    { "rank": 16, "name": "Skuntank (Shadow)", "score": 84.3 },
+    { "rank": 17, "name": "Venonat", "score": 84.2 },
+    { "rank": 18, "name": "Shellos", "score": 84.0 },
+    { "rank": 19, "name": "Venonat (Shadow)", "score": 84.0 },
+    { "rank": 20, "name": "Eevee", "score": 83.9 }
+  ],
+  "top_30": [
+    { "rank": 21, "name": "Wooper", "score": 83.6 },
+    { "rank": 22, "name": "Binacle", "score": 83.4 },
+    { "rank": 23, "name": "Cubone", "score": 83.4 },
+    { "rank": 24, "name": "Cubone (Shadow)", "score": 83.4 },
+    { "rank": 25, "name": "Drapion (Shadow)", "score": 83.1 },
+    { "rank": 26, "name": "Smeargle", "score": 83.1 },
+    { "rank": 27, "name": "Vulpix", "score": 83.1 },
+    { "rank": 28, "name": "Swablu", "score": 82.8 },
+    { "rank": 29, "name": "Miltank", "score": 82.7 },
+    { "rank": 30, "name": "Muk (Alolan)", "score": 82.5 }
+  ],
+  "notes": [
+    "Little League rotates with different cup formats (Fossil Cup, Willpower Cup, etc.)",
+    "Meta changes significantly based on cup restrictions",
+    "Many unevolved Pokemon are viable here"
+  ]
+}

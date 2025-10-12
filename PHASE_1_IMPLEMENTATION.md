@@ -1,0 +1,212 @@
+# Phase 1 Implementation Guide - Master League Reduction
+
+**Date**: 2025-10-12
+**Strategy**: Moderate PvP Approach (STRATEGY_MODERATE_PVP.md)
+**Target**: Free 376-476 slots (Week 1)
+
+---
+
+## Overview
+
+Phase 1 focuses on quick wins to immediately free storage space with minimal effort. This phase targets:
+
+1. Master League PvP reduction (300-400 slots)
+2. Transfer Queue clearance (76 slots)
+
+**Total Expected**: 376-476 slots freed
+
+---
+
+## Priority 1: Master League PvP Reduction
+
+**Current Status**: 2,037 Pokemon in Master League category
+**Target**: 1,400-1,700 Pokemon (reduce by 300-400)
+
+### Retention Rules (Moderate Approach)
+
+| Pokemon Type        | Rank Range | Action                          |
+| ------------------- | ---------- | ------------------------------- |
+| Final Evolution     | Rank 21+   | **TRANSFER**                    |
+| Final Evolution     | Rank 11-20 | Keep 1 copy                     |
+| Final Evolution     | Rank ≤10   | Keep 2 copies                   |
+| Non-Final Evolution | Any        | Keep 2 copies (future-proofing) |
+
+### Step-by-Step Process
+
+#### Step 1: Identify Transfer Candidates (Rank 21+)
+
+**Search Query**:
+
+```
+4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts
+```
+
+Then manually filter for:
+
+- Master League eligible (CP > 2500 capable)
+- Final evolutions only
+- Check PvP rank using PokeGenie
+- Rank 21+ = Transfer
+
+**Example Transfer Targets**:
+
+- Dragonite (Rank 25+)
+- Tyranitar (Rank 22+)
+- Salamence (Rank 23+)
+- Metagross (Rank 21+)
+- Garchomp (Rank 24+)
+
+**Note**: This requires PokeGenie scanning. You cannot do this purely with in-game queries.
+
+#### Step 2: Reduce Rank 11-20 Copies
+
+For Rank 11-20 final evolutions, keep only 1 copy (transfer extras).
+
+**How to identify**:
+
+1. Use PokeGenie to see Master League ranks
+2. Filter for Pokemon with Rank 11-20
+3. If you have multiple copies, keep the best one
+4. Transfer duplicates
+
+#### Step 3: Reduce Rank ≤10 Copies
+
+For Rank ≤10 final evolutions, reduce from 3 → 2 copies.
+
+**How to identify**:
+
+1. Use PokeGenie to see Master League ranks
+2. Filter for Pokemon with Rank ≤10
+3. If you have 3+ copies, keep best 2
+4. Transfer extras
+
+#### Step 4: Non-Final Evolution Check
+
+Keep 2 copies of non-final evolutions (e.g., Dragonair, Zweilous).
+
+**Why**: Future evolution releases or move updates might make them relevant.
+
+### Expected Results
+
+- **300-400 Pokemon transferred**
+- **Storage freed**: 300-400 slots
+- **Time required**: 2-4 hours (requires manual PokeGenie scanning)
+
+---
+
+## Priority 2: Clear Transfer Queue
+
+**Current Status**: 76 Pokemon tagged `home` (transfer queue)
+**Target**: 0 Pokemon (clear all during 2× candy event)
+
+### When to Transfer
+
+Wait for 2× Transfer Candy event (typically monthly). This maximizes candy gains.
+
+**Upcoming Events**: Check in-game news for next 2× candy event.
+
+### Transfer Process
+
+1. **Filter by Tag**: Use in-game search `home`
+2. **Mass Transfer**: Select all, transfer during event
+3. **Remove Tag**: Clear `home` tag system after transfer
+
+### Expected Results
+
+- **76 Pokemon transferred**
+- **Storage freed**: 76 slots
+- **Time required**: 5-10 minutes (during event)
+- **Bonus**: +152 candy (with 2× event)
+
+---
+
+## Phase 1 Summary
+
+| Priority  | Category                    | Expected Savings  | Time Required |
+| --------- | --------------------------- | ----------------- | ------------- |
+| 1         | Master League (Rank 21+)    | 300-400 slots     | 2-4 hours     |
+| 2         | Transfer Queue (`home` tag) | 76 slots          | 5-10 minutes  |
+| **TOTAL** | **Phase 1**                 | **376-476 slots** | **2-5 hours** |
+
+**Storage After Phase 1**: 9,708-9,808 / 10,500 (692-792 free, ~7-8%)
+
+---
+
+## Tools Required
+
+1. **PokeGenie** - For Master League IV rank checking
+2. **In-game Tags** - For transfer queue management
+3. **Spreadsheet** (optional) - For tracking what to transfer
+
+---
+
+## Safety Checks
+
+Before transferring ANY Pokemon, verify:
+
+- ✅ **Not tagged**: `great`, `ultra`, `little`, `keep`, `transfer`, `raid`, `power`, `tm`
+- ✅ **Not special**: Not shiny, costume, shadow, XXS, XXL, special background
+- ✅ **Not legendary/mythical**: Not rare Pokemon
+- ✅ **Not @special**: Doesn't have legacy/special moves
+- ✅ **Not favorite**: Not starred in-game
+
+**ALWAYS double-check before mass transfer!**
+
+---
+
+## Common Mistakes to Avoid
+
+- ❌ **DON'T** transfer Pokemon with special moves (@special)
+- ❌ **DON'T** transfer shadows (even if rank 21+, keep for raids)
+- ❌ **DON'T** transfer legendaries/mythicals without careful review
+- ❌ **DON'T** transfer during non-event times (miss 2× candy)
+- ❌ **DON'T** rush - take time to verify each batch
+
+---
+
+## Progress Tracking
+
+Use this checklist to track your progress:
+
+### Week 1 Checklist
+
+- [ ] Day 1-2: Scan all Master League Pokemon with PokeGenie
+- [ ] Day 3-4: Transfer Rank 21+ final evolutions (300-400 Pokemon)
+- [ ] Day 5-6: Reduce Rank 11-20 to 1 copy each
+- [ ] Day 7: Reduce Rank ≤10 to 2 copies each
+- [ ] Wait for 2× candy event: Clear `home` tag transfers (76 Pokemon)
+
+### Success Metrics
+
+After completing Phase 1, you should have:
+
+- ✅ 692-792 free slots (~7-8%)
+- ✅ All Master League Pokemon at proper copy counts
+- ✅ Transfer queue cleared
+- ✅ Ready for Phase 2 (Great/Ultra/Little League reduction)
+
+---
+
+## Next Steps
+
+Once Phase 1 is complete:
+
+1. **Monitor free space** for 1 week
+2. **Proceed to Phase 2** (STRATEGY_MODERATE_PVP.md - Priority 3 & 4)
+3. **Reassess strategy** if free space drops below 7% (735 slots)
+
+---
+
+## Need Help?
+
+**Reference Documents**:
+
+- `STRATEGY_MODERATE_PVP.md` - Full moderate strategy
+- `SEARCH_QUERIES.md` - All query strings
+- `META_UPDATE_GUIDE.md` - Meta data information
+
+**Key Insight**: Phase 1 is the EASIEST phase because Master League is your lowest priority. This gives immediate relief without touching your core collecting categories.
+
+---
+
+_Phase 1 Implementation Guide - Created 2025-10-12_

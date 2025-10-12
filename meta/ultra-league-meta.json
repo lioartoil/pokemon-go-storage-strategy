@@ -1,0 +1,46 @@
+{
+  "league": "Ultra League",
+  "cp_cap": 2500,
+  "last_updated": "2025-10-12",
+  "source": "PvPoke Rankings (CSV Export)",
+  "source_url": "https://pvpoke.com/rankings/all/2500/overall/",
+  "top_20": [
+    { "rank": 1, "name": "Bellibolt", "score": 95.8 },
+    { "rank": 2, "name": "Lapras", "score": 95.5 },
+    { "rank": 3, "name": "Corviknight", "score": 95.4 },
+    { "rank": 4, "name": "Lapras (Shadow)", "score": 95.4 },
+    { "rank": 5, "name": "Empoleon", "score": 94.5 },
+    { "rank": 6, "name": "Florges", "score": 94.5 },
+    { "rank": 7, "name": "Empoleon (Shadow)", "score": 94.4 },
+    { "rank": 8, "name": "Moltres (Galarian)", "score": 94.4 },
+    { "rank": 9, "name": "Jellicent", "score": 94.0 },
+    { "rank": 10, "name": "Forretress", "score": 93.7 },
+    { "rank": 11, "name": "Gastrodon", "score": 93.6 },
+    { "rank": 12, "name": "Virizion", "score": 93.0 },
+    { "rank": 13, "name": "Feraligatr", "score": 92.8 },
+    { "rank": 14, "name": "Feraligatr (Shadow)", "score": 92.8 },
+    { "rank": 15, "name": "Togekiss", "score": 92.6 },
+    { "rank": 16, "name": "Blastoise", "score": 92.5 },
+    { "rank": 17, "name": "Zygarde (Complete Forme)", "score": 92.1 },
+    { "rank": 18, "name": "Kyurem", "score": 91.8 },
+    { "rank": 19, "name": "Malamar (Shadow)", "score": 91.6 },
+    { "rank": 20, "name": "Cresselia", "score": 91.3 }
+  ],
+  "top_30": [
+    { "rank": 21, "name": "Crustle", "score": 91.3 },
+    { "rank": 22, "name": "Dusknoir", "score": 91.3 },
+    { "rank": 23, "name": "Dusknoir (Shadow)", "score": 91.3 },
+    { "rank": 24, "name": "Golisopod", "score": 91.2 },
+    { "rank": 25, "name": "Regidrago", "score": 91.2 },
+    { "rank": 26, "name": "Clefable", "score": 91.1 },
+    { "rank": 27, "name": "Turtonator", "score": 91.1 },
+    { "rank": 28, "name": "Cobalion", "score": 91.0 },
+    { "rank": 29, "name": "Cradily", "score": 91.0 },
+    { "rank": 30, "name": "Mewtwo (Armored)", "score": 91.0 }
+  ],
+  "notes": [
+    "Rankings are based on overall performance across all Ultra League matchups",
+    "Many legendaries are viable in Ultra League",
+    "XL candy requirements make this league resource-intensive"
+  ]
+}

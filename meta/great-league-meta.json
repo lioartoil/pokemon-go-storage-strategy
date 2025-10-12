@@ -1,0 +1,46 @@
+{
+  "league": "Great League",
+  "cp_cap": 1500,
+  "last_updated": "2025-10-12",
+  "source": "PvPoke Rankings (CSV Export)",
+  "source_url": "https://pvpoke.com/rankings/all/1500/overall/",
+  "top_20": [
+    { "rank": 1, "name": "Corsola (Galarian)", "score": 95.0 },
+    { "rank": 2, "name": "Cradily", "score": 94.6 },
+    { "rank": 3, "name": "Gastrodon", "score": 93.8 },
+    { "rank": 4, "name": "Azumarill", "score": 93.7 },
+    { "rank": 5, "name": "Marowak (Shadow)", "score": 93.6 },
+    { "rank": 6, "name": "Dusknoir (Shadow)", "score": 92.2 },
+    { "rank": 7, "name": "Bastiodon", "score": 92.1 },
+    { "rank": 8, "name": "Dusknoir", "score": 91.8 },
+    { "rank": 9, "name": "Marowak", "score": 91.8 },
+    { "rank": 10, "name": "Dusclops", "score": 91.7 },
+    { "rank": 11, "name": "Altaria", "score": 91.6 },
+    { "rank": 12, "name": "Cradily", "score": 91.5 },
+    { "rank": 13, "name": "Dragonair (Shadow)", "score": 91.5 },
+    { "rank": 14, "name": "Runerigus", "score": 91.5 },
+    { "rank": 15, "name": "Corviknight", "score": 91.4 },
+    { "rank": 16, "name": "Stunfisk", "score": 91.4 },
+    { "rank": 17, "name": "Wigglytuff", "score": 91.4 },
+    { "rank": 18, "name": "Goodra", "score": 91.1 },
+    { "rank": 19, "name": "Forretress", "score": 90.9 },
+    { "rank": 20, "name": "Clodsire", "score": 90.8 }
+  ],
+  "top_30": [
+    { "rank": 21, "name": "Gligar", "score": 90.8 },
+    { "rank": 22, "name": "Dusclops (Shadow)", "score": 90.8 },
+    { "rank": 23, "name": "Araquanid", "score": 90.6 },
+    { "rank": 24, "name": "Empoleon", "score": 90.6 },
+    { "rank": 25, "name": "Bellibolt", "score": 90.5 },
+    { "rank": 26, "name": "Dedenne", "score": 90.5 },
+    { "rank": 27, "name": "Gligar (Shadow)", "score": 90.5 },
+    { "rank": 28, "name": "Golisopod", "score": 90.5 },
+    { "rank": 29, "name": "Annihilape", "score": 90.4 },
+    { "rank": 30, "name": "Bastiodon (Shadow)", "score": 90.4 }
+  ],
+  "notes": [
+    "Rankings are based on overall performance across all Great League matchups",
+    "Shadow forms require special moves from Team Rocket events",
+    "Meta shifts every 2-4 months with move rebalances and new releases"
+  ]
+}

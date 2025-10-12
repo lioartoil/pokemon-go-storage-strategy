@@ -48,11 +48,11 @@
 
 ## Collections (3 queries)
 
-| #   | Name         | Query                                                                                                    | Purpose                             |
-| --- | ------------ | -------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| 18  | `Specials`   | `shiny,legendary,mythical,ultra beasts,costume,shadow,xxs,xxl,background,4*,@special,dynamax,gigantamax` | All special Pokemon                 |
-| 19  | `Spec-Trade` | `shiny,legendary,ultra beasts&!traded&!#Kept`                                                            | Special trade candidates (shiny/legendary/UB) |
-| 20  | `Kept`       | `#Kept`                                                                                                  | Permanent collection                |
+| #   | Name         | Query                                                                                                    | Purpose                                  |
+| --- | ------------ | -------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| 18  | `Specials`   | `shiny,legendary,mythical,ultra beasts,costume,shadow,xxs,xxl,background,4*,@special,dynamax,gigantamax` | All special Pokemon                      |
+| 19  | `Spec-Trade` | `shiny,legendary,ultra beasts,+melmetal&!traded&!#Kept`                                                  | Special trade candidates (shiny/legendary/UB/Melmetal) |
+| 20  | `Kept`       | `#Kept`                                                                                                  | Permanent collection                     |
 
 ---
 
@@ -149,7 +149,7 @@
 16. HOME: #Home&mythical
 17. HOME-New: #Transfer&!#Home&mythical&151,251,385,386,491,492,494,647,648,649,718,719,720,802,893
 18. Specials: shiny,legendary,mythical,ultra beasts,costume,shadow,xxs,xxl,background,4*,@special,dynamax,gigantamax
-19. Spec-Trade: shiny,legendary,ultra beasts&!traded&!#Kept
+19. Spec-Trade: shiny,legendary,ultra beasts,+melmetal&!traded&!#Kept
 20. Kept: #Kept
 21. Mega-1st: megaevolve&#Rank1&mega0&#Mega
 22. Mega-Lvl: megaevolve&#Rank1&mega1&#Mega

@@ -8,6 +8,7 @@
 ## Daily Workflow Queries
 
 ### 1. New Untagged Pokemon
+
 **Name**: `New Catches`
 **Query**: `!#`
 **Purpose**: Find all Pokemon without any tags (need to review and categorize)
@@ -16,6 +17,7 @@
 ---
 
 ### 2. Pokemon Needing Review
+
 **Name**: `Review Queue`
 **Query**: `#Review`
 **Purpose**: Find Pokemon marked for duplicate/rank recheck
@@ -27,6 +29,7 @@
 ---
 
 ### 3. Special Pokemon Needing Categorization
+
 **Name**: `Special Review`
 **Query**: `#Review&!legendary&!mythical&!ultra beasts`
 **Purpose**: Non-legendary Pokemon in review queue (quicker to process)
@@ -38,6 +41,7 @@
 ---
 
 ### 4. Legendary Review Queue
+
 **Name**: `Legendary Review`
 **Query**: `#Review&legendary,mythical,ultra beasts`
 **Purpose**: Legendary/Mythical/Ultra Beasts in review queue
@@ -51,6 +55,7 @@
 ## Resource Management Queries
 
 ### 5. Current Buddy
+
 **Name**: `Active Buddy`
 **Query**: `#CurrentBuddy`
 **Purpose**: Find your currently active buddy
@@ -62,6 +67,7 @@
 ---
 
 ### 6. Pokemon Needing Power-Up
+
 **Name**: `Power-Up Queue`
 **Query**: `#PowerUp`
 **Purpose**: Find Pokemon marked for power-up
@@ -73,6 +79,7 @@
 ---
 
 ### 7. Pokemon Needing TMs
+
 **Name**: `TM Queue`
 **Query**: `#TM`
 **Purpose**: Find Pokemon needing move changes
@@ -82,6 +89,7 @@
 ---
 
 ### 8. Pokemon In Training
+
 **Name**: `Training Projects`
 **Query**: `#InTraining`
 **Purpose**: Find Pokemon being powered up (active projects)
@@ -92,6 +100,7 @@
 ## Transfer & Trade Queries
 
 ### 9. Transfer Queue (Immediate)
+
 **Name**: `Transfer Now`
 **Query**: `#Transfer&!#Home`
 **Purpose**: Pokemon ready for immediate transfer (don't wait for event)
@@ -102,6 +111,7 @@
 ---
 
 ### 10. Transfer Queue (Event Wait)
+
 **Name**: `Event Transfer`
 **Query**: `#Home`
 **Purpose**: Pokemon to transfer during 2× candy events
@@ -110,6 +120,7 @@
 ---
 
 ### 11. All Transfer Candidates
+
 **Name**: `All Transfers`
 **Query**: `#Transfer,#Home`
 **Purpose**: See entire transfer pipeline (immediate + event)
@@ -118,6 +129,7 @@
 ---
 
 ### 12. Trade Queue
+
 **Name**: `Trade Queue`
 **Query**: `#Trade`
 **Purpose**: Pokemon marked for general trading
@@ -129,6 +141,7 @@
 ---
 
 ### 13. Lucky Trade Candidates
+
 **Name**: `Lucky Trades`
 **Query**: `#LuckyTrade`
 **Purpose**: Pokemon marked for lucky friend trades (Category 14)
@@ -138,6 +151,7 @@
 ---
 
 ### 14. Aged Lucky Trade Candidates (Auto-find)
+
 **Name**: `New Lucky Candidates`
 **Query**: `age364-&!#Trade&!#Kept&!#Home&!traded&!legendary&!mythical&!ultra beasts&!shiny&!costume&!shadow&!xxs&!xxl&!background&!4*`
 **Purpose**: Auto-find 1+ year old Pokemon not already marked for other purposes
@@ -147,6 +161,7 @@
 **New version**: Enhanced with more exclusions ✅
 
 **Enhancements**:
+
 - Changed `#to trade` → `#Trade`
 - Changed `#kept` → `#Kept`
 - Changed `#home` → `#Home`
@@ -157,6 +172,7 @@
 ---
 
 ### 15. Mythical Transfer Queue (Pokemon HOME)
+
 **Name**: `HOME Queue`
 **Query**: `#Home&mythical`
 **Purpose**: Mythicals to transfer to Pokemon HOME (2× candy event)
@@ -167,6 +183,7 @@
 ---
 
 ### 16. Mythicals Ready for HOME (Auto-find)
+
 **Name**: `New HOME Candidates`
 **Query**: `#Transfer&!#Home&mythical&151,251,385,386,491,492,494,647,648,649,718,719,720,802,893`
 **Purpose**: Mythicals in transfer queue but not yet tagged for HOME
@@ -176,6 +193,7 @@
 **New version**: Fixed syntax, clearer purpose ✅
 
 **Enhancements**:
+
 - Fixed syntax: `#Transfer&!#Home` instead of `transfer&!home,#to`
 - Removed `traded` (those shouldn't be in transfer queue anyway)
 - Clearer purpose: finding mythicals that need `#Home` tag added
@@ -185,6 +203,7 @@
 ## Special Collections Queries
 
 ### 17. Special Pokemon (All Types)
+
 **Name**: `All Specials`
 **Query**: `shiny,legendary,mythical,ultra beasts,costume,shadow,xxs,xxl,background,4*,@special,dynamax,gigantamax`
 **Purpose**: Find all "special" Pokemon worth keeping
@@ -194,6 +213,7 @@
 **New version**: Comprehensive list of all special types ✅
 
 **Enhancements**:
+
 - Added costume, shadow, size, background, hundo, special moves, dynamax, gigantamax
 - Removed `+melmetal` filter (Melmetal is already in mythical)
 - Removed `!traded&!kept` (not needed for overview)
@@ -201,6 +221,7 @@
 ---
 
 ### 18. Specials Needing Tags
+
 **Name**: `Untagged Specials`
 **Query**: `!#&legendary,mythical,ultra beasts,xxs,xxl,costume,shiny,shadow,4*,dynamax,gigantamax,background`
 **Purpose**: Find special Pokemon that somehow don't have tags yet
@@ -211,6 +232,7 @@
 ---
 
 ### 19. Kept Pokemon (Permanent Collection)
+
 **Name**: `Kept Pokemon`
 **Query**: `#Kept`
 **Purpose**: Pokemon marked as permanent keep (living dex, trophies)
@@ -221,6 +243,7 @@
 ## Mega Evolution Queries
 
 ### 20. Mega Rank 1 (Not Yet Mega Evolved)
+
 **Name**: `Mega First Evolve`
 **Query**: `megaevolve&#Rank1&mega0&#Mega`
 **Purpose**: Best IV Mega candidates that haven't mega evolved yet
@@ -230,12 +253,14 @@
 **New version**: `megaevolve&#Rank1&mega0&#Mega` ✅
 
 **Enhancements**:
+
 - Added `#` before `Rank1` (it's a tag)
 - Added `#` before `Mega` (it's a tag)
 
 ---
 
 ### 21. Mega Rank 1 (Mega Level 1)
+
 **Name**: `Mega Level Up`
 **Query**: `megaevolve&#Rank1&mega1&#Mega`
 **Purpose**: Best IV Megas at level 1 (ready to level up)
@@ -245,12 +270,14 @@
 **New version**: `megaevolve&#Rank1&mega1&#Mega` ✅
 
 **Enhancements**:
+
 - Added `#` before `Rank1` (it's a tag)
 - Added `#` before `Mega` (it's a tag)
 
 ---
 
 ### 22. All Mega Candidates
+
 **Name**: `Mega Candidates`
 **Query**: `megaevolve&#Mega`
 **Purpose**: All Pokemon capable of Mega Evolution that you've tagged
@@ -261,6 +288,7 @@
 ## PvP Rank Queries
 
 ### 23. Great League Best
+
 **Name**: `GL Top Ranks`
 **Query**: `#Great&#Rank1,#Rank2,#Rank3`
 **Purpose**: Your top 3 best Great League Pokemon
@@ -269,6 +297,7 @@
 ---
 
 ### 24. Ultra League Best
+
 **Name**: `UL Top Ranks`
 **Query**: `#Ultra&#Rank1,#Rank2,#Rank3`
 **Purpose**: Your top 3 best Ultra League Pokemon
@@ -277,6 +306,7 @@
 ---
 
 ### 25. Little League Best
+
 **Name**: `LL Top Ranks`
 **Query**: `#Little&#Rank1,#Rank2,#Rank3`
 **Purpose**: Your top 3 best Little League Pokemon
@@ -285,6 +315,7 @@
 ---
 
 ### 26. Trophy Pokemon (Global Ranks)
+
 **Name**: `Global Best`
 **Query**: `#First,#Second,#Third`
 **Purpose**: Pokemon that are #1, #2, or #3 best possible IVs in entire game
@@ -293,6 +324,7 @@
 ---
 
 ### 27. Raid Attackers
+
 **Name**: `Raid Teams`
 **Query**: `#Attackers`
 **Purpose**: Pokemon tagged as raid attackers
@@ -301,6 +333,7 @@
 ---
 
 ### 28. Gym Defenders
+
 **Name**: `Gym Defense`
 **Query**: `#Def1,#Def2,#Def2.5`
 **Purpose**: Pokemon tagged as gym defenders
@@ -311,6 +344,7 @@
 ## Evolution Queries
 
 ### 29. Special Evolution Candidates
+
 **Name**: `Special Evolve`
 **Query**: `#SpecialEvolve`
 **Purpose**: Pokemon needing special evolution methods
@@ -319,6 +353,7 @@
 ---
 
 ### 30. Item Evolution Candidates
+
 **Name**: `Item Evolve`
 **Query**: `#ItemEvolve`
 **Purpose**: Pokemon needing evolution items
@@ -327,6 +362,7 @@
 ---
 
 ### 31. Location Evolution Candidates
+
 **Name**: `Location Evolve`
 **Query**: `#LocationEvolve`
 **Purpose**: Pokemon needing specific locations to evolve
@@ -335,6 +371,7 @@
 ---
 
 ### 32. Time Evolution Candidates
+
 **Name**: `Time Evolve`
 **Query**: `#TimeEvolve`
 **Purpose**: Pokemon needing specific time/weather to evolve
@@ -345,6 +382,7 @@
 ## Buddy System Queries
 
 ### 33. 1km Buddy Candidates
+
 **Name**: `Buddy 1km`
 **Query**: `#Buddy1Km&#NeedCandy`
 **Purpose**: 1km buddies needing candy claims
@@ -353,6 +391,7 @@
 ---
 
 ### 34. 3km Buddy Candidates
+
 **Name**: `Buddy 3km`
 **Query**: `#Buddy3Km&#NeedCandy`
 **Purpose**: 3km buddies needing candy claims
@@ -361,6 +400,7 @@
 ---
 
 ### 35. 5km Buddy Candidates
+
 **Name**: `Buddy 5km`
 **Query**: `#Buddy5Km&#NeedCandy`
 **Purpose**: 5km buddies needing candy claims
@@ -369,6 +409,7 @@
 ---
 
 ### 36. 20km Buddy Candidates
+
 **Name**: `Buddy 20km`
 **Query**: `#Buddy20Km&#NeedCandy`
 **Purpose**: 20km buddies needing candy (legendaries/mythicals)
@@ -377,6 +418,7 @@
 ---
 
 ### 37. All Candy Claimable
+
 **Name**: `Claim Candy`
 **Query**: `#NeedCandy`
 **Purpose**: All Pokemon with buddy distance ready to claim
@@ -387,6 +429,7 @@
 ## Form Variant Queries
 
 ### 38. Form Variant 1
+
 **Name**: `Variant 1`
 **Query**: `#Var1`
 **Purpose**: Form variant 1 (e.g., Deoxys Attack)
@@ -395,6 +438,7 @@
 ---
 
 ### 39. Form Variant 2
+
 **Name**: `Variant 2`
 **Query**: `#Var2`
 **Purpose**: Form variant 2 (e.g., Deoxys Defense)
@@ -418,23 +462,23 @@
 
 ## Quick Reference: Old → New Tag Names
 
-| Old Tag Name    | New Tag Name   | Change Type       |
-| --------------- | -------------- | ----------------- |
-| `#currentbuddy` | `#CurrentBuddy` | PascalCase        |
-| `#power up`     | `#PowerUp`      | PascalCase        |
-| `#waiting`      | `#Review`       | Renamed           |
-| `#to trade`     | `#Trade`        | Simplified        |
-| `#kept`         | `#Kept`         | PascalCase        |
-| `#home`         | `#Home`         | PascalCase        |
+| Old Tag Name    | New Tag Name    | Change Type           |
+| --------------- | --------------- | --------------------- |
+| `#currentbuddy` | `#CurrentBuddy` | PascalCase            |
+| `#power up`     | `#PowerUp`      | PascalCase            |
+| `#waiting`      | `#Review`       | Renamed               |
+| `#to trade`     | `#Trade`        | Simplified            |
+| `#kept`         | `#Kept`         | PascalCase            |
+| `#home`         | `#Home`         | PascalCase            |
 | `#luckies`      | N/A             | Deleted (use `lucky`) |
-| `rank1`         | `#Rank1`        | Added `#`         |
-| `mega`          | `#Mega`         | Added `#`         |
-| `#buddy1km`     | `#Buddy1Km`     | PascalCase        |
-| `#buddy3km`     | `#Buddy3Km`     | PascalCase        |
-| `#buddy5km`     | `#Buddy5Km`     | PascalCase        |
-| `#buddy20km`    | `#Buddy20Km`    | PascalCase        |
-| `#var1`         | `#Var1`         | PascalCase        |
-| `#var2`         | `#Var2`         | PascalCase        |
+| `rank1`         | `#Rank1`        | Added `#`             |
+| `mega`          | `#Mega`         | Added `#`             |
+| `#buddy1km`     | `#Buddy1Km`     | PascalCase            |
+| `#buddy3km`     | `#Buddy3Km`     | PascalCase            |
+| `#buddy5km`     | `#Buddy5Km`     | PascalCase            |
+| `#buddy20km`    | `#Buddy20Km`    | PascalCase            |
+| `#var1`         | `#Var1`         | PascalCase            |
+| `#var2`         | `#Var2`         | PascalCase            |
 
 ---
 

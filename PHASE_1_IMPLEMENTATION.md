@@ -35,28 +35,66 @@ Phase 1 focuses on quick wins to immediately free storage space with minimal eff
 
 #### Step 1: Identify Transfer Candidates (Rank 21+)
 
+**⚠️ CRITICAL: Exclusions First!**
+
+Before transferring ANY Pokemon, exclude these categories:
+
+1. **Other League Tags**: `!great&!ultra&!little` (already useful elsewhere)
+2. **Raid/Gym Tags**: `!raid&!gym` (if you use these tags)
+3. **Legendaries/Mythicals**: `!legendary&!mythical&!ultra beasts` (always keep, expensive to get)
+4. **Shadows**: `!shadow` (valuable for raids even with bad PvP IVs)
+5. **Special Moves**: `!@special` (legacy moves are irreplaceable)
+
 **Search Query**:
 
 ```
-4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts
+4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little
 ```
 
-Then manually filter for:
+**What this finds**: Non-legendary, non-shadow, regular Pokemon with 4★ IVs that aren't already tagged for other leagues.
 
-- Master League eligible (CP > 2500 capable)
-- Final evolutions only
-- Check PvP rank using PokeGenie
-- Rank 21+ = Transfer
+**Then manually filter for**:
 
-**Example Transfer Targets**:
+1. **Master League eligible** (CP > 2500 capable when maxed)
+2. **Final evolutions only** (keep 2 of non-final evolutions for future-proofing)
+3. **Check PokeGenie**: ML Rank 21+ = *Candidate* for transfer
+4. **Double-check NOT a raid attacker** (see exclusion list below)
 
-- Dragonite (Rank 25+)
-- Tyranitar (Rank 22+)
-- Salamence (Rank 23+)
-- Metagross (Rank 21+)
-- Garchomp (Rank 24+)
+#### Step 1.5: Raid/Gym Attacker Exclusion List
 
-**Note**: This requires PokeGenie scanning. You cannot do this purely with in-game queries.
+**⚠️ NEVER TRANSFER THESE** (even if ML Rank 21+, they're valuable for raids):
+
+**Top Priority Raid Attackers** (keep 6-12 each, verified 2025-10-12):
+- **Normal**: Shadow Regigigas, Shadow Staraptor, Regigigas
+- **Fighting**: Mega Lucario, Mega Blaziken, Lucario, Terrakion, Shadow Machamp
+- **Flying**: Mega Rayquaza, Rayquaza, Shadow Salamence, Shadow Honchkrow, Shadow Moltres
+- **Poison**: Mega Gengar, Shadow Gengar, Gengar, Shadow Toxicroak, Roserade
+- **Ground**: Primal Groudon, Mega Garchomp, Shadow Groudon, Shadow Garchomp, Shadow Excadrill, Shadow Rhyperior, Landorus
+- **Rock**: Shadow Rampardos, Shadow Tyranitar, Mega Tyranitar, Terrakion, Rampardos
+- **Bug**: Mega Heracross, Pheromosa, Mega Beedrill, Volcarona, Shadow Scizor
+- **Ghost**: Mega Gengar, Shadow Chandelure, Shadow Gengar, Chandelure, Giratina
+- **Steel**: Mega Lucario, Shadow Metagross, Shadow Excadrill, Mega Metagross, Metagross, Dialga
+- **Fire**: Mega Blaziken, Shadow Chandelure, Shadow Darmanitan, Reshiram, Shadow Moltres, Blaziken
+- **Water**: Primal Kyogre, Shadow Kyogre, Palkia (Origin), Mega Swampert, Shadow Swampert, Kyogre
+- **Grass**: Mega Sceptile, Kartana, Shadow Sceptile, Shadow Tangrowth, Shadow Venusaur, Roserade
+- **Electric**: Shadow Electivire, Xurkitree, Shadow Raikou, Zekrom, Shadow Zapdos, Shadow Magnezone, Electivire
+- **Psychic**: Shadow Mewtwo, Mega Alakazam, Mewtwo, Deoxys, Shadow Metagross, Shadow Latios, Espeon, Alakazam
+- **Ice**: Shadow Mamoswine, Shadow Weavile, Kyurem, Mamoswine, Weavile, Glaceon
+- **Dragon**: Mega Rayquaza, Rayquaza, Shadow Salamence, Mega Garchomp, Shadow Dragonite, Shadow Garchomp, Palkia, Salamence, Dragonite, Dialga
+- **Dark**: Shadow Honchkrow, Shadow Tyranitar, Yveltal, Hoopa (Unbound), Tyranitar, Shadow Weavile, Hydreigon
+- **Fairy**: Mega Gardevoir, Shadow Gardevoir, Xerneas, Gardevoir, Togekiss, Primarina, Granbull
+
+**Master League Top 20 Meta** (also exclude):
+- Top 20 from `meta/cp10000_all_overall_rankings.csv`: Zacian, Palkia (Origin), Zamazenta, Dialga (Origin), Kyurem (White), Zekrom, Kyurem (Black), Reshiram, Florges, Lugia, Metagross, Necrozma (Dawn Wings), Eternatus, Palkia (Shadow), Lunala, Ho-Oh, Groudon, Necrozma (Dusk Mane), Dialga (Shadow), Latios (Shadow)
+
+**Example SAFE Transfers** (Non-legendary, Non-raid-meta, ML Rank 21+):
+- Snorlax (ML Rank 135+, niche raid use only)
+- Slaking (ML Rank 380, very niche)
+- Gyarados (ML Rank 47-50, borderline - check if you need water attackers)
+- Hippowdon (ML Rank 78+, niche)
+- Ursaluna (ML Rank 74+, but check if useful for ground raids)
+
+**Note**: This requires PokeGenie scanning AND manual verification against raid attacker list. When in doubt, KEEP IT!
 
 #### Step 2: Reduce Rank 11-20 Copies
 

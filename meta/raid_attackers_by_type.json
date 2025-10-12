@@ -1,0 +1,1338 @@
+{
+  "last_updated": "2025-10-12",
+  "source": "GamePress Comprehensive DPS/TDO Spreadsheet",
+  "types": {
+    "Bug": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Mega Heracross",
+          "dps": 22.07,
+          "tdo": 854.9,
+          "er": 55.06
+        },
+        {
+          "rank": 2,
+          "pokemon": "Pheromosa",
+          "dps": 21.792,
+          "tdo": 327.0,
+          "er": 42.89
+        },
+        {
+          "rank": 3,
+          "pokemon": "Mega Beedrill",
+          "dps": 21.158,
+          "tdo": 487.4,
+          "er": 46.35
+        },
+        {
+          "rank": 4,
+          "pokemon": "Mega Pinsir",
+          "dps": 18.523,
+          "tdo": 643.9,
+          "er": 44.98
+        },
+        {
+          "rank": 5,
+          "pokemon": "Volcarona",
+          "dps": 18.347,
+          "tdo": 632.9,
+          "er": 44.46
+        },
+        {
+          "rank": 6,
+          "pokemon": "Shadow Pinsir",
+          "dps": 18.02,
+          "tdo": 418.1,
+          "er": 39.55
+        },
+        {
+          "rank": 7,
+          "pokemon": "Shadow Scizor",
+          "dps": 17.6,
+          "tdo": 426.8,
+          "er": 39.06
+        },
+        {
+          "rank": 8,
+          "pokemon": "Vikavolt",
+          "dps": 17.417,
+          "tdo": 476.0,
+          "er": 39.82
+        },
+        {
+          "rank": 9,
+          "pokemon": "Mega Scizor",
+          "dps": 16.715,
+          "tdo": 657.6,
+          "er": 41.86
+        },
+        {
+          "rank": 10,
+          "pokemon": "Shadow Scyther",
+          "dps": 16.466,
+          "tdo": 376.9,
+          "er": 36.01
+        }
+      ]
+    },
+    "Dark": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Shadow Honchkrow",
+          "dps": 23.507,
+          "tdo": 440.4,
+          "er": 48.91
+        },
+        {
+          "rank": 2,
+          "pokemon": "Shadow Crawdaunt",
+          "dps": 22.142,
+          "tdo": 402.5,
+          "er": 45.72
+        },
+        {
+          "rank": 3,
+          "pokemon": "Shadow Tyranitar",
+          "dps": 22.012,
+          "tdo": 775.9,
+          "er": 53.64
+        },
+        {
+          "rank": 4,
+          "pokemon": "Mega Tyranitar",
+          "dps": 21.587,
+          "tdo": 1197.0,
+          "er": 58.91
+        },
+        {
+          "rank": 5,
+          "pokemon": "Shadow Weavile",
+          "dps": 21.437,
+          "tdo": 493.3,
+          "er": 46.95
+        },
+        {
+          "rank": 6,
+          "pokemon": "Hoopa (Unbound)",
+          "dps": 21.303,
+          "tdo": 655.0,
+          "er": 50.16
+        },
+        {
+          "rank": 7,
+          "pokemon": "Mega Absol",
+          "dps": 20.069,
+          "tdo": 411.2,
+          "er": 42.7
+        },
+        {
+          "rank": 8,
+          "pokemon": "Shadow Cacturne",
+          "dps": 19.923,
+          "tdo": 320.4,
+          "er": 39.9
+        },
+        {
+          "rank": 9,
+          "pokemon": "Yveltal",
+          "dps": 19.82,
+          "tdo": 821.4,
+          "er": 50.29
+        },
+        {
+          "rank": 10,
+          "pokemon": "Mega Houndoom",
+          "dps": 19.805,
+          "tdo": 644.1,
+          "er": 47.3
+        }
+      ]
+    },
+    "Dragon": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Mega Rayquaza",
+          "dps": 31.647,
+          "tdo": 1368.1,
+          "er": 81.15
+        },
+        {
+          "rank": 2,
+          "pokemon": "Rayquaza",
+          "dps": 24.558,
+          "tdo": 822.4,
+          "er": 59.08
+        },
+        {
+          "rank": 3,
+          "pokemon": "Shadow Salamence",
+          "dps": 23.617,
+          "tdo": 660.5,
+          "er": 54.31
+        },
+        {
+          "rank": 4,
+          "pokemon": "Mega Garchomp",
+          "dps": 23.241,
+          "tdo": 1110.7,
+          "er": 61.11
+        },
+        {
+          "rank": 5,
+          "pokemon": "Shadow Dragonite",
+          "dps": 22.232,
+          "tdo": 701.8,
+          "er": 52.7
+        },
+        {
+          "rank": 6,
+          "pokemon": "Shadow Garchomp",
+          "dps": 22.19,
+          "tdo": 775.6,
+          "er": 53.95
+        },
+        {
+          "rank": 7,
+          "pokemon": "Mega Latios",
+          "dps": 22.165,
+          "tdo": 923.5,
+          "er": 56.31
+        },
+        {
+          "rank": 8,
+          "pokemon": "Shadow Latios",
+          "dps": 21.935,
+          "tdo": 675.3,
+          "er": 51.67
+        },
+        {
+          "rank": 9,
+          "pokemon": "Palkia (Origin Forme)",
+          "dps": 21.866,
+          "tdo": 842.9,
+          "er": 54.48
+        },
+        {
+          "rank": 10,
+          "pokemon": "Dialga (Origin Forme)",
+          "dps": 21.367,
+          "tdo": 895.7,
+          "er": 54.37
+        }
+      ]
+    },
+    "Electric": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Shadow Electivire",
+          "dps": 21.59,
+          "tdo": 498.4,
+          "er": 47.32
+        },
+        {
+          "rank": 2,
+          "pokemon": "Xurkitree",
+          "dps": 21.151,
+          "tdo": 560.7,
+          "er": 47.99
+        },
+        {
+          "rank": 3,
+          "pokemon": "Shadow Raikou",
+          "dps": 20.775,
+          "tdo": 640.8,
+          "er": 48.96
+        },
+        {
+          "rank": 4,
+          "pokemon": "Mega Manectric",
+          "dps": 20.624,
+          "tdo": 594.0,
+          "er": 47.78
+        },
+        {
+          "rank": 5,
+          "pokemon": "Shadow Zapdos",
+          "dps": 20.593,
+          "tdo": 604.9,
+          "er": 47.94
+        },
+        {
+          "rank": 6,
+          "pokemon": "Shadow Luxray",
+          "dps": 20.202,
+          "tdo": 468.5,
+          "er": 44.33
+        },
+        {
+          "rank": 7,
+          "pokemon": "Shadow Magnezone",
+          "dps": 20.189,
+          "tdo": 549.5,
+          "er": 46.11
+        },
+        {
+          "rank": 8,
+          "pokemon": "Thundurus (Therian Forme)",
+          "dps": 20.189,
+          "tdo": 572.7,
+          "er": 46.59
+        },
+        {
+          "rank": 9,
+          "pokemon": "Zekrom",
+          "dps": 19.888,
+          "tdo": 785.1,
+          "er": 49.85
+        },
+        {
+          "rank": 10,
+          "pokemon": "Shadow Manectric",
+          "dps": 19.606,
+          "tdo": 344.4,
+          "er": 40.14
+        }
+      ]
+    },
+    "Fairy": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Mega Gardevoir",
+          "dps": 22.071,
+          "tdo": 786.7,
+          "er": 53.93
+        },
+        {
+          "rank": 2,
+          "pokemon": "Enamorus (Incarnate Forme)",
+          "dps": 21.356,
+          "tdo": 582.2,
+          "er": 48.8
+        },
+        {
+          "rank": 3,
+          "pokemon": "Shadow Gardevoir",
+          "dps": 19.946,
+          "tdo": 509.9,
+          "er": 44.85
+        },
+        {
+          "rank": 4,
+          "pokemon": "Tapu Lele",
+          "dps": 19.711,
+          "tdo": 652.6,
+          "er": 47.28
+        },
+        {
+          "rank": 5,
+          "pokemon": "Tapu Koko",
+          "dps": 18.975,
+          "tdo": 552.2,
+          "er": 44.07
+        },
+        {
+          "rank": 6,
+          "pokemon": "Shadow Granbull",
+          "dps": 18.177,
+          "tdo": 389.8,
+          "er": 39.11
+        },
+        {
+          "rank": 7,
+          "pokemon": "Tapu Bulu",
+          "dps": 17.953,
+          "tdo": 613.0,
+          "er": 43.4
+        },
+        {
+          "rank": 8,
+          "pokemon": "Xerneas",
+          "dps": 17.503,
+          "tdo": 725.4,
+          "er": 44.41
+        },
+        {
+          "rank": 9,
+          "pokemon": "Gardevoir",
+          "dps": 16.496,
+          "tdo": 506.1,
+          "er": 38.82
+        },
+        {
+          "rank": 10,
+          "pokemon": "Grimmsnarl",
+          "dps": 15.936,
+          "tdo": 450.1,
+          "er": 36.74
+        }
+      ]
+    },
+    "Fighting": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Mega Lucario",
+          "dps": 25.196,
+          "tdo": 710.7,
+          "er": 58.07
+        },
+        {
+          "rank": 2,
+          "pokemon": "Mega Blaziken",
+          "dps": 24.732,
+          "tdo": 736.6,
+          "er": 57.78
+        },
+        {
+          "rank": 3,
+          "pokemon": "Shadow Blaziken",
+          "dps": 22.665,
+          "tdo": 479.5,
+          "er": 48.61
+        },
+        {
+          "rank": 4,
+          "pokemon": "Mega Heracross",
+          "dps": 22.07,
+          "tdo": 854.9,
+          "er": 55.06
+        },
+        {
+          "rank": 5,
+          "pokemon": "Mega Gallade",
+          "dps": 22.067,
+          "tdo": 789.8,
+          "er": 53.98
+        },
+        {
+          "rank": 6,
+          "pokemon": "Pheromosa",
+          "dps": 21.792,
+          "tdo": 327.0,
+          "er": 42.89
+        },
+        {
+          "rank": 7,
+          "pokemon": "Shadow Machamp",
+          "dps": 20.927,
+          "tdo": 534.8,
+          "er": 47.05
+        },
+        {
+          "rank": 8,
+          "pokemon": "Terrakion",
+          "dps": 20.715,
+          "tdo": 762.6,
+          "er": 51.02
+        },
+        {
+          "rank": 9,
+          "pokemon": "Shadow Infernape",
+          "dps": 20.642,
+          "tdo": 448.9,
+          "er": 44.58
+        },
+        {
+          "rank": 10,
+          "pokemon": "Shadow Gallade",
+          "dps": 19.946,
+          "tdo": 509.9,
+          "er": 44.85
+        }
+      ]
+    },
+    "Fire": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Mega Blaziken",
+          "dps": 24.732,
+          "tdo": 736.6,
+          "er": 57.78
+        },
+        {
+          "rank": 2,
+          "pokemon": "Shadow Chandelure",
+          "dps": 23.734,
+          "tdo": 525.9,
+          "er": 51.49
+        },
+        {
+          "rank": 3,
+          "pokemon": "Shadow Darmanitan",
+          "dps": 22.882,
+          "tdo": 484.3,
+          "er": 49.08
+        },
+        {
+          "rank": 4,
+          "pokemon": "Shadow Blaziken",
+          "dps": 22.665,
+          "tdo": 479.5,
+          "er": 48.61
+        },
+        {
+          "rank": 5,
+          "pokemon": "Shadow Moltres",
+          "dps": 22.418,
+          "tdo": 645.4,
+          "er": 51.93
+        },
+        {
+          "rank": 6,
+          "pokemon": "Galarian Darmanitan (Zen Mode)",
+          "dps": 22.382,
+          "tdo": 608.2,
+          "er": 51.1
+        },
+        {
+          "rank": 7,
+          "pokemon": "Blacephalon",
+          "dps": 22.138,
+          "tdo": 449.8,
+          "er": 47.0
+        },
+        {
+          "rank": 8,
+          "pokemon": "Reshiram",
+          "dps": 20.662,
+          "tdo": 815.6,
+          "er": 51.79
+        },
+        {
+          "rank": 9,
+          "pokemon": "Shadow Infernape",
+          "dps": 20.642,
+          "tdo": 448.9,
+          "er": 44.58
+        },
+        {
+          "rank": 10,
+          "pokemon": "Shadow Charizard",
+          "dps": 20.523,
+          "tdo": 513.1,
+          "er": 45.89
+        }
+      ]
+    },
+    "Flying": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Mega Rayquaza",
+          "dps": 31.647,
+          "tdo": 1368.1,
+          "er": 81.15
+        },
+        {
+          "rank": 2,
+          "pokemon": "Rayquaza",
+          "dps": 24.558,
+          "tdo": 822.4,
+          "er": 59.08
+        },
+        {
+          "rank": 3,
+          "pokemon": "Shadow Salamence",
+          "dps": 23.617,
+          "tdo": 660.5,
+          "er": 54.31
+        },
+        {
+          "rank": 4,
+          "pokemon": "Shadow Honchkrow",
+          "dps": 23.507,
+          "tdo": 440.4,
+          "er": 48.91
+        },
+        {
+          "rank": 5,
+          "pokemon": "Shadow Moltres",
+          "dps": 22.418,
+          "tdo": 645.4,
+          "er": 51.93
+        },
+        {
+          "rank": 6,
+          "pokemon": "Shadow Staraptor",
+          "dps": 22.316,
+          "tdo": 487.4,
+          "er": 48.24
+        },
+        {
+          "rank": 7,
+          "pokemon": "Shadow Dragonite",
+          "dps": 22.232,
+          "tdo": 701.8,
+          "er": 52.7
+        },
+        {
+          "rank": 8,
+          "pokemon": "Mega Salamence",
+          "dps": 21.199,
+          "tdo": 1034.2,
+          "er": 56.03
+        },
+        {
+          "rank": 9,
+          "pokemon": "Shadow Zapdos",
+          "dps": 20.593,
+          "tdo": 604.9,
+          "er": 47.94
+        },
+        {
+          "rank": 10,
+          "pokemon": "Shadow Charizard",
+          "dps": 20.523,
+          "tdo": 513.1,
+          "er": 45.89
+        }
+      ]
+    },
+    "Ghost": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Mega Gengar",
+          "dps": 24.841,
+          "tdo": 717.5,
+          "er": 57.59
+        },
+        {
+          "rank": 2,
+          "pokemon": "Shadow Chandelure",
+          "dps": 23.734,
+          "tdo": 525.9,
+          "er": 51.49
+        },
+        {
+          "rank": 3,
+          "pokemon": "Shadow Gengar",
+          "dps": 23.367,
+          "tdo": 431.0,
+          "er": 48.42
+        },
+        {
+          "rank": 4,
+          "pokemon": "Mega Banette",
+          "dps": 22.623,
+          "tdo": 556.3,
+          "er": 50.38
+        },
+        {
+          "rank": 5,
+          "pokemon": "Hoopa (Unbound)",
+          "dps": 21.303,
+          "tdo": 655.0,
+          "er": 50.16
+        },
+        {
+          "rank": 6,
+          "pokemon": "Shadow Banette",
+          "dps": 20.064,
+          "tdo": 331.3,
+          "er": 40.45
+        },
+        {
+          "rank": 7,
+          "pokemon": "Dragapult",
+          "dps": 19.645,
+          "tdo": 631.9,
+          "er": 46.78
+        },
+        {
+          "rank": 8,
+          "pokemon": "Chandelure",
+          "dps": 19.609,
+          "tdo": 521.4,
+          "er": 44.53
+        },
+        {
+          "rank": 9,
+          "pokemon": "Gengar",
+          "dps": 19.299,
+          "tdo": 427.2,
+          "er": 41.86
+        },
+        {
+          "rank": 10,
+          "pokemon": "Hoopa (Confined)",
+          "dps": 18.839,
+          "tdo": 568.0,
+          "er": 44.15
+        }
+      ]
+    },
+    "Grass": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Mega Sceptile",
+          "dps": 24.069,
+          "tdo": 718.2,
+          "er": 56.25
+        },
+        {
+          "rank": 2,
+          "pokemon": "Kartana",
+          "dps": 21.71,
+          "tdo": 522.9,
+          "er": 48.09
+        },
+        {
+          "rank": 3,
+          "pokemon": "Shadow Sceptile",
+          "dps": 21.064,
+          "tdo": 479.5,
+          "er": 46.01
+        },
+        {
+          "rank": 4,
+          "pokemon": "Shadow Exeggutor",
+          "dps": 20.193,
+          "tdo": 506.1,
+          "er": 45.18
+        },
+        {
+          "rank": 5,
+          "pokemon": "Shadow Alolan Exeggutor",
+          "dps": 19.77,
+          "tdo": 507.6,
+          "er": 44.5
+        },
+        {
+          "rank": 6,
+          "pokemon": "Shaymin (Sky Forme)",
+          "dps": 19.158,
+          "tdo": 660.7,
+          "er": 46.43
+        },
+        {
+          "rank": 7,
+          "pokemon": "Shadow Venusaur",
+          "dps": 19.021,
+          "tdo": 526.3,
+          "er": 43.63
+        },
+        {
+          "rank": 8,
+          "pokemon": "Shadow Tangrowth",
+          "dps": 18.586,
+          "tdo": 587.3,
+          "er": 44.06
+        },
+        {
+          "rank": 9,
+          "pokemon": "Shadow Victreebel",
+          "dps": 18.539,
+          "tdo": 377.2,
+          "er": 39.37
+        },
+        {
+          "rank": 10,
+          "pokemon": "Mega Venusaur",
+          "dps": 18.517,
+          "tdo": 786.6,
+          "er": 47.27
+        }
+      ]
+    },
+    "Ground": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Primal Groudon",
+          "dps": 23.899,
+          "tdo": 1251.1,
+          "er": 64.29
+        },
+        {
+          "rank": 2,
+          "pokemon": "Mega Garchomp",
+          "dps": 23.241,
+          "tdo": 1110.7,
+          "er": 61.11
+        },
+        {
+          "rank": 3,
+          "pokemon": "Shadow Groudon",
+          "dps": 22.413,
+          "tdo": 792.7,
+          "er": 54.66
+        },
+        {
+          "rank": 4,
+          "pokemon": "Shadow Garchomp",
+          "dps": 22.19,
+          "tdo": 775.6,
+          "er": 53.95
+        },
+        {
+          "rank": 5,
+          "pokemon": "Shadow Excadrill",
+          "dps": 21.876,
+          "tdo": 535.6,
+          "er": 48.66
+        },
+        {
+          "rank": 6,
+          "pokemon": "Shadow Mamoswine",
+          "dps": 21.691,
+          "tdo": 593.8,
+          "er": 49.62
+        },
+        {
+          "rank": 7,
+          "pokemon": "Mega Swampert",
+          "dps": 21.548,
+          "tdo": 956.7,
+          "er": 55.62
+        },
+        {
+          "rank": 8,
+          "pokemon": "Shadow Rhyperior",
+          "dps": 21.081,
+          "tdo": 760.5,
+          "er": 51.67
+        },
+        {
+          "rank": 9,
+          "pokemon": "Shadow Swampert",
+          "dps": 20.098,
+          "tdo": 606.3,
+          "er": 47.1
+        },
+        {
+          "rank": 10,
+          "pokemon": "Landorus (Therian Forme)",
+          "dps": 19.775,
+          "tdo": 670.1,
+          "er": 47.71
+        }
+      ]
+    },
+    "Ice": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Shadow Mamoswine",
+          "dps": 21.691,
+          "tdo": 593.8,
+          "er": 49.62
+        },
+        {
+          "rank": 2,
+          "pokemon": "Shadow Weavile",
+          "dps": 21.437,
+          "tdo": 493.3,
+          "er": 46.95
+        },
+        {
+          "rank": 3,
+          "pokemon": "Chien-Pao",
+          "dps": 19.023,
+          "tdo": 563.5,
+          "er": 44.38
+        },
+        {
+          "rank": 4,
+          "pokemon": "Kyurem",
+          "dps": 18.88,
+          "tdo": 721.0,
+          "er": 46.93
+        },
+        {
+          "rank": 5,
+          "pokemon": "Galarian Articuno",
+          "dps": 18.001,
+          "tdo": 672.6,
+          "er": 44.5
+        },
+        {
+          "rank": 6,
+          "pokemon": "Baxcalibur",
+          "dps": 17.881,
+          "tdo": 633.9,
+          "er": 43.63
+        },
+        {
+          "rank": 7,
+          "pokemon": "Mamoswine",
+          "dps": 17.83,
+          "tdo": 585.7,
+          "er": 42.69
+        },
+        {
+          "rank": 8,
+          "pokemon": "Weavile",
+          "dps": 17.722,
+          "tdo": 489.4,
+          "er": 40.62
+        },
+        {
+          "rank": 9,
+          "pokemon": "Mega Abomasnow",
+          "dps": 17.287,
+          "tdo": 627.6,
+          "er": 42.43
+        },
+        {
+          "rank": 10,
+          "pokemon": "Mega Glalie",
+          "dps": 17.241,
+          "tdo": 513.5,
+          "er": 40.28
+        }
+      ]
+    },
+    "Normal": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Shadow Regigigas",
+          "dps": 23.222,
+          "tdo": 815.8,
+          "er": 56.54
+        },
+        {
+          "rank": 2,
+          "pokemon": "Shadow Staraptor",
+          "dps": 22.316,
+          "tdo": 487.4,
+          "er": 48.24
+        },
+        {
+          "rank": 3,
+          "pokemon": "Mega Pidgeot",
+          "dps": 20.004,
+          "tdo": 633.7,
+          "er": 47.46
+        },
+        {
+          "rank": 4,
+          "pokemon": "Shadow Ursaluna",
+          "dps": 19.702,
+          "tdo": 746.0,
+          "er": 48.87
+        },
+        {
+          "rank": 5,
+          "pokemon": "Shadow Unfezant",
+          "dps": 19.572,
+          "tdo": 427.4,
+          "er": 42.31
+        },
+        {
+          "rank": 6,
+          "pokemon": "Shadow Porygon-Z",
+          "dps": 19.524,
+          "tdo": 454.0,
+          "er": 42.87
+        },
+        {
+          "rank": 7,
+          "pokemon": "Regigigas",
+          "dps": 19.23,
+          "tdo": 810.7,
+          "er": 49.0
+        },
+        {
+          "rank": 8,
+          "pokemon": "Staraptor",
+          "dps": 18.374,
+          "tdo": 481.6,
+          "er": 41.57
+        },
+        {
+          "rank": 9,
+          "pokemon": "Shadow Ursaring",
+          "dps": 18.269,
+          "tdo": 426.6,
+          "er": 40.16
+        },
+        {
+          "rank": 10,
+          "pokemon": "Meloetta (Pirouette Forme)",
+          "dps": 18.04,
+          "tdo": 697.8,
+          "er": 44.99
+        }
+      ]
+    },
+    "Poison": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Mega Gengar",
+          "dps": 24.841,
+          "tdo": 717.5,
+          "er": 57.59
+        },
+        {
+          "rank": 2,
+          "pokemon": "Shadow Gengar",
+          "dps": 23.367,
+          "tdo": 431.0,
+          "er": 48.42
+        },
+        {
+          "rank": 3,
+          "pokemon": "Gengar",
+          "dps": 19.299,
+          "tdo": 427.2,
+          "er": 41.86
+        },
+        {
+          "rank": 4,
+          "pokemon": "Shadow Toxicroak",
+          "dps": 19.258,
+          "tdo": 396.0,
+          "er": 41.01
+        },
+        {
+          "rank": 5,
+          "pokemon": "Shadow Victreebel",
+          "dps": 18.539,
+          "tdo": 377.2,
+          "er": 39.37
+        },
+        {
+          "rank": 6,
+          "pokemon": "Naganadel",
+          "dps": 18.41,
+          "tdo": 488.3,
+          "er": 41.78
+        },
+        {
+          "rank": 7,
+          "pokemon": "Eternatus",
+          "dps": 17.814,
+          "tdo": 828.5,
+          "er": 46.52
+        },
+        {
+          "rank": 8,
+          "pokemon": "Roserade",
+          "dps": 17.593,
+          "tdo": 474.9,
+          "er": 40.1
+        },
+        {
+          "rank": 9,
+          "pokemon": "Nihilego",
+          "dps": 17.361,
+          "tdo": 790.8,
+          "er": 45.1
+        },
+        {
+          "rank": 10,
+          "pokemon": "Shadow Vileplume",
+          "dps": 17.27,
+          "tdo": 407.6,
+          "er": 38.06
+        }
+      ]
+    },
+    "Psychic": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Shadow Mewtwo",
+          "dps": 27.078,
+          "tdo": 808.2,
+          "er": 63.29
+        },
+        {
+          "rank": 2,
+          "pokemon": "Mega Alakazam",
+          "dps": 24.679,
+          "tdo": 700.3,
+          "er": 56.96
+        },
+        {
+          "rank": 3,
+          "pokemon": "Deoxys (Attack Forme)",
+          "dps": 23.344,
+          "tdo": 171.8,
+          "er": 38.45
+        },
+        {
+          "rank": 4,
+          "pokemon": "Shadow Metagross",
+          "dps": 23.2,
+          "tdo": 764.6,
+          "er": 55.59
+        },
+        {
+          "rank": 5,
+          "pokemon": "Shadow Alakazam",
+          "dps": 22.652,
+          "tdo": 439.1,
+          "er": 47.53
+        },
+        {
+          "rank": 6,
+          "pokemon": "Mewtwo",
+          "dps": 22.306,
+          "tdo": 798.9,
+          "er": 54.57
+        },
+        {
+          "rank": 7,
+          "pokemon": "Mega Latios",
+          "dps": 22.165,
+          "tdo": 923.5,
+          "er": 56.31
+        },
+        {
+          "rank": 8,
+          "pokemon": "Mega Gardevoir",
+          "dps": 22.071,
+          "tdo": 786.7,
+          "er": 53.93
+        },
+        {
+          "rank": 9,
+          "pokemon": "Mega Gallade",
+          "dps": 22.067,
+          "tdo": 789.8,
+          "er": 53.98
+        },
+        {
+          "rank": 10,
+          "pokemon": "Shadow Latios",
+          "dps": 21.935,
+          "tdo": 675.3,
+          "er": 51.67
+        }
+      ]
+    },
+    "Rock": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Shadow Rampardos",
+          "dps": 23.909,
+          "tdo": 459.0,
+          "er": 50.05
+        },
+        {
+          "rank": 2,
+          "pokemon": "Shadow Tyranitar",
+          "dps": 22.012,
+          "tdo": 775.9,
+          "er": 53.64
+        },
+        {
+          "rank": 3,
+          "pokemon": "Mega Tyranitar",
+          "dps": 21.587,
+          "tdo": 1197.0,
+          "er": 58.91
+        },
+        {
+          "rank": 4,
+          "pokemon": "Shadow Rhyperior",
+          "dps": 21.081,
+          "tdo": 760.5,
+          "er": 51.67
+        },
+        {
+          "rank": 5,
+          "pokemon": "Terrakion",
+          "dps": 20.715,
+          "tdo": 762.6,
+          "er": 51.02
+        },
+        {
+          "rank": 6,
+          "pokemon": "Rampardos",
+          "dps": 19.598,
+          "tdo": 451.5,
+          "er": 42.94
+        },
+        {
+          "rank": 7,
+          "pokemon": "Shadow Gigalith",
+          "dps": 19.519,
+          "tdo": 594.1,
+          "er": 45.85
+        },
+        {
+          "rank": 8,
+          "pokemon": "Mega Aerodactyl",
+          "dps": 19.047,
+          "tdo": 697.5,
+          "er": 46.86
+        },
+        {
+          "rank": 9,
+          "pokemon": "Shadow Alolan Golem",
+          "dps": 18.559,
+          "tdo": 536.2,
+          "er": 43.03
+        },
+        {
+          "rank": 10,
+          "pokemon": "Tyranitar",
+          "dps": 18.182,
+          "tdo": 769.1,
+          "er": 46.37
+        }
+      ]
+    },
+    "Steel": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Mega Lucario",
+          "dps": 25.196,
+          "tdo": 710.7,
+          "er": 58.07
+        },
+        {
+          "rank": 2,
+          "pokemon": "Shadow Metagross",
+          "dps": 23.2,
+          "tdo": 764.6,
+          "er": 55.59
+        },
+        {
+          "rank": 3,
+          "pokemon": "Shadow Excadrill",
+          "dps": 21.876,
+          "tdo": 535.6,
+          "er": 48.66
+        },
+        {
+          "rank": 4,
+          "pokemon": "Mega Metagross",
+          "dps": 21.873,
+          "tdo": 1082.2,
+          "er": 58.01
+        },
+        {
+          "rank": 5,
+          "pokemon": "Kartana",
+          "dps": 21.71,
+          "tdo": 522.9,
+          "er": 48.09
+        },
+        {
+          "rank": 6,
+          "pokemon": "Dialga (Origin Forme)",
+          "dps": 21.367,
+          "tdo": 895.7,
+          "er": 54.37
+        },
+        {
+          "rank": 7,
+          "pokemon": "Shadow Empoleon",
+          "dps": 20.65,
+          "tdo": 582.2,
+          "er": 47.58
+        },
+        {
+          "rank": 8,
+          "pokemon": "Shadow Magnezone",
+          "dps": 20.189,
+          "tdo": 549.5,
+          "er": 46.11
+        },
+        {
+          "rank": 9,
+          "pokemon": "Lucario",
+          "dps": 19.839,
+          "tdo": 468.3,
+          "er": 43.73
+        },
+        {
+          "rank": 10,
+          "pokemon": "Metagross",
+          "dps": 19.172,
+          "tdo": 758.2,
+          "er": 48.08
+        }
+      ]
+    },
+    "Water": {
+      "top_attackers": [
+        {
+          "rank": 1,
+          "pokemon": "Primal Kyogre",
+          "dps": 23.934,
+          "tdo": 1253.0,
+          "er": 64.38
+        },
+        {
+          "rank": 2,
+          "pokemon": "Shadow Kyogre",
+          "dps": 22.453,
+          "tdo": 794.2,
+          "er": 54.76
+        },
+        {
+          "rank": 3,
+          "pokemon": "Palkia (Origin Forme)",
+          "dps": 21.866,
+          "tdo": 842.9,
+          "er": 54.48
+        },
+        {
+          "rank": 4,
+          "pokemon": "Mega Swampert",
+          "dps": 21.548,
+          "tdo": 956.7,
+          "er": 55.62
+        },
+        {
+          "rank": 5,
+          "pokemon": "Shadow Empoleon",
+          "dps": 20.65,
+          "tdo": 582.2,
+          "er": 47.58
+        },
+        {
+          "rank": 6,
+          "pokemon": "Shadow Swampert",
+          "dps": 20.098,
+          "tdo": 606.3,
+          "er": 47.1
+        },
+        {
+          "rank": 7,
+          "pokemon": "Mega Blastoise",
+          "dps": 20.018,
+          "tdo": 813.0,
+          "er": 50.54
+        },
+        {
+          "rank": 8,
+          "pokemon": "Shadow Feraligatr",
+          "dps": 19.614,
+          "tdo": 561.1,
+          "er": 45.36
+        },
+        {
+          "rank": 9,
+          "pokemon": "Shadow Sharpedo",
+          "dps": 19.323,
+          "tdo": 234.3,
+          "er": 36.06
+        },
+        {
+          "rank": 10,
+          "pokemon": "Palkia",
+          "dps": 19.183,
+          "tdo": 714.6,
+          "er": 47.39
+        }
+      ]
+    }
+  }
+}

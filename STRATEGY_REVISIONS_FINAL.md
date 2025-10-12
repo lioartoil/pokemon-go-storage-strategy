@@ -60,28 +60,28 @@
 **Current**: Part of Category 3 + Category 11
 **Revised**: Consolidate into enhanced Category 11
 
-**Top Raid Attackers by Type** (2025):
+**Top Raid Attackers by Type** (2025-10-12, GamePress Verified):
 
-| Type         | Top Attackers                                    | Keep Count |
-| ------------ | ------------------------------------------------ | ---------- |
-| **Normal**   | Slaking, Regigigas                               | 6 each     |
-| **Fighting** | Terrakion, Lucario, Conkeldurr, Machamp          | 6-12 each  |
-| **Flying**   | Rayquaza (Mega), Moltres, Honchkrow              | 6-12 each  |
-| **Poison**   | Nihilego, Roserade                               | 6 each     |
-| **Ground**   | Groudon (Primal), Garchomp, Rhyperior, Excadrill | 6-12 each  |
-| **Rock**     | Rampardos, Rhyperior, Terrakion                  | 6-12 each  |
-| **Bug**      | Pheromosa, Genesect, Volcarona                   | 6-12 each  |
-| **Ghost**    | Giratina (Origin), Chandelure, Gengar (Mega)     | 6-12 each  |
-| **Steel**    | Metagross (Mega), Dialga, Excadrill              | 6-12 each  |
-| **Fire**     | Reshiram, Chandelure, Blaziken (Mega), Moltres   | 6-12 each  |
-| **Water**    | Kyogre (Primal), Swampert, Kingler               | 6-12 each  |
-| **Grass**    | Kartana, Zarude, Roserade                        | 6-12 each  |
-| **Electric** | Zekrom, Electivire, Magnezone, Luxray            | 6-12 each  |
-| **Psychic**  | Mewtwo, Espeon, Alakazam                         | 6-12 each  |
-| **Ice**      | Mamoswine, Glaceon, Weavile, Kyurem              | 6-12 each  |
-| **Dragon**   | Rayquaza, Palkia, Salamence, Dragonite           | 6-12 each  |
-| **Dark**     | Darkrai, Tyranitar, Weavile, Hydreigon           | 6-12 each  |
-| **Fairy**    | Togekiss, Gardevoir, Primarina                   | 6 each     |
+| Type         | Top Attackers (DPS Leaders)                                     | Keep Count |
+| ------------ | --------------------------------------------------------------- | ---------- |
+| **Normal**   | Shadow Regigigas, Shadow Staraptor, Mega Pidgeot                | 6-12 each  |
+| **Fighting** | Mega Lucario, Mega Blaziken, Shadow Blaziken, Terrakion         | 6-12 each  |
+| **Flying**   | Mega Rayquaza, Rayquaza, Shadow Salamence, Shadow Honchkrow     | 6-12 each  |
+| **Poison**   | Mega Gengar, Shadow Gengar, Gengar, Shadow Toxicroak            | 6-12 each  |
+| **Ground**   | Primal Groudon, Mega Garchomp, Shadow Groudon, Shadow Excadrill | 6-12 each  |
+| **Rock**     | Shadow Rampardos, Shadow Tyranitar, Mega Tyranitar, Terrakion  | 6-12 each  |
+| **Bug**      | Mega Heracross, Pheromosa, Mega Beedrill, Volcarona             | 6-12 each  |
+| **Ghost**    | Mega Gengar, Shadow Chandelure, Shadow Gengar, Chandelure       | 6-12 each  |
+| **Steel**    | Mega Lucario, Shadow Metagross, Shadow Excadrill, Mega Metagross| 6-12 each  |
+| **Fire**     | Mega Blaziken, Shadow Chandelure, Shadow Darmanitan, Reshiram   | 6-12 each  |
+| **Water**    | Primal Kyogre, Shadow Kyogre, Palkia (Origin), Mega Swampert    | 6-12 each  |
+| **Grass**    | Mega Sceptile, Kartana, Shadow Sceptile, Shadow Tangrowth       | 6-12 each  |
+| **Electric** | Shadow Electivire, Xurkitree, Shadow Raikou, Zekrom             | 6-12 each  |
+| **Psychic**  | Shadow Mewtwo, Mega Alakazam, Deoxys (Attack), Mewtwo           | 6-12 each  |
+| **Ice**      | Shadow Mamoswine, Shadow Weavile, Chien-Pao, Kyurem             | 6-12 each  |
+| **Dragon**   | Mega Rayquaza, Rayquaza, Shadow Salamence, Mega Garchomp        | 6-12 each  |
+| **Dark**     | Shadow Honchkrow, Shadow Tyranitar, Yveltal, Hoopa (Unbound)    | 6-12 each  |
+| **Fairy**    | Mega Gardevoir, Enamorus, Shadow Gardevoir, Xerneas             | 6-12 each  |
 
 **Retention Rules**:
 

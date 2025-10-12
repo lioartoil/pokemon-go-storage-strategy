@@ -57,7 +57,7 @@ Before transferring ANY Pokemon, exclude these categories:
 
 1. **Master League eligible** (CP > 2500 capable when maxed)
 2. **Final evolutions only** (keep 2 of non-final evolutions for future-proofing)
-3. **Check PokeGenie**: ML Rank 21+ = *Candidate* for transfer
+3. **Check PokeGenie**: ML Rank 21+ = _Candidate_ for transfer
 4. **Double-check NOT a raid attacker** (see exclusion list below)
 
 #### Step 1.5: Raid/Gym Attacker Exclusion List
@@ -65,6 +65,7 @@ Before transferring ANY Pokemon, exclude these categories:
 **⚠️ NEVER TRANSFER THESE** (even if ML Rank 21+, they're valuable for raids):
 
 **Top Priority Raid Attackers** (keep 6-12 each, verified 2025-10-12):
+
 - **Normal**: Shadow Regigigas, Shadow Staraptor, Regigigas
 - **Fighting**: Mega Lucario, Mega Blaziken, Lucario, Terrakion, Shadow Machamp
 - **Flying**: Mega Rayquaza, Rayquaza, Shadow Salamence, Shadow Honchkrow, Shadow Moltres
@@ -85,9 +86,11 @@ Before transferring ANY Pokemon, exclude these categories:
 - **Fairy**: Mega Gardevoir, Shadow Gardevoir, Xerneas, Gardevoir, Togekiss, Primarina, Granbull
 
 **Master League Top 20 Meta** (also exclude):
+
 - Top 20 from `meta/cp10000_all_overall_rankings.csv`: Zacian, Palkia (Origin), Zamazenta, Dialga (Origin), Kyurem (White), Zekrom, Kyurem (Black), Reshiram, Florges, Lugia, Metagross, Necrozma (Dawn Wings), Eternatus, Palkia (Shadow), Lunala, Ho-Oh, Groudon, Necrozma (Dusk Mane), Dialga (Shadow), Latios (Shadow)
 
 **Example SAFE Transfers** (Non-legendary, Non-raid-meta, ML Rank 21+):
+
 - Snorlax (ML Rank 135+, niche raid use only)
 - Slaking (ML Rank 380, very niche)
 - Gyarados (ML Rank 47-50, borderline - check if you need water attackers)

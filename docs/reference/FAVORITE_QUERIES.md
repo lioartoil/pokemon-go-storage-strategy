@@ -12,7 +12,7 @@
 
 | #   | Name           | Query                                                                                              | Purpose                         |
 | --- | -------------- | -------------------------------------------------------------------------------------------------- | ------------------------------- |
-| 1   | `New Catches`  | `!#`                                                                                               | Untagged Pokemon needing review |
+| 1   | `New-Catches`  | `!#`                                                                                               | Untagged Pokemon needing review |
 | 2   | `Review`       | `#Review`                                                                                          | Duplicates/ranks to recheck     |
 | 3   | `Review-Spec`  | `#Review&!legendary&!mythical&!ultra beasts`                                                       | Non-legendary review queue      |
 | 4   | `Review-Leg`   | `#Review&legendary,mythical,ultra beasts`                                                          | Legendary review queue          |
@@ -39,7 +39,7 @@
 | 11  | `Xfer-Event`  | `#Home`                                                                                                                      | Event transfer (2× candy)            |
 | 12  | `Xfer-All`    | `#Transfer,#Home`                                                                                                            | All transfer candidates              |
 | 13  | `Trade`       | `#Trade`                                                                                                                     | General trading queue                |
-| 14  | `Lucky Trade` | `#LuckyTrade`                                                                                                                | Lucky friend trades                  |
+| 14  | `Lucky-Trade` | `#LuckyTrade`                                                                                                                | Lucky friend trades                  |
 | 15  | `Lucky-New`   | `age364-&!#Trade&!#Kept&!#Home&!traded&!legendary&!mythical&!ultra beasts&!shiny&!costume&!shadow&!xxs&!xxl&!background&!4*` | Auto-find lucky candidates (1+ year) |
 | 16  | `HOME`        | `#Home&mythical`                                                                                                             | Mythicals for Pokemon HOME           |
 | 17  | `HOME-New`    | `#Transfer&!#Home&mythical&151,251,385,386,491,492,494,647,648,649,718,719,720,802,893`                                      | Mythicals needing HOME tag           |
@@ -92,13 +92,13 @@
 
 ## Buddy System (5 queries)
 
-| #   | Name          | Query                   | Purpose                 |
-| --- | ------------- | ----------------------- | ----------------------- |
-| 34  | `Buddy-1km`   | `#Buddy1Km&#NeedCandy`  | 1km buddy candy claims  |
-| 35  | `Buddy-3km`   | `#Buddy3Km&#NeedCandy`  | 3km buddy candy claims  |
-| 36  | `Buddy-5km`   | `#Buddy5Km&#NeedCandy`  | 5km buddy candy claims  |
-| 37  | `Buddy-20km`  | `#Buddy20Km&#NeedCandy` | 20km buddy candy claims |
-| 38  | `Claim Candy` | `#NeedCandy`            | All candy claimable     |
+| #   | Name           | Query                   | Purpose                 |
+| --- | -------------- | ----------------------- | ----------------------- |
+| 34  | `Buddy-1km`    | `#Buddy1Km&#NeedCandy`  | 1km buddy candy claims  |
+| 35  | `Buddy-3km`    | `#Buddy3Km&#NeedCandy`  | 3km buddy candy claims  |
+| 36  | `Buddy-5km`    | `#Buddy5Km&#NeedCandy`  | 5km buddy candy claims  |
+| 37  | `Buddy-20km`   | `#Buddy20Km&#NeedCandy` | 20km buddy candy claims |
+| 38  | `Claim-Candy` | `#NeedCandy`            | All candy claimable     |
 
 ---
 
@@ -115,12 +115,12 @@
 
 | Priority | Name           | Query                                                                                              | Why                 |
 | -------- | -------------- | -------------------------------------------------------------------------------------------------- | ------------------- |
-| 1        | `New Catches`  | `!#`                                                                                               | Daily workflow      |
+| 1        | `New-Catches`  | `!#`                                                                                               | Daily workflow      |
 | 2        | `Review`       | `#Review`                                                                                          | Weekly cleanup      |
 | 3        | `Xfer-All`     | `#Transfer,#Home`                                                                                  | Transfer pipeline   |
 | 4        | `PowerUp`      | `#PowerUp`                                                                                         | Resource management |
 | 5        | `Buddy`        | `#CurrentBuddy`                                                                                    | Quick buddy access  |
-| 6        | `Lucky Trade`  | `#LuckyTrade`                                                                                      | Lucky friends       |
+| 6        | `Lucky-Trade`  | `#LuckyTrade`                                                                                      | Lucky friends       |
 | 7        | `Trade`        | `#Trade`                                                                                           | General trading     |
 | 8        | `Global-Best`  | `#First,#Second,#Third`                                                                            | Trophy Pokemon      |
 | 9        | `GL-Top`       | `#Great&#Rank1,#Rank2,#Rank3`                                                                      | Best GL Pokemon     |
@@ -131,7 +131,7 @@
 ## Quick Copy-Paste (All 40 Queries)
 
 ```
-1. New Catches: !#
+1. New-Catches: !#
 2. Review: #Review
 3. Review-Spec: #Review&!legendary&!mythical&!ultra beasts
 4. Review-Leg: #Review&legendary,mythical,ultra beasts
@@ -144,7 +144,7 @@
 11. Xfer-Event: #Home
 12. Xfer-All: #Transfer,#Home
 13. Trade: #Trade
-14. Lucky Trade: #LuckyTrade
+14. Lucky-Trade: #LuckyTrade
 15. Lucky-New: age364-&!#Trade&!#Kept&!#Home&!traded&!legendary&!mythical&!ultra beasts&!shiny&!costume&!shadow&!xxs&!xxl&!background&!4*
 16. HOME: #Home&mythical
 17. HOME-New: #Transfer&!#Home&mythical&151,251,385,386,491,492,494,647,648,649,718,719,720,802,893
@@ -168,7 +168,7 @@
 35. Buddy-3km: #Buddy3Km&#NeedCandy
 36. Buddy-5km: #Buddy5Km&#NeedCandy
 37. Buddy-20km: #Buddy20Km&#NeedCandy
-38. Claim Candy: #NeedCandy
+38. Claim-Candy: #NeedCandy
 39. Var1: #Var1
 40. Var2: #Var2
 ```

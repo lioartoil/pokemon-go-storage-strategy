@@ -1,223 +1,254 @@
-<!-- cSpell: ignore ultrabeast -->
+# Pokemon GO Storage Management System
 
-# Pokemon GO Storage Strategy
-
-**Current Status**: 10,184 / 10,500 (316 free, ~3%)
-**User Profile**: Collecting > Raids > Trading >>> PvP (minimal PvP participation)
-**Last Updated**: 2025-10-11
-
----
-
-## 📚 Quick Navigation
-
-### For Daily Use (Start Here)
-
-1. **[STORAGE_QUICK_REFERENCE.md](STORAGE_QUICK_REFERENCE.md)** (171 lines)
-
-   - Quick decision tree for new catches
-   - Category retention rules at a glance
-   - Daily workflow guide
-
-2. **[SEARCH_QUERIES.md](SEARCH_QUERIES.md)** (266 lines)
-
-   - Category 14 search strings (lucky trade candidates)
-   - All useful Pokemon GO queries
-   - Your tag system documented
-   - **UPDATED**: Fixed `ultra beasts` query, added XXS/XXL/background/gigantamax/dynamax
+**Last Updated**: 2025-10-12
+**Storage**: 10,184 / 10,500 Pokemon (316 free, ~3%)
+**Strategy**: Moderate PvP Approach
+**Target**: 9,200-9,600 Pokemon (900-1,300 free, ~9-12%)
 
 ---
 
-## 🎯 Strategy Documents
+## Quick Start
 
-### Your Chosen Approach: Moderate PvP
-
-**[STRATEGY_MODERATE_PVP.md](STRATEGY_MODERATE_PVP.md)** - **START HERE** ✅
-
-- Uses **Community Best Practice (PvP Players)** standards
-- Target: 900-1,300 free slots (9-12% free space)
-- Keeps PvP flexibility while freeing significant space
-- **Your Decision**: Try this first, reassess if insufficient
-
-**When to Use**:
-
-- Starting point (try this first)
-- Want to maintain PvP options for future
-- Unsure about abandoning competitive PvP depth
-
-**Savings**:
-
-- Category 1 (GL/UL): 1,370 → 700-900 (-400 to -600 slots)
-- Category 2 (LL): 498 → 200-300 (-200 to -300 slots)
-- Category 3 (ML): 2,037 → 1,400-1,700 (-300 to -400 slots)
-- **Total**: 900-1,300 slots freed
+1. **Current System**: [Tag System Documentation](docs/reference/TAG_SYSTEM.md)
+2. **Active Strategy**: [Moderate PvP Approach](docs/strategies/STRATEGY_MODERATE_PVP.md)
+3. **Implementation**: [Phase 1 Guide](docs/guides/PHASE_1_IMPLEMENTATION.md)
+4. **Quick Reference**: [Storage Quick Reference](docs/reference/STORAGE_QUICK_REFERENCE.md)
 
 ---
 
-### Alternative: Aggressive Collector Approach
+## Project Structure
 
-**[STRATEGY_REVISIONS_FINAL.md](STRATEGY_REVISIONS_FINAL.md)** - Use if moderate insufficient
-
-- Uses **Best Practice (YOUR Profile)** - collector-focused
-- Target: 1,100-1,600 free slots (10-15% free space)
-- Aggressive PvP reduction, expanded raid attackers
-- Meta-aware retention (top 20 species get preferential treatment)
-
-**When to Use**:
-
-- Moderate approach still leaves < 7% free space
-- Confirm you won't do competitive PvP
-- Need maximum storage for collecting/raiding
-
-**Savings**:
-
-- Category 1 (GL/UL): 1,370 → 400-500 (-800 to -1,000 slots)
-- Category 2 (LL): 498 → 50-100 (-350 to -400 slots)
-- Category 3 (ML): 2,037 → 200-300 (-1,600 to -1,700 slots)
-- Category 11 (Legendary): 643 → 800-1,000 (+200 to +400 slots for raid attackers)
-- **Total**: 800-1,200 slots freed (net after raid expansion)
-
----
-
-## 📖 Reference Documentation
-
-### Complete Strategy Documentation
-
-**[STORAGE_STRATEGY_CORRECTED.md](STORAGE_STRATEGY_CORRECTED.md)** (486 lines)
-
-- Complete 14-category strategy with all corrections
-- Detailed retention rules for each category
-- Lucky trade mechanics (CORRECT: 3-year cap)
-- Priority hierarchy for overlapping categories
-- **Use for**: Understanding the full system
-
-**[STRATEGY_ANALYSIS.md](STRATEGY_ANALYSIS.md)** (538 lines)
-
-- Detailed analysis vs community best practices
-- Category-by-category assessment
-- Comparison: Your Strategy vs PvP Players vs Collector Focus
-- Risk assessment and meta shift considerations
-- **Use for**: Understanding WHY recommendations exist
-
-**[IMPROVEMENT_RECOMMENDATIONS_REVISED.md](IMPROVEMENT_RECOMMENDATIONS_REVISED.md)** (436 lines)
-
-- Detailed implementation plan (collector-focused)
-- Phase-by-phase breakdown
-- Time estimates and savings calculations
-- **Use for**: If switching to aggressive approach
+```
+pokemon/
+├── README.md                          # This file
+├── docs/
+│   ├── strategies/                    # Storage strategies
+│   │   ├── STRATEGY_MODERATE_PVP.md   # Current strategy (moderate)
+│   │   ├── STRATEGY_REVISIONS_FINAL.md # Aggressive collector approach
+│   │   └── STRATEGY_ANALYSIS.md       # Detailed analysis
+│   ├── guides/                        # Implementation guides
+│   │   ├── PHASE_1_IMPLEMENTATION.md  # Master League reduction
+│   │   ├── META_UPDATE_GUIDE.md       # Meta shift tracking
+│   │   ├── RAID_META_UPDATE_GUIDE.md  # Raid attacker updates
+│   │   └── META_SHIFT_IMPACT.md       # Recent meta changes
+│   └── reference/                     # Quick reference docs
+│       ├── TAG_SYSTEM.md              # Tag system documentation
+│       ├── STORAGE_QUICK_REFERENCE.md # Quick decisions
+│       └── SEARCH_QUERIES.md          # Query string library
+├── meta/                              # Meta data files
+│   ├── cp10000_all_overall_rankings.csv
+│   ├── raid_attackers_by_type.json
+│   ├── RAID_ATTACKER_COMPARISON.md
+│   └── pokemongohub/                  # API responses
+└── scripts/                           # Automation scripts
+    ├── parse_raid_attackers.py
+    └── compare_raid_sources.py
+```
 
 ---
 
-## 📝 Summary & Corrections
+## Current Tag System (43 tags, 86% capacity)
 
-**[README_CORRECTIONS.md](README_CORRECTIONS.md)**
+### Tag Categories
 
-- Summary of all corrections made
-- Key findings and strategic shifts
-- Which files supersede others
+| Category             | Count | Purpose                              |
+| -------------------- | ----- | ------------------------------------ |
+| Evolution Management | 9     | Track target stages & requirements   |
+| Buddy System         | 6     | Prioritize buddies & power-ups       |
+| PvP System           | 12    | Personal ranks + absolute ranks      |
+| Battle Roles         | 4     | Raids & gym defense tiers            |
+| Resource Management  | 6     | Actions needed (candy, TM, purify)   |
+| Storage Workflow     | 4     | Transfer pipeline & review queue     |
+| Special Categories   | 3     | Forms that can't be queried          |
 
----
+**Full documentation**: [TAG_SYSTEM.md](docs/reference/TAG_SYSTEM.md)
 
-## 🗂️ Data Files
+### Key Tag Concepts
 
-- **`pokedex.md`** - Your living dex checklist
-- **`go/little-percentile-60.csv`** - Little League species viability data
-- **`archive/`** - Superseded files (original versions)
+**Personal Collection Ranks** (`Rank1`, `Rank2`, `Rank3`, `Rank4-20`, `Rank21-50`, `Rank51-100`):
+- Track best **you own** for each species/league
+- Used for retention decisions
 
----
+**Absolute IV Ranks** (`First`, `Second`, `Third`):
+- Track theoretical best **possible in game**
+- Used for trophy Pokemon
 
-## 🔄 Your Strategy Evolution
-
-### Phase 1: Initial Strategy (Superseded)
-
-- Files: `archive/STORAGE_STRATEGY.md`, `archive/IMPROVEMENT_RECOMMENDATIONS.md`
-- Issue: PvP-focused assumptions, lucky trade mechanics error
-
-### Phase 2: Corrected Strategy
-
-- Files: `STORAGE_STRATEGY_CORRECTED.md`, `README_CORRECTIONS.md`
-- Fixed: Lucky trade mechanics (3-year cap), user profile (collector focus)
-- Added: Special move bonus, tag system, all user corrections
-
-### Phase 3: Final Revisions (Current)
-
-- **Moderate Approach**: `STRATEGY_MODERATE_PVP.md` ✅ **YOUR CHOICE**
-- **Aggressive Approach**: `STRATEGY_REVISIONS_FINAL.md` (if moderate insufficient)
-- Added: Meta-awareness, raid attacker optimization, PvP player standards option
+**Example**: `Rank1` + `Rank2` + `Second` = "My best in one league, second-best in another, and #2 globally"
 
 ---
 
-## 🎯 Your Implementation Plan
+## Storage Strategy
 
-### Step 1: Start with Moderate Approach
+### Current Approach: Moderate PvP
 
-1. Read **STRATEGY_MODERATE_PVP.md**
-2. Implement Phase 1: Master League reduction (300-400 slots)
-3. Clear Category 12 during next 2× candy event (76 slots)
-4. Implement Phase 2: GL/UL/LL reduction (600-900 slots)
-5. **Target**: 900-1,300 free slots (9-12%)
+**Target savings**: 900-1,300 slots (976-1,376 gross, accounting for catches)
 
-### Step 2: Monitor for 2-4 Weeks
+**Priority order**:
+1. **Phase 1** (Week 1): Master League reduction (300-400 slots)
+2. **Phase 2** (Weeks 2-3): Great/Ultra/Little League reduction (600-900 slots)
 
-- Track free space percentage
-- Note storage pressure during events
-- Assess if PvP depth is useful or wasteful
+**Retention rules** (aligned with tag system):
+- **Rank ≤10**: Keep 2 copies (GL/UL/ML)
+- **Rank 11-50**: Keep 1 copy (GL/UL), keep 1 if ≤20 (ML)
+- **Rank 51-100**: Keep 1 copy meta only (GL/UL), transfer (ML)
+- **Rank 101+**: Transfer (all leagues)
 
-### Step 3: Reassess if Needed
-
-**If free space < 7% consistently**:
-
-- Switch to **STRATEGY_REVISIONS_FINAL.md** (aggressive approach)
-- Implement additional PvP reductions
-- Expand Category 11 for raid attackers
-- **Target**: 1,100-1,600 free slots (10-15%)
+**Strategy details**: [STRATEGY_MODERATE_PVP.md](docs/strategies/STRATEGY_MODERATE_PVP.md)
 
 ---
 
-## 🔑 Key Corrections Applied
+## Recent Updates
 
-1. ✅ Lucky trade mechanics: 3-year cap (not 1 year) - **YOU WERE RIGHT**
-2. ✅ User play style: Collecting > Raids > Trading >>> PvP
-3. ✅ Meta-awareness: Top 20 species get rank ≤50 retention
-4. ✅ Raid attacker separation: Can be split from ML PvP if needed
-5. ✅ Ultra Beasts: Corrected query `ultra beasts` (not `ultrabeast`)
-6. ✅ XXS/XXL/background/gigantamax/dynamax queries added
-7. ✅ Tag system: Documented your actual tags (`great`, `ultra`, `little`, `home`, `transfer`)
-8. ✅ Reserved queries: `lucky` and `evolve` are built-in (don't use as tags)
-9. ✅ Two-tier approach: Moderate (PvP Players) → Aggressive (Collector) if needed
+### 2025-10-12: Tag System Reorganization
+- ✅ Cleaned up 6 unused tags
+- ✅ Renamed all tags to PascalCase (no spaces)
+- ✅ Adjusted rank tags for strategy alignment:
+  - `Rank4-19` → `Rank4-20`
+  - `Rank20-82` → `Rank21-50`
+  - `Rank83-205` → `Rank51-100`
+- ✅ Added `LuckyTrade` tag for Category 14
+- ✅ Updated all documentation
 
----
+### 2025-10-12: Raid Meta Update
+- ✅ Updated raid attacker exclusion list (66 → 102+ species)
+- ✅ Compared GamePress vs PokemonGOHub (46.7% agreement)
+- ✅ Created automated update workflow
 
-## 📊 Quick Comparison
-
-| Metric                 | Current     | Moderate (PvP)    | Aggressive (Collector)   |
-| ---------------------- | ----------- | ----------------- | ------------------------ |
-| **Free Space**         | 316 (3%)    | 900-1,300 (9-12%) | 1,100-1,600 (10-15%)     |
-| **Category 1-3 Total** | 3,905       | 2,300-2,900       | 650-900                  |
-| **PvP Depth**          | High        | Moderate ✅       | Minimal                  |
-| **Raid Attackers**     | Mixed in ML | Mixed in ML       | Separate (expanded)      |
-| **Implementation**     | -           | **START HERE**    | If moderate insufficient |
+### 2025-10-12: Meta Shift Analysis
+- ✅ Analyzed PvP meta shifts since early 2025
+- ✅ Updated top 20 lists for GL/UL
+- ✅ Documented impact on storage decisions
 
 ---
 
-## 🛠️ Tools Used
+## Implementation Progress
 
-- **PokeGenie**: GL/UL/LL IV ranking (auto-scan enabled)
-- **IV4U**: https://iv4u.lima-city.de/en (ML IV ranking)
-- **Tags**: `great`, `ultra`, `little`, `home`, `transfer`
+### Phase 1: Master League Reduction (Week 1)
+
+**Target**: 376-476 slots freed
+
+- [ ] Day 1-2: Scan all Master League Pokemon with PokeGenie
+- [ ] Day 3-4: Transfer Rank 21+ final evolutions (300-400 slots)
+- [ ] Day 5-6: Reduce Rank 11-20 to 1 copy each
+- [ ] Day 7: Reduce Rank ≤10 to 2 copies each
+- [ ] Wait for 2× candy event: Clear `Home` tag transfers (76 slots)
+
+**Guide**: [PHASE_1_IMPLEMENTATION.md](docs/guides/PHASE_1_IMPLEMENTATION.md)
+
+### Phase 2: GL/UL/LL Reduction (Weeks 2-3)
+
+**Target**: 600-900 slots freed
+
+- [ ] Reduce Category 1 (GL/UL): 400-600 slots
+- [ ] Reduce Category 2 (LL): 200-300 slots
 
 ---
 
-## 📞 Support
+## Maintenance Schedule
 
-If you need to:
+### Monthly Tasks
+- [ ] Check for PvP meta shifts (use `META_UPDATE_GUIDE.md`)
+- [ ] Update raid attacker list if move rebalance
+- [ ] Clear transfer queue during 2× candy events
 
-- **Understand a category**: See STORAGE_STRATEGY_CORRECTED.md
-- **Make daily decisions**: See STORAGE_QUICK_REFERENCE.md
-- **Find search queries**: See SEARCH_QUERIES.md
-- **Implement moderate approach**: See STRATEGY_MODERATE_PVP.md ✅
-- **Implement aggressive approach**: See STRATEGY_REVISIONS_FINAL.md
-- **Understand analysis**: See STRATEGY_ANALYSIS.md
+### Quarterly Tasks
+- [ ] Review storage strategy effectiveness
+- [ ] Reassess if free space < 7% (switch to aggressive?)
+- [ ] Update meta rankings from PvPoke/GamePress
+
+### When Meta Changes
+- [ ] Follow `META_UPDATE_GUIDE.md` workflow
+- [ ] Update top 20 lists in strategy docs
+- [ ] Adjust retention decisions if needed
 
 ---
 
-_Pokemon GO Storage Strategy - Comprehensive documentation for 14-category system optimized for collectors who raid daily with minimal PvP participation (2025-10-11)_
+## Common Queries
+
+### Storage Management
+```
+# Find transfer candidates (GL/UL Rank 101+)
+Great&Rank51-100&!attackers&!def1
+
+# Find duplicate IVs needing review
+#Review
+
+# Find lucky trade candidates
+#LuckyTrade&4*
+```
+
+### Resource Management
+```
+# Pokemon needing actions
+#NeedCandy | #NeedPurified | #PowerUp | #TM
+
+# Pokemon ready to evolve
+#SpecialEvolve | #ItemEvolve | #LocationEvolve | #TimeEvolve
+```
+
+### Trophy Pokemon
+```
+# Absolute top 3 ranks globally
+#First | #Second | #Third
+
+# Personal best per league
+Great&Rank1 | Ultra&Rank1 | Little&Rank1
+```
+
+**Full query library**: [SEARCH_QUERIES.md](docs/reference/SEARCH_QUERIES.md)
+
+---
+
+## Tools & Resources
+
+### Internal Tools
+- **PokeGenie**: IV rank checking (required for Phase 1)
+- **In-game tags**: Storage workflow management
+- **Spreadsheet** (optional): Track transfer candidates
+
+### External Resources
+- **PvPoke**: Meta rankings (pvpoke.com)
+- **GamePress**: Raid attacker DPS rankings
+- **PokemonGOHub**: Boss-specific raid counters
+
+### Scripts
+- `scripts/parse_raid_attackers.py`: Extract top 10 attackers per type from GamePress CSV
+- `scripts/compare_raid_sources.py`: Compare GamePress vs PokemonGOHub data
+
+---
+
+## When to Reassess Strategy
+
+**Switch to Aggressive Approach if**:
+1. Free space drops below 7% (735 slots) consistently
+2. You confirm you won't do competitive PvP
+3. Community Day/GO Fest storage pressure remains high
+
+**Signs Moderate Approach is Working**:
+1. Free space stays above 9% (945 slots)
+2. No storage pressure during events
+3. You have PvP options for research tasks
+
+**Aggressive strategy**: [STRATEGY_REVISIONS_FINAL.md](docs/strategies/STRATEGY_REVISIONS_FINAL.md)
+
+---
+
+## Contributing
+
+To update meta data:
+1. Follow `META_UPDATE_GUIDE.md` workflow
+2. Run `scripts/parse_raid_attackers.py` for raid updates
+3. Update strategy docs with new top 20 lists
+4. Commit changes with clear message
+
+---
+
+## Version History
+
+- **2025-10-12**: Tag system reorganization, rank alignment fix, raid meta update
+- **2025-10-11**: Moderate PvP strategy selection, Phase 1 implementation guide
+- **2025-10-11**: Initial storage analysis, strategy comparison
+
+---
+
+_Pokemon GO Storage Management System - Comprehensive documentation for sustainable storage management with moderate PvP approach_

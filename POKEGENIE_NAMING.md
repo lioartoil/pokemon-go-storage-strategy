@@ -32,8 +32,8 @@
 | 1   | **Trade**        | ⇄      | Default            | (none)   | #10-13     | `⇄②⁴⁵⓪Char㈩`   |
 | 2   | **PVP IV (PvP)** | ₁      | PvP Rank % ≥ 97.5% | (auto)   | #1a, #1b   | `₁Ⓖ⓪Char84aa㈩` |
 | 3   | **PVP IV (₁)**   | ₁      | Favorite ₁         | ₁        | #1a, #1b   | `₁Ⓤ①Venu38A`    |
-| 4   | **High IV (IV)** | ₂      | IV ≥ 90%           | (auto)   | Auto       | `₂⓪Char⁹⁶②½A`   |
-| 5   | **High IV (2)**  | ₂      | Has 2nd move       | (auto)   | Auto       | `₂①Ve38⁹⁶②A`    |
+| 4   | **High IV (IV)** | ₂      | IV ≥ 90%           | (auto)   | Auto       | `₂⓪Cha8⁹⁶②½A`   |
+| 5   | **High IV (2)**  | ₂      | Has 2nd move       | (auto)   | Auto       | `₂①Ve5⁹⁶②A`     |
 | 6   | **High IV (₂)**  | ₂      | Favorite ₂         | ₂        | #2, Manual | `₂⓪Char15⁹¹②A`  |
 | 7   | **Shiny (₃)**    | ₃      | Favorite ₃         | ₃        | #3         | `₃⓪⁸²②●Char㈩`  |
 | 8   | **Costume (₄)**  | ₄      | Favorite ₄         | ₄        | #4         | `₄⓪⁷⁶②Char㈩`   |
@@ -104,9 +104,10 @@ Example: ₁ⓛ⓪Pika25aa         (LL Rank 25, basic, no shadow)
 
 ```
 ₂{Stage}{●/○}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}
-Example: ₂⓪Char⁹⁶②½A          (Basic, no rank, 96% IV, Lvl 2.5, auto-condition)
-Example: ₂①Ve38⁹⁶②A          (Stage 1, no shadow, ML Rank 38, 96% IV, Lvl 2)
+Example: ₂⓪Cha8⁹⁶②½A         (Basic, Rank 8, 96% IV, Lvl 2.5, auto-IV ≥90%)
+Example: ₂①Ve5⁹⁶②A           (Stage 1, Rank 5, 96% IV, Lvl 2, has 2nd move)
 Example: ₂⓪Char15⁹¹②A        (Basic, no shadow, ML Rank 15, 91% IV, Lvl 2)
+Example: ₂①Ve38⁹⁶②A          (Stage 1, no shadow, ML Rank 38, 96% IV, Lvl 2)
 
 Dynamax/Gigantamax (same format, different prefix):
 Example: ₈⓪Char15⁹¹②A        (Dynamax, Rank 15, 91% IV, Lvl 2)

@@ -230,13 +230,13 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ---
 
-### Category 8: Gigantamax Pokemon
+### Category 8: Dynamax Pokemon
 
-**Total**: 17 Pokemon
+**Total**: 45 Pokemon
 
 **Criteria**:
 
-- Pokemon with Gigantamax capability
+- Pokemon with Dynamax capability
 
 **Retention Rules**:
 
@@ -246,13 +246,13 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ---
 
-### Category 9: Dynamax Pokemon
+### Category 9: Gigantamax Pokemon
 
-**Total**: 45 Pokemon
+**Total**: 17 Pokemon
 
 **Criteria**:
 
-- Pokemon with Dynamax capability
+- Pokemon with Gigantamax capability
 
 **Retention Rules**:
 
@@ -373,8 +373,8 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 | 5         | Shadow             | 394         | 3.9%       | ✅ High       |
 | 6         | XXS/XXL            | 1,058       | 10.4%      | ✅ High       |
 | 7         | Background         | 150         | 1.5%       | ✅ High       |
-| 8         | Gigantamax         | 17          | 0.2%       | ✅ High       |
-| 9         | Dynamax            | 45          | 0.4%       | ✅ High       |
+| 8         | Dynamax            | 45          | 0.4%       | ✅ High       |
+| 9         | Gigantamax         | 17          | 0.2%       | ✅ High       |
 | 10        | Legendary Reserve  | 643         | 6.3%       | ✅ High       |
 | 11        | Transfer Queue     | 76          | 0.7%       | ✅ High       |
 | 12        | General Reserve    | 2,441       | 24.0%      | ✅ High       |

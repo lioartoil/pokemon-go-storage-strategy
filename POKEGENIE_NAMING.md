@@ -27,29 +27,28 @@
 
 ### Core Generators (9 Current)
 
-| #   | Name             | Prefix | Condition          | Favorite | Categories | Example           |
-| --- | ---------------- | ------ | ------------------ | -------- | ---------- | ----------------- |
-| 1   | **Trade**        | ⇄      | Default            | (none)   | #10-13     | `⇄②⁴⁵⓪Char㈩`     |
-| 2   | **PVP IV (PvP)** | ₁      | PvP Rank % ≥ 97.5% | (auto)   | #1a, #1b   | `₁Ⓖ⓪Char84aa㈩`   |
-| 3   | **PVP IV (₁)**   | ₁      | Favorite ₁         | ₁        | #1a, #1b   | `₁Ⓤ①Venu38A`      |
-| 4   | **High IV (IV)** | ₂      | IV ≥ 90%           | (auto)   | Auto       | `₂⓪⁹⁶②●Char⁸aa㈩` |
-| 5   | **High IV (2)**  | ₂      | Has 2nd move       | (manual) | Manual     | `₂①Ve38⁹⁶②A`      |
-| 6   | **High IV (₂)**  | ₂      | Favorite ₂         | ₂        | #2, Manual | `₂⓪Char15⁹¹②A`    |
-| 7   | **Shiny (₃)**    | ₃      | Favorite ₃         | ₃        | #3         | `₃⓪⁸²②●Char㈩`    |
-| 8   | **Costume (₄)**  | ₃      | Favorite ₄         | ₄        | #4         | `₃⓪⁷⁶②Char㈩`     |
-| 9   | **Default**      | •      | Default (unused)   | (none)   | None       | `•⓪⁸²②●Char♀㈩`   |
+| #   | Name             | Prefix | Condition          | Favorite | Categories | Example         |
+| --- | ---------------- | ------ | ------------------ | -------- | ---------- | --------------- |
+| 1   | **Trade**        | ⇄      | Default            | (none)   | #10-13     | `⇄②⁴⁵⓪Char㈩`   |
+| 2   | **PVP IV (PvP)** | ₁      | PvP Rank % ≥ 97.5% | (auto)   | #1a, #1b   | `₁Ⓖ⓪Char84aa㈩` |
+| 3   | **PVP IV (₁)**   | ₁      | Favorite ₁         | ₁        | #1a, #1b   | `₁Ⓤ①Venu38A`    |
+| 4   | **High IV (IV)** | ₂      | IV ≥ 90%           | (auto)   | Auto       | `₂⓪Char⁹⁶②½A`   |
+| 5   | **High IV (2)**  | ₂      | Has 2nd move       | (auto)   | Auto       | `₂①Ve38⁹⁶②A`    |
+| 6   | **High IV (₂)**  | ₂      | Favorite ₂         | ₂        | #2, Manual | `₂⓪Char15⁹¹②A`  |
+| 7   | **Shiny (₃)**    | ₃      | Favorite ₃         | ₃        | #3         | `₃⓪⁸²②●Char㈩`  |
+| 8   | **Costume (₄)**  | ₄      | Favorite ₄         | ₄        | #4         | `₄⓪⁷⁶②Char㈩`   |
 
-**Note**: "Trade" is the **default generator** (no favorite assigned). It catches all Pokemon not matching other conditions.
+**Note**: "Trade" is the **default generator** (no favorite assigned). It catches all Pokemon not matching other conditions or generators.
 
 ### New Generators to Add (6 Total)
 
-| #   | Name               | Prefix | Favorite | Categories | Format                                               | Example          |
-| --- | ------------------ | ------ | -------- | ---------- | ---------------------------------------------------- | ---------------- |
-| 10  | **Shadow (₅)**     | ₅      | ₅        | #5         | `₅{Stage}{IV}{Lvl}{●}{Name}{Atk}{Atk2}{Leg}`         | `₅⓪⁸²②●Char⁸a㈩` |
-| 11  | **XXS/XXL (₆)**    | ₆      | ₆        | #6         | `₆{Size}{Stage}{IV}{Lvl}{Name}{Leg}`                 | `₆⊖⓪⁷⁵②Char㈩`   |
-| 12  | **Background (₇)** | ₇      | ₇        | #7         | `₇{Stage}{IV}{Lvl}{Name}{Leg}`                       | `₇⓪⁸²②Char㈩`    |
-| 13  | **Dynamax (₈)**    | ₈      | ₈        | #9         | `₈{Stage}{●/○}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}` | `₈⓪Char15⁹¹②A`   |
-| 14  | **Gigantamax (₉)** | ₉      | ₉        | #8         | `₉{Stage}{●/○}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}` | `₉⓪Char15⁹¹②A`   |
+| #   | Name               | Prefix | Favorite | Categories | Format                                               | Example        |
+| --- | ------------------ | ------ | -------- | ---------- | ---------------------------------------------------- | -------------- |
+| 9   | **Shadow (₅)**     | ₅      | ₅        | #5         | `₅{Stage}{IV}{Lvl}{●}{Name}{Leg}`                    | `₅⓪⁸²②●Char㈩` |
+| 10  | **XXS/XXL (₆)**    | ₆      | ₆        | #6         | `₆{Stage}{IV}{Lvl}{Name}{Leg}`                       | `₆⓪⁷⁵②Char㈩`  |
+| 11  | **Background (₇)** | ₇      | ₇        | #7         | `₇{Stage}{IV}{Lvl}{Name}{Leg}`                       | `₇⓪⁸²②Char㈩`  |
+| 12  | **Dynamax (₈)**    | ₈      | ₈        | #8         | `₈{Stage}{●/○}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}` | `₈⓪Char15⁹¹②A` |
+| 13  | **Gigantamax (₉)** | ₉      | ₉        | #9         | `₉{Stage}{●/○}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}` | `₉⓪Char15⁹¹②A` |
 
 **Note**: Dynamax (₈) and Gigantamax (₉) use the same format as Category #2 (High IV format) but with their own favorite prefix symbols.
 
@@ -63,12 +62,12 @@
 | ₁          | ₁      | #1a, #1b   | PvP IV override (GL/UL/LL)           |
 | ₂          | ₂      | #2, Manual | Master League PvP + High IV override |
 | ₃          | ₃      | #3         | Shiny Pokemon                        |
-| ₄          | ₃      | #4         | Costumed Pokemon                     |
+| ₄          | ₄      | #4         | Costumed Pokemon                     |
 | ₅          | ₅      | #5         | Shadow Pokemon                       |
 | ₆          | ₆      | #6         | XXS/XXL size extremes                |
 | ₇          | ₇      | #7         | Background Pokemon                   |
-| ₈          | ₈      | #9         | Dynamax Pokemon                      |
-| ₉          | ₉      | #8         | Gigantamax Pokemon                   |
+| ₈          | ₈      | #8         | Dynamax Pokemon                      |
+| ₉          | ₉      | #9         | Gigantamax Pokemon                   |
 | (auto-PvP) | ₁      | #1a, #1b   | Auto-assigned (PvP Rank % ≥ 97.5%)   |
 | (auto-IV)  | ₂      | Auto       | Auto-assigned (IV ≥ 90%)             |
 
@@ -97,29 +96,29 @@ They are structured as subcategories due to different retention rules (Little Le
 ```
 ₁{League}{Stage}{●/○}{Name}{Rank}{Atk}{Atk2}{Leg}
 Example: ₁Ⓖ⓪Char84aa㈩      (GL Rank 84, basic, no shadow)
-Example: ₁Ⓜ①●Metagr15⁸A㈩   (ML Rank 15, stage 1, shadow)
 Example: ₁Ⓤ①○Venu38A        (UL Rank 38, stage 1, purified)
+Example: ₁ⓛ⓪Pika25aa         (LL Rank 25, basic, no shadow)
 ```
 
 **High IV / Master League Format** (Category #2, Dynamax, Gigantamax):
 
 ```
 ₂{Stage}{●/○}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}
-Example: ₂⓪⁹⁶②●Char⁸aa㈩      (Basic, shadow, 96% IV, Lvl 2.5, auto-condition)
-Example: ₂①Ve38⁹⁶②A         (Stage 1, no shadow, Rank 38, 96% IV, Lvl 2)
-Example: ₂⓪Char15⁹¹②A       (Basic, no shadow, Rank 15, 91% IV, Lvl 2)
+Example: ₂⓪Char⁹⁶②½A          (Basic, no rank, 96% IV, Lvl 2.5, auto-condition)
+Example: ₂①Ve38⁹⁶②A          (Stage 1, no shadow, ML Rank 38, 96% IV, Lvl 2)
+Example: ₂⓪Char15⁹¹②A        (Basic, no shadow, ML Rank 15, 91% IV, Lvl 2)
 
 Dynamax/Gigantamax (same format, different prefix):
-Example: ₈⓪Char15⁹¹②A       (Dynamax, Rank 15, 91% IV, Lvl 2)
-Example: ₉⓪Char15⁹¹②A       (Gigantamax, Rank 15, 91% IV, Lvl 2)
+Example: ₈⓪Char15⁹¹②A        (Dynamax, Rank 15, 91% IV, Lvl 2)
+Example: ₉⓪Char15⁹¹②A        (Gigantamax, Rank 15, 91% IV, Lvl 2)
 ```
 
 **Shiny / Costumed Format** (Categories #3-4):
 
 ```
-₃{Stage}{IV}{Lvl}{●/○}{Name}{Leg}
-Example: ₃⓪⁸²②●Char㈩    (Basic, 82% IV, Lvl 2.5, shadow)
-Example: ₃①⁷⁶②Venu        (Stage 1, 76% IV, Lvl 2, no shadow)
+₃{Stage}{IV}{Lvl}{●/○}{Name}{Leg}  or  ₄{Stage}{IV}{Lvl}{●/○}{Name}{Leg}
+Example: ₃⓪⁸²②½●Char㈩   (Shiny, basic, 82% IV, Lvl 2.5, shadow)
+Example: ₄①⁷⁶②Venu        (Costume, stage 1, 76% IV, Lvl 2, no shadow)
 ```
 
 **Transfer Format** (Categories #10-13):
@@ -127,58 +126,62 @@ Example: ₃①⁷⁶②Venu        (Stage 1, 76% IV, Lvl 2, no shadow)
 ```
 ⇄{Lvl}{IV}{Stage}{●/○}{Name}{Leg}
 Example: ⇄②⁴⁵⓪Char㈩      (Lvl 2, 45% IV, basic, no shadow)
-Example: ⇄②●⁷⁶①Venu       (Lvl 2.5, 76% IV, stage 1, shadow)
+Example: ⇄②½⁷⁶①●Venu      (Lvl 2.5, 76% IV, stage 1, shadow)
 ```
 
-**Category-Specific Formats** (New):
+**Category-Specific Formats** (Shadow, XXS/XXL, Background):
 
 ```
-₅{Stage}{IV}{Lvl}{●}{Name}{Atk}{Atk2}{Leg}  (Shadow - always has ●)
-Example: ₅⓪⁸²②●Char⁸a㈩
+₅{Stage}{IV}{Lvl}{●}{Name}{Leg}  (Shadow - always has ●)
+Example: ₅⓪⁸²②½●Char㈩
 
-₆{Size}{Stage}{IV}{Lvl}{Name}{Leg}          (XXS/XXL)
-Example: ₆⊖⓪⁷⁵②Char㈩
+₆{Stage}{IV}{Lvl}{Name}{Leg}     (XXS/XXL - no size symbol needed)
+Example: ₆⓪⁷⁵②Char㈩
 
-₇{Stage}{IV}{Lvl}{Name}{Leg}                (Background)
+₇{Stage}{IV}{Lvl}{Name}{Leg}     (Background)
 Example: ₇⓪⁸²②Char㈩
-```
-
-**Default Format** (Unused):
-
-```
-•{Stage}{IV}{Lvl}{●/○}{Name}{Gender}{Leg}
-Example: •⓪⁸²②●Char♀㈩  (Rarely used - Trade is default)
 ```
 
 ---
 
 ## Symbol Legend
 
-| Symbol                                      | Meaning                            | Symbol            | Meaning         |
-| ------------------------------------------- | ---------------------------------- | ----------------- | --------------- |
-| `₁`, `₂`, `₃`, `₄`, `₅`, `₆`, `₇`, `₈`, `₉` | Favorite prefix                    | `⇄`               | Transfer/Trade  |
-| `Ⓖ`, `Ⓤ`, `Ⓛ`, `Ⓜ`                          | League (Great/Ultra/Little/Master) | `⓪`, `①`, `②`     | Evolution stage |
-| `●`                                         | Shadow                             | `○`               | Purified        |
-| `②`, `⑮`, `⑳`                               | Level                              | `⁸²`, `⁹⁶`, `¹⁰⁰` | IV percentage   |
-| `84`, `38`, `15`                            | PvP rank (no leading zeros)        | `⁸`, `A`, `a`     | Attack rating   |
-| `㈩`                                        | Legacy move                        | `♀`, `♂`          | Gender          |
-| `⊖`, `⊕`                                    | XXS/XXL                            | `•`               | Default         |
+| Symbol                                      | Meaning                     | Symbol                       | Meaning         |
+| ------------------------------------------- | --------------------------- | ---------------------------- | --------------- |
+| `₁`, `₂`, `₃`, `₄`, `₅`, `₆`, `₇`, `₈`, `₉` | Favorite prefix             | `⇄`                          | Transfer/Trade  |
+| `Ⓖ`, `Ⓤ`, `ⓛ`                               | League (Great/Ultra/Little) | `Ⓑ`, `⓪`, `①`, `②`, `Ⓜ`, `Ⓟ` | Evolution stage |
+| `●`                                         | Shadow                      | `○`                          | Purified        |
+| `②`, `⑮`, `⑳`                               | Level (whole)               | `②½`, `⑮½`, `⑳½`             | Level (half)    |
+| `⁸²`, `⁹⁶`, `¹⁰⁰`                           | IV percentage               | `84`, `38`, `15`             | PvP rank        |
+| `⁸`, `A`, `a`                               | Attack/Defense rating       | `㈩`                         | Legacy move     |
+| `♀`, `♂`                                    | Gender (rarely used)        |                              |                 |
 
 **Evolution Stage**:
 
-- `⓪` = Basic (e.g., Charmander)
-- `①` = Stage 1 (e.g., Charmeleon)
+- `Ⓑ` = Baby (e.g., Pichu, Riolu)
+- `⓪` = Basic (e.g., Pikachu, Charmander)
+- `①` = Stage 1 (e.g., Raichu, Charmeleon)
 - `②` = Stage 2 (e.g., Charizard)
+- `Ⓜ` = Mega (e.g., Mega Charizard)
+- `Ⓟ` = Primal (e.g., Primal Kyogre, Primal Groudon)
+
+**League Symbols**:
+
+- `Ⓖ` = Great League (CP ≤ 1,500)
+- `Ⓤ` = Ultra League (CP ≤ 2,500)
+- `ⓛ` = Little League (CP ≤ 500)
+- No symbol = Master League (unlimited CP)
 
 **Level Format**:
 
 - `②` = Level 2
-- `②●` = Level 2.5 (half-level, **NOT shadow boost**)
+- `②½` = Level 2.5 (half-level from power-up breakpoint)
 - `⑮` = Level 15
+- `⑮½` = Level 15.5
 - `⑳` = Level 20
-- `⑳●` = Level 20.5 (half-level)
+- `⑳½` = Level 20.5
 
-**Note**: Half-levels (e.g., 2.5, 20.5) occur when powering up Pokemon at certain breakpoints. Shadow boost is NOT related to level format.
+**Note**: Half-levels (e.g., 2.5, 20.5) use `½` symbol and occur at power-up breakpoints. Shadow boost is NOT related to level format.
 
 ---
 
@@ -200,9 +203,9 @@ Example: •⓪⁸²②●Char♀㈩  (Rarely used - Trade is default)
 - **98% threshold** ≈ Rank 82
 - **97.5% threshold** ≈ Rank 100
 
-**Recommendation**: **Change to `PvP Rank % >= 97.5%`** (aligns with Rank ≤ 100)
+**Recommendation**: **Change to `PvP Rank % >= 97.55%`** (aligns with Rank ≤ 100)
 
-**Note**: PokeGenie may only support whole numbers (97% or 98%). If 97.5% is not available, use **98%** (Rank ≤ 82, slightly more restrictive).
+**Note**: PokeGenie may only support certain decimal values. Use **97.55%** if available, otherwise **98%** (Rank ≤ 82, slightly more restrictive).
 
 ---
 
@@ -238,7 +241,7 @@ Some generators have duplicate formats for **manual overrides**:
 **High IV Formats**:
 
 - "High IV (IV)" - Auto (IV ≥ 90%)
-- "High IV (2)" - Manual (Has 2nd move)
+- "High IV (2)" - Auto (Has 2nd charge move)
 - "High IV (₂)" - Manual (Favorite ₂ for Master League + high IV)
 
 **Purpose**: Manually favorite Pokemon that don't meet auto-criteria but need same format.
@@ -253,12 +256,11 @@ Some generators have duplicate formats for **manual overrides**:
 
 In PokeGenie Settings → Name Generator:
 
-| Generator        | Current          | Change To                                              |
-| ---------------- | ---------------- | ------------------------------------------------------ |
-| **PVP IV (PvP)** | PvP Rank % ≥ 95% | **PvP Rank % ≥ 97.5%** (or 98% if 97.5% not available) |
-| **High IV (IV)** | IV ≥ 90%         | ✅ Keep as-is                                          |
-| **Trade**        | Default          | ✅ Keep as-is                                          |
-| **Default**      | Prefix `•`       | ✅ Keep (rarely used)                                  |
+| Generator        | Current          | Change To                                                |
+| ---------------- | ---------------- | -------------------------------------------------------- |
+| **PVP IV (PvP)** | PvP Rank % ≥ 95% | **PvP Rank % ≥ 97.55%** (or 98% if 97.55% not available) |
+| **High IV (IV)** | IV ≥ 90%         | ✅ Keep as-is                                            |
+| **Trade**        | Default          | ✅ Keep as-is                                            |
 
 **Rename Generators** (align with Favorite numbers):
 
@@ -272,12 +274,12 @@ In PokeGenie Settings → Name Generator:
 
 Create 6 new generators with formats above:
 
-- **Costume (₄)** with Favorite ₄ → Format: `₃{Stage}{IV}{Lvl}{●/○}{Name}{Leg}` (uses same `₃` prefix as Shiny)
-- **Shadow (₅)** with Favorite ₅ → Format: `₅{Stage}{IV}{Lvl}{●}{Name}{Atk}{Atk2}{Leg}`
-- **XXS/XXL (₆)** with Favorite ₆ → Format: `₆{Size}{Stage}{IV}{Lvl}{Name}{Leg}`
+- **Costume (₄)** with Favorite ₄ → Format: `₄{Stage}{IV}{Lvl}{●/○}{Name}{Leg}`
+- **Shadow (₅)** with Favorite ₅ → Format: `₅{Stage}{IV}{Lvl}{●}{Name}{Leg}`
+- **XXS/XXL (₆)** with Favorite ₆ → Format: `₆{Stage}{IV}{Lvl}{Name}{Leg}`
 - **Background (₇)** with Favorite ₇ → Format: `₇{Stage}{IV}{Lvl}{Name}{Leg}`
-- **Dynamax (₈)** with Favorite ₈ → Format: `₈{Stage}{●/○}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}` (same as High IV)
-- **Gigantamax (₉)** with Favorite ₉ → Format: `₉{Stage}{●/○}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}` (same as High IV)
+- **Dynamax (₈)** with Favorite ₈ → Format: `₈{Stage}{●/○}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}` (High IV format)
+- **Gigantamax (₉)** with Favorite ₉ → Format: `₉{Stage}{●/○}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}` (High IV format)
 
 ### 3. Test with 10-20 Pokemon
 
@@ -288,17 +290,18 @@ Create 6 new generators with formats above:
 
 ### 4. Update Tags in Pokemon GO
 
-After renaming, tag Pokemon:
+After renaming, tag Pokemon by prefix:
 
-- Search "₁" → Tag `#Great`, `#Ultra`, `#Little`, `#Rank1-3` (GL/UL/LL with top ranks)
-- Search "₂" → Tag `#Rank4-20`, `#Rank21-50` (Master League) OR high IV non-PvP
-- Search "₃" → Tag `#Kept` (Shiny or Costume)
+- Search "₁" → Review ranks, tag `#Great`, `#Ultra`, `#Little`, plus rank tags `#Rank1-3`, `#Rank4-20`, etc.
+- Search "₂" → Review ranks, tag Master League ranks OR tag as high IV keepers
+- Search "₃" → Tag `#Kept` (Shiny)
+- Search "₄" → Tag `#Kept` (Costume)
 - Search "₅" → Tag `#Kept` (Shadow)
 - Search "₆" → Tag `#Kept` (XXS/XXL)
 - Search "₇" → Tag `#Kept` (Background)
 - Search "₈" → Tag `#Kept` (Dynamax)
 - Search "₉" → Tag `#Kept` (Gigantamax)
-- Search "⇄" → Tag `#Transfer`, `#Home`, `#Trade`, `#LuckyTrade`
+- Search "⇄" → Tag `#Transfer`, `#Home`, `#Trade`, or `#LuckyTrade` based on retention category
 
 ---
 
@@ -310,12 +313,12 @@ After renaming, tag Pokemon:
 | #1b | Little League      | ₁      | Auto (PvP ≥97.5%) | Keep 3 (Rank ≤10), 1 (Rank 11-100) |
 | #2  | Master League      | ₂      | Favorite ₂        | Keep 3 (Rank ≤10), 1 (Rank 11-19)  |
 | #3  | Shiny              | ₃      | Favorite ₃        | Keep 2 per species                 |
-| #4  | Costumed           | ₃      | Favorite ₄        | Keep 2 per species                 |
+| #4  | Costumed           | ₄      | Favorite ₄        | Keep 2 per species                 |
 | #5  | Shadow             | ₅      | Favorite ₅        | Keep 2 per species                 |
 | #6  | XXS/XXL            | ₆      | Favorite ₆        | Keep 1 XXS + 1 XXL                 |
 | #7  | Background         | ₇      | Favorite ₇        | Keep 2 per species                 |
-| #8  | Gigantamax         | ₉      | Favorite ₉        | Keep 2 per species                 |
-| #9  | Dynamax            | ₈      | Favorite ₈        | Keep 2 per species                 |
+| #8  | Dynamax            | ₈      | Favorite ₈        | Keep 2 per species                 |
+| #9  | Gigantamax         | ₉      | Favorite ₉        | Keep 2 per species                 |
 | #10 | Legendary Reserve  | ⇄      | (none)            | Keep top 10 (level+IV)             |
 | #11 | Transfer Queue     | ⇄      | (none)            | Transfer at 2× candy events        |
 | #12 | General Reserve    | ⇄      | (none)            | Keep top 2 (level+IV)              |
@@ -342,7 +345,7 @@ After renaming, tag Pokemon:
 
 - Matches: Favorite ₂, High IV (96%)
 - **Applied**: "High IV (₂)" (Favorite has highest priority)
-- **Result**: `₂①●Metagr15⁹⁶②⁸A㈩`
+- **Result**: `₂①●Metagr15⁹⁶②A㈩`
 
 ---
 

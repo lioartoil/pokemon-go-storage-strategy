@@ -27,27 +27,27 @@
 
 ### Core Generators (9 Current)
 
-| #   | Name             | Prefix | Condition        | Favorite | Categories | Example          |
-| --- | ---------------- | ------ | ---------------- | -------- | ---------- | ---------------- |
-| 1   | **Trade**        | ⇄      | Default          | (none)   | #11-14     | `⇄②⁴⁵⓪Char㈩`     |
-| 2   | **PVP IV (PvP)** | ₁      | PvP Rank % ≥ 97.5% | (auto)   | #1, #2     | `₁Ⓖ⓪Char84aa㈩`  |
-| 3   | **PVP IV (₁)**   | ₁      | Favorite ₁       | ₁        | #1, #2     | `₁Ⓤ①Venu38A`     |
-| 4   | **High IV (IV)** | ₂      | IV ≥ 90%         | (auto)   | Auto       | `₂⓪84⁹⁶②●⁸aa㈩`  |
-| 5   | **High IV (2)**  | ₂      | Has 2nd move     | (manual) | Manual     | `₂①Ve38⁹⁶②A`     |
-| 6   | **High IV (₂)**  | ₂      | Favorite ₂       | ₂        | #3, Manual | `₂⓪Char15⁹¹②A`   |
-| 7   | **Shiny**        | ₃      | Favorite ₃       | ₃        | #4         | `₃⓪⁸²②●Char㈩`   |
-| 8   | **Costume (₄)**  | ₃      | Favorite ₄       | ₄        | #5         | `₃⓪⁷⁶②Char㈩`    |
-| 9   | **Default**      | •      | Default (unused) | (none)   | None       | `•⓪⁸²②●Char♀㈩`  |
+| #   | Name             | Prefix | Condition          | Favorite | Categories | Example         |
+| --- | ---------------- | ------ | ------------------ | -------- | ---------- | --------------- |
+| 1   | **Trade**        | ⇄      | Default            | (none)   | #11-14     | `⇄②⁴⁵⓪Char㈩`   |
+| 2   | **PVP IV (PvP)** | ₁      | PvP Rank % ≥ 97.5% | (auto)   | #1, #2     | `₁Ⓖ⓪Char84aa㈩` |
+| 3   | **PVP IV (₁)**   | ₁      | Favorite ₁         | ₁        | #1, #2     | `₁Ⓤ①Venu38A`    |
+| 4   | **High IV (IV)** | ₂      | IV ≥ 90%           | (auto)   | Auto       | `₂⓪⁹⁶②●Char⁸aa㈩` |
+| 5   | **High IV (2)**  | ₂      | Has 2nd move       | (manual) | Manual     | `₂①Ve38⁹⁶②A`    |
+| 6   | **High IV (₂)**  | ₂      | Favorite ₂         | ₂        | #3, Manual | `₂⓪Char15⁹¹②A`  |
+| 7   | **Shiny (₃)**    | ₃      | Favorite ₃         | ₃        | #4         | `₃⓪⁸²②●Char㈩`  |
+| 8   | **Costume (₄)**  | ₃      | Favorite ₄         | ₄        | #5         | `₃⓪⁷⁶②Char㈩`   |
+| 9   | **Default**      | •      | Default (unused)   | (none)   | None       | `•⓪⁸²②●Char♀㈩` |
 
 **Note**: "Trade" is the **default generator** (no favorite assigned). It catches all Pokemon not matching other conditions.
 
 ### New Generators to Add (6 Total)
 
-| #   | Name               | Prefix | Favorite | Categories | Format                                      | Example           |
-| --- | ------------------ | ------ | -------- | ---------- | ------------------------------------------- | ----------------- |
-| 10  | **Shadow (₅)**     | ₅      | ₅        | #6         | `₅{Stage}{IV}{Lvl}{●}{Name}{Atk}{Atk2}{Leg}` | `₅⓪⁸²②●Char⁸a㈩`  |
-| 11  | **XXS/XXL (₆)**    | ₆      | ₆        | #7         | `₆{Size}{Stage}{IV}{Lvl}{Name}{Leg}`        | `₆⊖⓪⁷⁵②Char㈩`    |
-| 12  | **Background (₇)** | ₇      | ₇        | #8         | `₇{Stage}{IV}{Lvl}{Name}{Leg}`              | `₇⓪⁸²②Char㈩`     |
+| #   | Name               | Prefix | Favorite | Categories | Format                                               | Example          |
+| --- | ------------------ | ------ | -------- | ---------- | ---------------------------------------------------- | ---------------- |
+| 10  | **Shadow (₅)**     | ₅      | ₅        | #6         | `₅{Stage}{IV}{Lvl}{●}{Name}{Atk}{Atk2}{Leg}`         | `₅⓪⁸²②●Char⁸a㈩` |
+| 11  | **XXS/XXL (₆)**    | ₆      | ₆        | #7         | `₆{Size}{Stage}{IV}{Lvl}{Name}{Leg}`                 | `₆⊖⓪⁷⁵②Char㈩`   |
+| 12  | **Background (₇)** | ₇      | ₇        | #8         | `₇{Stage}{IV}{Lvl}{Name}{Leg}`                       | `₇⓪⁸²②Char㈩`    |
 | 13  | **Dynamax (₈)**    | ₈      | ₈        | #10        | `₈{Stage}{●/○}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}` | `₈⓪Char15⁹¹②A`   |
 | 14  | **Gigantamax (₉)** | ₉      | ₉        | #9         | `₉{Stage}{●/○}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}` | `₉⓪Char15⁹¹②A`   |
 
@@ -71,6 +71,12 @@
 | ₉          | ₉      | #9         | Gigantamax Pokemon                   |
 | (auto-PvP) | ₁      | #1, #2     | Auto-assigned (PvP Rank % ≥ 97.5%)   |
 | (auto-IV)  | ₂      | Auto       | Auto-assigned (IV ≥ 90%)             |
+
+**Note on Categories #1 & #2**: These are **separate storage categories** but share **Favorite ₁** because they both use PvP IV ranking format:
+- **Category #1** (Great/Ultra League): CP ≤ 1,500 or ≤ 2,500, Rank ≤ 100
+- **Category #2** (Little League): CP ≤ 500, Rank ≤ 100 (60th+ percentile) or ≤ 19 (others)
+
+They remain separate categories due to different retention rules (Little League has percentile filtering). Both use the same naming format and Favorite group.
 
 **Auto-Conditions**:
 
@@ -98,7 +104,7 @@ Example: ₁Ⓤ①○Venu38A        (UL Rank 38, stage 1, purified)
 
 ```
 ₂{Stage}{●/○}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}
-Example: ₂⓪84⁹⁶②●⁸aa㈩      (Basic, shadow, Rank 84, 96% IV, Lvl 2.5)
+Example: ₂⓪⁹⁶②●Char⁸aa㈩      (Basic, shadow, 96% IV, Lvl 2.5, auto-condition)
 Example: ₂①Ve38⁹⁶②A         (Stage 1, no shadow, Rank 38, 96% IV, Lvl 2)
 Example: ₂⓪Char15⁹¹②A       (Basic, no shadow, Rank 15, 91% IV, Lvl 2)
 
@@ -246,20 +252,20 @@ Some generators have duplicate formats for **manual overrides**:
 
 In PokeGenie Settings → Name Generator:
 
-| Generator        | Current          | Change To                  |
-| ---------------- | ---------------- | -------------------------- |
+| Generator        | Current          | Change To                                              |
+| ---------------- | ---------------- | ------------------------------------------------------ |
 | **PVP IV (PvP)** | PvP Rank % ≥ 95% | **PvP Rank % ≥ 97.5%** (or 98% if 97.5% not available) |
-| **High IV (IV)** | IV ≥ 90%         | ✅ Keep as-is              |
-| **Trade**        | Default          | ✅ Keep as-is              |
-| **Default**      | Prefix `•`       | ✅ Keep (rarely used)      |
+| **High IV (IV)** | IV ≥ 90%         | ✅ Keep as-is                                          |
+| **Trade**        | Default          | ✅ Keep as-is                                          |
+| **Default**      | Prefix `•`       | ✅ Keep (rarely used)                                  |
 
 **Rename Generators** (align with Favorite numbers):
 
-| Old Name       | New Name       | Favorite | Change    |
-| -------------- | -------------- | -------- | --------- |
-| **PVP IV (₂)** | **PVP IV (₁)** | ₁        | ✅ Rename |
+| Old Name        | New Name        | Favorite | Change    |
+| --------------- | --------------- | -------- | --------- |
+| **PVP IV (₂)**  | **PVP IV (₁)**  | ₁        | ✅ Rename |
 | **High IV (₃)** | **High IV (₂)** | ₂        | ✅ Rename |
-| **Kept (₄)**   | **Shiny**      | ₃        | ✅ Rename |
+| **Kept (₄)**    | **Shiny (₃)**   | ₃        | ✅ Rename |
 
 ### 2. Add New Generators
 

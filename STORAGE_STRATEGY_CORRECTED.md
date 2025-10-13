@@ -1,7 +1,7 @@
 # Pokemon GO Storage Strategy (CORRECTED)
 
 **Current Utilization**: 10,184 / 10,500 (316 free slots, ~3% free)
-**Last Updated**: 2025-10-11 (Corrected based on user feedback)
+**Last Updated**: 2025-10-13 (Category renumbering: #1a/#1b structure)
 
 ---
 
@@ -24,7 +24,7 @@
 1. **Species Separation**: Mega, Shadow, Shiny, Costumed, and Background variants are treated as separate species
 2. **IV Ranking**: Pokemon are evaluated based on their PvP IV rankings (optimal stat distributions for specific CP caps)
 3. **Multi-Category Eligibility**: Pokemon may qualify for multiple categories, but count as 1 Pokemon only
-4. **Priority Hierarchy**: Competitive leagues (1-3) > Special variants (4-10) > Reserves (11-13) > Trade queue (14)
+4. **Priority Hierarchy**: Competitive leagues (1a-2) > Special variants (3-9) > Reserves (10-12) > Trade queue (13)
 5. **Special Move Bonus**: Each category gets +1 slot if no current Pokemon has a special/legacy move
 
 ---
@@ -35,9 +35,9 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 **Example**: Shiny Shadow Charizard with rank #5 IV for Great League
 
-1. **Check Category 1-3** (Competitive leagues): If rank #5 qualifies for Category 1 and is in best 3 for species → **Category 1**
-2. **Else check Category 6** (Shadow): If not in best 3 for Category 1, check if in best 2 shadow → **Category 6**
-3. **Else check Category 4** (Shiny): If not in best 2 shadow, check if in best 2 shiny → **Category 4**
+1. **Check Category 1a-2** (Competitive leagues): If rank #5 qualifies for Category 1a and is in best 3 for species → **Category 1a**
+2. **Else check Category 5** (Shadow): If not in best 3 for Category 1a, check if in best 2 shadow → **Category 5**
+3. **Else check Category 3** (Shiny): If not in best 2 shadow, check if in best 2 shiny → **Category 3**
 4. Continue down hierarchy...
 
 **Result**: Pokemon counts as **1 total** in highest priority category it qualifies for.
@@ -46,7 +46,7 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ## Category Breakdown
 
-### Category 1: Great & Ultra League Competitive Pokemon
+### Category 1a: Great & Ultra League Competitive Pokemon
 
 **Total**: 1,370 Pokemon
 
@@ -69,7 +69,7 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ---
 
-### Category 2: Little League Competitive Pokemon
+### Category 1b: Little League Competitive Pokemon
 
 **Total**: 498 Pokemon
 
@@ -97,7 +97,7 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ---
 
-### Category 3: Master League Competitive Pokemon
+### Category 2: Master League Competitive Pokemon
 
 **Total**: 2,037 Pokemon
 
@@ -131,7 +131,7 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ---
 
-### Category 4: Shiny Pokemon
+### Category 3: Shiny Pokemon
 
 **Total**: 1,058 Pokemon
 
@@ -151,7 +151,7 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ---
 
-### Category 5: Costumed Pokemon
+### Category 4: Costumed Pokemon
 
 **Total**: 324 Pokemon
 
@@ -171,7 +171,7 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ---
 
-### Category 6: Shadow Pokemon
+### Category 5: Shadow Pokemon
 
 **Total**: 394 Pokemon
 
@@ -186,13 +186,13 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 **Purpose**: Future purification, special moves, or potential PvP use
 
-**Note**: Shadow Pokemon qualifying for competitive leagues (Categories 1-3) count in highest priority category only
+**Note**: Shadow Pokemon qualifying for competitive leagues (Categories 1a-2) count in highest priority category only
 
 **User Notes**: This aligns with collecting priority - keep current strategy.
 
 ---
 
-### Category 7: Size Extremes (XXS & XXL)
+### Category 6: Size Extremes (XXS & XXL)
 
 **Total**: 1,058 Pokemon
 
@@ -211,7 +211,7 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ---
 
-### Category 8: Background Pokemon
+### Category 7: Background Pokemon
 
 **Total**: 150 Pokemon
 
@@ -230,7 +230,7 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ---
 
-### Category 9: Gigantamax Pokemon
+### Category 8: Gigantamax Pokemon
 
 **Total**: 17 Pokemon
 
@@ -246,7 +246,7 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ---
 
-### Category 10: Dynamax Pokemon
+### Category 9: Dynamax Pokemon
 
 **Total**: 45 Pokemon
 
@@ -262,14 +262,14 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ---
 
-### Category 11: Legendary & Ultra Beast Reserve
+### Category 10: Legendary & Ultra Beast Reserve
 
 **Total**: 643 Pokemon
 
 **Criteria**:
 
 - Legendary or Ultra Beast Pokemon
-- Does NOT meet criteria for Categories 1-10
+- Does NOT meet criteria for Categories 1a-9
 
 **Retention Rules**:
 
@@ -287,13 +287,13 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ---
 
-### Category 12: Legendary/Mythical/Ultra Beast Transfer Queue
+### Category 11: Legendary/Mythical/Ultra Beast Transfer Queue
 
 **Total**: 76 Pokemon (CORRECTED to include Ultra Beasts)
 
 **Criteria**:
 
-- Legendary Pokemon from Category 11 that didn't make top 10
+- Legendary Pokemon from Category 10 that didn't make top 10
 - **All Ultra Beasts that didn't make top 10** (CORRECTED)
 - All Mythical Pokemon (generally cannot be traded)
 
@@ -307,13 +307,13 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ---
 
-### Category 13: General Population Reserve
+### Category 12: General Population Reserve
 
 **Total**: 2,441 Pokemon
 
 **Criteria**:
 
-- Any Pokemon not meeting Categories 1-12
+- Any Pokemon not meeting Categories 1a-11
 
 **Retention Rules**:
 
@@ -328,13 +328,13 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ---
 
-### Category 14: Lucky Trade Candidates
+### Category 13: Lucky Trade Candidates
 
 **Total**: <100 Pokemon (estimated)
 
 **Criteria**:
 
-- Pokemon from Category 13 that didn't make top 2
+- Pokemon from Category 12 that didn't make top 2
 - Age ≥ 364 days (will be kept until age ≥ 1,095 days / 3 years)
 
 **Retention Rules**:
@@ -354,10 +354,10 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 **Action**: Trade immediately once Pokemon reach 3 years old (no benefit to holding longer)
 
-**Query Suggestion**: To count Category 14, search for:
+**Query Suggestion**: To count Category 13, search for:
 
 - Age filter: 364+ days to 3 years
-- Exclude: Pokemon in Categories 1-13
+- Exclude: Pokemon in Categories 1a-12
 
 ---
 
@@ -365,25 +365,25 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 | Category  | Description        | Count       | % of Total | User Priority |
 | --------- | ------------------ | ----------- | ---------- | ------------- |
-| 1         | Great/Ultra League | 1,370       | 13.5%      | ⚠️ Low (PvP)  |
-| 2         | Little League      | 498         | 4.9%       | ⚠️ Low (PvP)  |
-| 3         | Master League      | 2,037       | 20.0%      | ⚠️ Low (PvP)  |
-| 4         | Shiny              | 1,058       | 10.4%      | ✅ High       |
-| 5         | Costumed           | 324         | 3.2%       | ✅ High       |
-| 6         | Shadow             | 394         | 3.9%       | ✅ High       |
-| 7         | XXS/XXL            | 1,058       | 10.4%      | ✅ High       |
-| 8         | Background         | 150         | 1.5%       | ✅ High       |
-| 9         | Gigantamax         | 17          | 0.2%       | ✅ High       |
-| 10        | Dynamax            | 45          | 0.4%       | ✅ High       |
-| 11        | Legendary Reserve  | 643         | 6.3%       | ✅ High       |
-| 12        | Transfer Queue     | 76          | 0.7%       | ✅ High       |
-| 13        | General Reserve    | 2,441       | 24.0%      | ✅ High       |
-| 14        | Lucky Trade Queue  | <100        | <1%        | ✅ High       |
+| 1a        | Great/Ultra League | 1,370       | 13.5%      | ⚠️ Low (PvP)  |
+| 1b        | Little League      | 498         | 4.9%       | ⚠️ Low (PvP)  |
+| 2         | Master League      | 2,037       | 20.0%      | ⚠️ Low (PvP)  |
+| 3         | Shiny              | 1,058       | 10.4%      | ✅ High       |
+| 4         | Costumed           | 324         | 3.2%       | ✅ High       |
+| 5         | Shadow             | 394         | 3.9%       | ✅ High       |
+| 6         | XXS/XXL            | 1,058       | 10.4%      | ✅ High       |
+| 7         | Background         | 150         | 1.5%       | ✅ High       |
+| 8         | Gigantamax         | 17          | 0.2%       | ✅ High       |
+| 9         | Dynamax            | 45          | 0.4%       | ✅ High       |
+| 10        | Legendary Reserve  | 643         | 6.3%       | ✅ High       |
+| 11        | Transfer Queue     | 76          | 0.7%       | ✅ High       |
+| 12        | General Reserve    | 2,441       | 24.0%      | ✅ High       |
+| 13        | Lucky Trade Queue  | <100        | <1%        | ✅ High       |
 | **Total** |                    | **10,184+** | **~97%**   |               |
 
 **Free Space**: 316 slots (~3%)
 
-**Optimization Opportunity**: Categories 1-3 (PvP) = 3,905 Pokemon (38.3%) with LOW priority for your goals
+**Optimization Opportunity**: Categories 1a-2 (PvP) = 3,905 Pokemon (38.3%) with LOW priority for your goals
 
 ---
 
@@ -391,26 +391,26 @@ When a Pokemon qualifies for multiple categories, use this hierarchy:
 
 ### Daily Tasks (Corrected)
 
-- **Audit Categories 1-3 for duplicates** (you currently do this - confirmed)
-- Review and transfer Category 14 Pokemon that have aged 3+ years
+- **Audit Categories 1a-2 for duplicates** (you currently do this - confirmed)
+- Review and transfer Category 13 Pokemon that have aged 3+ years
 - Transfer duplicate catches that don't meet any category criteria
-- Check Category 12 for 2× candy event opportunities
+- Check Category 11 for 2× candy event opportunities
 
 ### Weekly Tasks
 
-- Review legendary raid catches (Category 11)
-- Evaluate new shiny/costumed additions (Categories 4-5)
+- Review legendary raid catches (Category 10)
+- Evaluate new shiny/costumed additions (Categories 3-4)
 
 ### Event-Based Tasks
 
-- During 2× Transfer Candy: Clear Category 12
-- During Lucky Trade Events: Prioritize Category 14 trades (3+ years old)
+- During 2× Transfer Candy: Clear Category 11
+- During Lucky Trade Events: Prioritize Category 13 trades (3+ years old)
 - After Community Day: Evaluate CD shinies
 
 ### Monthly Tasks
 
 - Verify IV rankings haven't shifted due to game balance changes
-- Review and prune Category 13 for Pokemon that have aged enough for Category 14
+- Review and prune Category 12 for Pokemon that have aged enough for Category 13
 
 ---
 
@@ -482,4 +482,4 @@ Or use PokeGenie's move filter.
 
 ---
 
-_Corrected based on user feedback: 2025-10-11_
+_Category renumbering (#1a/#1b structure): 2025-10-13_

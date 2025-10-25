@@ -64,7 +64,9 @@ Before transferring ANY Pokemon, exclude these categories:
 
 **⚠️ NEVER TRANSFER THESE** (even if ML Rank 21+, they're valuable for raids):
 
-**Top Priority Raid Attackers** (keep 6-12 each unless noted*, verified 2025-10-12):
+**For exact recommended counts per attacker, see**: `docs/reference/RAID_ATTACKER_COUNTS.md`
+
+**Top Priority Raid Attackers** (keep 6-12 each unless noted\*, verified 2025-10-14):
 
 - **Normal**: Shadow Regigigas, Shadow Staraptor, Regigigas
 - **Fighting**: Mega Lucario, Mega Blaziken, Lucario, Terrakion, Shadow Machamp
@@ -79,7 +81,7 @@ Before transferring ANY Pokemon, exclude these categories:
 - **Water**: Primal Kyogre, Shadow Kyogre, Palkia (Origin), Mega Swampert, Shadow Swampert, Kyogre
 - **Grass**: Mega Sceptile, Kartana, Shadow Sceptile, Shadow Tangrowth, Shadow Venusaur, Roserade
 - **Electric**: Shadow Electivire, Xurkitree, Shadow Raikou, Zekrom, Shadow Zapdos, Shadow Magnezone, Electivire
-- **Psychic**: Shadow Mewtwo, Mega Alakazam, Mewtwo, Deoxys (Attack: 3-4 only*), Shadow Metagross, Shadow Latios, Espeon, Alakazam
+- **Psychic**: Shadow Mewtwo, Mega Alakazam, Mewtwo, Deoxys (Attack: 3-4 only\*), Shadow Metagross, Shadow Latios, Espeon, Alakazam
 - **Ice**: Shadow Mamoswine, Shadow Weavile, Kyurem, Mamoswine, Weavile, Glaceon
 - **Dragon**: Mega Rayquaza, Rayquaza, Shadow Salamence, Mega Garchomp, Shadow Dragonite, Shadow Garchomp, Palkia, Salamence, Dragonite, Dialga
 - **Dark**: Shadow Honchkrow, Shadow Tyranitar, Yveltal, Hoopa (Unbound), Tyranitar, Shadow Weavile, Hydreigon

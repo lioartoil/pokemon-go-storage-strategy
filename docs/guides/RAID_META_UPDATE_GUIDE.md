@@ -27,12 +27,14 @@
 | **Grass**    | Mega Sceptile, Kartana, Shadow Sceptile, Shadow Exeggutor        | 6-12 each  | ✅ Verified     |
 | **Electric** | Shadow Electivire, Xurkitree, Shadow Raikou, Zekrom              | 6-12 each  | ✅ Verified     |
 | **Psychic**  | Shadow Mewtwo, Mega Alakazam, Deoxys (Attack), Mewtwo            | 6-12 each  | ✅ Verified     |
-| **Ice**      | Shadow Mamoswine, Shadow Weavile, Chien-Pao, Kyurem              | 6-12 each  | ✅ Verified     |
+| **Ice**      | Kyurem (White/Black): 10-12\*, Shadow Mamoswine, Shadow Weavile  | 6-12 each  | ✅ Updated      |
 | **Dragon**   | Mega Rayquaza, Rayquaza, Shadow Salamence, Mega Garchomp         | 6-12 each  | ✅ Verified     |
 | **Dark**     | Shadow Honchkrow, Shadow Crawdaunt, Shadow Tyranitar, Yveltal    | 6-12 each  | ✅ Verified     |
 | **Fairy**    | Mega Gardevoir, Enamorus, Shadow Gardevoir, Xerneas              | 6-12 each  | ✅ Verified     |
 
-**✅ VERIFIED**: Data extracted from GamePress Comprehensive DPS/TDO Spreadsheet (2025-10-12). Full data available in `meta/raid_attackers_by_type.json`.
+**✅ VERIFIED**: Data extracted from GamePress Comprehensive DPS/TDO Spreadsheet (2025-10-12) and PokeMonGo Hub raid simulator. Full data available in `meta/raid_attackers_by_type.json` and `meta/pokemongohub/ice_response.json`.
+
+**\*Ice Exception**: White Kyurem (#1, DPS: 30.6) and Black Kyurem (#2, DPS: 27.2) are elite Ice attackers, significantly better than Shadow Mamoswine (#3, DPS: 25.1). Keep 10-12 copies of each forme.
 
 ---
 

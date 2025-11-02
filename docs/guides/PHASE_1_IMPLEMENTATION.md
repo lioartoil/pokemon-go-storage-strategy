@@ -82,12 +82,14 @@ Before transferring ANY Pokemon, exclude these categories:
 - **Grass**: Mega Sceptile, Kartana, Shadow Sceptile, Shadow Tangrowth, Shadow Venusaur, Roserade
 - **Electric**: Shadow Electivire, Xurkitree, Shadow Raikou, Zekrom, Shadow Zapdos, Shadow Magnezone, Electivire
 - **Psychic**: Shadow Mewtwo, Mega Alakazam, Mewtwo, Deoxys (Attack: 3-4 only\*), Shadow Metagross, Shadow Latios, Espeon, Alakazam
-- **Ice**: Shadow Mamoswine, Shadow Weavile, Kyurem, Mamoswine, Weavile, Glaceon
+- **Ice**: **Kyurem (White/Black): 10-12 each\*\***, Shadow Mamoswine, Shadow Weavile, Kyurem (regular), Mamoswine, Weavile, Glaceon
 - **Dragon**: Mega Rayquaza, Rayquaza, Shadow Salamence, Mega Garchomp, Shadow Dragonite, Shadow Garchomp, Palkia, Salamence, Dragonite, Dialga
 - **Dark**: Shadow Honchkrow, Shadow Tyranitar, Yveltal, Hoopa (Unbound), Tyranitar, Shadow Weavile, Hydreigon
 - **Fairy**: Mega Gardevoir, Shadow Gardevoir, Xerneas, Gardevoir, Togekiss, Primarina, Granbull
 
 **\*Exception**: Deoxys (Attack Forme) is a glass cannon with extremely low bulk (TDO: 171.8). Keep only 3-4 copies instead of 6-12. Other Deoxys formes (Normal, Defense, Speed) are not top raid attackers - only keep for PvP if needed.
+
+**\*\*Ice Exception**: Kyurem (White) and Kyurem (Black) are the #1 and #2 Ice-type raid attackers (DPS: 30.6 and 27.2 respectively), significantly outperforming Shadow Mamoswine. Keep 10-12 copies of each forme. Regular Kyurem is weaker (DPS: 18.9), keep only 6-8.
 
 **Master League Top 20 Meta** (also exclude):
 

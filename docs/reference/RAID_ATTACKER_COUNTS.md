@@ -41,6 +41,8 @@ This document provides **exact recommended counts** for each top raid attacker b
 | **Shadow Dragonite**   | **10**    | Dragon, Flying       | Rank #5/#7, dual coverage, common candy        |
 | **Palkia (Origin)**    | **10**    | Dragon, Water        | Dual-type legendary, top ranks                 |
 | **Dialga (Origin)**    | **10**    | Dragon, Steel        | Dual-type legendary, top ranks                 |
+| **Kyurem (White)**     | **10-12** | Ice, Dragon          | #1 Ice attacker, legendary, excellent DPS      |
+| **Kyurem (Black)**     | **10-12** | Ice, Dragon          | #2 Ice attacker, legendary, excellent DPS      |
 | **Terrakion**          | **8-10**  | Fighting, Rock       | Rank #8/#5, dual coverage, good bulk           |
 | **Mega Heracross**     | **8**     | Bug, Fighting        | Top Bug, #4 Fighting, raid-exclusive           |
 | **Pheromosa**          | **8**     | Bug, Fighting        | Rank #2/#6, Ultra Beast rarity                 |
@@ -50,7 +52,7 @@ This document provides **exact recommended counts** for each top raid attacker b
 | **Hoopa (Unbound)**    | **8**     | Dark, Ghost, Psychic | Tri-type coverage, mythical                    |
 | **Reshiram**           | **8**     | Fire, Dragon         | Legendary, excellent bulk                      |
 | **Zekrom**             | **8**     | Electric, Dragon     | Legendary, excellent bulk                      |
-| **Kyurem**             | **8**     | Ice, Dragon          | Legendary, good bulk                           |
+| **Kyurem**             | **6-8**   | Ice, Dragon          | Regular forme (formes are superior)            |
 | **Xerneas**            | **8**     | Fairy                | Legendary, excellent bulk (TDO: 725.4)         |
 | **Shadow Groudon**     | **6-8**   | Ground               | Rank #3, shadow legendary                      |
 | **Shadow Kyogre**      | **6-8**   | Water                | Rank #2, shadow legendary                      |
@@ -319,14 +321,16 @@ This document provides **exact recommended counts** for each top raid attacker b
 
 ### Ice Type
 
-| Pokemon          | Count | Rank | ER    | Notes                         |
-| ---------------- | ----- | ---- | ----- | ----------------------------- |
-| Shadow Mamoswine | 6-8   | #1   | 49.62 | Also #6 Ground, dual coverage |
-| Shadow Weavile   | 6-8   | #2   | 46.95 | Also #5 Dark, dual coverage   |
-| Kyurem           | 8     | #4   | 46.93 | Also Dragon, legendary bulk   |
-| Mamoswine        | 6     | #7   | 42.69 | Also Ground, accessible       |
-| Weavile          | 6     | #8   | 40.62 | Also Dark, accessible         |
-| Glaceon          | 6     | #10+ | -     | Eeveelution, accessible       |
+| Pokemon          | Count | Rank | DPS/TDO      | Notes                                    |
+| ---------------- | ----- | ---- | ------------ | ---------------------------------------- |
+| Kyurem (White)   | 10-12 | #1   | 30.6 / 733.5 | Legendary forme, Dragon/Ice, elite DPS   |
+| Kyurem (Black)   | 10-12 | #2   | 27.2 / 652.0 | Legendary forme, Dragon/Ice, excellent   |
+| Shadow Mamoswine | 6-8   | #3   | 25.1 / 404.1 | Also #6 Ground, dual coverage            |
+| Shadow Weavile   | 6-8   | #4   | 23.6 / 319.5 | Also #5 Dark, dual coverage              |
+| Kyurem (regular) | 6-8   | #5+  | 18.9 / 721.0 | Regular forme (White/Black are superior) |
+| Mamoswine        | 6     | #7   | 17.8 / 585.7 | Also Ground, accessible                  |
+| Weavile          | 6     | #8   | 17.7 / 489.4 | Also Dark, accessible                    |
+| Glaceon          | 6     | #10+ | -            | Eeveelution, accessible                  |
 
 **Ice Raid Frequency**: High (Dragon/Flying/Grass/Ground bosses common)
 
@@ -485,6 +489,8 @@ Primal evolutions require special Primal Energy and are extremely powerful:
 - Mewtwo (Psychic #6, accessible)
 - Primal Groudon (Ground #1)
 - Primal Kyogre (Water #1)
+- **Kyurem (White)** (Ice #1, Dragon/Ice)
+- **Kyurem (Black)** (Ice #2, Dragon/Ice)
 - Shadow Salamence (Dragon/Flying #3/#3)
 - Shadow Dragonite (Dragon/Flying #5/#7)
 - Palkia Origin (Dragon/Water #9/#3)
@@ -495,9 +501,10 @@ Primal evolutions require special Primal Energy and are extremely powerful:
 - Terrakion (Fighting/Rock #8/#5)
 - Reshiram (Fire/Dragon #8)
 - Zekrom (Electric/Dragon #9)
-- Kyurem (Ice/Dragon #4)
 - Xerneas (Fairy #8)
 - Yveltal (Dark/Flying #9)
+
+**Note**: Kyurem (regular forme) moved to Tier 4 (6-8 copies) since White/Black formes are superior.
 
 ### Tier 4: Keep 6-8 (Solid Options)
 

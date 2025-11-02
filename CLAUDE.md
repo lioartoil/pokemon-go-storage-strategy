@@ -44,9 +44,32 @@ pokemon/
 └── scripts/                            # Python automation scripts
 ```
 
-## Recent Work (2025-10-14)
+## Recent Work (2025-11-02)
 
-### Session Summary (Latest: Raid Attacker Analysis)
+### Session Summary (Latest: Kyurem Formes & Fusion Mechanics)
+
+**Critical Discovery**: White Kyurem and Black Kyurem were missing from raid attacker documentation.
+
+1. **Kyurem Formes Added**: Identified and documented missing elite Ice attackers
+   - **White Kyurem**: #1 Ice attacker (DPS: 30.6, TDO: 733.5) → 10-12 copies
+   - **Black Kyurem**: #2 Ice attacker (DPS: 27.2, TDO: 652.0) → 10-12 copies
+   - Regular Kyurem: Downgraded from 8 to 6-8 copies (formes are superior)
+
+2. **Fusion Mechanics Research**: Investigated accessibility and buddy system
+   - **NO buddy walking for fusion energy** (critical difference from Mega/Primal)
+   - Fusion energy only from: raids (~100/raid), special research (50), promo codes
+   - Need 1,000 energy per forme = ~10 raids per forme
+   - Fusions are **permanent** (unlike Megas/Primals) and **allow multiple** simultaneously
+   - Accessibility is **event-locked** (only when Black/White Kyurem in raids)
+
+3. **Documentation Updates**: Updated 3 files
+   - `RAID_ATTACKER_COUNTS.md`: Quick ref, Ice section, tier summaries
+   - `PHASE_1_IMPLEMENTATION.md`: Ice exception with retention counts
+   - `RAID_META_UPDATE_GUIDE.md`: Prioritize formes, add data sources
+
+4. **Git Commit**: `24868b1` - docs(raid): add Kyurem (White) and Kyurem (Black) formes to attacker lists
+
+### Earlier Work (2025-10-14)
 
 Completed comprehensive raid attacker retention analysis and documentation:
 
@@ -91,6 +114,15 @@ Completed category renumbering restructure and PokeGenie naming format correctio
 - **Accessibility**: Common spawns vs event-exclusive vs trade-evolution
 - **Special exceptions**: Glass cannons (lower counts), extremely accessible (minimal counts)
 
+**Kyurem Fusion Mechanics** (NEW 2025-11-02):
+- **Fusion Energy NOT available from buddy walking** (unlike Mega/Primal Energy)
+- White Kyurem requires: 1,000 Blaze Fusion Energy + 30 Kyurem Candy + 30 Reshiram Candy
+- Black Kyurem requires: 1,000 Volt Fusion Energy + 30 Kyurem Candy + 30 Zekrom Candy
+- Energy sources: Raids (~100/raid), Special Research (50), Promo codes only
+- Fusions are **permanent** and **multiple allowed** (unlike Megas/Primals)
+- **Accessibility concern**: Event-locked, requires ~10 raids per forme to obtain 1,000 energy
+- **Data sources**: GamePress (raid_attackers_by_type.json) + PokeMonGo Hub (pokemongohub/ice_response.json)
+
 ### Implementation Details
 
 **Category Mapping** (Favorite → Category alignment):
@@ -121,7 +153,15 @@ regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltre
 
 ### Current State
 
-**Completed Today (2025-10-14)**:
+**Completed Today (2025-11-02)**:
+- [x] **Identified missing Kyurem formes** (White #1, Black #2 Ice attackers)
+- [x] **Updated RAID_ATTACKER_COUNTS.md** (added formes to quick ref, Ice section, tiers)
+- [x] **Updated PHASE_1_IMPLEMENTATION.md** (Ice exception with 10-12 retention counts)
+- [x] **Updated RAID_META_UPDATE_GUIDE.md** (prioritized formes, added data sources)
+- [x] **Researched fusion mechanics** (NO buddy walking, event-locked accessibility)
+- [x] **Git commit**: `24868b1` - Added Kyurem formes to attacker lists
+
+**Completed Earlier (2025-10-14)**:
 - [x] Category renumbering (#1→#1a/#1b, renumber #3-14)
 - [x] PokeGenie format corrections (15 generators documented)
 - [x] Symbol legend cleanup and standardization
@@ -131,7 +171,7 @@ regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltre
 - [x] **RAID_ATTACKER_COUNTS.md created** (534 lines, exact counts 1-12)
 - [x] **Phase 1 guide updated** (Deoxys exception added)
 - [x] **cSpell fixes** (formes, Eeveelution, Entei, Therian)
-- [x] Git commits (7 commits on 2025-10-14)
+- [x] Git commits (8 commits total: 7 on 2025-10-14, 1 on 2025-11-02)
 
 **Next Actions**:
 - [ ] **Configure 6 new PokeGenie generators** (#9-14: Shadow, XXS/XXL, Background, Dynamax, Gigantamax, Transfer)
@@ -178,14 +218,14 @@ regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltre
 
 **Branch**: develop (main branch)
 **Clean working tree**: Yes (all changes committed)
-**Recent commits** (2025-10-14, 7 total today):
-1. `ef27250` - fix(cspell): add Pokemon-related terms to dictionary
-2. `b59ac9e` - docs(raid): add comprehensive raid attacker retention counts reference
-3. `e4c2b6d` - fix(cspell): add 'formes' to dictionary
-4. `9f280be` - docs(phase1): add Deoxys (Attack) exception to raid attacker list
-5. `2abed9d` - Add comprehensive session handoff to CLAUDE.md
-6. `b02bf69` - Fix High IV format: rank field always filled with rank number
-7. `8e5a847` - Fix High IV format and add Mega/Primal evolution stages
+**Recent commits** (most recent first):
+1. `24868b1` (2025-11-02) - docs(raid): add Kyurem (White) and Kyurem (Black) formes to attacker lists
+2. `e6ca052` (2025-10-14) - docs: update session handoff with raid attacker analysis
+3. `beb6be1` (2025-10-14) - docs: update raid attacker retention guide with refined recommendations
+4. `ef27250` (2025-10-14) - fix(cspell): add Pokemon-related terms to dictionary
+5. `b59ac9e` (2025-10-14) - docs(raid): add comprehensive raid attacker retention counts reference
+6. `e4c2b6d` (2025-10-14) - fix(cspell): add 'formes' to dictionary
+7. `9f280be` (2025-10-14) - docs(phase1): add Deoxys (Attack) exception to raid attacker list
 
 ### Questions/Considerations
 
@@ -206,10 +246,19 @@ regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltre
   - Mega Rayquaza: 12 (dominates Dragon + Flying, ER: 81.15)
   - Shadow Mewtwo: 12 (Giovanni-only, dominates Psychic, ER: 63.29)
   - Rayquaza: 12 (Rank #2 in Dragon + Flying, ER: 59.08)
+  - **Kyurem (White)**: 10-12 (Ice #1, DPS: 30.6, 62% better than Shadow Mamoswine)
+  - **Kyurem (Black)**: 10-12 (Ice #2, DPS: 27.2, excellent)
   - Mewtwo: 10-12 (excellent backup, accessible legendary)
   - Terrakion: 8-10 (Fighting #8 / Rock #5, dual coverage)
+  - Kyurem (regular): 6-8 (downgraded since formes are superior)
   - Deoxys (Attack): 3-4 (glass cannon, TDO: 171.8)
   - Mega Beedrill: 1-2 (Weedle common, cheapest Mega)
+
+**Kyurem Forme Accessibility Consideration**:
+- **Question**: Should 10-12 count be adjusted given fusion energy limitations?
+- **Current stance**: Keep 10-12 for players willing to invest in raids (elite performance justifies effort)
+- **Alternative**: Could lower to 6-8 due to event-locked accessibility (~10 raids per forme required)
+- **Decision pending**: User preference needed on accessibility vs performance tradeoff
 
 **Future Considerations**:
 - Create one-page PokeGenie Quick Reference Card for daily use
@@ -259,4 +308,36 @@ regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltre
 
 ---
 
-_Session handoff updated: 2025-10-14 22:30 PST_
+## Session Notes
+
+**Current Session (2025-11-02)**: Kyurem Formes Discovery & Fusion Mechanics
+
+**Key Discovery**: User identified that White Kyurem and Black Kyurem were missing from RAID_ATTACKER_COUNTS.md despite appearing in Master League Top 20. Investigation revealed:
+- PokeMonGo Hub data showed them as #1 and #2 Ice attackers (not in GamePress data)
+- White Kyurem DPS (30.6) is 62% higher than Shadow Mamoswine (#3, DPS: 25.1)
+- GamePress only listed generic "Kyurem" without forme differentiation
+
+**Research Question**: User asked whether fusion energy can be obtained from buddy walking.
+
+**Answer**: NO - Critical difference from Mega/Primal mechanics:
+- Mega Energy: ✅ 5/km buddy walking after first evolution
+- Primal Energy: ✅ 100/20km buddy walking after first reversion
+- **Fusion Energy**: ❌ NO buddy walking - raids/research/codes only
+
+**Implications**:
+- Limited accessibility (~10 raids per forme = 1,000 energy)
+- Event-locked (only when Black/White Kyurem in raids)
+- BUT: Fusions are permanent and allow multiple simultaneously
+- Raises question: Should 10-12 count be adjusted for accessibility?
+
+**Files Modified**:
+1. `docs/reference/RAID_ATTACKER_COUNTS.md` - Added formes to quick ref, Ice section, tiers
+2. `docs/guides/PHASE_1_IMPLEMENTATION.md` - Ice exception with 10-12 counts
+3. `docs/guides/RAID_META_UPDATE_GUIDE.md` - Prioritized formes, data sources
+
+**Open Question for User**:
+Should Kyurem forme retention count stay at 10-12 (elite performance) or drop to 6-8 (accessibility concern)?
+
+---
+
+_Session handoff updated: 2025-11-02 (continued from 2025-10-14)_

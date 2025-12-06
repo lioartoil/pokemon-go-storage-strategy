@@ -283,33 +283,6 @@ regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltre
 
 ## Session Notes
 
-**Session Focus**: Raid Attacker Retention Analysis
-
-**Key Accomplishments**:
-- Analyzed 100+ raid attackers across all 18 types
-- Created comprehensive retention guide (RAID_ATTACKER_COUNTS.md, 534 lines)
-- Determined exact counts for each attacker based on performance, rarity, type coverage
-- Updated Phase 1 guide with Deoxys exception and reference links
-- Fixed all cSpell warnings
-
-**Methodology Applied**:
-- Performance metrics: DPS, TDO, Estimator Rating from GamePress
-- Type coverage weighting: Dual-type attackers valued higher
-- Rarity tiers: Giovanni-only (12), Legendaries (6-12), Commons (1-6)
-- Raid frequency: Adjusted for type usage in meta
-- Special cases: Glass cannons (lower), Extremely accessible (minimal)
-
-**Key Insights**:
-- Mega Rayquaza dominates 2 types with massive ER gap (81.15 vs next at ~60)
-- Shadow Mewtwo is irreplaceable (Giovanni-only, ER: 63.29)
-- Deoxys Attack is glass cannon exception (TDO: 171.8, keep only 3-4)
-- Mega Beedrill is budget option (Weedle common, keep only 1-2)
-- Dual-type coverage significantly increases retention value
-
----
-
-## Session Notes
-
 **Current Session (2025-11-02)**: Kyurem Formes Discovery & Fusion Mechanics
 
 **Key Discovery**: User identified that White Kyurem and Black Kyurem were missing from RAID_ATTACKER_COUNTS.md despite appearing in Master League Top 20. Investigation revealed:
@@ -334,6 +307,11 @@ regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltre
 1. `docs/reference/RAID_ATTACKER_COUNTS.md` - Added formes to quick ref, Ice section, tiers
 2. `docs/guides/PHASE_1_IMPLEMENTATION.md` - Ice exception with 10-12 counts
 3. `docs/guides/RAID_META_UPDATE_GUIDE.md` - Prioritized formes, data sources
+
+**Shadow Raid Attacker Query Created** (36 Pokemon):
+```
+shadow&(mewtwo,salamence,dragonite,tyranitar,groudon,kyogre,garchomp,latios,chandelure,gengar,mamoswine,weavile,metagross,rhyperior,raikou,zapdos,moltres,honchkrow,rampardos,electivire,magnezone,darmanitan,machamp,excadrill,swampert,venusaur,tangrowth,scizor,blaziken,regigigas,staraptor,alakazam,gardevoir,granbull,sceptile,toxicroak)
+```
 
 **Open Question for User**:
 Should Kyurem forme retention count stay at 10-12 (elite performance) or drop to 6-8 (accessibility concern)?

@@ -122,7 +122,7 @@ You need **1,400+ slots freed FAST** to support your Community Day/event play st
 3. Transfer: IV Rank >20 duplicates
 4. **Result: 300-400 slots**
 
-**If 0 results**: Your Master League Pokemon are already reviewed! Search `#rank21-50,#rank51-100` for transfer candidates, or skip to Priority 3-6.
+**If 0 results**: Your Master League Pokemon are already reviewed! Search `#rank21-50,#rank51-100&!great&!ultra&!little` for transfer candidates, or skip to Priority 3-6.
 
 **Example**:
 - Snorlax (IV Rank 5) → KEEP (top 10)

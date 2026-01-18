@@ -191,9 +191,19 @@ You need **1,400+ slots freed FAST** to support your Community Day/event play st
 #### 5b. Costume Duplicates
 **Search**: `costume&!shiny&!4*`
 
-**Rule**: Keep **1 per costume** unless shiny or 4★
+**Rule**: Keep **2 per costume** (per species/form/costume combination)
 
-**Action**: Transfer duplicate costumes (keeping best IV)
+**Why 2?** Aligns with your collecting priority - costumes are event-exclusive and often unrepeatable.
+
+**Action**:
+1. Sort by name (groups same costume together)
+2. For each unique costume, keep best 2 IVs
+3. Transfer duplicates beyond 2
+
+**Example**:
+- 4× Party Hat Pikachu → Keep best 2, transfer 2
+- 3× Santa Hat Pikachu → Keep best 2, transfer 1
+- 1× Flower Crown Eevee → Keep (only 1, no action)
 
 #### 5c. Event Spawns (Non-Meta)
 Pokemon caught during events that have no PvP/Raid value

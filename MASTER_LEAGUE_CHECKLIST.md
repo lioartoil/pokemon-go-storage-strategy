@@ -1,40 +1,47 @@
 # Master League Reduction - Detailed Checklist
 
 **Created**: 2026-01-18
-**Revised**: 2026-01-18 (Collector-First Approach)
+**Revised**: 2026-01-18 (IV Rank Approach)
 **Target**: Free 300-400 slots
 **Time Required**: 2-4 hours
-**Difficulty**: ⚠️ Medium (requires species meta check)
+**Difficulty**: ⚠️ Medium (requires PokeGenie IV rank scanning)
 
 ---
 
 ## Collector-First Principle
 
-**⚠️ IMPORTANT: This checklist targets 3★ and lower Pokemon ONLY.**
+**⚠️ IMPORTANT: This checklist protects 4★ Pokemon and uses IV Rank for decisions.**
 
 ### **Why 4★ Are Protected**
 
 | Fact | Implication |
 |------|-------------|
 | 4★ = 15/15/15 IVs | Always Rank 1 IVs for Master League |
-| Rank 1 IVs are optimal | No need to "check rank" - it's always #1 |
 | 1/4096 catch odds (wild) | Extremely rare collector trophies |
 | Your 265 4★ = 2.4% storage | Small footprint, high value |
 
-**Conclusion**: KEEP ALL 4★ regardless of species meta ranking. Target 3★ and lower instead.
+**Conclusion**: KEEP ALL 4★ as collector trophies. Target duplicates with IV Rank >20.
 
 ---
 
 ## Overview
 
-This checklist provides step-by-step instructions for reducing **3★ and lower** Master League Pokemon to free 300-400 storage slots.
+This checklist provides step-by-step instructions for reducing Master League Pokemon based on **IV Rank** to free 300-400 storage slots.
+
+**IV Rank Retention Rules** (from STRATEGY_REVISIONS_FINAL.md):
+
+| IV Rank | Action | Rationale |
+|---------|--------|-----------|
+| Rank ≤10 | Keep up to 2 copies | Best IVs for that species |
+| Rank 11-20 | Keep 1 copy | Good IVs, worth keeping |
+| Rank >20 | Transfer | Inferior duplicates |
 
 **What You'll Do**:
-1. Find 3★ Master League candidates (NOT 4★)
-2. Check species meta ranking (NOT IV rank - 3★ have good IVs already)
-3. Transfer 3★ of low-meta species (Rank 50+ in meta)
-4. Keep 3★ of top meta species (Top 50)
-5. Transfer 2★ and lower duplicates aggressively
+1. Find Master League candidates (NOT 4★, NOT protected categories)
+2. Scan each with PokeGenie for **IV Rank**
+3. Transfer: IV Rank >20 duplicates
+4. Reduce: IV Rank 11-20 to 1 copy each
+5. Keep: IV Rank ≤10 up to 2 copies each
 
 ---
 
@@ -129,77 +136,56 @@ Tag all results with `#Attackers` tag.
 
 ---
 
-### **Phase 2: Species Meta Check (1-2 hours)**
+### **Phase 2: PokeGenie IV Rank Scanning (1-2 hours)**
 
-**Key Insight**: For Master League, we check **species meta ranking**, NOT IV ranking.
+**Key Insight**: We check **IV Rank within species**, NOT species meta ranking.
 
-**Why?**
-- 3★ Pokemon have 96-98% IVs (close to optimal)
-- What matters is whether the **species** is good in Master League meta
-- Snorlax (Meta Rank 148) is bad regardless of IVs
-- Dialga (Meta Rank 26) is good regardless of whether it's 3★ or 4★
+**Why IV Rank?**
+- IV Rank tells you how good THIS Pokemon's IVs are compared to others of the same species
+- You're a collector, not a competitive PvP player
+- Keep your best specimens, transfer inferior duplicates
+- Species meta ranking is irrelevant if you don't do PvP
 
----
+**IV Rank Retention Rules**:
 
-#### Step 2.1: Reference the Top 50 Meta Species
-
-**Master League Top 50** (from `meta/cp10000_all_overall_rankings.csv`):
-
-**KEEP 3★ of these species** (Top 50 meta):
-
-| Rank | Species | Rank | Species |
-|------|---------|------|---------|
-| 1 | Zacian (Crowned) | 26 | Dialga |
-| 2 | Palkia (Origin) | 27 | Jirachi |
-| 3 | Zamazenta (Crowned) | 28 | Palkia |
-| 4 | Dialga (Origin) | 29 | Solgaleo |
-| 5 | Kyurem (White) | 30 | Hydreigon (Shadow) |
-| 6 | Zekrom | 31 | Latios |
-| 7 | Kyurem (Black) | 32 | Kyogre |
-| 8 | Reshiram | 33 | Latias (Shadow) |
-| 9 | Florges | 34 | Landorus (Therian) |
-| 10 | Lugia | 35 | Metagross (Shadow) |
-| 11 | Metagross | 36 | Tapu Lele |
-| 12 | Lugia (Shadow) | 37 | Zygarde (Complete) |
-| 13 | Necrozma (Dawn Wings) | 38 | Annihilape (Shadow) |
-| 14 | Eternatus | 39 | Primarina |
-| 15 | Palkia (Shadow) | 40 | Dragonite (Shadow) |
-| 16 | Lunala | 41 | Latias |
-| 17 | Ho-Oh | 42 | Xerneas |
-| 18 | Groudon | 43 | Groudon (Shadow) |
-| 19 | Necrozma (Dusk Mane) | 44 | Annihilape |
-| 20 | Dialga (Shadow) | 45 | Goodra |
-| 21 | Latios (Shadow) | 46 | Urshifu |
-| 22 | Meloetta (Aria) | 47 | Gyarados |
-| 23 | Togekiss | 48 | Ho-Oh (Shadow) |
-| 24 | Kyurem | 49 | Rhyperior |
-| 25 | - | 50 | Gyarados (Shadow) |
+| IV Rank | Action | Example |
+|---------|--------|---------|
+| Rank ≤10 | Keep up to 2 copies | Snorlax IV Rank 5 → KEEP |
+| Rank 11-20 | Keep 1 copy | Snorlax IV Rank 15 → Keep 1 |
+| Rank >20 | Transfer | Snorlax IV Rank 50 → TRANSFER |
 
 ---
 
-#### Step 2.2: Tag Pokemon by Species Meta Ranking
+#### Step 2.1: Set Up PokeGenie Scanning
+
+**Action**: Open PokeGenie, prepare for batch scanning
+
+1. Open PokeGenie app
+2. Tap "Scan" button
+3. Switch to Pokemon GO
+4. Search: `#MLReview` (shows only tagged Pokemon)
+
+**You should see**: The Pokemon you tagged in Phase 1
+
+---
+
+#### Step 2.2: Scan and Tag by IV Rank
 
 **Workflow** (for each Pokemon in `#MLReview`):
 
-1. **In Pokemon GO**: Look at the Pokemon species name
-2. **Check the list above**: Is this species in Top 50?
-   - **YES (Top 50)** → Tag with `MLKeep` or remove `MLReview` tag
-   - **NO (Rank 51+)** → Tag with `MLTransfer` (transfer candidate)
-3. **Move to next**: Swipe left to next Pokemon, repeat
-
-**Common Transfer Candidates** (NOT in Top 50):
-- Snorlax (Rank 148)
-- Slaking (Rank 380)
-- Hippowdon
-- Cloyster
-- Kingler
-- Ursaluna
-- Most regular non-legendary Pokemon
+1. **In Pokemon GO**: Tap a Pokemon from `#MLReview` results
+2. **PokeGenie auto-scans**: Wait 2-3 seconds for scan overlay
+3. **Check Master League IV Rank**: Look at "Master League" section in overlay
+   - If **IV Rank ≤10**: Tag with `MLKeep2` (keep up to 2 copies)
+   - If **IV Rank 11-20**: Tag with `MLKeep1` (keep 1 copy)
+   - If **IV Rank >20**: Tag with `MLTransfer` (transfer candidate)
+4. **Move to next**: Swipe left to next Pokemon, repeat
 
 **Pro Tips**:
-- **Print the Top 50 list** or keep it open on another device
-- **Group by species**: All Snorlax together → tag all as `MLTransfer` at once
-- **Take breaks**: This is tedious. Do 25 Pokemon, take 5 min break, repeat.
+- **Speed scanning**: PokeGenie scans automatically when you open Pokemon details
+- **Batch tagging**: Scan 10-20 Pokemon, then tag them all at once
+- **Group by species**: When reducing duplicates, keep best IV Rank, transfer rest
+- **Take breaks**: Do 25 Pokemon, take 5 min break, repeat
 
 **Time Estimate**:
 - 100 Pokemon: 45 min - 1 hour
@@ -214,8 +200,9 @@ Tag all results with `#Attackers` tag.
 
 | Category | Count | Tag |
 |----------|-------|-----|
-| Top 50 Meta Species (Keep) | ??? | `MLKeep` |
-| Rank 51+ Species (Transfer) | ??? | `MLTransfer` |
+| IV Rank ≤10 (Keep 2) | ??? | `MLKeep2` |
+| IV Rank 11-20 (Keep 1) | ??? | `MLKeep1` |
+| IV Rank >20 (Transfer) | ??? | `MLTransfer` |
 
 **Why track**: Helps you estimate total slots you'll free
 
@@ -644,14 +631,13 @@ Is it 4★ (100% IV)?
    ↓         ↓
   YES        NO
    ↓         ↓
- KEEP     Is species in Top 50 Meta?
+ KEEP     Check IV Rank (PokeGenie)
 (trophy)      ↓
-         ┌────┴────┐
-         ↓         ↓
-        YES        NO
-         ↓         ↓
-       KEEP    TRANSFER
-     (meta)   (low-meta 3★/2★)
+         ┌────┼────┬────┐
+         ↓    ↓    ↓    ↓
+       ≤10  11-20  >20
+         ↓    ↓    ↓
+      Keep 2 Keep 1 TRANSFER
 ```
 
 ---
@@ -659,7 +645,7 @@ Is it 4★ (100% IV)?
 ### **Safety Checklist** (Use before EVERY transfer batch)
 
 Before transferring, verify Pokemon is:
-- [ ] **NOT 4★ (100% IV)** ← MOST IMPORTANT
+- [ ] **NOT 4★ (100% IV)** ← MOST IMPORTANT - collector trophy
 - [ ] NOT shiny
 - [ ] NOT shadow
 - [ ] NOT legendary/mythical/ultra beast
@@ -669,7 +655,7 @@ Before transferring, verify Pokemon is:
 - [ ] NOT tagged `great`, `ultra`, `little`
 - [ ] NOT tagged `keep`, `power`, `tm`
 - [ ] IS final evolution
-- [ ] IS low-meta species (Rank 50+ in meta)
+- [ ] IS IV Rank >20 (verified via PokeGenie scan)
 
 **If you see a 4★ → STOP → Remove it immediately**
 **If ALL boxes checked → SAFE to transfer**

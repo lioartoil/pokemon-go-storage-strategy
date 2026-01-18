@@ -98,29 +98,34 @@ You need **1,400+ slots freed FAST** to support your Community Day/event play st
 
 ---
 
-### **Priority 2: Master League Low-Meta Species (300-400 slots)**
+### **Priority 2: Master League IV Rank Reduction (300-400 slots)**
 
-**Difficulty**: ⚠️ Medium (requires species meta check)
+**Difficulty**: ⚠️ Medium (requires PokeGenie IV rank check)
 **Time**: 2-4 hours
 **See**: `MASTER_LEAGUE_CHECKLIST.md` (detailed steps)
 
 **Collector-First Approach**:
-- ✅ **KEEP all 4★** (they're Rank 1 IVs, but more importantly: collector trophies)
-- ✅ **Target 3★ and lower** of low-meta species instead
+- ✅ **KEEP all 4★** (collector trophies, no exceptions)
+- ✅ **Target 3★ and lower** based on IV Rank within species
+
+**IV Rank Retention Rules** (from STRATEGY_REVISIONS_FINAL.md):
+
+| IV Rank | Action | Rationale |
+|---------|--------|-----------|
+| Rank ≤10 | Keep up to 2 copies | Best IVs for that species |
+| Rank 11-20 | Keep 1 copy | Good IVs, worth keeping |
+| Rank >20 | Transfer | Inferior duplicates |
 
 **Quick Summary**:
-1. Search: `3*&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&cp2500-`
-2. Check if species is in Master League Top 50 meta (see checklist)
-3. Transfer: Low-meta species (Rank 50+) duplicates
+1. Search: `!4*&!shiny&!lucky&!shadow&!costume&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&cp2500-`
+2. Scan each with PokeGenie for **IV Rank** (not species meta rank)
+3. Transfer: IV Rank >20 duplicates
 4. **Result: 300-400 slots**
 
-**Transfer candidates (3★ only, species meta Rank 50+)**:
-- Snorlax (Meta Rank 148) - transfer 3★ duplicates
-- Slaking (Meta Rank 380) - transfer 3★ copies
-- Hippowdon, Cloyster, Kingler - transfer 3★ copies
-
-**KEEP (even 3★)**:
-- Top 50 meta species: Dialga, Palkia, Metagross, Gyarados, Togekiss, Dragonite, etc.
+**Example**:
+- Snorlax (IV Rank 5) → KEEP (top 10)
+- Snorlax (IV Rank 15) → Keep 1 copy (rank 11-20)
+- Snorlax (IV Rank 50) → TRANSFER (rank >20)
 
 ---
 
@@ -372,7 +377,7 @@ Is it a duplicate (2+ of same species)?
   ↓ NO → Keep (might be useful later)
 ```
 
-**Key Change**: 4★ Pokemon are ALWAYS kept as collector trophies, regardless of meta ranking.
+**Key Change**: 4★ Pokemon are ALWAYS kept as collector trophies. Use IV Rank (not species meta ranking) for all decisions.
 
 ---
 

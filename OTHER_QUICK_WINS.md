@@ -720,12 +720,12 @@ Baby Pokemon are cute but functionally useless (can't be used in gyms/raids, wea
 
 **Great League**:
 ```
-cp-1500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
+cp-1500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100
 ```
 
 **Ultra League**:
 ```
-cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
+cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100
 ```
 
 **Process**:
@@ -741,7 +741,7 @@ cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Atta
 
 **Search Query**:
 ```
-cp-500&!shiny&!costume&!shadow&!@special&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
+cp-500&!shiny&!costume&!shadow&!@special&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100
 ```
 
 **Process**:
@@ -871,7 +871,7 @@ A final pass to catch any duplicates you missed in earlier priorities.
 
 **Search**:
 ```
-!shiny&!lucky&!costume&!shadow&!4*&!3*&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
+!shiny&!lucky&!costume&!shadow&!4*&!3*&!legendary&!mythical&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100
 ```
 
 **What this finds**:

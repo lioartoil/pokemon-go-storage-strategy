@@ -87,7 +87,7 @@ Tag all results with `#Attackers` tag.
 
 **Search Query** (copy exactly):
 ```
-3*&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&cp2500-
+3*&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100&cp2500-
 ```
 
 **What this finds**:
@@ -227,7 +227,7 @@ Tag all results with `#Attackers` tag.
 
 **New Search Query**:
 ```
-!4*&!3*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&cp2500-
+!4*&!3*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100&cp2500-
 ```
 
 **What this finds**:
@@ -604,12 +604,12 @@ Before transferring, ask yourself:
 
 **3★ Master League candidates** (primary target):
 ```
-3*&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&cp2500-
+3*&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100&cp2500-
 ```
 
 **2★ and lower candidates** (secondary target):
 ```
-!4*&!3*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&cp2500-
+!4*&!3*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100&cp2500-
 ```
 
 **4★ Pokemon** (NEVER TRANSFER - collector trophies):

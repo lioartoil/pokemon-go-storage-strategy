@@ -117,7 +117,7 @@ You need **1,400+ slots freed FAST** to support your Community Day/event play st
 | Rank >20 | Transfer | Inferior duplicates |
 
 **Quick Summary**:
-1. Search: `!4*&!shiny&!lucky&!shadow&!costume&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&cp2500-`
+1. Search: `!4*&!shiny&!lucky&!shadow&!costume&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100&cp2500-`
 2. Scan each with PokeGenie for **IV Rank** (not species meta rank)
 3. Transfer: IV Rank >20 duplicates
 4. **Result: 300-400 slots**
@@ -270,7 +270,7 @@ cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Atta
 
 ### **Priority 8: Little League Rank 21+ (100-150 slots)**
 
-**Search**: `cp-500&!shiny&!costume&!shadow&!@special`
+**Search**: `cp-500&!shiny&!costume&!shadow&!@special&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100`
 
 **Process**:
 1. Scan with PokeGenie for Little League ranks

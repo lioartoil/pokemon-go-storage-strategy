@@ -239,7 +239,7 @@ Continue with Week 1 priorities from today's quick wins:
 - [ ] Priority 8: Little League Rank 21+ (100-150 slots)
 
 **Steps**:
-1. Search: `cp-500&!shiny&!costume&!shadow&!@special&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax`
+1. Search: `cp-500&!shiny&!costume&!shadow&!@special&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100`
 2. Scan with PokeGenie (Little League)
 3. Transfer Rank 21+ (you don't PvP much anyway)
 
@@ -344,12 +344,12 @@ costume&!shiny&!4*
 
 **Master League 3★ candidates** (primary target - 4★ are protected):
 ```
-3*&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&cp2500-
+3*&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100&cp2500-
 ```
 
 **Master League 2★ and lower** (secondary target):
 ```
-!4*&!3*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&cp2500-
+!4*&!3*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100&cp2500-
 ```
 
 **4★ Pokemon** (NEVER TRANSFER - verify exclusion):
@@ -369,7 +369,7 @@ cp1501-2500&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#
 
 **Little League candidates**:
 ```
-cp-500&!4*&!shiny&!costume&!shadow&!@special&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
+cp-500&!4*&!shiny&!costume&!shadow&!@special&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100
 ```
 
 **Raid attackers**:

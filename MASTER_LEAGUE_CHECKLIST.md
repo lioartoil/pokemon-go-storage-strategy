@@ -104,6 +104,10 @@ Tag all results with `#Attackers` tag.
 
 **Expected Results**: 100-300 Pokemon (varies by your collection)
 
+**If you get 0 results**: Your collection is already well-organized! All Master League Pokemon have been reviewed. Instead:
+1. Search for already-tagged transfer candidates: `#rank21-50,#rank51-100`
+2. If that's also empty, skip to other priorities (see QUICK_WIN_STRATEGY.md)
+
 **Action**: Tag all results with `MLReview`
 
 1. Tap first Pokemon

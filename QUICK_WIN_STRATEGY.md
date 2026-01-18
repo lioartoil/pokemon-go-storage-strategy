@@ -230,18 +230,20 @@ Pokemon caught during events that have no PvP/Raid value
 
 **Categories**:
 
-#### 6a. Middle Evolutions (No PvP Use)
-Pokemon stuck in middle evolution with no Great/Ultra/Little League value
+#### 6a. Non-Final Evolutions (Can Still Evolve)
+Pokemon that can still evolve - babies and middle evolutions with low IVs
 
 **Search**:
 ```
-!shiny&!lucky&!shadow&!costume&!4*&!3*&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100
+evolve&!shiny&!lucky&!shadow&!costume&!4*&!3*&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100
 ```
 
-**Then manually filter**:
-- Dragonair, Zweilous, Sligoo, etc. (if not Rank ≤500 in any league)
-- Keep: 2 per species (future-proofing)
-- Transfer: Extras beyond 2
+**Rule**: Keep 2 per species (future-proofing for evolutions/move updates)
+
+**Action**:
+1. Sort by name (groups same species together)
+2. For each species with 3+ copies, keep best 2 IVs
+3. Transfer extras beyond 2
 
 **If 0 results or no 3+ duplicates**: Your collection is well-organized! Skip to Priority 6b or next priority.
 

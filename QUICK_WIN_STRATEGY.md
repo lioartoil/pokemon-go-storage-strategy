@@ -117,7 +117,7 @@ You need **1,400+ slots freed FAST** to support your Community Day/event play st
 | Rank >20 | Transfer | Inferior duplicates |
 
 **Quick Summary**:
-1. Search: `!4*&!shiny&!lucky&!shadow&!costume&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&cp2500-`
+1. Search: `!4*&!shiny&!lucky&!shadow&!costume&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&cp2500-`
 2. Scan each with PokeGenie for **IV Rank** (not species meta rank)
 3. Transfer: IV Rank >20 duplicates
 4. **Result: 300-400 slots**
@@ -251,12 +251,12 @@ Details in next section.
 
 **Great League**:
 ```
-cp-1500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical
+cp-1500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
 ```
 
 **Ultra League**:
 ```
-cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical
+cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
 ```
 
 **Process**:
@@ -303,7 +303,7 @@ cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical
 
 ### **Priority 10: Final Duplicate Sweep (50-100 slots)**
 
-**Search**: `!shiny&!lucky&!costume&!shadow&!4*&!3*&!legendary&!mythical&!#Attackers`
+**Search**: `!shiny&!lucky&!costume&!shadow&!4*&!3*&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax`
 
 **Process**:
 1. Sort by Pokemon name

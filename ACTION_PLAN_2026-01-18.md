@@ -226,8 +226,8 @@ Continue with Week 1 priorities from today's quick wins:
 - [ ] Priority 7: Great/Ultra League Rank 21+ (200-300 slots)
 
 **Process** (same as Master League):
-1. Search Great League: `cp-1500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers`
-2. Search Ultra League: `cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers`
+1. Search Great League: `cp-1500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax`
+2. Search Ultra League: `cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax`
 3. Scan with PokeGenie
 4. Transfer Rank 21+ final evolutions
 
@@ -239,7 +239,7 @@ Continue with Week 1 priorities from today's quick wins:
 - [ ] Priority 8: Little League Rank 21+ (100-150 slots)
 
 **Steps**:
-1. Search: `cp-500&!shiny&!costume&!shadow&!@special`
+1. Search: `cp-500&!shiny&!costume&!shadow&!@special&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax`
 2. Scan with PokeGenie (Little League)
 3. Transfer Rank 21+ (you don't PvP much anyway)
 
@@ -258,7 +258,7 @@ Continue with Week 1 priorities from today's quick wins:
 4. Transfer excess
 
 **Priority 10 Steps**:
-1. Search: `!shiny&!lucky&!costume&!shadow&!4*&!3*&!legendary&!mythical&!#Attackers`
+1. Search: `!shiny&!lucky&!costume&!shadow&!4*&!3*&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax`
 2. Sort by Name
 3. Transfer obvious duplicates (3+ of same species)
 
@@ -344,12 +344,12 @@ costume&!shiny&!4*
 
 **Master League 3★ candidates** (primary target - 4★ are protected):
 ```
-3*&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&cp2500-
+3*&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&cp2500-
 ```
 
 **Master League 2★ and lower** (secondary target):
 ```
-!4*&!3*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!#Attackers&cp2500-
+!4*&!3*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&cp2500-
 ```
 
 **4★ Pokemon** (NEVER TRANSFER - verify exclusion):
@@ -359,17 +359,17 @@ costume&!shiny&!4*
 
 **Great League candidates**:
 ```
-cp-1500&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers
+cp-1500&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
 ```
 
 **Ultra League candidates**:
 ```
-cp1501-2500&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers
+cp1501-2500&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
 ```
 
 **Little League candidates**:
 ```
-cp-500&!4*&!shiny&!costume&!shadow&!@special
+cp-500&!4*&!shiny&!costume&!shadow&!@special&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
 ```
 
 **Raid attackers**:
@@ -379,7 +379,7 @@ cp-500&!4*&!shiny&!costume&!shadow&!@special
 
 **Final sweep duplicates**:
 ```
-!shiny&!lucky&!costume&!shadow&!4*&!3*&!legendary&!mythical&!#Attackers
+!shiny&!lucky&!costume&!shadow&!4*&!3*&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
 ```
 
 ---

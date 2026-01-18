@@ -87,16 +87,19 @@ Tag all results with `#Attackers` tag.
 
 **Search Query** (copy exactly):
 ```
-3*&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&cp2500-
+3*&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&cp2500-
 ```
 
 **What this finds**:
-- ✅ 3★ (96-98% IV) Pokemon - good but not collector trophies
+- ✅ 3★ (82.2-97.8% IV) Pokemon - good but not collector trophies
 - ✅ **NOT 4★** - these are protected as collector trophies
 - ✅ Regular (not special in any way)
 - ✅ NOT already used in other leagues
 - ✅ NOT raid attackers
 - ✅ NOT legendaries/mythicals/ultra beasts
+- ✅ NOT in transfer/trade queues (Categories 12 & 14)
+- ✅ NOT XXS/XXL size extremes (Category 7)
+- ✅ NOT Background (Category 8), Gigantamax (Category 9), Dynamax (Category 10)
 - ✅ CP 2500+ capable (Master League relevant)
 
 **Expected Results**: 100-300 Pokemon (varies by your collection)
@@ -224,13 +227,13 @@ Tag all results with `#Attackers` tag.
 
 **New Search Query**:
 ```
-!4*&!3*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!#Attackers&cp2500-
+!4*&!3*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&cp2500-
 ```
 
 **What this finds**:
-- 2★ and lower (0-91% IVs) - minimal collector value
+- 2★ and lower (0-82.2% IVs) - minimal collector value
 - Master League capable (CP 2500+)
-- NOT protected categories
+- NOT protected categories (all 14 categories excluded)
 
 **Expected Results**: 50-200 Pokemon
 
@@ -601,12 +604,12 @@ Before transferring, ask yourself:
 
 **3★ Master League candidates** (primary target):
 ```
-3*&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&cp2500-
+3*&!4*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&cp2500-
 ```
 
 **2★ and lower candidates** (secondary target):
 ```
-!4*&!3*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!#Attackers&cp2500-
+!4*&!3*&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&cp2500-
 ```
 
 **4★ Pokemon** (NEVER TRANSFER - collector trophies):

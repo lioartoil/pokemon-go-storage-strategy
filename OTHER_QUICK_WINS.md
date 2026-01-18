@@ -720,12 +720,12 @@ Baby Pokemon are cute but functionally useless (can't be used in gyms/raids, wea
 
 **Great League**:
 ```
-cp-1500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers
+cp-1500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
 ```
 
 **Ultra League**:
 ```
-cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers
+cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
 ```
 
 **Process**:
@@ -741,7 +741,7 @@ cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Atta
 
 **Search Query**:
 ```
-cp-500&!shiny&!costume&!shadow&!@special
+cp-500&!shiny&!costume&!shadow&!@special&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
 ```
 
 **Process**:
@@ -871,7 +871,7 @@ A final pass to catch any duplicates you missed in earlier priorities.
 
 **Search**:
 ```
-!shiny&!lucky&!costume&!shadow&!4*&!3*&!legendary&!mythical&!#Attackers
+!shiny&!lucky&!costume&!shadow&!4*&!3*&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
 ```
 
 **What this finds**:
@@ -879,6 +879,9 @@ A final pass to catch any duplicates you missed in earlier priorities.
 - 2★ or lower IVs
 - Not raid attackers
 - Not legendaries
+- Not in transfer/trade queues (Categories 12 & 14)
+- Not XXS/XXL size extremes (Category 7)
+- Not Background (Category 8), Gigantamax (Category 9), Dynamax (Category 10)
 
 **Expected**: 500-1,500 Pokemon (depending on collection)
 

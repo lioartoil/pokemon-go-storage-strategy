@@ -1,7 +1,7 @@
 # Raid Attacker Retention Counts - Exact Recommendations
 
-**Last Updated**: 2025-10-14
-**Data Source**: GamePress Comprehensive DPS/TDO Spreadsheet (2025-10-12)
+**Last Updated**: 2026-01-18
+**Data Source**: GamePress Comprehensive DPS/TDO Spreadsheet (2025-10-12), GamePress Tier List (2026-01)
 **User Priority**: Raids > Collection > Trading >>> PvP (minimal)
 
 ---
@@ -52,6 +52,8 @@ This document provides **exact recommended counts** for each top raid attacker b
 | **Hoopa (Unbound)**    | **8**     | Dark, Ghost, Psychic | Tri-type coverage, mythical                    |
 | **Reshiram**           | **8**     | Fire, Dragon         | Legendary, excellent bulk                      |
 | **Zekrom**             | **8**     | Electric, Dragon     | Legendary, excellent bulk                      |
+| **Shadow Heatran**     | **6-8**   | Fire, Steel          | Dual-type shadow legendary, excellent bulk     |
+| **Heatran**            | **6**     | Fire, Steel          | Dual-type legendary, great defensive typing    |
 | **Kyurem**             | **6-8**   | Ice, Dragon          | Regular forme (formes are superior)            |
 | **Xerneas**            | **8**     | Fairy                | Legendary, excellent bulk (TDO: 725.4)         |
 | **Shadow Groudon**     | **6-8**   | Ground               | Rank #3, shadow legendary                      |
@@ -237,16 +239,18 @@ This document provides **exact recommended counts** for each top raid attacker b
 
 ### Fire Type
 
-| Pokemon           | Count | Rank | ER    | Notes                            |
-| ----------------- | ----- | ---- | ----- | -------------------------------- |
-| Mega Blaziken     | 6-8   | #1   | 57.78 | Also #2 Fighting, dual Mega      |
-| Shadow Chandelure | 6-8   | #2   | 51.49 | Also #2 Ghost, dual coverage     |
-| Shadow Darmanitan | 6     | #3   | 49.08 | Also Ice-type (Zen Mode)         |
-| Shadow Blaziken   | 6     | #4   | 48.61 | Also #3 Fighting, accessible     |
-| Shadow Moltres    | 6-8   | #5   | 51.93 | Also #5 Flying, shadow legendary |
-| Reshiram          | 8     | #8   | 51.79 | Also Dragon, legendary bulk      |
-| Chandelure        | 6     | #8   | 44.53 | Also Ghost, accessible           |
-| Blaziken          | 4-6   | #10+ | -     | Accessible alternative           |
+| Pokemon           | Count | Rank | ER    | Notes                                      |
+| ----------------- | ----- | ---- | ----- | ------------------------------------------ |
+| Mega Blaziken     | 6-8   | #1   | 57.78 | Also #2 Fighting, dual Mega                |
+| Shadow Chandelure | 6-8   | #2   | 51.49 | Also #2 Ghost, dual coverage               |
+| Shadow Darmanitan | 6     | #3   | 49.08 | Also Ice-type (Zen Mode)                   |
+| Shadow Blaziken   | 6     | #4   | 48.61 | Also #3 Fighting, accessible               |
+| Shadow Moltres    | 6-8   | #5   | 51.93 | Also #5 Flying, shadow legendary           |
+| Shadow Heatran    | 6-8   | #6   | ~50   | Also Steel, excellent bulk & resistances   |
+| Reshiram          | 8     | #8   | 51.79 | Also Dragon, legendary bulk                |
+| Chandelure        | 6     | #8   | 44.53 | Also Ghost, accessible                     |
+| Heatran           | 6     | #10+ | ~42   | Also Steel, great defensive typing         |
+| Blaziken          | 4-6   | #10+ | -     | Accessible alternative                     |
 
 **Fire Raid Frequency**: Medium-High (Grass/Bug/Steel/Ice bosses)
 
@@ -407,9 +411,11 @@ This document provides **exact recommended counts** for each top raid attacker b
 | Mega Metagross   | 4-6   | #4   | 58.01 | Mega only, excellent ER        |
 | Kartana          | 6-8   | #5   | 48.09 | Also #2 Grass, Ultra Beast     |
 | Dialga (Origin)  | 10    | #6   | 54.37 | Also #10 Dragon, legendary     |
+| Shadow Heatran   | 6-8   | #7   | ~50   | Also #6 Fire, excellent bulk   |
 | Shadow Magnezone | 6     | #8   | 46.11 | Also #7 Electric, accessible   |
 | Lucario          | 6     | #9   | 43.73 | Also Fighting, accessible      |
 | Metagross        | 6-8   | #10  | 48.08 | Accessible alternative         |
+| Heatran          | 6     | #10+ | ~42   | Also Fire, great resistances   |
 | Dialga           | 6     | #10+ | -     | Regular forme                  |
 
 **Steel Raid Frequency**: Medium (Fairy/Ice/Rock bosses)

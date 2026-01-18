@@ -122,13 +122,31 @@ You need **1,400+ slots freed FAST** to support your Community Day/event play st
 | Rank 11-20 | Keep 1 copy | Good IVs, worth keeping |
 | Rank >20 | Transfer | Inferior duplicates |
 
-**Quick Summary**:
-1. Search: `!4*&!shiny&!lucky&!shadow&!costume&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100&cp2500-`
-2. Scan each with PokeGenie for **IV Rank** (not species meta rank)
-3. Transfer: IV Rank >20 duplicates
-4. **Result: 300-400 slots**
+**Two-step process**:
 
-**If 0 results**: Your Master League Pokemon are already reviewed! Search `#rank21-50,#rank51-100&!great&!ultra&!little&!lucky&!#Attackers&!gigantamax&!dynamax&!@special&!legendary&!mythical` for transfer candidates. Note: Only transfer if you have BETTER duplicates of that species. If no candidates, skip to Priority 3-6.
+#### Step 1: Find UNREVIEWED Pokemon (to scan with PokeGenie)
+
+**Master League - Unreviewed**:
+```
+!4*&!shiny&!lucky&!shadow&!costume&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100&cp2500-
+```
+
+**If results found**: Scan with PokeGenie for **IV Rank**, tag with appropriate rank tags.
+
+**If 0 results**: All reviewed! Go to Step 2.
+
+#### Step 2: Find TRANSFER CANDIDATES (already tagged Rank 21+)
+
+**Master League - Transfer Candidates**:
+```
+#rank21-50,#rank51-100&!great&!ultra&!little&!lucky&!#Attackers&!@special&!legendary&!mythical&!gigantamax&!dynamax
+```
+
+**Review results**: Only transfer if you have BETTER duplicates of that species.
+
+**If 0 results or no transferable duplicates**: Your Master League is optimized! Skip to Priority 3-6.
+
+**Expected: 300-400 slots**
 
 **Example**:
 - Snorlax (IV Rank 5) → KEEP (top 10)
@@ -275,24 +293,39 @@ Details in next section.
 
 ### **Priority 7: Great/Ultra League Rank 21+ (200-300 slots)**
 
-**Same process as Priority 2, but for Great/Ultra Leagues**
+**Two-step process** (same as Priority 2):
 
-**Search Queries**:
+#### Step 1: Find UNREVIEWED Pokemon (to scan with PokeGenie)
 
-**Great League**:
+**Great League - Unreviewed**:
 ```
-cp-1500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
-```
-
-**Ultra League**:
-```
-cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax
+cp-1500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100
 ```
 
-**Process**:
-1. Scan with PokeGenie for Great/Ultra League ranks
-2. Transfer: Rank 21+ (final evolutions)
-3. Keep: Rank ≤20 (2 copies for Rank ≤10, 1 copy for Rank 11-20)
+**Ultra League - Unreviewed**:
+```
+cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100
+```
+
+**If results found**: Scan with PokeGenie, tag with appropriate rank tags.
+
+**If 0 results**: All reviewed! Go to Step 2.
+
+#### Step 2: Find TRANSFER CANDIDATES (already tagged Rank 21+)
+
+**Great League - Transfer Candidates**:
+```
+#rank21-50,#rank51-100&great&!lucky&!#Attackers&!@special&!legendary&!mythical
+```
+
+**Ultra League - Transfer Candidates**:
+```
+#rank21-50,#rank51-100&ultra&!lucky&!#Attackers&!@special&!legendary&!mythical
+```
+
+**Review results**: Only transfer if you have BETTER duplicates of that species.
+
+**If 0 results or no transferable duplicates**: Your Great/Ultra League is optimized! Skip to Priority 8.
 
 **Expected: 200-300 slots**
 
@@ -300,12 +333,29 @@ cp1501-2500&!lucky&!shiny&!costume&!shadow&!@special&!legendary&!mythical&!#Atta
 
 ### **Priority 8: Little League Rank 21+ (100-150 slots)**
 
-**Search**: `cp-500&!shiny&!costume&!shadow&!@special&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100`
+**Two-step process**:
 
-**Process**:
-1. Scan with PokeGenie for Little League ranks
-2. Transfer: Rank 21+ (you don't do much PvP anyway)
-3. Keep: Top 20 only (collector value + minimal PvP)
+#### Step 1: Find UNREVIEWED Pokemon (to scan with PokeGenie)
+
+**Little League - Unreviewed**:
+```
+cp-500&!shiny&!costume&!shadow&!@special&!lucky&!legendary&!mythical&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100
+```
+
+**If results found**: Scan with PokeGenie, tag with appropriate rank tags.
+
+**If 0 results**: All reviewed! Go to Step 2.
+
+#### Step 2: Find TRANSFER CANDIDATES (already tagged Rank 21+)
+
+**Little League - Transfer Candidates**:
+```
+#rank21-50,#rank51-100&little&!lucky&!#Attackers&!@special&!legendary&!mythical
+```
+
+**Review results**: Only transfer if you have BETTER duplicates of that species.
+
+**If 0 results or no transferable duplicates**: Your Little League is optimized! Skip to Priority 9.
 
 **Expected: 100-150 slots**
 

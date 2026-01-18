@@ -1,10 +1,10 @@
 # CLAUDE.md
 
-> **Project Context** | Pokemon GO Storage Management System | Updated: 2025-10-14
+> **Project Context** | Pokemon GO Storage Management System | Updated: 2026-01-18
 
 ## Project Overview
 
-This is a comprehensive Pokemon GO storage management system designed to optimize storage for 10,184 Pokemon across 10,500 slots (~3% free). The project includes:
+This is a comprehensive Pokemon GO storage management system designed to optimize storage for 11,021 Pokemon across 11,325 slots (~2.7% free). The project includes:
 
 - **Storage Strategy**: 13-category system (#1a, #1b, #2-#13) with detailed retention rules
 - **PokeGenie Integration**: 15 Name Generators aligned with Favorite groups ₁-₉
@@ -44,9 +44,63 @@ pokemon/
 └── scripts/                            # Python automation scripts
 ```
 
-## Recent Work (2025-11-02)
+## Recent Work (2026-01-18)
 
-### Session Summary (Latest: Kyurem Formes & Fusion Mechanics)
+### Session Summary: Quick Win Storage Optimization & Query Testing
+
+**Major Achievement**: Created comprehensive quick-win storage optimization strategy with tested search queries.
+
+1. **New Strategy Documents Created**:
+   - `QUICK_WIN_STRATEGY.md` - Collector-first approach with 10 prioritized quick wins
+   - `MASTER_LEAGUE_CHECKLIST.md` - Detailed step-by-step Master League reduction guide
+   - `OTHER_QUICK_WINS.md` - Analysis of all quick-win categories beyond Master League
+   - `ACTION_PLAN_2026-01-18.md` - Command center with timeline and quick reference
+
+2. **Search Query Development & Testing**:
+   - Built complete search queries excluding ALL 14 protected categories
+   - Tested queries against actual collection - most returned 0 results (well-organized collection)
+   - Implemented two-step process: Step 1 (find unreviewed) → Step 2 (find transfer candidates)
+   - Critical syntax corrections: `#` prefix for tags, comma precedence over `&`, league filtering
+
+3. **RAID_ATTACKER_COUNTS.md Updated**:
+   - Added Heatran (6 count) and Shadow Heatran (6-8 count) - released December 2025
+   - Updated Quick Reference Table and Fire/Steel type sections
+
+4. **Git Commits** (11 commits this session):
+   - `b9fdabb` - docs(raid): add Heatran and Shadow Heatran to raid attacker lists
+   - `0d718bd` - docs: clarify two-step process for all league priorities
+   - `fcc23bc` - docs: use evolve keyword for non-final evolution query
+   - `4d1d7fd` - docs: enhance Priority 6 queries with full exclusions
+   - `401558c` - docs: clarify costume retention rule as 2 per costume
+   - `4114e9c` - docs: expand transfer candidate query and duplicate guidance
+   - `f35de9a` - docs: add league exclusions to transfer candidate query
+   - `4fc8d36` - docs: add guidance for when unreviewed query returns 0 results
+   - `94c9617` - docs: add rank tag exclusions to search queries
+   - `2660433` - docs: add complete category exclusions to search queries
+   - `5f66a37` - docs: replace species meta ranking with IV rank approach
+
+### Key Technical Learnings (2026-01-18)
+
+**Pokemon GO Search Syntax**:
+- Comma (`,`) has HIGHER precedence than ampersand (`&`)
+- Tags need `#` prefix: `!#rank1` not `!rank1`
+- Reserved keywords: `lucky`, `shiny`, `shadow`, `costume`, `xxs`, `xxl`, `background`, `gigantamax`, `dynamax`, `evolve`, `baby`
+
+**Tagging System Clarification**:
+- `home` tag = Category 12 (Transfer Queue) - NOT the same as `transfer`
+- `transfer` tag = Category 14 (Lucky Queue)
+- No `master` tag exists
+
+**Two-Step Query Process**:
+- **Step 1 (Find Unreviewed)**: Excludes ALL rank tags (`!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100`)
+- **Step 2 (Find Transfer Candidates)**: Includes rank tags for Rank 21+ (`#rank21-50,#rank51-100`)
+
+**Well-Organized Collection Finding**:
+- User's collection returned 0 results for most queries
+- Indicates excellent organization - all Pokemon already reviewed/tagged
+- This is GOOD - means systematic approach is working
+
+### Earlier Work (2025-11-02): Kyurem Formes & Fusion Mechanics
 
 **Critical Discovery**: White Kyurem and Black Kyurem were missing from raid attacker documentation.
 
@@ -55,37 +109,12 @@ pokemon/
    - **Black Kyurem**: #2 Ice attacker (DPS: 27.2, TDO: 652.0) → 10-12 copies
    - Regular Kyurem: Downgraded from 8 to 6-8 copies (formes are superior)
 
-2. **Fusion Mechanics Research**: Investigated accessibility and buddy system
-   - **NO buddy walking for fusion energy** (critical difference from Mega/Primal)
-   - Fusion energy only from: raids (~100/raid), special research (50), promo codes
-   - Need 1,000 energy per forme = ~10 raids per forme
-   - Fusions are **permanent** (unlike Megas/Primals) and **allow multiple** simultaneously
-   - Accessibility is **event-locked** (only when Black/White Kyurem in raids)
+2. **Fusion Mechanics Research**: NO buddy walking for fusion energy (event-locked, ~10 raids per forme)
 
-3. **Documentation Updates**: Updated 3 files
-   - `RAID_ATTACKER_COUNTS.md`: Quick ref, Ice section, tier summaries
-   - `PHASE_1_IMPLEMENTATION.md`: Ice exception with retention counts
-   - `RAID_META_UPDATE_GUIDE.md`: Prioritize formes, add data sources
+### Earlier Work (2025-10-14): Raid Attacker Analysis & Category Restructure
 
-4. **Git Commit**: `24868b1` - docs(raid): add Kyurem (White) and Kyurem (Black) formes to attacker lists
-
-### Earlier Work (2025-10-14)
-
-Completed comprehensive raid attacker retention analysis and documentation:
-
-1. **Raid Attacker Analysis**: Analyzed 100+ raid attackers across 18 types to determine exact retention counts (1-12 range)
-2. **RAID_ATTACKER_COUNTS.md**: Created 534-line reference document with detailed recommendations per Pokemon
-3. **Key Determinations**: Mega Rayquaza (12), Shadow Mewtwo (12), Rayquaza (12), Mewtwo (10-12), Terrakion (8-10), Deoxys Attack (3-4), Mega Beedrill (1-2)
-4. **Phase 1 Updates**: Added Deoxys exception, updated references, fixed cSpell warnings
-
-### Earlier Work (2025-10-14)
-
-Completed category renumbering restructure and PokeGenie naming format corrections:
-
-1. **Category Restructure**: Merged Categories #1 (Great/Ultra League) and #2 (Little League) into #1a and #1b subcategories, renumbered all subsequent categories (#3→#2, #4→#3, etc., #14→#13)
-2. **PokeGenie Format Corrections**: Applied extensive format and symbol corrections across 15 Name Generators
-3. **Documentation Updates**: Updated both POKEGENIE_NAMING.md and STORAGE_STRATEGY_CORRECTED.md for consistency
-4. **Raid Attacker Query**: Created comprehensive query string for tagging raid/gym attackers to prevent accidental transfers
+1. **Raid Attacker Analysis**: Analyzed 100+ raid attackers across 18 types (retention counts 1-12)
+2. **Category Restructure**: Merged #1/#2 into #1a/#1b subcategories, renumbered #3-14
 
 ### Key Technical Decisions
 
@@ -153,62 +182,67 @@ regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltre
 
 ### Current State
 
-**Completed Today (2025-11-02)**:
-- [x] **Identified missing Kyurem formes** (White #1, Black #2 Ice attackers)
-- [x] **Updated RAID_ATTACKER_COUNTS.md** (added formes to quick ref, Ice section, tiers)
-- [x] **Updated PHASE_1_IMPLEMENTATION.md** (Ice exception with 10-12 retention counts)
-- [x] **Updated RAID_META_UPDATE_GUIDE.md** (prioritized formes, added data sources)
-- [x] **Researched fusion mechanics** (NO buddy walking, event-locked accessibility)
-- [x] **Git commit**: `24868b1` - Added Kyurem formes to attacker lists
+**Completed (2026-01-18)**:
+- [x] Created `QUICK_WIN_STRATEGY.md` - Collector-first approach with 10 prioritized quick wins
+- [x] Created `MASTER_LEAGUE_CHECKLIST.md` - Detailed step-by-step guide
+- [x] Created `OTHER_QUICK_WINS.md` - Analysis of all quick-win categories
+- [x] Created `ACTION_PLAN_2026-01-18.md` - Command center with timeline
+- [x] Tested all queries against actual collection (most returned 0 - well-organized)
+- [x] Added Heatran and Shadow Heatran to RAID_ATTACKER_COUNTS.md
+- [x] 11 git commits documenting all changes
 
-**Completed Earlier (2025-10-14)**:
-- [x] Category renumbering (#1→#1a/#1b, renumber #3-14)
-- [x] PokeGenie format corrections (15 generators documented)
-- [x] Symbol legend cleanup and standardization
-- [x] Documentation updates (POKEGENIE_NAMING.md, STORAGE_STRATEGY_CORRECTED.md)
-- [x] Raid attacker exclusion query created
-- [x] **Raid attacker analysis** (100+ Pokemon across 18 types)
-- [x] **RAID_ATTACKER_COUNTS.md created** (534 lines, exact counts 1-12)
-- [x] **Phase 1 guide updated** (Deoxys exception added)
-- [x] **cSpell fixes** (formes, Eeveelution, Entei, Therian)
-- [x] Git commits (8 commits total: 7 on 2025-10-14, 1 on 2025-11-02)
+**Query Testing Results** (2026-01-18):
+- Master League: 0 unreviewed, 20 tagged Rank 21+ (all best specimens - no transfers)
+- Lucky: 92 Pokemon, no duplicates
+- Costume: 720 Pokemon, no 3+ duplicates
+- Priority 6a (evolve): 0 results
+- Priority 6b (baby): 0 results
+- Great League Step 1: 68 Pokemon found, none eligible, all now tagged
+- Ultra League Step 1: 0 results
 
-**Next Actions**:
-- [ ] **Configure 6 new PokeGenie generators** (#9-14: Shadow, XXS/XXL, Background, Dynamax, Gigantamax, Transfer)
-- [ ] Test PokeGenie naming with sample Pokemon
-- [ ] Begin Phase 1 implementation (Master League reduction)
+**In Progress**:
+- [ ] **Tag all raid attackers with `#Attackers`** using the complete query (64 species)
+- [ ] Run `#Attackers` count to compare against recommended totals
+- [ ] Continue testing Priority 7-10 based on cleanup potential
 
 ### Next Session Priorities
 
-1. **Configure PokeGenie Generators** (30-45 min)
-   - Add 6 new generators (#9-14) in PokeGenie app
-   - Verify generator order matches priority (Trade at top, Transfer at bottom)
-   - Test with sample Pokemon to verify naming formats
-
-2. **Tag Raid Attackers** (15 min)
-   - Use raid attacker query in Pokemon GO
+1. **Tag All Raid Attackers** (IMMEDIATE)
+   - Run complete query (64 species including Heatran):
+   ```
+   regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltres,gengar,toxicroak,roserade,groudon,garchomp,excadrill,rhyperior,landorus,rampardos,tyranitar,terrakion,heracross,pheromosa,beedrill,volcarona,scizor,chandelure,giratina,metagross,dialga,darmanitan,reshiram,kyogre,palkia,swampert,sceptile,kartana,tangrowth,venusaur,electivire,xurkitree,raikou,zekrom,zapdos,magnezone,mewtwo,alakazam,deoxys,latios,espeon,mamoswine,weavile,kyurem,glaceon,dragonite,yveltal,hoopa,hydreigon,gardevoir,xerneas,togekiss,primarina,granbull,heatran,pinsir
+   ```
    - Tag all results with `#Attackers`
-   - Verify no false positives
 
-3. **Begin Phase 1: Master League Reduction** (Week 1)
-   - Reference: `docs/guides/PHASE_1_IMPLEMENTATION.md`
-   - Scan all Master League Pokemon with PokeGenie
-   - Transfer Rank 21+ final evolutions (exclude #Attackers)
-   - Target: Free 300-400 slots
+2. **Determine Next Quick Win by Cleanup Yield**
+   - User's collection is well-organized; most categories have 0 transfer candidates
+   - Need to identify which categories actually have cleanup potential
+   - Run counts on remaining categories (Raid Attacker Excess, etc.)
+
+3. **Decision Pending: Prioritization Method**
+   - Current: Fixed priority order (ML > GL > UL > LL > Raid Attackers)
+   - Alternative: Prioritize by cleanup yield (whichever category removes most Pokemon)
+   - For minimal PvP player, all league categories have equal low priority
 
 ### Important Files/Locations
+
+**Quick Win Strategy (NEW 2026-01-18)**:
+- `QUICK_WIN_STRATEGY.md` - Collector-first approach with 10 prioritized quick wins
+- `MASTER_LEAGUE_CHECKLIST.md` - Detailed step-by-step Master League reduction guide
+- `OTHER_QUICK_WINS.md` - Analysis of all quick-win categories beyond Master League
+- `ACTION_PLAN_2026-01-18.md` - Command center with timeline and quick reference
 
 **Core Documentation**:
 - `POKEGENIE_NAMING.md` - Complete Name Generator specs (15 generators, 352 lines)
 - `STORAGE_STRATEGY_CORRECTED.md` - 13-category retention rules (486 lines)
-- `README.md` - Project overview and quick start guide
+- `docs/strategies/STRATEGY_REVISIONS_FINAL.md` - Aggressive collector strategy (source of retention rules)
 - `docs/guides/PHASE_1_IMPLEMENTATION.md` - Step-by-step ML reduction guide
 
 **Reference Materials**:
 - `docs/reference/TAG_SYSTEM.md` - 43-tag system documentation
 - `docs/reference/FAVORITE_QUERIES.md` - 40 saved search queries
 - `docs/reference/STORAGE_QUICK_REFERENCE.md` - Daily decision flowchart
-- `docs/reference/RAID_ATTACKER_COUNTS.md` - **NEW**: Exact retention counts per attacker (534 lines)
+- `docs/reference/RAID_ATTACKER_COUNTS.md` - Exact retention counts per attacker (updated with Heatran)
 
 **Meta Data**:
 - `meta/cp10000_all_overall_rankings.csv` - PvPoke Master League top 200
@@ -219,13 +253,17 @@ regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltre
 **Branch**: develop (main branch)
 **Clean working tree**: Yes (all changes committed)
 **Recent commits** (most recent first):
-1. `24868b1` (2025-11-02) - docs(raid): add Kyurem (White) and Kyurem (Black) formes to attacker lists
-2. `e6ca052` (2025-10-14) - docs: update session handoff with raid attacker analysis
-3. `beb6be1` (2025-10-14) - docs: update raid attacker retention guide with refined recommendations
-4. `ef27250` (2025-10-14) - fix(cspell): add Pokemon-related terms to dictionary
-5. `b59ac9e` (2025-10-14) - docs(raid): add comprehensive raid attacker retention counts reference
-6. `e4c2b6d` (2025-10-14) - fix(cspell): add 'formes' to dictionary
-7. `9f280be` (2025-10-14) - docs(phase1): add Deoxys (Attack) exception to raid attacker list
+1. `b9fdabb` (2026-01-18) - docs(raid): add Heatran and Shadow Heatran to raid attacker lists
+2. `0d718bd` (2026-01-18) - docs: clarify two-step process for all league priorities
+3. `fcc23bc` (2026-01-18) - docs: use evolve keyword for non-final evolution query
+4. `4d1d7fd` (2026-01-18) - docs: enhance Priority 6 queries with full exclusions
+5. `401558c` (2026-01-18) - docs: clarify costume retention rule as 2 per costume
+6. `4114e9c` (2026-01-18) - docs: expand transfer candidate query and duplicate guidance
+7. `f35de9a` (2026-01-18) - docs: add league exclusions to transfer candidate query
+8. `4fc8d36` (2026-01-18) - docs: add guidance for when unreviewed query returns 0 results
+9. `94c9617` (2026-01-18) - docs: add rank tag exclusions to search queries
+10. `2660433` (2026-01-18) - docs: add complete category exclusions to search queries
+11. `5f66a37` (2026-01-18) - docs: replace species meta ranking with IV rank approach
 
 ### Questions/Considerations
 
@@ -267,10 +305,10 @@ regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltre
 
 ### Storage Metrics
 
-**Current**: 10,184 / 10,500 Pokemon (316 free, ~3%)
-**Target**: 9,200-9,600 Pokemon (900-1,300 free, ~9-12%)
-**Phase 1 Goal**: Free 300-400 slots (Master League reduction)
-**Phase 2 Goal**: Free 600-900 slots (Great/Ultra/Little League reduction)
+**Current**: 11,021 / 11,325 Pokemon (304 free, ~2.7%)
+**Target**: 9,627 Pokemon (1,698 free, ~15%)
+**Phase 1 Finding**: Master League returned 0 transfer candidates (collection well-organized)
+**Challenge**: Most quick-win categories returning 0 results - need to find alternative cleanup sources
 
 ### Key Constraints
 
@@ -283,39 +321,38 @@ regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltre
 
 ## Session Notes
 
-**Current Session (2025-11-02)**: Kyurem Formes Discovery & Fusion Mechanics
+**Current Session (2026-01-18)**: Quick Win Storage Optimization & Query Testing
 
-**Key Discovery**: User identified that White Kyurem and Black Kyurem were missing from RAID_ATTACKER_COUNTS.md despite appearing in Master League Top 20. Investigation revealed:
-- PokeMonGo Hub data showed them as #1 and #2 Ice attackers (not in GamePress data)
-- White Kyurem DPS (30.6) is 62% higher than Shadow Mamoswine (#3, DPS: 25.1)
-- GamePress only listed generic "Kyurem" without forme differentiation
+**Session Goal**: Optimize storage for Community Day/event play style with target 15% free space (1,698 slots).
 
-**Research Question**: User asked whether fusion energy can be obtained from buddy walking.
+**Key Findings**:
+1. **Well-Organized Collection**: Most queries returned 0 results - user's collection is already well-organized
+2. **No Easy Transfer Candidates**: Master League (0), Great League (0 eligible), Ultra League (0), Priority 6a/6b (0)
+3. **Complete Queries Built**: All search queries now exclude ALL 14 protected categories correctly
 
-**Answer**: NO - Critical difference from Mega/Primal mechanics:
-- Mega Energy: ✅ 5/km buddy walking after first evolution
-- Primal Energy: ✅ 100/20km buddy walking after first reversion
-- **Fusion Energy**: ❌ NO buddy walking - raids/research/codes only
+**Critical Syntax Corrections Made**:
+- Tags need `#` prefix: `!#rank1` not `!rank1`
+- Comma has higher precedence than `&` in Pokemon GO search
+- Must exclude ALL protected categories including `gigantamax`, `dynamax` (separate from `background`)
 
-**Implications**:
-- Limited accessibility (~10 raids per forme = 1,000 energy)
-- Event-locked (only when Black/White Kyurem in raids)
-- BUT: Fusions are permanent and allow multiple simultaneously
-- Raises question: Should 10-12 count be adjusted for accessibility?
+**Files Created This Session**:
+1. `QUICK_WIN_STRATEGY.md` - Main strategy document
+2. `MASTER_LEAGUE_CHECKLIST.md` - Step-by-step checklist
+3. `OTHER_QUICK_WINS.md` - Analysis of all categories
+4. `ACTION_PLAN_2026-01-18.md` - Command center
 
 **Files Modified**:
-1. `docs/reference/RAID_ATTACKER_COUNTS.md` - Added formes to quick ref, Ice section, tiers
-2. `docs/guides/PHASE_1_IMPLEMENTATION.md` - Ice exception with 10-12 counts
-3. `docs/guides/RAID_META_UPDATE_GUIDE.md` - Prioritized formes, data sources
+- `docs/reference/RAID_ATTACKER_COUNTS.md` - Added Heatran and Shadow Heatran
 
-**Shadow Raid Attacker Query Created** (36 Pokemon):
+**Complete Raid Attacker Query** (64 species):
 ```
-shadow&(mewtwo,salamence,dragonite,tyranitar,groudon,kyogre,garchomp,latios,chandelure,gengar,mamoswine,weavile,metagross,rhyperior,raikou,zapdos,moltres,honchkrow,rampardos,electivire,magnezone,darmanitan,machamp,excadrill,swampert,venusaur,tangrowth,scizor,blaziken,regigigas,staraptor,alakazam,gardevoir,granbull,sceptile,toxicroak)
+regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltres,gengar,toxicroak,roserade,groudon,garchomp,excadrill,rhyperior,landorus,rampardos,tyranitar,terrakion,heracross,pheromosa,beedrill,volcarona,scizor,chandelure,giratina,metagross,dialga,darmanitan,reshiram,kyogre,palkia,swampert,sceptile,kartana,tangrowth,venusaur,electivire,xurkitree,raikou,zekrom,zapdos,magnezone,mewtwo,alakazam,deoxys,latios,espeon,mamoswine,weavile,kyurem,glaceon,dragonite,yveltal,hoopa,hydreigon,gardevoir,xerneas,togekiss,primarina,granbull,heatran,pinsir
 ```
 
-**Open Question for User**:
-Should Kyurem forme retention count stay at 10-12 (elite performance) or drop to 6-8 (accessibility concern)?
+**Immediate Next Action**: Tag all raid attackers with `#Attackers` using the query above.
+
+**Open Decision for User**: Should prioritization be by fixed order or by cleanup yield potential?
 
 ---
 
-_Session handoff updated: 2025-11-02 (continued from 2025-10-14)_
+_Session handoff updated: 2026-01-18_

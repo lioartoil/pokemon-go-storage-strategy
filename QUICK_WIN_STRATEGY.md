@@ -82,6 +82,12 @@ You need **1,400+ slots freed FAST** to support your Community Day/event play st
 
 ## Priority Breakdown
 
+> **Note: Well-Organized Collections**
+>
+> If a query returns 0 results or no duplicates beyond the retention limit, your collection is already well-organized for that category. This is a good sign! Simply skip to the next priority. The slot estimates assume an unoptimized collection - actual savings vary based on your current organization.
+
+---
+
 ### **Priority 1: Transfer Queue (INSTANT - 76+ slots)**
 
 **Difficulty**: ✅ Easy
@@ -227,21 +233,31 @@ Pokemon caught during events that have no PvP/Raid value
 #### 6a. Middle Evolutions (No PvP Use)
 Pokemon stuck in middle evolution with no Great/Ultra/Little League value
 
-**Search**: `!shiny&!lucky&!shadow&!costume&!4*&!3*`
+**Search**:
+```
+!shiny&!lucky&!shadow&!costume&!4*&!3*&!@special&!legendary&!mythical&!ultra beasts&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100
+```
 
 **Then manually filter**:
 - Dragonair, Zweilous, Sligoo, etc. (if not Rank ≤500 in any league)
 - Keep: 2 per species (future-proofing)
 - Transfer: Extras beyond 2
 
-#### 6b. Baby Pokemon Extras
-**Search**: `baby&!shiny&!lucky&!4*`
+**If 0 results or no 3+ duplicates**: Your collection is well-organized! Skip to Priority 6b or next priority.
 
-**Rule**: Keep 1 per baby species (unless shiny/4★)
+#### 6b. Baby Pokemon Extras
+**Search**:
+```
+baby&!shiny&!lucky&!4*&!costume&!shadow&!@special&!great&!ultra&!little&!#Attackers&!home&!transfer&!xxs&!xxl&!background&!gigantamax&!dynamax&!#rank1&!#rank2&!#rank3&!#rank4-20&!#rank21-50&!#rank51-100
+```
+
+**Rule**: Keep 1 per baby species (unless shiny/4★/costume)
 
 **Common Extras**:
 - Pichu, Togepi, Azurill from eggs
-- Transfer duplicates
+- Transfer duplicates beyond 1 per species
+
+**If 0 results or no duplicates**: Your collection is well-organized! Skip to next priority.
 
 **Result: 100-200 slots**
 

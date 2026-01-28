@@ -1,6 +1,6 @@
 # Raid Attacker Retention Counts - Exact Recommendations
 
-**Last Updated**: 2026-01-18
+**Last Updated**: 2026-01-28
 **Data Source**: GamePress Comprehensive DPS/TDO Spreadsheet (2025-10-12), GamePress Tier List (2026-01)
 **User Priority**: Raids > Collection > Trading >>> PvP (minimal)
 
@@ -43,6 +43,8 @@ This document provides **exact recommended counts** for each top raid attacker b
 | **Dialga (Origin)**    | **10**    | Dragon, Steel        | Dual-type legendary, top ranks                 |
 | **Kyurem (White)**     | **10-12** | Ice, Dragon          | #1 Ice attacker, legendary, excellent DPS      |
 | **Kyurem (Black)**     | **10-12** | Ice, Dragon          | #2 Ice attacker, legendary, excellent DPS      |
+| **Dawn Wings Necrozma** | **10-12** | Ghost, Psychic      | #1 Ghost attacker, legendary fusion            |
+| **Dusk Mane Necrozma** | **10-12** | Steel, Psychic       | #1 Steel attacker, dethroned Metagross         |
 | **Terrakion**          | **8-10**  | Fighting, Rock       | Rank #8/#5, dual coverage, good bulk           |
 | **Mega Heracross**     | **8**     | Bug, Fighting        | Top Bug, #4 Fighting, raid-exclusive           |
 | **Pheromosa**          | **8**     | Bug, Fighting        | Rank #2/#6, Ultra Beast rarity                 |
@@ -65,6 +67,8 @@ This document provides **exact recommended counts** for each top raid attacker b
 | **Shadow Chandelure**  | **6-8**   | Fire, Ghost          | Dual-type shadow, #2 ranks                     |
 | **Mega Gengar**        | **6-8**   | Ghost, Poison        | Dual-type Mega, #1 ranks                       |
 | **Shadow Gengar**      | **6-8**   | Ghost, Poison        | Dual-type shadow, #2/#3                        |
+| **Lunala**             | **6-8**   | Ghost, Psychic       | #7 Ghost, S-tier, excellent TDO                |
+| **Blacephalon**        | **6-8**   | Fire, Ghost          | Ultra Beast, glass cannon, high DPS            |
 | **Mega Sceptile**      | **6-8**   | Grass                | Rank #1, strong Mega                           |
 | **Kartana**            | **6-8**   | Grass, Steel         | Dual-type Ultra Beast, top ranks               |
 | **Mega Lucario**       | **6-8**   | Fighting, Steel      | Dual-type Mega, #1 ranks                       |
@@ -247,8 +251,9 @@ This document provides **exact recommended counts** for each top raid attacker b
 | Shadow Blaziken   | 6     | #4   | 48.61 | Also #3 Fighting, accessible               |
 | Shadow Moltres    | 6-8   | #5   | 51.93 | Also #5 Flying, shadow legendary           |
 | Shadow Heatran    | 6-8   | #6   | ~50   | Also Steel, excellent bulk & resistances   |
+| Blacephalon       | 6-8   | #7   | -     | Ultra Beast, also Ghost, glass cannon      |
 | Reshiram          | 8     | #8   | 51.79 | Also Dragon, legendary bulk                |
-| Chandelure        | 6     | #8   | 44.53 | Also Ghost, accessible                     |
+| Chandelure        | 6     | #9   | 44.53 | Also Ghost, accessible                     |
 | Heatran           | 6     | #10+ | ~42   | Also Steel, great defensive typing         |
 | Blaziken          | 4-6   | #10+ | -     | Accessible alternative                     |
 
@@ -276,14 +281,17 @@ This document provides **exact recommended counts** for each top raid attacker b
 
 ### Ghost Type
 
-| Pokemon           | Count | Rank | ER    | Notes                       |
-| ----------------- | ----- | ---- | ----- | --------------------------- |
-| Mega Gengar       | 6-8   | #1   | 57.59 | Also #1 Poison, dual Mega   |
-| Shadow Chandelure | 6-8   | #2   | 51.49 | Also #2 Fire, dual coverage |
-| Shadow Gengar     | 6-8   | #3   | 48.42 | Also #2 Poison, accessible  |
-| Hoopa (Unbound)   | 8     | #5   | 50.16 | Also #6 Dark, mythical      |
-| Chandelure        | 6     | #8   | 44.53 | Also Fire, accessible       |
-| Gengar            | 6     | #9   | 41.86 | Also Poison, accessible     |
+| Pokemon              | Count | Rank | ER    | Notes                            |
+| -------------------- | ----- | ---- | ----- | -------------------------------- |
+| Dawn Wings Necrozma  | 10-12 | #1   | -     | Legendary fusion, dominates type |
+| Mega Gengar          | 6-8   | #2   | 57.59 | Also #1 Poison, dual Mega        |
+| Shadow Chandelure    | 6-8   | #3   | 51.49 | Also #2 Fire, dual coverage      |
+| Shadow Gengar        | 6-8   | #4   | 48.42 | Also #2 Poison, accessible       |
+| Blacephalon          | 6-8   | #5   | -     | Ultra Beast, also Fire, glass cannon |
+| Hoopa (Unbound)      | 8     | #6   | 50.16 | Also #6 Dark, mythical           |
+| Lunala               | 6-8   | #7   | -     | Also Psychic, S-tier, excellent TDO |
+| Chandelure           | 6     | #9   | 44.53 | Also Fire, accessible            |
+| Gengar               | 6     | #10  | 41.86 | Also Poison, accessible          |
 
 **Ghost Raid Frequency**: Medium (Psychic bosses)
 
@@ -403,20 +411,21 @@ This document provides **exact recommended counts** for each top raid attacker b
 
 ### Steel Type
 
-| Pokemon          | Count | Rank | ER    | Notes                          |
-| ---------------- | ----- | ---- | ----- | ------------------------------ |
-| Mega Lucario     | 6-8   | #1   | 58.07 | Also #1 Fighting, dual Mega    |
-| Shadow Metagross | 6-8   | #2   | 55.59 | Also #4 Psychic, dual coverage |
-| Shadow Excadrill | 6     | #3   | 48.66 | Also #5 Ground, accessible     |
-| Mega Metagross   | 4-6   | #4   | 58.01 | Mega only, excellent ER        |
-| Kartana          | 6-8   | #5   | 48.09 | Also #2 Grass, Ultra Beast     |
-| Dialga (Origin)  | 10    | #6   | 54.37 | Also #10 Dragon, legendary     |
-| Shadow Heatran   | 6-8   | #7   | ~50   | Also #6 Fire, excellent bulk   |
-| Shadow Magnezone | 6     | #8   | 46.11 | Also #7 Electric, accessible   |
-| Lucario          | 6     | #9   | 43.73 | Also Fighting, accessible      |
-| Metagross        | 6-8   | #10  | 48.08 | Accessible alternative         |
-| Heatran          | 6     | #10+ | ~42   | Also Fire, great resistances   |
-| Dialga           | 6     | #10+ | -     | Regular forme                  |
+| Pokemon           | Count | Rank | ER    | Notes                               |
+| ----------------- | ----- | ---- | ----- | ----------------------------------- |
+| Dusk Mane Necrozma| 10-12 | #1   | -     | Legendary fusion, dethroned Metagross |
+| Mega Lucario      | 6-8   | #2   | 58.07 | Also #1 Fighting, dual Mega         |
+| Shadow Metagross  | 6-8   | #3   | 55.59 | Also #4 Psychic, dual coverage      |
+| Shadow Excadrill  | 6     | #4   | 48.66 | Also #5 Ground, accessible          |
+| Mega Metagross    | 4-6   | #5   | 58.01 | Mega only, excellent ER             |
+| Kartana           | 6-8   | #6   | 48.09 | Also #2 Grass, Ultra Beast          |
+| Dialga (Origin)   | 10    | #7   | 54.37 | Also #10 Dragon, legendary          |
+| Shadow Heatran    | 6-8   | #8   | ~50   | Also #6 Fire, excellent bulk        |
+| Shadow Magnezone  | 6     | #9   | 46.11 | Also #7 Electric, accessible        |
+| Lucario           | 6     | #10  | 43.73 | Also Fighting, accessible           |
+| Metagross         | 6-8   | #10+ | 48.08 | Accessible alternative              |
+| Heatran           | 6     | #10+ | ~42   | Also Fire, great resistances        |
+| Dialga            | 6     | #10+ | -     | Regular forme                       |
 
 **Steel Raid Frequency**: Medium (Fairy/Ice/Rock bosses)
 
@@ -497,6 +506,8 @@ Primal evolutions require special Primal Energy and are extremely powerful:
 - Primal Kyogre (Water #1)
 - **Kyurem (White)** (Ice #1, Dragon/Ice)
 - **Kyurem (Black)** (Ice #2, Dragon/Ice)
+- **Dawn Wings Necrozma** (Ghost #1, legendary fusion)
+- **Dusk Mane Necrozma** (Steel #1, legendary fusion)
 - Shadow Salamence (Dragon/Flying #3/#3)
 - Shadow Dragonite (Dragon/Flying #5/#7)
 - Palkia Origin (Dragon/Water #9/#3)
@@ -516,7 +527,8 @@ Primal evolutions require special Primal Energy and are extremely powerful:
 
 - Most Mega evolutions
 - Most shadow legendaries
-- Ultra Beasts (Kartana, Xurkitree, Pheromosa)
+- Ultra Beasts (Kartana, Xurkitree, Pheromosa, Blacephalon)
+- Lunala (Ghost/Psychic #7)
 - Strong dual-type attackers
 
 ### Tier 5: Keep 4-6 (Accessible or Niche)
@@ -544,4 +556,4 @@ Primal evolutions require special Primal Energy and are extremely powerful:
 
 ---
 
-_Last Updated: 2025-10-14 | Based on GamePress Comprehensive DPS/TDO Spreadsheet (2025-10-12)_
+_Last Updated: 2026-01-28 | Based on GamePress Comprehensive DPS/TDO Spreadsheet (2025-10-12), GamePress Tier List (2026-01)_

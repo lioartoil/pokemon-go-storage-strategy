@@ -175,9 +175,16 @@ pokemon/
 
 **Shadow/Purified**: ● (Shadow), ○ (Purified)
 
-**Raid Attacker Query** (102+ species to exclude from transfers):
+**Raid Attacker Queries** (to exclude from transfers):
+
+**Non-Shadow Query** (55 species):
 ```
-regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltres,gengar,toxicroak,roserade,groudon,garchomp,excadrill,rhyperior,landorus,rampardos,tyranitar,terrakion,heracross,pheromosa,beedrill,volcarona,scizor,chandelure,giratina,metagross,dialga,darmanitan,reshiram,kyogre,palkia,swampert,sceptile,kartana,tangrowth,venusaur,electivire,xurkitree,raikou,zekrom,zapdos,magnezone,mewtwo,alakazam,deoxys,latios,espeon,mamoswine,weavile,kyurem,glaceon,dragonite,yveltal,hoopa,hydreigon,gardevoir,xerneas,togekiss,primarina,granbull
+!shadow&(rayquaza,mewtwo,groudon,kyogre,kyurem,terrakion,reshiram,zekrom,xerneas,yveltal,hoopa,heracross,pheromosa,tyranitar,garchomp,blaziken,gengar,sceptile,kartana,lucario,metagross,gardevoir,mamoswine,weavile,glaceon,landorus,xurkitree,electivire,rampardos,swampert,volcarona,roserade,chandelure,espeon,alakazam,togekiss,primarina,granbull,hydreigon,salamence,dragonite,palkia,dialga,heatran,regigigas,staraptor,pinsir,deoxys,beedrill,scizor,necrozma,lunala,blacephalon)
+```
+
+**Shadow Query** (37 species):
+```
+shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,blaziken,chandelure,gengar,mamoswine,weavile,honchkrow,rampardos,rhyperior,electivire,raikou,zapdos,magnezone,moltres,darmanitan,machamp,excadrill,swampert,venusaur,tangrowth,scizor,alakazam,granbull,regigigas,staraptor,toxicroak,latios,metagross,gardevoir,sceptile)
 ```
 
 ### Current State
@@ -342,17 +349,28 @@ regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltre
 4. `ACTION_PLAN_2026-01-18.md` - Command center
 
 **Files Modified**:
-- `docs/reference/RAID_ATTACKER_COUNTS.md` - Added Heatran and Shadow Heatran
+- `docs/reference/RAID_ATTACKER_COUNTS.md` - Added Heatran, Shadow Heatran, Dawn Wings Necrozma, Dusk Mane Necrozma, Lunala, Blacephalon
 
-**Complete Raid Attacker Query** (64 species):
+**Raid Attacker Queries** (updated 2026-01-28):
+
+**Non-Shadow Query** (55 species):
 ```
-regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltres,gengar,toxicroak,roserade,groudon,garchomp,excadrill,rhyperior,landorus,rampardos,tyranitar,terrakion,heracross,pheromosa,beedrill,volcarona,scizor,chandelure,giratina,metagross,dialga,darmanitan,reshiram,kyogre,palkia,swampert,sceptile,kartana,tangrowth,venusaur,electivire,xurkitree,raikou,zekrom,zapdos,magnezone,mewtwo,alakazam,deoxys,latios,espeon,mamoswine,weavile,kyurem,glaceon,dragonite,yveltal,hoopa,hydreigon,gardevoir,xerneas,togekiss,primarina,granbull,heatran,pinsir
+!shadow&(rayquaza,mewtwo,groudon,kyogre,kyurem,terrakion,reshiram,zekrom,xerneas,yveltal,hoopa,heracross,pheromosa,tyranitar,garchomp,blaziken,gengar,sceptile,kartana,lucario,metagross,gardevoir,mamoswine,weavile,glaceon,landorus,xurkitree,electivire,rampardos,swampert,volcarona,roserade,chandelure,espeon,alakazam,togekiss,primarina,granbull,hydreigon,salamence,dragonite,palkia,dialga,heatran,regigigas,staraptor,pinsir,deoxys,beedrill,scizor,necrozma,lunala,blacephalon)
 ```
 
-**Immediate Next Action**: Tag all raid attackers with `#Attackers` using the query above.
+**Shadow Query** (37 species):
+```
+shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,blaziken,chandelure,gengar,mamoswine,weavile,honchkrow,rampardos,rhyperior,electivire,raikou,zapdos,magnezone,moltres,darmanitan,machamp,excadrill,swampert,venusaur,tangrowth,scizor,alakazam,granbull,regigigas,staraptor,toxicroak,latios,metagross,gardevoir,sceptile)
+```
 
-**Open Decision for User**: Should prioritization be by fixed order or by cleanup yield potential?
+**Immediate Next Action**: Tag all raid attackers with `#Attackers` using both queries above.
+
+**Changes Made (2026-01-28)**:
+- Added Dawn Wings Necrozma, Dusk Mane Necrozma (10-12 count each)
+- Added Lunala, Blacephalon (6-8 count each)
+- Removed Giratina (Ghost #16, not a top attacker)
+- Split into separate non-shadow and shadow queries
 
 ---
 
-_Session handoff updated: 2026-01-18_
+_Session handoff updated: 2026-01-28_

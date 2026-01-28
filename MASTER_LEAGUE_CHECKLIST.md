@@ -1,7 +1,7 @@
 # Master League Reduction - Detailed Checklist
 
 **Created**: 2026-01-18
-**Revised**: 2026-01-18 (IV Rank Approach)
+**Revised**: 2026-01-28 (Updated raid attacker queries)
 **Target**: Free 300-400 slots
 **Time Required**: 2-4 hours
 **Difficulty**: ⚠️ Medium (requires PokeGenie IV rank scanning)
@@ -55,10 +55,16 @@ Before starting, verify:
 - [ ] ✅ You have 2-4 hours of uninterrupted time
 - [ ] ✅ Phone battery >80% or charger nearby
 
-**⚠️ CRITICAL**: If raid attackers are NOT tagged yet, STOP and tag them first. Use this query:
+**⚠️ CRITICAL**: If raid attackers are NOT tagged yet, STOP and tag them first. Use these queries:
 
+**Non-Shadow Query** (55 species):
 ```
-regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltres,gengar,toxicroak,roserade,groudon,garchomp,excadrill,rhyperior,landorus,rampardos,tyranitar,terrakion,heracross,pheromosa,beedrill,volcarona,scizor,chandelure,giratina,metagross,dialga,darmanitan,reshiram,kyogre,palkia,swampert,sceptile,kartana,tangrowth,venusaur,electivire,xurkitree,raikou,zekrom,zapdos,magnezone,mewtwo,alakazam,deoxys,latios,espeon,mamoswine,weavile,kyurem,glaceon,dragonite,yveltal,hoopa,hydreigon,gardevoir,xerneas,togekiss,primarina,granbull,heatran,pinsir
+!shadow&(rayquaza,mewtwo,groudon,kyogre,kyurem,terrakion,reshiram,zekrom,xerneas,yveltal,hoopa,heracross,pheromosa,tyranitar,garchomp,blaziken,gengar,sceptile,kartana,lucario,metagross,gardevoir,mamoswine,weavile,glaceon,landorus,xurkitree,electivire,rampardos,swampert,volcarona,roserade,chandelure,espeon,alakazam,togekiss,primarina,granbull,hydreigon,salamence,dragonite,palkia,dialga,heatran,regigigas,staraptor,pinsir,deoxys,beedrill,scizor,necrozma,lunala,blacephalon)
+```
+
+**Shadow Query** (37 species):
+```
+shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,blaziken,chandelure,gengar,mamoswine,weavile,honchkrow,rampardos,rhyperior,electivire,raikou,zapdos,magnezone,moltres,darmanitan,machamp,excadrill,swampert,venusaur,tangrowth,scizor,alakazam,granbull,regigigas,staraptor,toxicroak,latios,metagross,gardevoir,sceptile)
 ```
 
 Tag all results with `#Attackers` tag.

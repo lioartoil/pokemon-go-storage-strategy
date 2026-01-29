@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-> **Project Context** | Pokemon GO Storage Management System | Updated: 2026-01-18
+> **Project Context** | Pokemon GO Storage Management System | Updated: 2026-01-28
 
 ## Project Overview
 
@@ -44,40 +44,47 @@ pokemon/
 └── scripts/                            # Python automation scripts
 ```
 
-## Recent Work (2026-01-18)
+## Recent Work (2026-01-28)
 
-### Session Summary: Quick Win Storage Optimization & Query Testing
+### Session Summary: Raid Attacker Audit & Query Split
 
-**Major Achievement**: Created comprehensive quick-win storage optimization strategy with tested search queries.
+**Major Achievement**: Audited RAID_ATTACKER_COUNTS.md for completeness, added 4 missing top-tier attackers, removed 1 outclassed entry, and split the single raid attacker query into separate non-shadow and shadow queries.
 
-1. **New Strategy Documents Created**:
-   - `QUICK_WIN_STRATEGY.md` - Collector-first approach with 10 prioritized quick wins
-   - `MASTER_LEAGUE_CHECKLIST.md` - Detailed step-by-step Master League reduction guide
-   - `OTHER_QUICK_WINS.md` - Analysis of all quick-win categories beyond Master League
-   - `ACTION_PLAN_2026-01-18.md` - Command center with timeline and quick reference
+1. **Missing Attackers Identified & Added** (via web research):
+   - **Dawn Wings Necrozma** (Ghost #1, 10-12 count) - legendary fusion, dominates Ghost type
+   - **Dusk Mane Necrozma** (Steel #1, 10-12 count) - dethroned Metagross as #1 Steel
+   - **Lunala** (Ghost #7, S-tier, 6-8 count) - excellent TDO
+   - **Blacephalon** (Fire/Ghost Ultra Beast, 6-8 count) - glass cannon
 
-2. **Search Query Development & Testing**:
-   - Built complete search queries excluding ALL 14 protected categories
-   - Tested queries against actual collection - most returned 0 results (well-organized collection)
-   - Implemented two-step process: Step 1 (find unreviewed) → Step 2 (find transfer candidates)
-   - Critical syntax corrections: `#` prefix for tags, comma precedence over `&`, league filtering
+2. **Giratina Removed**:
+   - Research showed Giratina Origin is Ghost #16 (A+ tier, DPS: 14.6)
+   - Outclassed by Mega Gengar, Shadow Chandelure, Shadow Gengar, Dawn Wings Necrozma
+   - Was in old query but NOT in RAID_ATTACKER_COUNTS.md - discrepancy resolved
 
-3. **RAID_ATTACKER_COUNTS.md Updated**:
-   - Added Heatran (6 count) and Shadow Heatran (6-8 count) - released December 2025
-   - Updated Quick Reference Table and Fire/Steel type sections
+3. **Query Split** (non-shadow vs shadow):
+   - Non-Shadow: 55 species (was 64 combined, now includes necrozma, lunala, blacephalon)
+   - Shadow: 37 species (unchanged from previous)
+   - Removed giratina from both
 
-4. **Git Commits** (11 commits this session):
-   - `b9fdabb` - docs(raid): add Heatran and Shadow Heatran to raid attacker lists
-   - `0d718bd` - docs: clarify two-step process for all league priorities
-   - `fcc23bc` - docs: use evolve keyword for non-final evolution query
-   - `4d1d7fd` - docs: enhance Priority 6 queries with full exclusions
-   - `401558c` - docs: clarify costume retention rule as 2 per costume
-   - `4114e9c` - docs: expand transfer candidate query and duplicate guidance
-   - `f35de9a` - docs: add league exclusions to transfer candidate query
-   - `4fc8d36` - docs: add guidance for when unreviewed query returns 0 results
-   - `94c9617` - docs: add rank tag exclusions to search queries
-   - `2660433` - docs: add complete category exclusions to search queries
-   - `5f66a37` - docs: replace species meta ranking with IV rank approach
+4. **NOT Added** (verified via research):
+   - Solgaleo - F-Tier (no Steel fast move, terrible for raids)
+   - Necrozma base form - not a top attacker on its own
+
+5. **Files Updated**:
+   - `docs/reference/RAID_ATTACKER_COUNTS.md` - Quick Ref Table, Ghost/Steel/Fire sections, Tier summaries, footer
+   - `CLAUDE.md` - Replaced single query with two separate queries
+   - `MASTER_LEAGUE_CHECKLIST.md` - Updated raid attacker tagging section
+
+6. **Git Commits** (this session):
+   - `f906eec` - docs(raid): add Necrozma formes, Lunala, Blacephalon to raid attackers
+   - `33e7f00` - docs: update session handoff with 2026-01-18 quick win strategy work
+
+### Earlier Work (2026-01-18): Quick Win Storage Optimization & Query Testing
+
+1. **New Strategy Documents Created**: QUICK_WIN_STRATEGY.md, MASTER_LEAGUE_CHECKLIST.md, OTHER_QUICK_WINS.md, ACTION_PLAN_2026-01-18.md
+2. **Search Query Development**: Built complete queries excluding ALL 14 protected categories, tested against collection
+3. **RAID_ATTACKER_COUNTS.md**: Added Heatran (6) and Shadow Heatran (6-8)
+4. **11 Git Commits**: b9fdabb through 5f66a37
 
 ### Key Technical Learnings (2026-01-18)
 
@@ -189,47 +196,45 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 
 ### Current State
 
+**Completed (2026-01-28)**:
+- [x] Audited RAID_ATTACKER_COUNTS.md - verified up-to-date
+- [x] Added 4 missing attackers (Dawn Wings Necrozma, Dusk Mane Necrozma, Lunala, Blacephalon)
+- [x] Removed Giratina (Ghost #16, outclassed)
+- [x] Split raid attacker query into non-shadow (55 species) and shadow (37 species)
+- [x] Updated RAID_ATTACKER_COUNTS.md (Quick Ref, Ghost/Steel/Fire sections, Tier summaries)
+- [x] Updated MASTER_LEAGUE_CHECKLIST.md with both queries
+- [x] Fixed footer date inconsistency in RAID_ATTACKER_COUNTS.md
+
 **Completed (2026-01-18)**:
-- [x] Created `QUICK_WIN_STRATEGY.md` - Collector-first approach with 10 prioritized quick wins
-- [x] Created `MASTER_LEAGUE_CHECKLIST.md` - Detailed step-by-step guide
-- [x] Created `OTHER_QUICK_WINS.md` - Analysis of all quick-win categories
-- [x] Created `ACTION_PLAN_2026-01-18.md` - Command center with timeline
+- [x] Created 4 strategy documents (QUICK_WIN_STRATEGY, MASTER_LEAGUE_CHECKLIST, OTHER_QUICK_WINS, ACTION_PLAN)
 - [x] Tested all queries against actual collection (most returned 0 - well-organized)
 - [x] Added Heatran and Shadow Heatran to RAID_ATTACKER_COUNTS.md
-- [x] 11 git commits documenting all changes
-
-**Query Testing Results** (2026-01-18):
-- Master League: 0 unreviewed, 20 tagged Rank 21+ (all best specimens - no transfers)
-- Lucky: 92 Pokemon, no duplicates
-- Costume: 720 Pokemon, no 3+ duplicates
-- Priority 6a (evolve): 0 results
-- Priority 6b (baby): 0 results
-- Great League Step 1: 68 Pokemon found, none eligible, all now tagged
-- Ultra League Step 1: 0 results
 
 **In Progress**:
-- [ ] **Tag all raid attackers with `#Attackers`** using the complete query (64 species)
+- [ ] **Tag all raid attackers with `#Attackers`** using both queries (non-shadow + shadow)
 - [ ] Run `#Attackers` count to compare against recommended totals
+- [ ] **Recheck Attacker criteria** - verify new additions align with established methodology
 - [ ] Continue testing Priority 7-10 based on cleanup potential
 
 ### Next Session Priorities
 
 1. **Tag All Raid Attackers** (IMMEDIATE)
-   - Run complete query (64 species including Heatran):
-   ```
-   regigigas,staraptor,lucario,blaziken,machamp,rayquaza,salamence,honchkrow,moltres,gengar,toxicroak,roserade,groudon,garchomp,excadrill,rhyperior,landorus,rampardos,tyranitar,terrakion,heracross,pheromosa,beedrill,volcarona,scizor,chandelure,giratina,metagross,dialga,darmanitan,reshiram,kyogre,palkia,swampert,sceptile,kartana,tangrowth,venusaur,electivire,xurkitree,raikou,zekrom,zapdos,magnezone,mewtwo,alakazam,deoxys,latios,espeon,mamoswine,weavile,kyurem,glaceon,dragonite,yveltal,hoopa,hydreigon,gardevoir,xerneas,togekiss,primarina,granbull,heatran,pinsir
-   ```
+   - Run non-shadow query (55 species) and shadow query (37 species) separately
+   - See "Raid Attacker Queries" section above for exact queries
    - Tag all results with `#Attackers`
 
-2. **Determine Next Quick Win by Cleanup Yield**
+2. **Recheck Attacker Criteria**
+   - Review how original attacker retention criteria was determined
+   - Verify new additions (Necrozma formes, Lunala, Blacephalon) align with methodology
+   - Cross-reference with GamePress tier list
+
+3. **Determine Next Quick Win by Cleanup Yield**
    - User's collection is well-organized; most categories have 0 transfer candidates
    - Need to identify which categories actually have cleanup potential
-   - Run counts on remaining categories (Raid Attacker Excess, etc.)
 
-3. **Decision Pending: Prioritization Method**
+4. **Decision Pending: Prioritization Method**
    - Current: Fixed priority order (ML > GL > UL > LL > Raid Attackers)
    - Alternative: Prioritize by cleanup yield (whichever category removes most Pokemon)
-   - For minimal PvP player, all league categories have equal low priority
 
 ### Important Files/Locations
 
@@ -249,7 +254,7 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 - `docs/reference/TAG_SYSTEM.md` - 43-tag system documentation
 - `docs/reference/FAVORITE_QUERIES.md` - 40 saved search queries
 - `docs/reference/STORAGE_QUICK_REFERENCE.md` - Daily decision flowchart
-- `docs/reference/RAID_ATTACKER_COUNTS.md` - Exact retention counts per attacker (updated with Heatran)
+- `docs/reference/RAID_ATTACKER_COUNTS.md` - Exact retention counts per attacker (updated 2026-01-28 with Necrozma formes, Lunala, Blacephalon)
 
 **Meta Data**:
 - `meta/cp10000_all_overall_rankings.csv` - PvPoke Master League top 200
@@ -260,17 +265,11 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 **Branch**: develop (main branch)
 **Clean working tree**: Yes (all changes committed)
 **Recent commits** (most recent first):
-1. `b9fdabb` (2026-01-18) - docs(raid): add Heatran and Shadow Heatran to raid attacker lists
-2. `0d718bd` (2026-01-18) - docs: clarify two-step process for all league priorities
-3. `fcc23bc` (2026-01-18) - docs: use evolve keyword for non-final evolution query
-4. `4d1d7fd` (2026-01-18) - docs: enhance Priority 6 queries with full exclusions
-5. `401558c` (2026-01-18) - docs: clarify costume retention rule as 2 per costume
-6. `4114e9c` (2026-01-18) - docs: expand transfer candidate query and duplicate guidance
-7. `f35de9a` (2026-01-18) - docs: add league exclusions to transfer candidate query
-8. `4fc8d36` (2026-01-18) - docs: add guidance for when unreviewed query returns 0 results
-9. `94c9617` (2026-01-18) - docs: add rank tag exclusions to search queries
-10. `2660433` (2026-01-18) - docs: add complete category exclusions to search queries
-11. `5f66a37` (2026-01-18) - docs: replace species meta ranking with IV rank approach
+1. `f906eec` (2026-01-28) - docs(raid): add Necrozma formes, Lunala, Blacephalon to raid attackers
+2. `33e7f00` (2026-01-28) - docs: update session handoff with 2026-01-18 quick win strategy work
+3. `b9fdabb` (2026-01-18) - docs(raid): add Heatran and Shadow Heatran to raid attacker lists
+4. `0d718bd` (2026-01-18) - docs: clarify two-step process for all league priorities
+5. `fcc23bc` (2026-01-18) - docs: use evolve keyword for non-final evolution query
 
 ### Questions/Considerations
 
@@ -328,28 +327,16 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 
 ## Session Notes
 
-**Current Session (2026-01-18)**: Quick Win Storage Optimization & Query Testing
+**Current Session (2026-01-28)**: Raid Attacker Audit & Query Split
 
-**Session Goal**: Optimize storage for Community Day/event play style with target 15% free space (1,698 slots).
+**Session Goal**: Verify RAID_ATTACKER_COUNTS.md is up-to-date, create separate non-shadow and shadow queries.
 
 **Key Findings**:
-1. **Well-Organized Collection**: Most queries returned 0 results - user's collection is already well-organized
-2. **No Easy Transfer Candidates**: Master League (0), Great League (0 eligible), Ultra League (0), Priority 6a/6b (0)
-3. **Complete Queries Built**: All search queries now exclude ALL 14 protected categories correctly
-
-**Critical Syntax Corrections Made**:
-- Tags need `#` prefix: `!#rank1` not `!rank1`
-- Comma has higher precedence than `&` in Pokemon GO search
-- Must exclude ALL protected categories including `gigantamax`, `dynamax` (separate from `background`)
-
-**Files Created This Session**:
-1. `QUICK_WIN_STRATEGY.md` - Main strategy document
-2. `MASTER_LEAGUE_CHECKLIST.md` - Step-by-step checklist
-3. `OTHER_QUICK_WINS.md` - Analysis of all categories
-4. `ACTION_PLAN_2026-01-18.md` - Command center
-
-**Files Modified**:
-- `docs/reference/RAID_ATTACKER_COUNTS.md` - Added Heatran, Shadow Heatran, Dawn Wings Necrozma, Dusk Mane Necrozma, Lunala, Blacephalon
+1. **4 Missing Attackers Found**: Dawn Wings Necrozma (Ghost #1), Dusk Mane Necrozma (Steel #1), Lunala (Ghost #7), Blacephalon (Fire/Ghost Ultra Beast) - all released in 2024 but not in documentation
+2. **Giratina Removed**: Ghost #16, outclassed by Mega Gengar, Shadow Chandelure, Shadow Gengar, Dawn Wings Necrozma. Was in old query but NOT in RAID_ATTACKER_COUNTS.md
+3. **Solgaleo Verified F-Tier**: No Steel fast move, terrible for raids - NOT added
+4. **Query Split Complete**: Non-shadow (55 species) and shadow (37 species)
+5. **Footer Date Fixed**: Was showing 2025-10-14, now matches header at 2026-01-28
 
 **Raid Attacker Queries** (updated 2026-01-28):
 
@@ -365,11 +352,8 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 
 **Immediate Next Action**: Tag all raid attackers with `#Attackers` using both queries above.
 
-**Changes Made (2026-01-28)**:
-- Added Dawn Wings Necrozma, Dusk Mane Necrozma (10-12 count each)
-- Added Lunala, Blacephalon (6-8 count each)
-- Removed Giratina (Ghost #16, not a top attacker)
-- Split into separate non-shadow and shadow queries
+**TODO (Post-Implementation)**:
+- [ ] **Recheck Attacker criteria**: Review how the original Attacker retention criteria was determined and verify the new additions align with the established methodology
 
 ---
 

@@ -227,7 +227,7 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 - [ ] Continue testing Priority 7-10 based on cleanup potential
 
 **Deferred (Separate Issue)**:
-- [ ] **Tier methodology recalibration** - Define explicit ER thresholds, resolve rank-to-count inversions, reduce 6/6-8 plateau
+- [ ] **Tier methodology recalibration** - [GitHub Issue #1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) - Define explicit ER thresholds, resolve rank-to-count inversions, reduce 6/6-8 plateau
 
 ### Next Session Priorities
 
@@ -272,12 +272,13 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 
 **Branch**: develop (main branch)
 **Clean working tree**: Yes (all changes committed)
+**GitHub Issues**: [#1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) - Recalibrate raid attacker count tier methodology
 **Recent commits** (most recent first):
-1. `f906eec` (2026-01-28) - docs(raid): add Necrozma formes, Lunala, Blacephalon to raid attackers
-2. `33e7f00` (2026-01-28) - docs: update session handoff with 2026-01-18 quick win strategy work
-3. `b9fdabb` (2026-01-18) - docs(raid): add Heatran and Shadow Heatran to raid attacker lists
-4. `0d718bd` (2026-01-18) - docs: clarify two-step process for all league priorities
-5. `fcc23bc` (2026-01-18) - docs: use evolve keyword for non-final evolution query
+1. `d43c84f` (2026-02-06) - docs(raid): add 11 missing raid attackers from 2025 releases
+2. `a7719de` (2026-02-06) - docs: update session handoff with 2026-01-28 raid attacker audit
+3. `f906eec` (2026-01-28) - docs(raid): add Necrozma formes, Lunala, Blacephalon to raid attackers
+4. `33e7f00` (2026-01-28) - docs: update session handoff with 2026-01-18 quick win strategy work
+5. `b9fdabb` (2026-01-18) - docs(raid): add Heatran and Shadow Heatran to raid attacker lists
 
 ### Questions/Considerations
 
@@ -351,7 +352,7 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
    - Mega Charizard Y (Fire #2, S-Tier)
    - Shadow Darkrai (Dark #4), Shadow Conkeldurr (Fighting #7)
    - Shadow Dialga (Steel #6), Shadow Palkia (Dragon #5)
-3. **Queries Updated**: Non-shadow 55→62, Shadow 37→41
+3. **Queries Updated**: Non-shadow 53→60, Shadow 37→41
 
 **Raid Attacker Queries** (updated 2026-02-06):
 
@@ -368,7 +369,7 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 **Immediate Next Action**: Tag all raid attackers with `#Attackers` using both queries above.
 
 **Deferred**:
-- [ ] **Tier methodology recalibration** — separate issue for ER thresholds, rank-to-count inversions, 6/6-8 plateau
+- [ ] **Tier methodology recalibration** — [GitHub Issue #1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) for ER thresholds, rank-to-count inversions, 6/6-8 plateau
 
 ---
 

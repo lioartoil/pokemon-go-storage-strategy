@@ -1,7 +1,7 @@
 # Raid Attacker Retention Counts - Exact Recommendations
 
-**Last Updated**: 2026-01-28
-**Data Source**: GamePress Comprehensive DPS/TDO Spreadsheet (2025-10-12), GamePress Tier List (2026-01)
+**Last Updated**: 2026-02-06
+**Data Source**: GamePress Comprehensive DPS/TDO Spreadsheet (2025-10-12), GamePress Tier List (2026-02), PokeMonGo Hub DB
 **User Priority**: Raids > Collection > Trading >>> PvP (minimal)
 
 ---
@@ -43,9 +43,13 @@ This document provides **exact recommended counts** for each top raid attacker b
 | **Dialga (Origin)**     | **10**    | Dragon, Steel        | Dual-type legendary, top ranks                 |
 | **Kyurem (White)**      | **10-12** | Ice, Dragon          | #1 Ice attacker, legendary, excellent DPS      |
 | **Kyurem (Black)**      | **10-12** | Ice, Dragon          | #2 Ice attacker, legendary, excellent DPS      |
+| **Crowned Sword Zacian**| **10-12** | Steel, Fairy         | #1 Steel attacker, #2 Fairy, Behemoth Blade    |
+| **Crowned Shield Zamazenta** | **8-10** | Steel           | #2 Steel attacker, highest Steel TDO           |
 | **Dawn Wings Necrozma** | **10-12** | Ghost, Psychic       | #1 Ghost attacker, legendary fusion            |
-| **Dusk Mane Necrozma**  | **10-12** | Steel, Psychic       | #1 Steel attacker, dethroned Metagross         |
+| **Dusk Mane Necrozma**  | **10-12** | Steel, Psychic       | #3 Steel attacker, legendary fusion            |
+| **Eternatus**           | **1**     | Dragon, Poison       | #1 Dragon, #1 Poison, Overall #4 (1 per account) |
 | **Terrakion**           | **8-10**  | Fighting, Rock       | Rank #8/#5, dual coverage, good bulk           |
+| **Keldeo (Resolute)**   | **1-2**   | Fighting, Water      | #3 Fighting (best non-Mega), 1-2 per account  |
 | **Mega Heracross**      | **8**     | Bug, Fighting        | Top Bug, #4 Fighting, raid-exclusive           |
 | **Pheromosa**           | **8**     | Bug, Fighting        | Rank #2/#6, Ultra Beast rarity                 |
 | **Shadow Tyranitar**    | **8**     | Rock, Dark           | Rank #2/#3, dual coverage                      |
@@ -54,6 +58,7 @@ This document provides **exact recommended counts** for each top raid attacker b
 | **Hoopa (Unbound)**     | **8**     | Dark, Ghost, Psychic | Tri-type coverage, mythical                    |
 | **Reshiram**            | **8**     | Fire, Dragon         | Legendary, excellent bulk                      |
 | **Zekrom**              | **8**     | Electric, Dragon     | Legendary, excellent bulk                      |
+| **Shadow Darkrai**      | **3-6**   | Dark                 | #4 Dark, S-Tier, Mythical shadow               |
 | **Shadow Heatran**      | **6-8**   | Fire, Steel          | Dual-type shadow legendary, excellent bulk     |
 | **Heatran**             | **6**     | Fire, Steel          | Dual-type legendary, great defensive typing    |
 | **Kyurem**              | **6-8**   | Ice, Dragon          | Regular forme (formes are superior)            |
@@ -72,6 +77,8 @@ This document provides **exact recommended counts** for each top raid attacker b
 | **Mega Sceptile**       | **6-8**   | Grass                | Rank #1, strong Mega                           |
 | **Kartana**             | **6-8**   | Grass, Steel         | Dual-type Ultra Beast, top ranks               |
 | **Mega Lucario**        | **6-8**   | Fighting, Steel      | Dual-type Mega, #1 ranks                       |
+| **Shadow Dialga**       | **1-2**   | Steel, Dragon        | #6 Steel, #11 Dragon, Giovanni-limited         |
+| **Shadow Palkia**       | **1-2**   | Dragon, Water        | #5 Dragon, Giovanni-limited                    |
 | **Shadow Metagross**    | **6-8**   | Psychic, Steel       | Dual-type shadow, #4/#2                        |
 | **Metagross**           | **6-8**   | Psychic, Steel       | Dual-type, accessible                          |
 | **Mega Gardevoir**      | **6-8**   | Fairy, Psychic       | Dual-type Mega, #1/#8                          |
@@ -86,14 +93,16 @@ This document provides **exact recommended counts** for each top raid attacker b
 | **Shadow Rhyperior**    | **6-8**   | Rock, Ground         | Dual-type shadow, #4/#8                        |
 | **Landorus (Therian)**  | **6-8**   | Ground, Flying       | Legendary, dual-type                           |
 | **Shadow Electivire**   | **6**     | Electric             | Rank #1, accessible evolution                  |
-| **Xurkitree**           | **6-8**   | Electric             | Rank #2, Ultra Beast                           |
-| **Shadow Raikou**       | **6-8**   | Electric             | Rank #3, shadow legendary                      |
+| **Regieleki**           | **6-8**   | Electric             | #2 Electric, S-Tier, glass cannon              |
+| **Xurkitree**           | **6-8**   | Electric             | #4 Electric, Ultra Beast                       |
+| **Shadow Raikou**       | **6-8**   | Electric             | #3 Electric, shadow legendary                  |
 | **Shadow Zapdos**       | **6-8**   | Electric, Flying     | Dual-type shadow legendary                     |
 | **Shadow Magnezone**    | **6**     | Electric, Steel      | Dual-type shadow                               |
 | **Electivire**          | **6**     | Electric             | Accessible alternative                         |
 | **Shadow Moltres**      | **6-8**   | Fire, Flying         | Dual-type shadow legendary                     |
 | **Shadow Darmanitan**   | **6**     | Fire, Ice            | Dual-type shadow, #3 Fire                      |
-| **Shadow Machamp**      | **6**     | Fighting             | Rank #7, very accessible                       |
+| **Shadow Conkeldurr**   | **3-6**   | Fighting             | #7 Fighting, S-Tier, outclasses Shadow Machamp |
+| **Shadow Machamp**      | **6**     | Fighting             | Rank #8, very accessible                       |
 | **Lucario**             | **6**     | Fighting, Steel      | Accessible alternative                         |
 | **Shadow Excadrill**    | **6**     | Ground, Steel        | Dual-type shadow                               |
 | **Shadow Swampert**     | **6**     | Water, Ground        | Dual-type shadow                               |
@@ -128,6 +137,8 @@ This document provides **exact recommended counts** for each top raid attacker b
 | **Shadow Toxicroak**    | **4-6**   | Poison, Fighting     | Dual-type shadow                               |
 | **Deoxys (Attack)**     | **3-4**   | Psychic              | Glass cannon (TDO: 171.8), rank #3             |
 | **Mega Beedrill**       | **1-2**   | Bug                  | Rank #3, extremely accessible (Weedle)         |
+| **Mega Diancie**        | **1**     | Rock, Fairy          | #1 Rock (Mega), Mythical (1 per account)       |
+| **Mega Charizard Y**    | **1-3**   | Fire, Flying         | #2 Fire (Mega), S-Tier, widely accessible      |
 | **Mega Pinsir**         | **2-4**   | Bug                  | Rank #4, accessible                            |
 
 ---
@@ -152,16 +163,17 @@ This document provides **exact recommended counts** for each top raid attacker b
 
 ### Dark Type
 
-| Pokemon          | Count | Rank | ER    | Notes                             |
-| ---------------- | ----- | ---- | ----- | --------------------------------- |
-| Shadow Honchkrow | 6     | #1   | 48.91 | Also #4 Flying, accessible shadow |
-| Shadow Tyranitar | 8     | #3   | 53.64 | Also #2 Rock, dual coverage       |
-| Mega Tyranitar   | 8     | #4   | 58.91 | Also #3 Rock, excellent ER        |
-| Shadow Weavile   | 6-8   | #5   | 46.95 | Also #2 Ice, dual coverage        |
-| Hoopa (Unbound)  | 8     | #6   | 50.16 | Also Ghost, mythical              |
-| Yveltal          | 8     | #9   | 50.29 | Legendary, excellent bulk         |
-| Tyranitar        | 6     | #10+ | 46.37 | Accessible alternative            |
-| Hydreigon        | 6     | #10+ | -     | Pseudo-legendary                  |
+| Pokemon          | Count | Rank | ER    | Notes                                     |
+| ---------------- | ----- | ---- | ----- | ----------------------------------------- |
+| Shadow Honchkrow | 6     | #1   | 48.91 | Also #4 Flying, accessible shadow         |
+| Shadow Tyranitar | 8     | #3   | 53.64 | Also #2 Rock, dual coverage               |
+| Shadow Darkrai   | 3-6   | #4   | -     | DPS: 17.79, Mythical shadow (can't trade) |
+| Mega Tyranitar   | 8     | #5   | 58.91 | Also #3 Rock, excellent ER                |
+| Shadow Weavile   | 6-8   | #6   | 46.95 | Also #2 Ice, dual coverage                |
+| Hoopa (Unbound)  | 8     | #7   | 50.16 | Also Ghost, mythical                      |
+| Yveltal          | 8     | #9   | 50.29 | Legendary, excellent bulk                 |
+| Tyranitar        | 6     | #10+ | 46.37 | Accessible alternative                    |
+| Hydreigon        | 6     | #10+ | -     | Pseudo-legendary                          |
 
 **Dark Raid Frequency**: Medium (Psychic/Ghost bosses common)
 
@@ -169,22 +181,24 @@ This document provides **exact recommended counts** for each top raid attacker b
 
 ### Dragon Type
 
-| Pokemon           | Count  | Rank   | ER        | Notes                                         |
-| ----------------- | ------ | ------ | --------- | --------------------------------------------- |
-| **Mega Rayquaza** | **12** | **#1** | **81.15** | **Dominates Dragon + Flying, massive ER gap** |
-| **Rayquaza**      | **12** | **#2** | **59.08** | **Also #2 Flying, legendary**                 |
-| Shadow Salamence  | 10     | #3     | 54.31     | Also #3 Flying, shadow legendary              |
-| Mega Garchomp     | 6-8    | #4     | 61.11     | Also #2 Ground, dual coverage                 |
-| Shadow Dragonite  | 10     | #5     | 52.7      | Also #7 Flying, common candy                  |
-| Shadow Garchomp   | 6-8    | #6     | 53.95     | Also #4 Ground, dual coverage                 |
-| Shadow Latios     | 6-8    | #8     | 51.67     | Also #10 Psychic, dual coverage               |
-| Palkia (Origin)   | 10     | #9     | 54.48     | Also #3 Water, legendary                      |
-| Dialga (Origin)   | 10     | #10    | 54.37     | Also #6 Steel, legendary                      |
-| Salamence         | 6      | #10+   | -         | Accessible alternative                        |
-| Dragonite         | 6      | #10+   | -         | Accessible alternative                        |
-| Palkia            | 6      | #10+   | 47.39     | Regular forme                                 |
-| Dialga            | 6      | #10+   | -         | Regular forme                                 |
-| Hydreigon         | 6      | #10+   | -         | Also Dark-type                                |
+| Pokemon           | Count  | Rank   | ER        | Notes                                                      |
+| ----------------- | ------ | ------ | --------- | ---------------------------------------------------------- |
+| **Eternatus**     | **1**  | **#1** | **-**     | **DPS: 23.04, TDO: 629 — 1 per account (Special Research)** |
+| **Mega Rayquaza** | **12** | **#2** | **81.15** | **Dominates Dragon + Flying, massive ER gap, Mega Boost**  |
+| **Rayquaza**      | **12** | **#3** | **59.08** | **Also #2 Flying, legendary**                              |
+| Shadow Salamence  | 10     | #4     | 54.31     | Also #3 Flying, shadow legendary                           |
+| Shadow Palkia     | 1-2    | #5     | -         | Also Water, Giovanni-limited (early 2025)                  |
+| Mega Garchomp     | 6-8    | #6     | 61.11     | Also #2 Ground, dual coverage                              |
+| Shadow Dragonite  | 10     | #7     | 52.7      | Also #7 Flying, common candy                               |
+| Shadow Garchomp   | 6-8    | #8     | 53.95     | Also #4 Ground, dual coverage                              |
+| Shadow Latios     | 6-8    | #9     | 51.67     | Also #10 Psychic, dual coverage                            |
+| Palkia (Origin)   | 10     | #10    | 54.48     | Also #3 Water, legendary                                   |
+| Dialga (Origin)   | 10     | #10+   | 54.37     | Also #6 Steel, legendary                                   |
+| Salamence         | 6      | #10+   | -         | Accessible alternative                                     |
+| Dragonite         | 6      | #10+   | -         | Accessible alternative                                     |
+| Palkia            | 6      | #10+   | 47.39     | Regular forme                                              |
+| Dialga            | 6      | #10+   | -         | Regular forme                                              |
+| Hydreigon         | 6      | #10+   | -         | Also Dark-type                                             |
 
 **Dragon Raid Frequency**: High (Dragon bosses very common)
 
@@ -192,15 +206,16 @@ This document provides **exact recommended counts** for each top raid attacker b
 
 ### Electric Type
 
-| Pokemon           | Count | Rank | ER    | Notes                            |
-| ----------------- | ----- | ---- | ----- | -------------------------------- |
-| Shadow Electivire | 6     | #1   | 47.32 | Accessible evolution             |
-| Xurkitree         | 6-8   | #2   | 47.99 | Ultra Beast, rare but obtainable |
-| Shadow Raikou     | 6-8   | #3   | 48.96 | Shadow legendary                 |
-| Shadow Zapdos     | 6-8   | #5   | 47.94 | Also Flying, shadow legendary    |
-| Shadow Magnezone  | 6     | #7   | 46.11 | Also Steel, accessible           |
-| Zekrom            | 8     | #9   | 49.85 | Also Dragon, legendary bulk      |
-| Electivire        | 6     | #10+ | -     | Non-shadow alternative           |
+| Pokemon           | Count | Rank | ER    | Notes                                        |
+| ----------------- | ----- | ---- | ----- | -------------------------------------------- |
+| Shadow Electivire | 6     | #1   | 47.32 | Accessible evolution                         |
+| Regieleki         | 6-8   | #2   | -     | DPS: 18.70, glass cannon (TDO: 250), S-Tier |
+| Shadow Raikou     | 6-8   | #3   | 48.96 | Shadow legendary                             |
+| Xurkitree         | 6-8   | #4   | 47.99 | Ultra Beast, rare but obtainable             |
+| Shadow Zapdos     | 6-8   | #5   | 47.94 | Also Flying, shadow legendary                |
+| Shadow Magnezone  | 6     | #7   | 46.11 | Also Steel, accessible                       |
+| Zekrom            | 8     | #9   | 49.85 | Also Dragon, legendary bulk                  |
+| Electivire        | 6     | #10+ | -     | Non-shadow alternative                       |
 
 **Electric Raid Frequency**: Medium (Water/Flying bosses)
 
@@ -208,16 +223,17 @@ This document provides **exact recommended counts** for each top raid attacker b
 
 ### Fairy Type
 
-| Pokemon          | Count | Rank | ER    | Notes                          |
-| ---------------- | ----- | ---- | ----- | ------------------------------ |
-| Mega Gardevoir   | 6-8   | #1   | 53.93 | Also #8 Psychic, dual coverage |
-| Shadow Gardevoir | 4-6   | #3   | 44.85 | Also Psychic, accessible       |
-| Shadow Granbull  | 4-6   | #6   | 39.11 | Accessible shadow              |
-| Xerneas          | 8     | #8   | 44.41 | Legendary, excellent bulk      |
-| Gardevoir        | 4-6   | #9   | 38.82 | Accessible alternative         |
-| Togekiss         | 6     | #10+ | -     | Good bulk, baby Pokemon        |
-| Primarina        | 6     | #10+ | -     | Also Water, starter            |
-| Granbull         | 6     | #10+ | -     | Accessible                     |
+| Pokemon              | Count | Rank | ER    | Notes                                      |
+| -------------------- | ----- | ---- | ----- | ------------------------------------------ |
+| Mega Gardevoir       | 6-8   | #1   | 53.93 | Also #8 Psychic, dual coverage             |
+| Crowned Sword Zacian | 10-12 | #2   | -     | Also #1 Steel, Play Rough (no Fairy fast)  |
+| Shadow Gardevoir     | 4-6   | #3   | 44.85 | Also Psychic, accessible                   |
+| Shadow Granbull      | 4-6   | #6   | 39.11 | Accessible shadow                          |
+| Xerneas              | 8     | #8   | 44.41 | Legendary, excellent bulk                  |
+| Gardevoir            | 4-6   | #9   | 38.82 | Accessible alternative                     |
+| Togekiss             | 6     | #10+ | -     | Good bulk, baby Pokemon                    |
+| Primarina            | 6     | #10+ | -     | Also Water, starter                        |
+| Granbull             | 6     | #10+ | -     | Accessible                                 |
 
 **Fairy Raid Frequency**: Medium (Dragon/Dark/Fighting bosses)
 
@@ -225,17 +241,19 @@ This document provides **exact recommended counts** for each top raid attacker b
 
 ### Fighting Type
 
-| Pokemon         | Count | Rank | ER    | Notes                          |
-| --------------- | ----- | ---- | ----- | ------------------------------ |
-| Mega Lucario    | 6-8   | #1   | 58.07 | Also #1 Steel, dual Mega       |
-| Mega Blaziken   | 6-8   | #2   | 57.78 | Also #1 Fire, dual Mega        |
-| Shadow Blaziken | 6     | #3   | 48.61 | Also #4 Fire, accessible       |
-| Mega Heracross  | 8     | #4   | 55.06 | Also #1 Bug, raid-exclusive    |
-| Pheromosa       | 8     | #6   | 42.89 | Also #2 Bug, Ultra Beast       |
-| Shadow Machamp  | 6     | #7   | 47.05 | Very accessible, common shadow |
-| Terrakion       | 8-10  | #8   | 51.02 | Also #5 Rock, dual coverage    |
-| Lucario         | 6     | #9   | 43.73 | Also Steel, accessible         |
-| Blaziken        | 4-6   | #10+ | -     | Also Fire, accessible          |
+| Pokemon            | Count | Rank | ER    | Notes                                       |
+| ------------------ | ----- | ---- | ----- | ------------------------------------------- |
+| Mega Lucario       | 6-8   | #1   | 58.07 | Also #1 Steel, dual Mega                    |
+| Mega Blaziken      | 6-8   | #2   | 57.78 | Also #1 Fire, dual Mega                     |
+| Keldeo (Resolute)  | 1-2   | #3   | -     | Best non-Mega, Secret Sword, 1-2 per acct   |
+| Shadow Blaziken    | 6     | #4   | 48.61 | Also #4 Fire, accessible                    |
+| Mega Heracross     | 8     | #5   | 55.06 | Also #1 Bug, raid-exclusive                 |
+| Pheromosa          | 8     | #6   | 42.89 | Also #2 Bug, Ultra Beast                    |
+| Shadow Conkeldurr  | 3-6   | #7   | -     | DPS: 14.29, outclasses Shadow Machamp       |
+| Shadow Machamp     | 6     | #8   | 47.05 | Very accessible, common shadow              |
+| Terrakion          | 8-10  | #9   | 51.02 | Also #5 Rock, dual coverage                 |
+| Lucario            | 6     | #10  | 43.73 | Also Steel, accessible                      |
+| Blaziken           | 4-6   | #10+ | -     | Also Fire, accessible                       |
 
 **Fighting Raid Frequency**: High (Normal/Dark/Steel/Ice/Rock bosses common)
 
@@ -246,14 +264,15 @@ This document provides **exact recommended counts** for each top raid attacker b
 | Pokemon           | Count | Rank | ER    | Notes                                    |
 | ----------------- | ----- | ---- | ----- | ---------------------------------------- |
 | Mega Blaziken     | 6-8   | #1   | 57.78 | Also #2 Fighting, dual Mega              |
-| Shadow Chandelure | 6-8   | #2   | 51.49 | Also #2 Ghost, dual coverage             |
-| Shadow Darmanitan | 6     | #3   | 49.08 | Also Ice-type (Zen Mode)                 |
-| Shadow Blaziken   | 6     | #4   | 48.61 | Also #3 Fighting, accessible             |
-| Shadow Moltres    | 6-8   | #5   | 51.93 | Also #5 Flying, shadow legendary         |
-| Shadow Heatran    | 6-8   | #6   | ~50   | Also Steel, excellent bulk & resistances |
-| Blacephalon       | 6-8   | #7   | -     | Ultra Beast, also Ghost, glass cannon    |
-| Reshiram          | 8     | #8   | 51.79 | Also Dragon, legendary bulk              |
-| Chandelure        | 6     | #9   | 44.53 | Also Ghost, accessible                   |
+| Mega Charizard Y  | 1-3   | #2   | -     | DPS: 19.68, TDO: 418.6, widely available |
+| Shadow Chandelure | 6-8   | #3   | 51.49 | Also #3 Ghost, dual coverage             |
+| Shadow Darmanitan | 6     | #4   | 49.08 | Also Ice-type (Zen Mode)                 |
+| Shadow Blaziken   | 6     | #5   | 48.61 | Also #4 Fighting, accessible             |
+| Shadow Moltres    | 6-8   | #6   | 51.93 | Also #5 Flying, shadow legendary         |
+| Shadow Heatran    | 6-8   | #7   | ~50   | Also Steel, excellent bulk & resistances |
+| Blacephalon       | 6-8   | #8   | -     | Ultra Beast, also Ghost, glass cannon    |
+| Reshiram          | 8     | #9   | 51.79 | Also Dragon, legendary bulk              |
+| Chandelure        | 6     | #10  | 44.53 | Also Ghost, accessible                   |
 | Heatran           | 6     | #10+ | ~42   | Also Steel, great defensive typing       |
 | Blaziken          | 4-6   | #10+ | -     | Accessible alternative                   |
 
@@ -363,13 +382,14 @@ This document provides **exact recommended counts** for each top raid attacker b
 
 ### Poison Type
 
-| Pokemon          | Count | Rank | ER    | Notes                     |
-| ---------------- | ----- | ---- | ----- | ------------------------- |
-| Mega Gengar      | 6-8   | #1   | 57.59 | Also #1 Ghost, dual Mega  |
-| Shadow Gengar    | 6-8   | #2   | 48.42 | Also #3 Ghost, accessible |
-| Gengar           | 6     | #3   | 41.86 | Also Ghost, accessible    |
-| Shadow Toxicroak | 4-6   | #4   | 41.01 | Also Fighting, accessible |
-| Roserade         | 6     | #8   | 40.1  | Also #8 Grass, accessible |
+| Pokemon          | Count | Rank | ER    | Notes                                       |
+| ---------------- | ----- | ---- | ----- | ------------------------------------------- |
+| Eternatus        | 1     | #1   | -     | DPS: 23.04, also #1 Dragon (1 per account) |
+| Mega Gengar      | 6-8   | #2   | 57.59 | Also #2 Ghost, dual Mega                    |
+| Shadow Gengar    | 6-8   | #3   | 48.42 | Also #4 Ghost, accessible                   |
+| Gengar           | 6     | #4   | 41.86 | Also Ghost, accessible                      |
+| Shadow Toxicroak | 4-6   | #5   | 41.01 | Also Fighting, accessible                   |
+| Roserade         | 6     | #8+  | 40.1  | Also #8 Grass, accessible                   |
 
 **Poison Raid Frequency**: Low (rarely needed, Fairy bosses uncommon)
 
@@ -395,15 +415,16 @@ This document provides **exact recommended counts** for each top raid attacker b
 
 ### Rock Type
 
-| Pokemon          | Count | Rank | ER    | Notes                             |
-| ---------------- | ----- | ---- | ----- | --------------------------------- |
-| Shadow Rampardos | 6     | #1   | 50.05 | Glass cannon (TDO: 459), high DPS |
-| Shadow Tyranitar | 8     | #2   | 53.64 | Also #3 Dark, dual coverage       |
-| Mega Tyranitar   | 8     | #3   | 58.91 | Also #4 Dark, excellent ER        |
-| Shadow Rhyperior | 6-8   | #4   | 51.67 | Also #8 Ground, accessible        |
-| Terrakion        | 8-10  | #5   | 51.02 | Also #8 Fighting, dual legendary  |
-| Rampardos        | 6     | #6   | 42.94 | Glass cannon, non-shadow          |
-| Tyranitar        | 6     | #10  | 46.37 | Accessible alternative            |
+| Pokemon          | Count | Rank | ER    | Notes                               |
+| ---------------- | ----- | ---- | ----- | ----------------------------------- |
+| Mega Diancie     | 1     | #1   | -     | DPS: 17.3, Mythical (1 per account) |
+| Shadow Rampardos | 6     | #2   | 50.05 | Glass cannon (TDO: 459), high DPS   |
+| Shadow Tyranitar | 8     | #3   | 53.64 | Also #3 Dark, dual coverage         |
+| Mega Tyranitar   | 8     | #4   | 58.91 | Also #4 Dark, excellent ER          |
+| Shadow Rhyperior | 6-8   | #5   | 51.67 | Also #8 Ground, accessible          |
+| Terrakion        | 8-10  | #6   | 51.02 | Also #9 Fighting, dual legendary    |
+| Rampardos        | 6     | #7   | 42.94 | Glass cannon, non-shadow            |
+| Tyranitar        | 6     | #10+ | 46.37 | Accessible alternative              |
 
 **Rock Raid Frequency**: High (Fire/Flying/Bug/Ice bosses)
 
@@ -411,21 +432,24 @@ This document provides **exact recommended counts** for each top raid attacker b
 
 ### Steel Type
 
-| Pokemon            | Count | Rank | ER    | Notes                                 |
-| ------------------ | ----- | ---- | ----- | ------------------------------------- |
-| Dusk Mane Necrozma | 10-12 | #1   | -     | Legendary fusion, dethroned Metagross |
-| Mega Lucario       | 6-8   | #2   | 58.07 | Also #1 Fighting, dual Mega           |
-| Shadow Metagross   | 6-8   | #3   | 55.59 | Also #4 Psychic, dual coverage        |
-| Shadow Excadrill   | 6     | #4   | 48.66 | Also #5 Ground, accessible            |
-| Mega Metagross     | 4-6   | #5   | 58.01 | Mega only, excellent ER               |
-| Kartana            | 6-8   | #6   | 48.09 | Also #2 Grass, Ultra Beast            |
-| Dialga (Origin)    | 10    | #7   | 54.37 | Also #10 Dragon, legendary            |
-| Shadow Heatran     | 6-8   | #8   | ~50   | Also #6 Fire, excellent bulk          |
-| Shadow Magnezone   | 6     | #9   | 46.11 | Also #7 Electric, accessible          |
-| Lucario            | 6     | #10  | 43.73 | Also Fighting, accessible             |
-| Metagross          | 6-8   | #10+ | 48.08 | Accessible alternative                |
-| Heatran            | 6     | #10+ | ~42   | Also Fire, great resistances          |
-| Dialga             | 6     | #10+ | -     | Regular forme                         |
+| Pokemon               | Count | Rank | ER    | Notes                                           |
+| --------------------- | ----- | ---- | ----- | ----------------------------------------------- |
+| Crowned Sword Zacian  | 10-12 | #1   | -     | Behemoth Blade, also #2 Fairy, legendary        |
+| Crowned Shield Zamazenta | 8-10 | #2  | -     | Behemoth Bash, highest Steel TDO (647.9)        |
+| Dusk Mane Necrozma    | 10-12 | #3   | -     | Legendary fusion, DPS: 22.16                    |
+| Mega Lucario          | 6-8   | #4   | 58.07 | Also #1 Fighting, dual Mega                     |
+| Shadow Metagross      | 6-8   | #5   | 55.59 | Also #4 Psychic, dual coverage                  |
+| Shadow Dialga         | 1-2   | #6   | -     | Also Dragon, Giovanni-limited (May 2025)        |
+| Shadow Excadrill      | 6     | #7   | 48.66 | Also #5 Ground, accessible                      |
+| Mega Metagross        | 4-6   | #8   | 58.01 | Mega only, excellent ER                         |
+| Kartana               | 6-8   | #9   | 48.09 | Also #2 Grass, Ultra Beast                      |
+| Dialga (Origin)       | 10    | #10  | 54.37 | Also #10 Dragon, legendary                      |
+| Shadow Heatran        | 6-8   | #10+ | ~50   | Also #6 Fire, excellent bulk                    |
+| Shadow Magnezone      | 6     | #10+ | 46.11 | Also Electric, accessible                       |
+| Lucario               | 6     | #10+ | 43.73 | Also Fighting, accessible                       |
+| Metagross             | 6-8   | #10+ | 48.08 | Accessible alternative                          |
+| Heatran               | 6     | #10+ | ~42   | Also Fire, great resistances                    |
+| Dialga                | 6     | #10+ | -     | Regular forme                                   |
 
 **Steel Raid Frequency**: Medium (Fairy/Ice/Rock bosses)
 
@@ -448,6 +472,16 @@ This document provides **exact recommended counts** for each top raid attacker b
 
 ## Special Cases & Exceptions
 
+### Account-Limited Pokemon (Keep ALL)
+
+These Pokemon have hard per-account limits — keep every copy you can obtain:
+
+| Pokemon                 | Max Copies | Recommendation                                    |
+| ----------------------- | ---------- | ------------------------------------------------- |
+| **Eternatus**           | **1**      | **1 copy** - #1 Dragon, #1 Poison, Overall #4    |
+| **Keldeo (Resolute)**   | **1-2**    | **1-2 copies** - #3 Fighting, best non-Mega      |
+| **Mega Diancie**        | **1**      | **1 copy** - #1 Rock (Mega), Mythical            |
+
 ### Glass Cannons (Keep Fewer)
 
 These Pokemon have high DPS but extremely low TDO (survivability):
@@ -456,6 +490,7 @@ These Pokemon have high DPS but extremely low TDO (survivability):
 | ------------------- | --------- | -------------------------------------------- |
 | **Deoxys (Attack)** | **171.8** | **3-4 copies** - Faint extremely quickly     |
 | Pheromosa           | 327.0     | 8 copies - Ultra Beast rarity justifies more |
+| Regieleki           | 250.1     | 6-8 copies - #2 Electric DPS but fragile    |
 | Shadow Rampardos    | 459.0     | 6 copies - Best Rock DPS but fragile         |
 
 ### Extremely Accessible (Keep Fewer)
@@ -473,12 +508,15 @@ These are common spawns or easily evolved - can always get more:
 
 These can ONLY be obtained from Giovanni special research (extremely limited):
 
-| Pokemon                        | Source                      | Recommendation                 |
-| ------------------------------ | --------------------------- | ------------------------------ |
-| **Shadow Mewtwo**              | Giovanni (past)             | **12 copies** - Keep EVERY one |
-| Shadow Regigigas               | Giovanni (current rotation) | 4-6 copies                     |
-| Shadow Articuno/Zapdos/Moltres | Giovanni (past)             | 6-8 copies each                |
-| Shadow Raikou/Entei/Suicune    | Giovanni (past)             | 6-8 copies each                |
+| Pokemon                        | Source                           | Recommendation                 |
+| ------------------------------ | -------------------------------- | ------------------------------ |
+| **Shadow Mewtwo**              | Giovanni (past)                  | **12 copies** - Keep EVERY one |
+| **Shadow Dialga**              | Giovanni (May 2025)              | 1-2 copies - Steel #6, Dragon |
+| **Shadow Palkia**              | Giovanni (early 2025)            | 1-2 copies - Dragon #5        |
+| Shadow Regigigas               | Giovanni (past)                  | 4-6 copies                     |
+| Shadow Thundurus               | Giovanni (current, Feb 2026)     | TBD                            |
+| Shadow Articuno/Zapdos/Moltres | Giovanni (past)                  | 6-8 copies each                |
+| Shadow Raikou/Entei/Suicune    | Giovanni (past)                  | 6-8 copies each                |
 
 ### Primal Evolution Priority
 
@@ -501,22 +539,24 @@ Primal evolutions require special Primal Energy and are extremely powerful:
 
 ### Tier 2: Keep 10-12 (Top Legendaries)
 
+- **Crowned Sword Zacian** (Steel #1, Fairy #2, Behemoth Blade)
 - Mewtwo (Psychic #6, accessible)
 - Primal Groudon (Ground #1)
 - Primal Kyogre (Water #1)
 - **Kyurem (White)** (Ice #1, Dragon/Ice)
 - **Kyurem (Black)** (Ice #2, Dragon/Ice)
 - **Dawn Wings Necrozma** (Ghost #1, legendary fusion)
-- **Dusk Mane Necrozma** (Steel #1, legendary fusion)
-- Shadow Salamence (Dragon/Flying #3/#3)
-- Shadow Dragonite (Dragon/Flying #5/#7)
-- Palkia Origin (Dragon/Water #9/#3)
-- Dialga Origin (Dragon/Steel #10/#6)
+- **Dusk Mane Necrozma** (Steel #3, legendary fusion)
+- Shadow Salamence (Dragon/Flying #4/#3)
+- Shadow Dragonite (Dragon/Flying #7/#7)
+- Palkia Origin (Dragon/Water #10/#3)
+- Dialga Origin (Dragon/Steel #10+/#10)
 
 ### Tier 3: Keep 8-10 (Strong Dual-Type Legendaries)
 
-- Terrakion (Fighting/Rock #8/#5)
-- Reshiram (Fire/Dragon #8)
+- **Crowned Shield Zamazenta** (Steel #2, Behemoth Bash)
+- Terrakion (Fighting/Rock #9/#6)
+- Reshiram (Fire/Dragon #9)
 - Zekrom (Electric/Dragon #9)
 - Xerneas (Fairy #8)
 - Yveltal (Dark/Flying #9)
@@ -528,12 +568,13 @@ Primal evolutions require special Primal Energy and are extremely powerful:
 - Most Mega evolutions
 - Most shadow legendaries
 - Ultra Beasts (Kartana, Xurkitree, Pheromosa, Blacephalon)
+- Regieleki (Electric #2, S-Tier glass cannon)
 - Lunala (Ghost/Psychic #7)
 - Strong dual-type attackers
 
 ### Tier 5: Keep 4-6 (Accessible or Niche)
 
-- Common shadow Pokemon
+- Common shadow Pokemon (Shadow Conkeldurr 3-6, Shadow Darkrai 3-6)
 - Regular evolutions of strong Pokemon
 - Glass cannons
 - Normal-type attackers
@@ -541,8 +582,17 @@ Primal evolutions require special Primal Energy and are extremely powerful:
 ### Tier 6: Keep 1-4 (Budget/Replaceable)
 
 - Mega Beedrill (1-2)
+- Mega Charizard Y (1-3)
 - Deoxys Attack (3-4)
 - Very common spawns
+
+### Account-Limited (Keep ALL Available)
+
+- Eternatus (1 — Dragon #1, Poison #1, Overall #4)
+- Keldeo Resolute (1-2 — Fighting #3, best non-Mega)
+- Mega Diancie (1 — Rock #1 as Mega)
+- Shadow Dialga (1-2 — if obtained from Giovanni)
+- Shadow Palkia (1-2 — if obtained from Giovanni)
 
 ---
 
@@ -556,4 +606,4 @@ Primal evolutions require special Primal Energy and are extremely powerful:
 
 ---
 
-_Last Updated: 2026-01-28 | Based on GamePress Comprehensive DPS/TDO Spreadsheet (2025-10-12), GamePress Tier List (2026-01)_
+_Last Updated: 2026-02-06 | Based on GamePress Comprehensive DPS/TDO Spreadsheet (2025-10-12), GamePress Tier List (2026-02), PokeMonGo Hub DB_

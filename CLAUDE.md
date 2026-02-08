@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-> **Project Context** | Pokemon GO Storage Management System | Updated: 2026-01-28
+> **Project Context** | Pokemon GO Storage Management System | Updated: 2026-02-06
 
 ## Project Overview
 
@@ -44,11 +44,15 @@ pokemon/
 └── scripts/                            # Python automation scripts
 ```
 
-## Recent Work (2026-01-28)
+## Recent Work (2026-02-06)
 
-### Session Summary: Raid Attacker Audit & Query Split
+### Session Summary: Comprehensive Raid Attacker Re-Audit
 
-**Major Achievement**: Audited RAID_ATTACKER_COUNTS.md for completeness, added 4 missing top-tier attackers, removed 1 outclassed entry, and split the single raid attacker query into separate non-shadow and shadow queries.
+**Major Achievement**: Deep re-audit found 11 additional missing attackers (mostly 2025 GO Fest/event releases), updated ranking corrections across 9 type sections, expanded queries from 53→60 non-shadow and 37→41 shadow species. Deferred tier methodology recalibration to separate issue.
+
+### Earlier (2026-01-28): Initial Raid Attacker Audit & Query Split
+
+**Achievement**: Initial audit added 4 missing attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina, split query into non-shadow/shadow.
 
 1. **Missing Attackers Identified & Added** (via web research):
    - **Dawn Wings Necrozma** (Ghost #1, 10-12 count) - legendary fusion, dominates Ghost type
@@ -184,26 +188,33 @@ pokemon/
 
 **Raid Attacker Queries** (to exclude from transfers):
 
-**Non-Shadow Query** (55 species):
+**Non-Shadow Query** (60 species):
 ```
-!shadow&(rayquaza,mewtwo,groudon,kyogre,kyurem,terrakion,reshiram,zekrom,xerneas,yveltal,hoopa,heracross,pheromosa,tyranitar,garchomp,blaziken,gengar,sceptile,kartana,lucario,metagross,gardevoir,mamoswine,weavile,glaceon,landorus,xurkitree,electivire,rampardos,swampert,volcarona,roserade,chandelure,espeon,alakazam,togekiss,primarina,granbull,hydreigon,salamence,dragonite,palkia,dialga,heatran,regigigas,staraptor,pinsir,deoxys,beedrill,scizor,necrozma,lunala,blacephalon)
+!shadow&(rayquaza,mewtwo,groudon,kyogre,kyurem,terrakion,reshiram,zekrom,xerneas,yveltal,hoopa,heracross,pheromosa,tyranitar,garchomp,blaziken,gengar,sceptile,kartana,lucario,metagross,gardevoir,mamoswine,weavile,glaceon,landorus,xurkitree,electivire,rampardos,swampert,volcarona,roserade,chandelure,espeon,alakazam,togekiss,primarina,granbull,hydreigon,salamence,dragonite,palkia,dialga,heatran,regigigas,staraptor,pinsir,deoxys,beedrill,scizor,necrozma,lunala,blacephalon,zacian,zamazenta,eternatus,keldeo,regieleki,diancie,charizard)
 ```
 
-**Shadow Query** (37 species):
+**Shadow Query** (41 species):
 ```
-shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,blaziken,chandelure,gengar,mamoswine,weavile,honchkrow,rampardos,rhyperior,electivire,raikou,zapdos,magnezone,moltres,darmanitan,machamp,excadrill,swampert,venusaur,tangrowth,scizor,alakazam,granbull,regigigas,staraptor,toxicroak,latios,metagross,gardevoir,sceptile)
+shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,blaziken,chandelure,gengar,mamoswine,weavile,honchkrow,rampardos,rhyperior,electivire,raikou,zapdos,magnezone,moltres,darmanitan,machamp,excadrill,swampert,venusaur,tangrowth,scizor,alakazam,granbull,regigigas,staraptor,toxicroak,latios,metagross,gardevoir,sceptile,darkrai,conkeldurr,dialga,palkia)
 ```
 
 ### Current State
 
+**Completed (2026-02-06)**:
+- [x] Comprehensive re-audit found 11 additional missing attackers (2025 releases)
+- [x] Added Crowned Sword Zacian (Steel #1), Crowned Shield Zamazenta (Steel #2)
+- [x] Added Eternatus (Dragon #1, Poison #1, 1 per account)
+- [x] Added Keldeo Resolute (Fighting #3, 1-2 per account)
+- [x] Added Regieleki (Electric #2), Mega Diancie (Rock #1), Mega Charizard Y (Fire #2)
+- [x] Added Shadow Darkrai, Shadow Conkeldurr, Shadow Dialga, Shadow Palkia to shadow query
+- [x] Updated ranking corrections in Steel/Dragon/Poison/Electric/Fighting/Fairy/Rock/Dark/Fire sections
+- [x] Rechecked attacker criteria methodology — tier mapping has inconsistencies (deferred to separate issue)
+- [x] Updated queries: non-shadow 53→60 species, shadow 37→41 species
+
 **Completed (2026-01-28)**:
-- [x] Audited RAID_ATTACKER_COUNTS.md - verified up-to-date
-- [x] Added 4 missing attackers (Dawn Wings Necrozma, Dusk Mane Necrozma, Lunala, Blacephalon)
+- [x] Initial audit added 4 attackers (Necrozma formes, Lunala, Blacephalon)
 - [x] Removed Giratina (Ghost #16, outclassed)
-- [x] Split raid attacker query into non-shadow (55 species) and shadow (37 species)
-- [x] Updated RAID_ATTACKER_COUNTS.md (Quick Ref, Ghost/Steel/Fire sections, Tier summaries)
-- [x] Updated MASTER_LEAGUE_CHECKLIST.md with both queries
-- [x] Fixed footer date inconsistency in RAID_ATTACKER_COUNTS.md
+- [x] Split raid attacker query into non-shadow and shadow
 
 **Completed (2026-01-18)**:
 - [x] Created 4 strategy documents (QUICK_WIN_STRATEGY, MASTER_LEAGUE_CHECKLIST, OTHER_QUICK_WINS, ACTION_PLAN)
@@ -213,26 +224,23 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 **In Progress**:
 - [ ] **Tag all raid attackers with `#Attackers`** using both queries (non-shadow + shadow)
 - [ ] Run `#Attackers` count to compare against recommended totals
-- [ ] **Recheck Attacker criteria** - verify new additions align with established methodology
 - [ ] Continue testing Priority 7-10 based on cleanup potential
+
+**Deferred (Separate Issue)**:
+- [ ] **Tier methodology recalibration** - Define explicit ER thresholds, resolve rank-to-count inversions, reduce 6/6-8 plateau
 
 ### Next Session Priorities
 
 1. **Tag All Raid Attackers** (IMMEDIATE)
-   - Run non-shadow query (55 species) and shadow query (37 species) separately
+   - Run non-shadow query (60 species) and shadow query (41 species) separately
    - See "Raid Attacker Queries" section above for exact queries
    - Tag all results with `#Attackers`
 
-2. **Recheck Attacker Criteria**
-   - Review how original attacker retention criteria was determined
-   - Verify new additions (Necrozma formes, Lunala, Blacephalon) align with methodology
-   - Cross-reference with GamePress tier list
-
-3. **Determine Next Quick Win by Cleanup Yield**
+2. **Determine Next Quick Win by Cleanup Yield**
    - User's collection is well-organized; most categories have 0 transfer candidates
    - Need to identify which categories actually have cleanup potential
 
-4. **Decision Pending: Prioritization Method**
+3. **Decision Pending: Prioritization Method**
    - Current: Fixed priority order (ML > GL > UL > LL > Raid Attackers)
    - Alternative: Prioritize by cleanup yield (whichever category removes most Pokemon)
 
@@ -254,7 +262,7 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 - `docs/reference/TAG_SYSTEM.md` - 43-tag system documentation
 - `docs/reference/FAVORITE_QUERIES.md` - 40 saved search queries
 - `docs/reference/STORAGE_QUICK_REFERENCE.md` - Daily decision flowchart
-- `docs/reference/RAID_ATTACKER_COUNTS.md` - Exact retention counts per attacker (updated 2026-01-28 with Necrozma formes, Lunala, Blacephalon)
+- `docs/reference/RAID_ATTACKER_COUNTS.md` - Exact retention counts per attacker (updated 2026-02-06 with Zacian/Zamazenta, Eternatus, Keldeo, Regieleki, +more)
 
 **Meta Data**:
 - `meta/cp10000_all_overall_rankings.csv` - PvPoke Master League top 200
@@ -327,34 +335,41 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 
 ## Session Notes
 
-**Current Session (2026-01-28)**: Raid Attacker Audit & Query Split
+**Current Session (2026-02-06)**: Comprehensive Raid Attacker Re-Audit
 
-**Session Goal**: Verify RAID_ATTACKER_COUNTS.md is up-to-date, create separate non-shadow and shadow queries.
+**Session Goal**: Justify attacker criteria methodology and verify completeness of raid attacker lists.
 
 **Key Findings**:
-1. **4 Missing Attackers Found**: Dawn Wings Necrozma (Ghost #1), Dusk Mane Necrozma (Steel #1), Lunala (Ghost #7), Blacephalon (Fire/Ghost Ultra Beast) - all released in 2024 but not in documentation
-2. **Giratina Removed**: Ghost #16, outclassed by Mega Gengar, Shadow Chandelure, Shadow Gengar, Dawn Wings Necrozma. Was in old query but NOT in RAID_ATTACKER_COUNTS.md
-3. **Solgaleo Verified F-Tier**: No Steel fast move, terrible for raids - NOT added
-4. **Query Split Complete**: Non-shadow (55 species) and shadow (37 species)
-5. **Footer Date Fixed**: Was showing 2025-10-14, now matches header at 2026-01-28
+1. **Tier Mapping NOT Optimal**: 47% of Pokemon in 6/6-8 tiers, rank-to-count inversions found (deferred to separate issue)
+2. **11 Additional Missing Attackers Found** (mostly 2025 releases):
+   - Crowned Sword Zacian (Steel #1, Fairy #2) — dethroned Dusk Mane Necrozma
+   - Crowned Shield Zamazenta (Steel #2)
+   - Eternatus (Dragon #1, Poison #1, Overall #4) — 1 per account
+   - Keldeo Resolute (Fighting #3, best non-Mega) — 1-2 per account
+   - Regieleki (Electric #2, S-Tier)
+   - Mega Diancie (Rock #1 Mega) — 1 per account
+   - Mega Charizard Y (Fire #2, S-Tier)
+   - Shadow Darkrai (Dark #4), Shadow Conkeldurr (Fighting #7)
+   - Shadow Dialga (Steel #6), Shadow Palkia (Dragon #5)
+3. **Queries Updated**: Non-shadow 55→62, Shadow 37→41
 
-**Raid Attacker Queries** (updated 2026-01-28):
+**Raid Attacker Queries** (updated 2026-02-06):
 
-**Non-Shadow Query** (55 species):
+**Non-Shadow Query** (60 species):
 ```
-!shadow&(rayquaza,mewtwo,groudon,kyogre,kyurem,terrakion,reshiram,zekrom,xerneas,yveltal,hoopa,heracross,pheromosa,tyranitar,garchomp,blaziken,gengar,sceptile,kartana,lucario,metagross,gardevoir,mamoswine,weavile,glaceon,landorus,xurkitree,electivire,rampardos,swampert,volcarona,roserade,chandelure,espeon,alakazam,togekiss,primarina,granbull,hydreigon,salamence,dragonite,palkia,dialga,heatran,regigigas,staraptor,pinsir,deoxys,beedrill,scizor,necrozma,lunala,blacephalon)
+!shadow&(rayquaza,mewtwo,groudon,kyogre,kyurem,terrakion,reshiram,zekrom,xerneas,yveltal,hoopa,heracross,pheromosa,tyranitar,garchomp,blaziken,gengar,sceptile,kartana,lucario,metagross,gardevoir,mamoswine,weavile,glaceon,landorus,xurkitree,electivire,rampardos,swampert,volcarona,roserade,chandelure,espeon,alakazam,togekiss,primarina,granbull,hydreigon,salamence,dragonite,palkia,dialga,heatran,regigigas,staraptor,pinsir,deoxys,beedrill,scizor,necrozma,lunala,blacephalon,zacian,zamazenta,eternatus,keldeo,regieleki,diancie,charizard)
 ```
 
-**Shadow Query** (37 species):
+**Shadow Query** (41 species):
 ```
-shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,blaziken,chandelure,gengar,mamoswine,weavile,honchkrow,rampardos,rhyperior,electivire,raikou,zapdos,magnezone,moltres,darmanitan,machamp,excadrill,swampert,venusaur,tangrowth,scizor,alakazam,granbull,regigigas,staraptor,toxicroak,latios,metagross,gardevoir,sceptile)
+shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,blaziken,chandelure,gengar,mamoswine,weavile,honchkrow,rampardos,rhyperior,electivire,raikou,zapdos,magnezone,moltres,darmanitan,machamp,excadrill,swampert,venusaur,tangrowth,scizor,alakazam,granbull,regigigas,staraptor,toxicroak,latios,metagross,gardevoir,sceptile,darkrai,conkeldurr,dialga,palkia)
 ```
 
 **Immediate Next Action**: Tag all raid attackers with `#Attackers` using both queries above.
 
-**TODO (Post-Implementation)**:
-- [ ] **Recheck Attacker criteria**: Review how the original Attacker retention criteria was determined and verify the new additions align with the established methodology
+**Deferred**:
+- [ ] **Tier methodology recalibration** — separate issue for ER thresholds, rank-to-count inversions, 6/6-8 plateau
 
 ---
 
-_Session handoff updated: 2026-01-28_
+_Session handoff updated: 2026-02-06_

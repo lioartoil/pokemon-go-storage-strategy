@@ -118,6 +118,7 @@ This document provides **exact recommended counts** for each top raid attacker b
 | **Espeon**                   | **6**     | Psychic              | Eeveelution, accessible                          |
 | **Shadow Alakazam**          | **4-6**   | Psychic              | Rank #5, accessible shadow                       |
 | **Gardevoir**                | **4-6**   | Fairy, Psychic       | Accessible alternative                           |
+| **Shadow Gardevoir**         | **4-6**   | Fairy, Psychic       | Fairy #4, DPS 23.85, dual-type shadow            |
 | **Togekiss**                 | **6**     | Fairy, Flying        | Dual-type, good bulk                             |
 | **Primarina**                | **6**     | Fairy, Water         | Dual-type starter                                |
 | **Granbull**                 | **6**     | Fairy                | Accessible                                       |

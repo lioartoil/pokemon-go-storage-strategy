@@ -130,7 +130,6 @@ Added 4 attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina (Ghos
 - **Accessibility**: Common spawns vs event-exclusive vs trade-evolution
 - **Special exceptions**: Glass cannons (lower counts), extremely accessible (minimal counts)
 
-
 ### Implementation Details
 
 **Category Mapping** (Favorite → Category alignment):

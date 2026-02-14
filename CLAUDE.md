@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-> **Project Context** | Pokemon GO Storage Management System | Updated: 2026-02-06
+> **Project Context** | Pokemon GO Storage Management System | Updated: 2026-02-14
 
 ## Project Overview
 
@@ -44,44 +44,24 @@ pokemon/
 └── scripts/                             # Python automation scripts
 ```
 
-## Recent Work (2026-02-06)
+## Recent Work
 
-### Session Summary: Comprehensive Raid Attacker Re-Audit
+### Session (2026-02-14): Validation Scripts + Query Fixes
 
-**Major Achievement**: Deep re-audit found 11 additional missing attackers (mostly 2025 GO Fest/event releases), updated ranking corrections across 9 type sections, expanded queries from 53→60 non-shadow and 37→41 shadow species. Deferred tier methodology recalibration to separate issue.
+1. Created `scripts/validate_raid_queries.py` — two-mode: query consistency + freshness audit (top-5, excl. Megas/Primals)
+2. Created `scripts/fetch_pokemongohub.py` — Playwright-based PokemonGOHub cache refresh
+3. Added `requirements.txt` (playwright>=1.40.0)
+4. Fixed 3 query discrepancies: removed scizor (non-shadow, Bug #25), sceptile (shadow, Grass #11); added Shadow Gardevoir to table (Fairy #4)
+5. Refreshed PokemonGOHub cache (18 types, 50 results each)
+6. Final validated counts: 59 non-shadow, 40 shadow
 
-### Earlier (2026-01-28): Initial Raid Attacker Audit & Query Split
+### Earlier (2026-02-06): Comprehensive Raid Attacker Re-Audit
 
-**Achievement**: Initial audit added 4 missing attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina, split query into non-shadow/shadow.
+Deep re-audit found 11 additional missing attackers (2025 releases), updated rankings across 9 type sections, expanded queries 53→60 non-shadow, 37→41 shadow. Deferred tier methodology to GitHub Issue #1.
 
-1. **Missing Attackers Identified & Added** (via web research):
-   - **Dawn Wings Necrozma** (Ghost #1, 10-12 count) - legendary fusion, dominates Ghost type
-   - **Dusk Mane Necrozma** (Steel #1, 10-12 count) - dethroned Metagross as #1 Steel
-   - **Lunala** (Ghost #7, S-tier, 6-8 count) - excellent TDO
-   - **Blacephalon** (Fire/Ghost Ultra Beast, 6-8 count) - glass cannon
+### Earlier (2026-01-28): Initial Raid Attacker Audit
 
-2. **Giratina Removed**:
-   - Research showed Giratina Origin is Ghost #16 (A+ tier, DPS: 14.6)
-   - Outclassed by Mega Gengar, Shadow Chandelure, Shadow Gengar, Dawn Wings Necrozma
-   - Was in old query but NOT in RAID_ATTACKER_COUNTS.md - discrepancy resolved
-
-3. **Query Split** (non-shadow vs shadow):
-   - Non-Shadow: 55 species (was 64 combined, now includes necrozma, lunala, blacephalon)
-   - Shadow: 37 species (unchanged from previous)
-   - Removed giratina from both
-
-4. **NOT Added** (verified via research):
-   - Solgaleo - F-Tier (no Steel fast move, terrible for raids)
-   - Necrozma base form - not a top attacker on its own
-
-5. **Files Updated**:
-   - `docs/reference/RAID_ATTACKER_COUNTS.md` - Quick Ref Table, Ghost/Steel/Fire sections, Tier summaries, footer
-   - `CLAUDE.md` - Replaced single query with two separate queries
-   - `MASTER_LEAGUE_CHECKLIST.md` - Updated raid attacker tagging section
-
-6. **Git Commits** (this session):
-   - `f906eec` - docs(raid): add Necrozma formes, Lunala, Blacephalon to raid attackers
-   - `33e7f00` - docs: update session handoff with 2026-01-18 quick win strategy work
+Added 4 attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina (Ghost #16), split query into non-shadow/shadow.
 
 ### Earlier Work (2026-01-18): Quick Win Storage Optimization & Query Testing
 
@@ -115,21 +95,9 @@ pokemon/
 - Indicates excellent organization - all Pokemon already reviewed/tagged
 - This is GOOD - means systematic approach is working
 
-### Earlier Work (2025-11-02): Kyurem Formes & Fusion Mechanics
+### Earlier (2025-11-02): Added Kyurem White/Black as Ice #1/#2
 
-**Critical Discovery**: White Kyurem and Black Kyurem were missing from raid attacker documentation.
-
-1. **Kyurem Formes Added**: Identified and documented missing elite Ice attackers
-   - **White Kyurem**: #1 Ice attacker (DPS: 30.6, TDO: 733.5) → 10-12 copies
-   - **Black Kyurem**: #2 Ice attacker (DPS: 27.2, TDO: 652.0) → 10-12 copies
-   - Regular Kyurem: Downgraded from 8 to 6-8 copies (formes are superior)
-
-2. **Fusion Mechanics Research**: NO buddy walking for fusion energy (event-locked, ~10 raids per forme)
-
-### Earlier Work (2025-10-14): Raid Attacker Analysis & Category Restructure
-
-1. **Raid Attacker Analysis**: Analyzed 100+ raid attackers across 18 types (retention counts 1-12)
-2. **Category Restructure**: Merged #1/#2 into #1a/#1b subcategories, renumbered #3-14
+### Earlier (2025-10-14): Analyzed 100+ raid attackers, restructured to #1a/#1b categories
 
 ### Key Technical Decisions
 
@@ -162,15 +130,6 @@ pokemon/
 - **Accessibility**: Common spawns vs event-exclusive vs trade-evolution
 - **Special exceptions**: Glass cannons (lower counts), extremely accessible (minimal counts)
 
-**Kyurem Fusion Mechanics** (NEW 2025-11-02):
-
-- **Fusion Energy NOT available from buddy walking** (unlike Mega/Primal Energy)
-- White Kyurem requires: 1,000 Blaze Fusion Energy + 30 Kyurem Candy + 30 Reshiram Candy
-- Black Kyurem requires: 1,000 Volt Fusion Energy + 30 Kyurem Candy + 30 Zekrom Candy
-- Energy sources: Raids (~100/raid), Special Research (50), Promo codes only
-- Fusions are **permanent** and **multiple allowed** (unlike Megas/Primals)
-- **Accessibility concern**: Event-locked, requires ~10 raids per forme to obtain 1,000 energy
-- **Data sources**: GamePress (raid_attackers_by_type.json) + PokeMonGo Hub (pokemongohub/ice_response.json)
 
 ### Implementation Details
 
@@ -211,55 +170,39 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 
 ### Current State
 
-**Completed (2026-02-06)**:
+**Completed (2026-02-14)**:
 
-- [x] Comprehensive re-audit found 11 additional missing attackers (2025 releases)
-- [x] Added Crowned Sword Zacian (Steel #1), Crowned Shield Zamazenta (Steel #2)
-- [x] Added Eternatus (Dragon #1, Poison #1, 1 per account)
-- [x] Added Keldeo Resolute (Fighting #3, 1-2 per account)
-- [x] Added Regieleki (Electric #2), Mega Diancie (Rock #1), Mega Charizard Y (Fire #2)
-- [x] Added Shadow Darkrai, Shadow Conkeldurr, Shadow Dialga, Shadow Palkia to shadow query
-- [x] Updated ranking corrections in Steel/Dragon/Poison/Electric/Fighting/Fairy/Rock/Dark/Fire sections
-- [x] Rechecked attacker criteria methodology — tier mapping has inconsistencies (deferred to separate issue)
-- [x] Updated queries: non-shadow 53→60 species, shadow 37→41 species
-- [x] Validated queries via `scripts/validate_raid_queries.py`: removed scizor (non-shadow, Bug #25), sceptile (shadow, Grass #11); added Shadow Gardevoir to table (Fairy #4); final: 59 non-shadow, 40 shadow
+- [x] Created validation + cache refresh automation scripts
+- [x] Fixed 3 query/table discrepancies, validated all 6 queries across 3 files
+- [x] Refreshed PokemonGOHub cache (18 types, 50 results each)
+- [x] Raid attacker queries finalized: 59 non-shadow, 40 shadow
 
-**Completed (2026-01-28)**:
-
-- [x] Initial audit added 4 attackers (Necrozma formes, Lunala, Blacephalon)
-- [x] Removed Giratina (Ghost #16, outclassed)
-- [x] Split raid attacker query into non-shadow and shadow
-
-**Completed (2026-01-18)**:
-
-- [x] Created 4 strategy documents (QUICK_WIN_STRATEGY, MASTER_LEAGUE_CHECKLIST, OTHER_QUICK_WINS, ACTION_PLAN)
-- [x] Tested all queries against actual collection (most returned 0 - well-organized)
-- [x] Added Heatran and Shadow Heatran to RAID_ATTACKER_COUNTS.md
+**Completed (2026-02-06)**: Re-audit added 11 attackers (Zacian, Zamazenta, Eternatus, Keldeo, Regieleki, etc.)
+**Completed (2026-01-28)**: Added Necrozma formes, Lunala, Blacephalon; removed Giratina; split queries
+**Completed (2026-01-18)**: Created 4 strategy docs, tested all queries (most returned 0 - well-organized)
 
 **In Progress**:
 
-- [ ] **Tag all raid attackers with `#Attackers`** using both queries (non-shadow + shadow)
+- [ ] **EMERGENCY: Free 200-300 storage slots** (11,235/11,325 = 0.8% free)
+- [ ] Finish tagging raid attackers with `#Attackers` (mostly done)
 - [ ] Run `#Attackers` count to compare against recommended totals
-- [ ] Continue testing Priority 7-10 based on cleanup potential
 
-**Deferred (Separate Issue)**:
-
-- [ ] **Tier methodology recalibration** - [GitHub Issue #1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) - Define explicit ER thresholds, resolve rank-to-count inversions, reduce 6/6-8 plateau
+**Deferred**: [GitHub Issue #1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) — Tier methodology recalibration
 
 ### Next Session Priorities
 
-1. **Tag All Raid Attackers** (IMMEDIATE)
-   - Run non-shadow query (60 species) and shadow query (41 species) separately
-   - See "Raid Attacker Queries" section above for exact queries
-   - Tag all results with `#Attackers`
+1. **Finish `#Attackers` Tagging** (~10 min) — SAFETY PREREQUISITE before any transfers
+   - Run non-shadow query (59 species) and shadow query (40 species)
+   - Tag all untagged results with `#Attackers`
 
-2. **Determine Next Quick Win by Cleanup Yield**
-   - User's collection is well-organized; most categories have 0 transfer candidates
-   - Need to identify which categories actually have cleanup potential
+2. **Emergency Storage Reduction** (~50 min, target 200-350 slots freed)
+   - Step 1: Clear `#home` transfer queue (~76+ slots)
+   - Step 2: Mass transfer `#rank51-100` (~50-100 slots)
+   - Step 3: Trim `#rank21-50` duplicates (~50-100 slots)
+   - Step 4: Duplicate sweep of untagged commons (~50+ slots)
+   - See "Session Notes" for exact search queries
 
-3. **Decision Pending: Prioritization Method**
-   - Current: Fixed priority order (ML > GL > UL > LL > Raid Attackers)
-   - Alternative: Prioritize by cleanup yield (whichever category removes most Pokemon)
+3. **Run `#Attackers` count** vs recommended totals in RAID_ATTACKER_COUNTS.md
 
 ### Important Files/Locations
 
@@ -301,50 +244,13 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 **GitHub Issues**: [#1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) - Recalibrate raid attacker count tier methodology
 **Recent commits** (most recent first):
 
-1. `d43c84f` (2026-02-06) - docs(raid): add 11 missing raid attackers from 2025 releases
-2. `a7719de` (2026-02-06) - docs: update session handoff with 2026-01-28 raid attacker audit
-3. `f906eec` (2026-01-28) - docs(raid): add Necrozma formes, Lunala, Blacephalon to raid attackers
-4. `33e7f00` (2026-01-28) - docs: update session handoff with 2026-01-18 quick win strategy work
-5. `b9fdabb` (2026-01-18) - docs(raid): add Heatran and Shadow Heatran to raid attacker lists
+1. `91ede0a` (2026-02-14) - data: refresh PokemonGOHub cache (2026-02-14)
+2. `27b01ec` (2026-02-14) - fix(raid): resolve 3 query/table discrepancies from validation
+3. `cc04015` (2026-02-14) - feat(scripts): add raid attacker validation and cache refresh scripts
+4. `d43c84f` (2026-02-06) - docs(raid): add 11 missing raid attackers from 2025 releases
+5. `a7719de` (2026-02-06) - docs: update session handoff with 2026-01-28 raid attacker audit
 
 ### Questions/Considerations
-
-**PokeGenie Generator Setup**:
-
-- Verify generator priority order (default at top, Favorite-specific below)
-- Confirm "Has 2nd move" condition works as expected for High IV (2) generator
-- Test if Favorite assignments auto-apply correctly
-
-**Phase 1 Implementation Safety**:
-
-- Double-check raid attacker query catches all important species
-- Consider creating backup tag `#BeforePhase1` before transfers
-- Confirm transfer candidates aren't tagged with `#Kept`, `#Attackers`, or high PvP ranks
-
-**Raid Attacker Retention Questions**:
-
-- Is RAID_ATTACKER_COUNTS.md too long at 534 lines? (Decision: No, appropriate for comprehensive reference)
-- Should we create a condensed quick-reference version? (Not needed - users can Ctrl+F)
-- Exact counts determined for key attackers:
-  - Mega Rayquaza: 12 (dominates Dragon + Flying, ER: 81.15)
-  - Shadow Mewtwo: 12 (Giovanni-only, dominates Psychic, ER: 63.29)
-  - Rayquaza: 12 (Rank #2 in Dragon + Flying, ER: 59.08)
-  - **Kyurem (White)**: 10-12 (Ice #1, DPS: 30.6, 62% better than Shadow Mamoswine)
-  - **Kyurem (Black)**: 10-12 (Ice #2, DPS: 27.2, excellent)
-  - Mewtwo: 10-12 (excellent backup, accessible legendary)
-  - Terrakion: 8-10 (Fighting #8 / Rock #5, dual coverage)
-  - Kyurem (regular): 6-8 (downgraded since formes are superior)
-  - Deoxys (Attack): 3-4 (glass cannon, TDO: 171.8)
-  - Mega Beedrill: 1-2 (Weedle common, cheapest Mega)
-
-**Kyurem Forme Accessibility Consideration**:
-
-- **Question**: Should 10-12 count be adjusted given fusion energy limitations?
-- **Current stance**: Keep 10-12 for players willing to invest in raids (elite performance justifies effort)
-- **Alternative**: Could lower to 6-8 due to event-locked accessibility (~10 raids per forme required)
-- **Decision pending**: User preference needed on accessibility vs performance tradeoff
-
-**Future Considerations**:
 
 - Create one-page PokeGenie Quick Reference Card for daily use
 - Monitor if moderate strategy provides enough free space (target: 9-12%)
@@ -352,10 +258,10 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 
 ### Storage Metrics
 
-**Current**: 11,021 / 11,325 Pokemon (304 free, ~2.7%)
+**Current**: 11,235 / 11,325 Pokemon (90 free, ~0.8%) — CRITICAL
 **Target**: 9,627 Pokemon (1,698 free, ~15%)
-**Phase 1 Finding**: Master League returned 0 transfer candidates (collection well-organized)
-**Challenge**: Most quick-win categories returning 0 results - need to find alternative cleanup sources
+**Immediate Target**: Free 200-300 slots to play comfortably
+**Challenge**: Well-organized collection — most quick-win categories return 0. Focus on ranked/tagged excess.
 
 ### Key Constraints
 
@@ -368,45 +274,24 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 
 ## Session Notes
 
-**Current Session (2026-02-06)**: Comprehensive Raid Attacker Re-Audit
+**Current Session (2026-02-14)**: Validation Scripts + Emergency Storage Reduction
 
-**Session Goal**: Justify attacker criteria methodology and verify completeness of raid attacker lists.
+**Emergency Reduction Queries** (run in Pokemon GO, in this order):
 
-**Key Findings**:
+**Step 0 — Tag Attackers First** (see Raid Attacker Queries in Implementation Details above)
 
-1. **Tier Mapping NOT Optimal**: 47% of Pokemon in 6/6-8 tiers, rank-to-count inversions found (deferred to separate issue)
-2. **11 Additional Missing Attackers Found** (mostly 2025 releases):
-   - Crowned Sword Zacian (Steel #1, Fairy #2) — dethroned Dusk Mane Necrozma
-   - Crowned Shield Zamazenta (Steel #2)
-   - Eternatus (Dragon #1, Poison #1, Overall #4) — 1 per account
-   - Keldeo Resolute (Fighting #3, best non-Mega) — 1-2 per account
-   - Regieleki (Electric #2, S-Tier)
-   - Mega Diancie (Rock #1 Mega) — 1 per account
-   - Mega Charizard Y (Fire #2, S-Tier)
-   - Shadow Darkrai (Dark #4), Shadow Conkeldurr (Fighting #7)
-   - Shadow Dialga (Steel #6), Shadow Palkia (Dragon #5)
-3. **Queries Updated**: Non-shadow 53→60, Shadow 37→41
+**Step 1 — Transfer Queue**: `#home`
 
-**Raid Attacker Queries** (updated 2026-02-06):
+**Step 2 — Rank 51-100**: `#rank51-100&!#Attackers&!lucky&!shiny&!@special&!legendary&!mythical`
 
-**Non-Shadow Query** (59 species):
+**Step 3 — Rank 21-50 Excess**: `#rank21-50&!#Attackers&!lucky&!shiny&!@special&!legendary&!mythical`
+Sort by name → keep best 1 per species, transfer rest.
 
-```
-!shadow&(rayquaza,mewtwo,groudon,kyogre,kyurem,terrakion,reshiram,zekrom,xerneas,yveltal,hoopa,heracross,pheromosa,tyranitar,garchomp,blaziken,gengar,sceptile,kartana,lucario,metagross,gardevoir,mamoswine,weavile,glaceon,landorus,xurkitree,electivire,rampardos,swampert,volcarona,roserade,chandelure,espeon,alakazam,togekiss,primarina,granbull,hydreigon,salamence,dragonite,palkia,dialga,heatran,regigigas,staraptor,pinsir,deoxys,beedrill,necrozma,lunala,blacephalon,zacian,zamazenta,eternatus,keldeo,regieleki,diancie,charizard)
-```
+**Step 4 — Untagged Duplicates**: `!4*&!shiny&!lucky&!shadow&!costume&!@special&!legendary&!mythical&!#Attackers&!#rank1&!#rank2&!#rank3&!#rank4-20&!#great&!#ultra&!#little`
+Sort by name → transfer lowest-IV duplicates.
 
-**Shadow Query** (40 species):
-
-```
-shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,blaziken,chandelure,gengar,mamoswine,weavile,honchkrow,rampardos,rhyperior,electivire,raikou,zapdos,magnezone,moltres,darmanitan,machamp,excadrill,swampert,venusaur,tangrowth,scizor,alakazam,granbull,regigigas,staraptor,toxicroak,latios,metagross,gardevoir,darkrai,conkeldurr,dialga,palkia)
-```
-
-**Immediate Next Action**: Tag all raid attackers with `#Attackers` using both queries above.
-
-**Deferred**:
-
-- [ ] **Tier methodology recalibration** — [GitHub Issue #1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) for ER thresholds, rank-to-count inversions, 6/6-8 plateau
+**Deferred**: Tier methodology recalibration — [GitHub Issue #1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1)
 
 ---
 
-_Session handoff updated: 2026-02-06_
+_Session handoff updated: 2026-02-14_

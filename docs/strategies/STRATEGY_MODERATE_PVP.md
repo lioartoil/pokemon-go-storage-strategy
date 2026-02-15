@@ -74,17 +74,19 @@
 
 **Community Best Practice (PvP Players)**:
 
-- **80th+ percentile**: Rank ≤50, keep 1-2 per species
-- **60-79th percentile**: Rank ≤25, keep 1 per species
-- **Below 60th percentile**: Don't keep
+- **Rank ≤10**: Keep 2 per species
+- **Rank 11-50**: Keep 1 per species
+- **Rank 51-100**: Keep 1 per species
+- **Rank 101+**: Don't keep
 
 **Retention Rules**:
 
-| Species Tier       | Rank Range | Copies |
-| ------------------ | ---------- | ------ |
-| 80th+ percentile   | Rank ≤50   | 1-2    |
-| 60-79th percentile | Rank ≤25   | 1      |
-| Below 60th         | Any rank   | 0      |
+| Rank Range  | Copies | Notes                    |
+| ----------- | ------ | ------------------------ |
+| Rank ≤10    | 2      | Competitive depth        |
+| Rank 11-50  | 1      | Meta flexibility         |
+| Rank 51-100 | 1      | Top 20 meta species only |
+| Rank 101+   | 0      | Transfer                 |
 
 **Estimated savings**: 200-300 slots (498 → 200-300 Pokemon)
 
@@ -146,9 +148,10 @@
 
 **Priority 4**: Reduce Category 2 (Little League)
 
-- Transfer all below 60th percentile
-- Transfer rank 26+ for 60-79th percentile
-- Transfer rank 51+ for 80th+ percentile
+- Transfer rank 101+ (all species)
+- Transfer rank 51-100 (non-meta species)
+- Reduce rank ≤10 from 3 → 2 copies
+- Keep rank 11-50: 1 copy
 - **Estimated**: 200-300 slots
 
 **Phase 2 Total**: 600-900 slots freed

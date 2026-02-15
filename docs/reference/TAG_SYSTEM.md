@@ -42,14 +42,19 @@
 17. `Ultra` - Ultra League eligible (Rank 1-100)
 18. `Little` - Little League eligible (Rank 1-100)
 
-**Personal Collection Ranks** (best you own):
+**IV Ranks** (Absolute Global / Personal Collection):
 
-19. `Rank1` - Your #1 best for species/league
-20. `Rank2` - Your #2 best for species/league
-21. `Rank3` - Your #3 best for species/league
-22. `Rank4-20` - Your 4-20 best (great tier)
-23. `Rank21-50` - Your 21-50 best (good tier)
-24. `Rank51-100` - Your 51-100 best (decent tier)
+19. `Rank1` - #1 best IV rank for species/league
+20. `Rank2` - #2 best IV rank for species/league
+21. `Rank3` - #3 best IV rank for species/league
+22. `Rank4-20` - 4-20 best (great tier)
+23. `Rank21-50` - 21-50 best (good tier)
+24. `Rank51-100` - 51-100 best (decent tier)
+
+**Dual meaning**:
+
+- **Regular Pokemon**: These are **Absolute Global Ranks** (e.g., Rank1 = the #1 best possible IV combination globally out of 4,096)
+- **Legendary/Mythical/Ultra Beast/Mega**: These are **Personal Collection Ranks** (e.g., Rank1 = the best you own, since IVs are floored at 10/10/10)
 
 **Absolute IV Ranks** (theoretical best globally):
 
@@ -57,13 +62,16 @@
 26. `Second` - #2 rank possible in game
 27. `Third` - #3 rank possible in game
 
-**Purpose**: Track both personal collection quality and trophy Pokemon
+**Purpose**: Track IV quality across all four leagues (GL, UL, LL, ML) and trophy Pokemon
 
-**Example**: Pokemon with `Rank1`, `Rank2`, `Second` means:
+**Example 1** (Regular Pokemon): Azumarill with `Rank1`, `Great`
 
-- `Rank1` = Best YOU own in one league
-- `Rank2` = Second best YOU own in another league
-- `Second` = #2 best possible in entire game
+- `Rank1` = Has the #1 best possible IV combination globally for Great League
+
+**Example 2** (Legendary): Dialga with `Rank1`, `Rank3`
+
+- `Rank1` = Best Dialga YOU own in one league (personal collection rank)
+- `Rank3` = 3rd best Dialga YOU own in another league
 
 ### Battle Roles (4 tags)
 
@@ -93,7 +101,7 @@
 ### Storage Workflow (4 tags)
 
 38. `Home` - Transfer queue (batch during 2× candy events)
-39. `Transfer` - Marked for immediate transfer
+39. `Transfer` - Lucky Trade Queue (3+ yr aging for Lucky trade chance)
 40. `Kept` - Permanent keep
 41. `Review` - Needs recheck for duplicates
 
@@ -121,8 +129,17 @@ Your rank tags now align with STRATEGY_MODERATE_PVP.md:
 | ------------------- | ------------------------- | ------------------ |
 | Rank ≤10            | `Rank1`, `Rank2`, `Rank3` | 2 copies           |
 | Rank 11-50          | `Rank4-20`, `Rank21-50`   | 1 copy             |
-| Rank 51-100         | `Rank51-100`              | 1 copy (meta only) |
+| Rank 51-100         | `Rank51-100`              | 1 copy             |
 | Rank 101+           | (no tag)                  | Transfer           |
+
+### Little League (Category 1b)
+
+| Strategy Breakpoint | Your Tags                 | Copies to Keep |
+| ------------------- | ------------------------- | -------------- |
+| Rank ≤10            | `Rank1`, `Rank2`, `Rank3` | 2 copies       |
+| Rank 11-50          | `Rank4-20`, `Rank21-50`   | 1 copy         |
+| Rank 51-100         | `Rank51-100`              | 1 copy         |
+| Rank 101+           | (no tag)                  | Transfer       |
 
 ### Master League (Category 3)
 

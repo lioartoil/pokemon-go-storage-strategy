@@ -27,6 +27,39 @@ This document provides **exact recommended counts** for each top raid attacker b
 
 ---
 
+## Count Tier Methodology
+
+### Why 12 Is the Maximum
+
+Pokemon GO raids use a **team of 6 Pokemon**. When all 6 faint mid-raid, you can **re-lobby** (rejoin with a fresh team of 6). This gives a maximum of **12 Pokemon per raid attempt** (2 full rotations).
+
+The 12-count tier is reserved for elite attackers that:
+
+- Rank #1-2 in their type(s) with a massive performance gap over alternatives
+- Cover multiple types (e.g., Rayquaza = Dragon #2 + Flying #2)
+- Are so dominant that filling all 12 slots with them maximizes DPS
+
+### Practical Limitations
+
+- **Mixed teams are standard**: In practice, most trainers use 3-4 species per team, not 6 of the same. A typical Psychic raid team might be 3× Shadow Mewtwo + 2× Alakazam + 1× Espeon.
+- **Re-lobby is rare with groups**: With 3+ trainers, most T5 raids complete within 1 team rotation. The 2-team scenario mainly applies to solo/duo attempts.
+- **Some species can't reach 12**: Shadow Mewtwo is Giovanni-only (~1 per special research). Most trainers have 3-5 copies. The 12 count is an aspirational maximum, not a practical target.
+- **Storage trade-off**: Three Tier 1 species at 12 copies = 36 slots. With tight storage, lower counts may be more practical.
+
+### How Counts Are Determined
+
+| Factor             | Higher Count (10-12)           | Lower Count (1-6)              |
+| ------------------ | ------------------------------ | ------------------------------ |
+| **Performance**    | Rank #1-3, large DPS gap       | Rank #5+, marginal improvement |
+| **Type coverage**  | Covers 2-3 types               | Single type only               |
+| **Rarity**         | Giovanni-only, legendary       | Common spawn, easily replaced  |
+| **Raid frequency** | Type used often (Dragon, Ice)  | Type rarely needed (Bug, Normal) |
+| **Alternatives**   | Few viable alternatives        | Many comparable options        |
+
+See [GitHub Issue #1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) for planned tier methodology recalibration.
+
+---
+
 ## Quick Reference Table
 
 | Pokemon                      | Count     | Types Covered        | Primary Reasoning                                |

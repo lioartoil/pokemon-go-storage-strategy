@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-> **Project Context** | Pokemon GO Storage Management System | Updated: 2026-02-14
+> **Project Context** | Pokemon GO Storage Management System | Updated: 2026-02-16
 
 ## Project Overview
 
@@ -45,6 +45,18 @@ pokemon/
 ```
 
 ## Recent Work
+
+### Session (2026-02-16): Tier Methodology Recalibration (Issue #1) + Doc Fixes
+
+1. Fixed TAG_SYSTEM.md: added LL alignment table, fixed GL/UL "meta only", fixed Transfer tag description
+2. Updated STRATEGY_MODERATE_PVP.md: LL alignment with GL/UL breakpoints
+3. Added emergency reduction guide (`docs/guides/EMERGENCY_REDUCTION_GUIDE.md`)
+4. **MAJOR**: Rewrote `docs/reference/RAID_ATTACKER_COUNTS.md` with ER-based tier methodology
+   - 6 tiers (S/A/B/C/D/E) based on Estimator Rating + 4 modifiers (dual-type, legendary, accessible, glass cannon)
+   - Merged Mega/Primal into base form entries, capped at 6 per species
+   - Resolved all 3 rank-to-count inversions, eliminated all count ranges
+   - ~358 copies across 90 species (down from ~530 across 110 entries)
+5. Closed GitHub Issue #1 (commit `3d8f4ec` with `Closes #1`)
 
 ### Session (2026-02-14): Validation Scripts + Query Fixes
 
@@ -121,14 +133,13 @@ Added 4 attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina (Ghos
 - Removed unused symbols: `⊖`, `⊕`, `•` (Default)
 - Fixed Costume prefix: `₃` → `₄`
 
-**Raid Attacker Count Methodology**:
+**Raid Attacker Count Methodology (ER-Based — Issue #1 Recalibration)**:
 
-- **Performance-based**: DPS, TDO, Estimator Rating (ER) from GamePress data
-- **Type coverage**: Single-type vs dual-type attackers (dual-type = higher value)
-- **Rarity tiers**: Giovanni-only (12), Legendaries (6-12), Ultra Beasts (6-8), Common (1-6)
-- **Raid frequency**: Type usage frequency in meta (Dragon/Fighting = high, Bug/Normal = low)
-- **Accessibility**: Common spawns vs event-exclusive vs trade-evolution
-- **Special exceptions**: Glass cannons (lower counts), extremely accessible (minimal counts)
+- **ER Tiers**: S(≥60)→6, A(55-59.9)→5, B(50-54.9)→4, C(45-49.9)→3, D(40-44.9)→2, E(<40)→1
+- **Modifiers**: +1 dual-type (rank #1-5 in 2+ types), +1 legendary/UB/mythical, -1 accessible, -1 glass cannon (TDO<300)
+- **Caps**: Max 6, min 1, account-limited = account limit, Giovanni-only = keep all
+- **Mega/Primal merge**: Same physical Pokemon → single entry using best ER
+- **Total**: ~358 copies across 90 tracked species
 
 ### Implementation Details
 
@@ -169,24 +180,23 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 
 ### Current State
 
-**Completed (2026-02-14)**:
+**Completed (2026-02-16)**:
 
-- [x] Created validation + cache refresh automation scripts
-- [x] Fixed 3 query/table discrepancies, validated all 6 queries across 3 files
-- [x] Refreshed PokemonGOHub cache (18 types, 50 results each)
-- [x] Raid attacker queries finalized: 59 non-shadow, 40 shadow
+- [x] Rewrote RAID_ATTACKER_COUNTS.md with ER-based tier methodology (Issue #1 — CLOSED)
+- [x] Fixed TAG_SYSTEM.md (LL alignment, Transfer tag, GL/UL table)
+- [x] Updated STRATEGY_MODERATE_PVP.md (LL alignment with GL/UL breakpoints)
+- [x] Added EMERGENCY_REDUCTION_GUIDE.md
 
+**Completed (2026-02-14)**: Validation scripts, query fixes, PokemonGOHub cache refresh
 **Completed (2026-02-06)**: Re-audit added 11 attackers (Zacian, Zamazenta, Eternatus, Keldeo, Regieleki, etc.)
 **Completed (2026-01-28)**: Added Necrozma formes, Lunala, Blacephalon; removed Giratina; split queries
-**Completed (2026-01-18)**: Created 4 strategy docs, tested all queries (most returned 0 - well-organized)
 
 **In Progress**:
 
 - [ ] **EMERGENCY: Free 200-300 storage slots** (11,235/11,325 = 0.8% free)
 - [ ] Finish tagging raid attackers with `#Attackers` (mostly done)
 - [ ] Run `#Attackers` count to compare against recommended totals
-
-**Deferred**: [GitHub Issue #1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) — Tier methodology recalibration
+- [ ] Update raid attacker queries to remove 15 "Not Tracked" species (togekiss, primarina, granbull, etc.)
 
 ### Next Session Priorities
 
@@ -202,6 +212,11 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
    - See "Session Notes" for exact search queries
 
 3. **Run `#Attackers` count** vs recommended totals in RAID_ATTACKER_COUNTS.md
+
+4. **Update raid attacker queries** — Remove 15 "Not Tracked" species from non-shadow/shadow queries
+   - Non-shadow removals: togekiss, primarina, granbull, glaceon, espeon, roserade, staraptor, mamoswine, weavile, electivire, dragonite, chandelure
+   - Shadow removals: granbull, venusaur, scizor
+   - Then run `scripts/validate_raid_queries.py` to verify consistency
 
 ### Important Files/Locations
 
@@ -224,7 +239,7 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 - `docs/reference/TAG_SYSTEM.md` - 43-tag system documentation
 - `docs/reference/FAVORITE_QUERIES.md` - 40 saved search queries
 - `docs/reference/STORAGE_QUICK_REFERENCE.md` - Daily decision flowchart
-- `docs/reference/RAID_ATTACKER_COUNTS.md` - Exact retention counts per attacker (updated 2026-02-06 with Zacian/Zamazenta, Eternatus, Keldeo, Regieleki, +more)
+- `docs/reference/RAID_ATTACKER_COUNTS.md` - ER-based attacker retention counts (recalibrated 2026-02-16, Issue #1; 90 species, ~358 copies)
 
 **Meta Data**:
 
@@ -240,14 +255,14 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 
 **Branch**: develop (main branch)
 **Clean working tree**: Yes (all changes committed)
-**GitHub Issues**: [#1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) - Recalibrate raid attacker count tier methodology
+**GitHub Issues**: [#1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) - CLOSED (recalibrated 2026-02-16)
 **Recent commits** (most recent first):
 
-1. `91ede0a` (2026-02-14) - data: refresh PokemonGOHub cache (2026-02-14)
-2. `27b01ec` (2026-02-14) - fix(raid): resolve 3 query/table discrepancies from validation
-3. `cc04015` (2026-02-14) - feat(scripts): add raid attacker validation and cache refresh scripts
-4. `d43c84f` (2026-02-06) - docs(raid): add 11 missing raid attackers from 2025 releases
-5. `a7719de` (2026-02-06) - docs: update session handoff with 2026-01-28 raid attacker audit
+1. `3d8f4ec` (2026-02-16) - feat(raid): recalibrate attacker counts with ER-based tier methodology
+2. `961febc` (2026-02-16) - docs(raid): add count tier methodology section
+3. `a775e08` (2026-02-16) - docs: add emergency reduction guide and fix tag/strategy docs
+4. `9283390` (2026-02-16) - fix: add PokeGenie, Primals, Unreviewed to cSpell dictionary
+5. `91ede0a` (2026-02-14) - data: refresh PokemonGOHub cache (2026-02-14)
 
 ### Questions/Considerations
 
@@ -273,7 +288,7 @@ shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,bla
 
 ## Session Notes
 
-**Current Session (2026-02-14)**: Validation Scripts + Emergency Storage Reduction
+**Current Session (2026-02-16)**: Tier Methodology Recalibration (Issue #1) + Doc Fixes
 
 **Emergency Reduction Queries** (run in Pokemon GO, in this order):
 
@@ -289,8 +304,8 @@ Sort by name → keep best 1 per species, transfer rest.
 **Step 4 — Untagged Duplicates**: `!4*&!shiny&!lucky&!shadow&!costume&!@special&!legendary&!mythical&!#Attackers&!#rank1&!#rank2&!#rank3&!#rank4-20&!#great&!#ultra&!#little`
 Sort by name → transfer lowest-IV duplicates.
 
-**Deferred**: Tier methodology recalibration — [GitHub Issue #1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1)
+**Note**: Raid attacker queries still include 15 "Not Tracked" species — needs cleanup next session.
 
 ---
 
-_Session handoff updated: 2026-02-14_
+_Session handoff updated: 2026-02-16_

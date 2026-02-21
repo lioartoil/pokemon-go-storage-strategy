@@ -1,7 +1,7 @@
 # Raid Attacker Retention Counts - Exact Recommendations
 
-**Last Updated**: 2026-02-16
-**Data Source**: GamePress Comprehensive DPS/TDO Spreadsheet (2025-10-12), GamePress Tier List (2026-02), PokemonGOHub DB
+**Last Updated**: 2026-02-21
+**Data Sources**: PokeBase DPS Calculator (2026-02-21), PokemonGOHub DB (2026-02-21), PvPoke ML Rankings (2026-02-21), GamePress (2025-10-12 fallback)
 **User Priority**: Collecting > Raids > Trading >>> PvP (minimal)
 
 ---
@@ -20,7 +20,7 @@ Pokemon GO raids use a **team of 6 Pokemon**. In practice, most trainers use mix
 
 ### Step 1: Base Count from Estimator Rating (ER)
 
-ER is a composite metric combining DPS (damage output) and TDO (survivability).
+ER is a composite metric combining DPS (damage output) and TDO (survivability). Source: PokeBase DPS Calculator (primary), GamePress (fallback).
 
 | ER Range  | Tier | Base Count | Description        |
 | --------- | ---- | ---------- | ------------------ |
@@ -31,18 +31,13 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 | 40 – 44.9 | D    | 2          | Niche backup       |
 | < 40      | E    | 1          | Budget replaceable |
 
-**Missing ER proxy** (for Pokemon without GamePress ER data):
-
-- Within-type DPS rank #1-2 → treat as Tier A (base 5)
-- DPS rank #3-5 → treat as Tier B (base 4)
-- DPS rank #6-10 → treat as Tier C (base 3)
-
 ### Step 2: Modifiers
 
 | Modifier     | Effect | Condition                                                       |
 | ------------ | ------ | --------------------------------------------------------------- |
-| Dual-type    | +1     | Rank #1-5 in TWO or more types                                  |
+| Dual-type    | +1     | Rank #1-5 in TWO or more types (PokemonGOHub top-5)             |
 | Legendary/UB | +1     | Legendary, Mythical, or Ultra Beast (limited raid availability) |
+| ML PvP       | +1     | PvPoke Master League rank ≤ 50 (dual-use value)                 |
 | Accessible   | -1     | Common spawn or easily evolved (Machop, Eevee, Roselia, Weedle) |
 | Glass cannon | -1     | TDO < 300                                                       |
 
@@ -66,98 +61,98 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 ## Quick Reference Table
 
-| Pokemon                 | Count | ER    | Types Covered        | Tier Calc                       |
-| ----------------------- | ----- | ----- | -------------------- | ------------------------------- |
-| **Rayquaza** (Mega)     | **6** | 81.15 | Dragon, Flying       | S(6)+legend+dual→cap6           |
-| **Groudon** (Primal)    | **6** | 64.29 | Ground               | S(6)+legend→cap6                |
-| **Kyogre** (Primal)     | **6** | 64.38 | Water                | S(6)+legend→cap6                |
-| **Shadow Mewtwo**       | **6** | 63.29 | Psychic              | S(6), Giovanni: keep all        |
-| **Garchomp** (Mega)     | **6** | 61.11 | Dragon, Ground       | S(6)+dual                       |
-| **Shadow Salamence**    | **6** | 54.31 | Dragon, Flying       | B(4)+legend+dual                |
-| **Shadow Metagross**    | **6** | 55.59 | Psychic, Steel       | A(5)+dual                       |
-| **Shadow Moltres**      | **6** | 51.93 | Fire, Flying         | B(4)+legend+dual, Giovanni      |
-| **Shadow Regigigas**    | **6** | 56.54 | Normal               | A(5)+legend, Giovanni           |
-| **Tyranitar** (Mega)    | **6** | 58.91 | Rock, Dark           | A(5)+dual                       |
-| **Heracross** (Mega)    | **6** | 55.06 | Bug, Fighting        | A(5)+dual                       |
-| **Blaziken** (Mega)     | **6** | 57.78 | Fire, Fighting       | A(5)+dual                       |
-| **Lucario** (Mega)      | **6** | 58.07 | Fighting, Steel      | A(5)+dual                       |
-| **Kyurem (White)**      | **6** | —     | Ice, Dragon          | proxy A(5)+legend               |
-| **Kyurem (Black)**      | **6** | —     | Ice, Dragon          | proxy A(5)+legend               |
-| **Zacian (Crowned)**    | **6** | —     | Steel, Fairy         | proxy A(5)+legend+dual→cap6     |
-| **Zamazenta (Crowned)** | **6** | —     | Steel                | proxy A(5)+legend               |
-| **Dawn Wings Necrozma** | **6** | —     | Ghost, Psychic       | proxy A(5)+legend               |
-| **Dusk Mane Necrozma**  | **6** | —     | Steel, Psychic       | proxy B(4)+legend+dual          |
-| Mewtwo                  | 5     | 54.57 | Psychic              | B(4)+legend                     |
-| Shadow Groudon          | 5     | 54.66 | Ground               | B(4)+legend, Giovanni           |
-| Shadow Kyogre           | 5     | 54.76 | Water                | B(4)+legend, Giovanni           |
-| Palkia (Origin)         | 5     | 54.48 | Dragon, Water        | B(4)+legend                     |
-| Dialga (Origin)         | 5     | 54.37 | Dragon, Steel        | B(4)+legend                     |
-| Shadow Tyranitar        | 5     | 53.64 | Rock, Dark           | B(4)+dual                       |
-| Yveltal                 | 5     | 50.29 | Dark, Flying         | B(4)+legend                     |
-| Hoopa (Unbound)         | 5     | 50.16 | Dark, Ghost, Psychic | B(4)+mythical                   |
-| Reshiram                | 5     | 51.79 | Fire, Dragon         | B(4)+legend                     |
-| Shadow Heatran          | 5     | ~50   | Fire, Steel          | B(4)+legend, Giovanni           |
-| Shadow Latios           | 5     | 51.67 | Dragon, Psychic      | B(4)+legend                     |
-| Shadow Chandelure       | 5     | 51.49 | Fire, Ghost          | B(4)+dual                       |
-| Gengar (Mega)           | 5     | 57.59 | Ghost, Poison        | A(5)+dual-accessible            |
-| Metagross (Mega)        | 5     | 58.01 | Psychic, Steel       | A(5)                            |
-| Swampert (Mega)         | 5     | 55.62 | Water, Ground        | A(5)                            |
-| Regieleki               | 5     | —     | Electric             | proxy A(5)+legend-glass         |
-| Terrakion               | 5     | 51.02 | Rock, Fighting       | B(4)+legend                     |
-| Kartana                 | 5     | 48.09 | Grass, Steel         | C(3)+UB+dual                    |
-| Shadow Dragonite        | 4     | 52.70 | Dragon, Flying       | B(4)                            |
-| Zekrom                  | 4     | 49.85 | Electric, Dragon     | C(3)+legend                     |
-| Shadow Garchomp         | 4     | 53.95 | Dragon, Ground       | B(4)                            |
-| Shadow Rampardos        | 4     | 50.05 | Rock                 | B(4)                            |
-| Shadow Rhyperior        | 4     | 51.67 | Rock, Ground         | B(4)                            |
-| Landorus (Therian)      | 4     | 47.71 | Ground, Flying       | C(3)+legend                     |
-| Shadow Blaziken         | 4     | 48.61 | Fire, Fighting       | C(3)+dual                       |
-| Kyurem (regular)        | 4     | 46.93 | Ice, Dragon          | C(3)+legend                     |
-| Shadow Gengar           | 4     | 48.42 | Ghost, Poison        | C(3)+dual                       |
-| Lunala                  | 4     | —     | Ghost, Psychic       | proxy C(3)+legend               |
-| Blacephalon             | 4     | —     | Fire, Ghost          | proxy C(3)+UB                   |
-| Shadow Raikou           | 4     | 48.96 | Electric             | C(3)+legend, Giovanni           |
-| Shadow Zapdos           | 4     | 47.94 | Electric, Flying     | C(3)+legend, Giovanni           |
-| Xurkitree               | 4     | 47.99 | Electric             | C(3)+UB                         |
-| Shadow Excadrill        | 4     | 48.66 | Ground, Steel        | C(3)+dual                       |
-| Shadow Weavile          | 4     | 46.95 | Ice, Dark            | C(3)+dual                       |
-| Regigigas               | 4     | 49.00 | Normal               | C(3)+legend                     |
-| Palkia                  | 4     | 47.39 | Water, Dragon        | C(3)+legend                     |
-| Dialga                  | 4     | —     | Steel, Dragon        | C(3)+legend                     |
-| Sceptile (Mega)         | 4     | 56.25 | Grass                | A(5)-accessible                 |
-| Salamence (Mega)        | 4     | 56.03 | Dragon, Flying       | A(5)-accessible                 |
-| Alakazam (Mega)         | 4     | 56.96 | Psychic              | A(5)-accessible                 |
-| Shadow Honchkrow        | 3     | 48.91 | Dark, Flying         | C(3)+dual-accessible            |
-| Xerneas                 | 3     | 44.41 | Fairy                | D(2)+legend                     |
-| Shadow Mamoswine        | 3     | 49.62 | Ice, Ground          | C(3)                            |
-| Shadow Electivire       | 3     | 47.32 | Electric             | C(3)                            |
-| Shadow Magnezone        | 3     | 46.11 | Electric, Steel      | C(3)                            |
-| Shadow Swampert         | 3     | 47.10 | Water, Ground        | C(3)                            |
-| Shadow Darmanitan       | 3     | 49.08 | Fire, Ice            | C(3)                            |
-| Gardevoir (Mega)        | 3     | 53.93 | Fairy, Psychic       | B(4)-accessible                 |
-| Heatran                 | 3     | ~42   | Fire, Steel          | D(2)+legend                     |
-| Pheromosa               | 3     | 42.89 | Bug, Fighting        | D(2)+UB                         |
-| Shadow Darkrai          | 3     | —     | Dark                 | D(2)+mythical, Giovanni         |
-| Shadow Gardevoir        | 2     | 44.85 | Fairy, Psychic       | D(2)                            |
-| Shadow Staraptor        | 2     | 48.24 | Normal, Flying       | C(3)-accessible                 |
-| Shadow Alakazam         | 2     | 47.53 | Psychic              | C(3)-accessible                 |
-| Shadow Machamp          | 2     | 47.05 | Fighting             | C(3)-accessible                 |
-| Shadow Conkeldurr       | 2     | —     | Fighting             | D(2)                            |
-| Shadow Toxicroak        | 2     | 41.01 | Poison, Fighting     | D(2)                            |
-| Shadow Tangrowth        | 2     | 44.06 | Grass                | D(2)                            |
-| Rampardos               | 2     | 42.94 | Rock                 | D(2)                            |
-| Volcarona               | 2     | 44.46 | Bug, Fire            | D(2)                            |
-| Hydreigon               | 2     | —     | Dark, Dragon         | D(2)                            |
-| Beedrill (Mega)         | 2     | 46.35 | Bug                  | C(3)-accessible                 |
-| Shadow Palkia           | 2     | —     | Dragon, Water        | Giovanni: keep all              |
-| Shadow Dialga           | 2     | —     | Steel, Dragon        | Giovanni: keep all              |
-| Eternatus               | 1     | —     | Dragon, Poison       | Account-limited (1 per account) |
-| Keldeo (Resolute)       | 1     | —     | Fighting, Water      | Account-limited                 |
-| Diancie (Mega)          | 1     | —     | Rock, Fairy          | Account-limited                 |
-| Deoxys (Attack)         | 1     | 38.45 | Psychic              | E(1)+mythical-glass             |
-| Charizard (Mega)        | 1     | —     | Fire, Flying         | D(2)-accessible                 |
-| Pinsir (Mega)           | 1     | 44.98 | Bug                  | D(2)-accessible                 |
-| Scizor (Mega)           | 1     | 41.86 | Bug, Steel           | D(2)-accessible                 |
+| Pokemon                 | Count | ER    | PvP | Types Covered        | Tier Calc                       |
+| ----------------------- | ----- | ----- | --- | -------------------- | ------------------------------- |
+| **Rayquaza** (Mega)     | **6** | 73.98 |     | Dragon, Flying       | S(6)+dual+legend→cap6           |
+| **Shadow Regigigas**    | **6** | 69.09 |     | Normal               | S(6)+legend, Giovanni           |
+| **Zamazenta (Crowned)** | **6** | 63.84 | #5  | Steel                | S(6)+legend+pvp→cap6            |
+| **Zacian (Crowned)**    | **6** | 63.64 | #1  | Steel, Fairy         | S(6)+legend+pvp→cap6            |
+| **Dawn Wings Necrozma** | **6** | 63.07 | #18 | Ghost, Psychic       | S(6)+legend+pvp→cap6            |
+| **Dusk Mane Necrozma**  | **6** | 63.07 | #21 | Steel, Psychic       | S(6)+legend+pvp→cap6            |
+| **Kyurem (Black)**      | **6** | 60.56 | #11 | Ice, Dragon          | S(6)+legend+pvp→cap6            |
+| **Regigigas**           | **6** | 59.64 |     | Normal               | A(5)+legend                     |
+| **Garchomp** (Mega)     | **6** | 58.60 |     | Dragon, Ground       | A(5)+dual                       |
+| **Blaziken** (Mega)     | **6** | 58.40 |     | Fire, Fighting       | A(5)+dual                       |
+| **Shadow Mewtwo**       | **6** | 58.23 |     | Psychic              | A(5)+dual+legend, Giovanni      |
+| **Kyogre** (Primal)     | **6** | 57.74 | #23 | Water                | A(5)+dual+legend+pvp→cap6       |
+| **Groudon** (Primal)    | **6** | 57.56 | #20 | Ground               | A(5)+legend+pvp→cap6            |
+| **Metagross** (Mega)    | **6** | 55.68 | #3  | Psychic, Steel       | A(5)+pvp                        |
+| **Kyurem (White)**      | **6** | 54.19 | #6  | Ice, Dragon          | B(4)+legend+pvp                 |
+| **Dialga (Origin)**     | **6** | 52.31 | #7  | Dragon, Steel        | B(4)+legend+pvp                 |
+| **Shadow Dialga**       | **6** | 51.41 | #27 | Steel, Dragon        | B(4)+legend+pvp, Giovanni       |
+| **Shadow Palkia**       | **6** | 50.92 | #14 | Dragon, Water        | B(4)+legend+pvp, Giovanni       |
+| **Palkia (Origin)**     | **6** | 50.21 | #2  | Dragon, Water        | B(4)+legend+pvp                 |
+| Lucario (Mega)          | 5     | 59.31 |     | Fighting, Steel      | A(5)                            |
+| Shadow Metagross        | 5     | 53.29 | #12 | Psychic, Steel       | B(4)+pvp                        |
+| Tyranitar (Mega)        | 5     | 52.57 |     | Rock, Dark           | B(4)+dual                       |
+| Shadow Garchomp         | 5     | 52.00 |     | Dragon, Ground       | B(4)+dual                       |
+| Blacephalon             | 5     | 51.15 |     | Fire, Ghost          | B(4)+legend                     |
+| Regieleki               | 5     | 50.97 |     | Electric             | B(4)+legend                     |
+| Mewtwo                  | 5     | 50.28 |     | Psychic              | B(4)+legend                     |
+| Shadow Groudon          | 5     | 49.16 | #46 | Ground               | C(3)+legend+pvp, Giovanni       |
+| Reshiram                | 5     | 47.46 | #8  | Fire, Dragon         | C(3)+legend+pvp                 |
+| Yveltal                 | 5     | 46.10 | #17 | Dark, Flying         | C(3)+legend+pvp                 |
+| Landorus (Therian)      | 5     | 45.69 | #43 | Ground, Flying       | C(3)+legend+pvp                 |
+| Zekrom                  | 5     | 45.60 | #10 | Electric, Dragon     | C(3)+legend+pvp                 |
+| Salamence (Mega)        | 4     | 57.43 |     | Dragon, Flying       | A(5)-access                     |
+| Shadow Salamence        | 4     | 56.14 |     | Dragon, Flying       | A(5)-access                     |
+| Gengar (Mega)           | 4     | 52.21 |     | Ghost, Poison        | B(4)+dual-access                |
+| Alakazam (Mega)         | 4     | 52.18 |     | Psychic              | B(4)+dual-access                |
+| Shadow Latios           | 4     | 49.89 | #24 | Dragon, Psychic      | C(3)+pvp                        |
+| Heracross (Mega)        | 4     | 49.29 |     | Bug, Fighting        | C(3)+dual                       |
+| Shadow Kyogre           | 4     | 49.23 |     | Water                | C(3)+legend, Giovanni           |
+| Shadow Heatran          | 4     | 48.54 |     | Fire, Steel          | C(3)+legend, Giovanni           |
+| Shadow Tyranitar        | 4     | 47.89 | #41 | Rock, Dark           | C(3)+pvp                        |
+| Shadow Moltres          | 4     | 47.51 |     | Fire, Flying         | C(3)+legend, Giovanni           |
+| Shadow Raikou           | 4     | 47.17 |     | Electric             | C(3)+legend, Giovanni           |
+| Shadow Darkrai          | 4     | 46.06 |     | Dark                 | C(3)+legend, Giovanni           |
+| Hoopa (Unbound)         | 4     | 46.00 |     | Dark, Ghost, Psychic | C(3)+legend                     |
+| Terrakion               | 4     | 45.98 |     | Rock, Fighting       | C(3)+legend                     |
+| Dialga                  | 4     | 44.83 | #32 | Steel, Dragon        | D(2)+legend+pvp                 |
+| Palkia                  | 4     | 44.32 | #25 | Water, Dragon        | D(2)+legend+pvp                 |
+| Lunala                  | 4     | 44.18 | #9  | Ghost, Psychic       | D(2)+legend+pvp                 |
+| Kyurem (regular)        | 4     | 43.20 | #44 | Ice, Dragon          | D(2)+legend+pvp                 |
+| Xerneas                 | 4     | 40.96 | #4  | Fairy                | D(2)+legend+pvp                 |
+| Charizard (Mega)        | 3     | 54.03 |     | Fire, Flying         | B(4)-access                     |
+| Sceptile (Mega)         | 3     | 53.14 |     | Grass                | B(4)-access                     |
+| Gardevoir (Mega)        | 3     | 49.43 |     | Fairy, Psychic       | C(3)+dual-access                |
+| Shadow Blaziken         | 3     | 49.42 |     | Fire, Fighting       | C(3)                            |
+| Shadow Dragonite        | 3     | 48.71 | #45 | Dragon, Flying       | C(3)+pvp-access                 |
+| Shadow Rhyperior        | 3     | 47.30 |     | Rock, Ground         | C(3)                            |
+| Shadow Chandelure       | 3     | 46.99 |     | Fire, Ghost          | C(3)                            |
+| Shadow Darmanitan       | 3     | 45.33 |     | Fire, Ice            | C(3)                            |
+| Xurkitree               | 3     | 43.88 |     | Electric             | D(2)+legend                     |
+| Kartana                 | 3     | 43.52 |     | Grass, Steel         | D(2)+legend                     |
+| Shadow Zapdos           | 3     | 43.25 |     | Electric, Flying     | D(2)+legend, Giovanni           |
+| Heatran                 | 3     | 41.93 |     | Fire, Steel          | D(2)+legend                     |
+| Swampert (Mega)         | 2     | 49.78 |     | Water, Ground        | C(3)-access                     |
+| Shadow Staraptor        | 2     | 46.21 |     | Normal, Flying       | C(3)-access                     |
+| Shadow Rampardos        | 2     | 44.97 |     | Rock                 | D(2)                            |
+| Shadow Excadrill        | 2     | 44.79 |     | Ground, Steel        | D(2)                            |
+| Shadow Mamoswine        | 2     | 44.50 |     | Ice, Ground          | D(2)                            |
+| Shadow Electivire       | 2     | 44.14 |     | Electric             | D(2)                            |
+| Beedrill (Mega)         | 2     | 42.71 |     | Bug                  | D(2)+dual-access                |
+| Shadow Weavile          | 2     | 42.60 |     | Ice, Dark            | D(2)                            |
+| Shadow Magnezone        | 2     | 42.22 |     | Electric, Steel      | D(2)                            |
+| Shadow Tangrowth        | 2     | 41.26 |     | Grass                | D(2)                            |
+| Volcarona               | 2     | 41.08 |     | Bug, Fire            | D(2)                            |
+| Hydreigon               | 2     | 40.85 |     | Dark, Dragon         | D(2)                            |
+| Eternatus               | 1     | 67.53 | #15 | Dragon, Poison       | Account-limited (1 per account) |
+| Keldeo (Resolute)       | 1     | 54.17 | #49 | Fighting, Water      | Account-limited                 |
+| Diancie (Mega)          | 1     | 45.44 |     | Rock, Fairy          | Account-limited                 |
+| Shadow Conkeldurr       | 1     | 44.91 |     | Fighting             | D(2)-access                     |
+| Shadow Honchkrow        | 1     | 44.85 |     | Dark, Flying         | D(2)-access                     |
+| Shadow Gengar           | 1     | 43.93 |     | Ghost, Poison        | D(2)-access                     |
+| Shadow Alakazam         | 1     | 43.56 |     | Psychic              | D(2)-access                     |
+| Shadow Swampert         | 1     | 42.19 |     | Water, Ground        | D(2)-access                     |
+| Pinsir (Mega)           | 1     | 42.17 |     | Bug                  | D(2)-access                     |
+| Shadow Machamp          | 1     | 42.03 |     | Fighting             | D(2)-access                     |
+| Shadow Gardevoir        | 1     | 41.13 |     | Fairy, Psychic       | D(2)-access                     |
+| Scizor (Mega)           | 1     | 40.00 |     | Bug, Steel           | D(2)-access                     |
+| Rampardos               | 1     | 38.59 |     | Rock                 | E(1)                            |
+| Pheromosa               | 1     | 38.55 |     | Bug, Fighting        | E(1)+legend-glass               |
+| Shadow Toxicroak        | 1     | 36.64 |     | Poison, Fighting     | E(1)-access→cap1                |
+| Deoxys (Attack)         | 1     | 34.96 |     | Psychic              | E(1)+legend-glass               |
 
 ---
 
@@ -167,12 +162,12 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon          | Count | Rank | ER    | Notes                         |
 | ---------------- | ----- | ---- | ----- | ----------------------------- |
-| Heracross (Mega) | 6     | #1   | 55.06 | Also #4 Fighting, dual-type   |
-| Pheromosa        | 3     | #2   | 42.89 | Ultra Beast, also #6 Fighting |
-| Beedrill (Mega)  | 2     | #3   | 46.35 | Weedle is common spawn        |
-| Pinsir (Mega)    | 1     | #4   | 44.98 | Accessible                    |
-| Volcarona        | 2     | #5   | 44.46 | Also Fire-type                |
-| Scizor (Mega)    | 1     | #7   | 41.86 | Also Steel-type               |
+| Heracross (Mega) | 4     | #1   | 49.29 | Also Fighting, dual-type      |
+| Pheromosa        | 1     | #2   | 38.55 | Ultra Beast, glass cannon     |
+| Beedrill (Mega)  | 2     | #3   | 42.71 | Weedle is common spawn        |
+| Pinsir (Mega)    | 1     | #4   | 42.17 | Accessible                    |
+| Volcarona        | 2     | #5   | 41.08 | Also Fire-type                |
+| Scizor (Mega)    | 1     | #7   | 40.00 | Also Steel-type               |
 
 **Bug Raid Frequency**: Low (rare raid type)
 
@@ -182,14 +177,14 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon          | Count | Rank | ER    | Notes                             |
 | ---------------- | ----- | ---- | ----- | --------------------------------- |
-| Shadow Honchkrow | 3     | #1   | 48.91 | Also #4 Flying, accessible shadow |
-| Shadow Tyranitar | 5     | #3   | 53.64 | Also #2 Rock, dual coverage       |
-| Tyranitar (Mega) | 6     | #4   | 58.91 | Also #3 Rock, dual coverage       |
-| Shadow Weavile   | 4     | #5   | 46.95 | Also #2 Ice, dual coverage        |
-| Hoopa (Unbound)  | 5     | #6   | 50.16 | Also Ghost/Psychic, mythical      |
-| Shadow Darkrai   | 3     | —    | —     | Mythical shadow, Giovanni         |
-| Yveltal          | 5     | #9   | 50.29 | Legendary, excellent bulk         |
-| Hydreigon        | 2     | #10+ | —     | Pseudo-legendary                  |
+| Shadow Honchkrow | 1     | #1   | 44.85 | Also Flying, accessible shadow    |
+| Shadow Tyranitar | 4     | #3   | 47.89 | Also Rock, dual coverage, PvP #41 |
+| Tyranitar (Mega) | 5     | #4   | 52.57 | Also Rock, dual coverage          |
+| Shadow Weavile   | 2     | #5   | 42.60 | Also Ice                          |
+| Hoopa (Unbound)  | 4     | #6   | 46.00 | Also Ghost/Psychic, mythical      |
+| Shadow Darkrai   | 4     | —    | 46.06 | Mythical shadow, Giovanni         |
+| Yveltal          | 5     | #9   | 46.10 | Legendary, PvP #17                |
+| Hydreigon        | 2     | #10+ | 40.85 | Pseudo-legendary                  |
 
 **Dark Raid Frequency**: Medium (Psychic/Ghost bosses common)
 
@@ -199,18 +194,18 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon          | Count | Rank | ER    | Notes                            |
 | ---------------- | ----- | ---- | ----- | -------------------------------- |
-| Eternatus        | 1     | #1   | —     | 1 per account (Special Research) |
-| Rayquaza (Mega)  | 6     | #2   | 81.15 | Also #1 Flying, dominates        |
-| Shadow Salamence | 6     | #3   | 54.31 | Also #3 Flying, dual coverage    |
-| Garchomp (Mega)  | 6     | #4   | 61.11 | Also #2 Ground, dual coverage    |
-| Shadow Dragonite | 4     | #5   | 52.70 | Also #7 Flying                   |
-| Shadow Garchomp  | 4     | #6   | 53.95 | Also #4 Ground                   |
-| Shadow Latios    | 5     | #8   | 51.67 | Also Psychic, legendary          |
-| Palkia (Origin)  | 5     | #9   | 54.48 | Also #3 Water, legendary         |
-| Dialga (Origin)  | 5     | #10  | 54.37 | Also #6 Steel, legendary         |
-| Salamence (Mega) | 4     | #10+ | 56.03 | Accessible                       |
-| Palkia           | 4     | #10+ | 47.39 | Regular forme                    |
-| Dialga           | 4     | #10+ | —     | Regular forme                    |
+| Eternatus        | 1     | #1   | 67.53 | 1 per account (Special Research) |
+| Rayquaza (Mega)  | 6     | #2   | 73.98 | Also #1 Flying, dominates        |
+| Shadow Salamence | 4     | #3   | 56.14 | Also Flying, accessible          |
+| Garchomp (Mega)  | 6     | #4   | 58.60 | Also Ground, dual coverage       |
+| Shadow Dragonite | 3     | #5   | 48.71 | Also Flying, PvP #45             |
+| Shadow Garchomp  | 5     | #6   | 52.00 | Also Ground, dual coverage       |
+| Shadow Latios    | 4     | #8   | 49.89 | Also Psychic, PvP #24            |
+| Palkia (Origin)  | 6     | #9   | 50.21 | Also Water, PvP #2               |
+| Dialga (Origin)  | 6     | #10  | 52.31 | Also Steel, PvP #7               |
+| Salamence (Mega) | 4     | #10+ | 57.43 | Accessible                       |
+| Palkia           | 4     | #10+ | 44.32 | Regular forme, PvP #25           |
+| Dialga           | 4     | #10+ | 44.83 | Regular forme, PvP #32           |
 
 **Dragon Raid Frequency**: High (Dragon bosses very common)
 
@@ -220,13 +215,13 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon           | Count | Rank | ER    | Notes                              |
 | ----------------- | ----- | ---- | ----- | ---------------------------------- |
-| Shadow Electivire | 3     | #1   | 47.32 | Accessible evolution               |
-| Regieleki         | 5     | #2   | —     | Glass cannon (TDO: 250), legendary |
-| Shadow Raikou     | 4     | #3   | 48.96 | Shadow legendary, Giovanni         |
-| Xurkitree         | 4     | #4   | 47.99 | Ultra Beast                        |
-| Shadow Zapdos     | 4     | #5   | 47.94 | Also Flying, Giovanni              |
-| Shadow Magnezone  | 3     | #7   | 46.11 | Also Steel                         |
-| Zekrom            | 4     | #9   | 49.85 | Also Dragon, legendary             |
+| Shadow Electivire | 2     | #1   | 44.14 | Accessible evolution               |
+| Regieleki         | 5     | #2   | 50.97 | Legendary                          |
+| Shadow Raikou     | 4     | #3   | 47.17 | Shadow legendary, Giovanni         |
+| Xurkitree         | 3     | #4   | 43.88 | Ultra Beast                        |
+| Shadow Zapdos     | 3     | #5   | 43.25 | Also Flying, Giovanni              |
+| Shadow Magnezone  | 2     | #7   | 42.22 | Also Steel                         |
+| Zekrom            | 5     | #9   | 45.60 | Also Dragon, PvP #10              |
 
 **Electric Raid Frequency**: Medium (Water/Flying bosses)
 
@@ -234,12 +229,12 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 ### Fairy Type
 
-| Pokemon          | Count | Rank | ER    | Notes                     |
-| ---------------- | ----- | ---- | ----- | ------------------------- |
-| Gardevoir (Mega) | 3     | #1   | 53.93 | Also Psychic, accessible  |
-| Zacian (Crowned) | 6     | #2   | —     | Also #1 Steel, legendary  |
-| Shadow Gardevoir | 2     | #3   | 44.85 | Also Psychic              |
-| Xerneas          | 3     | #8   | 44.41 | Legendary, excellent bulk |
+| Pokemon          | Count | Rank | ER    | Notes                        |
+| ---------------- | ----- | ---- | ----- | ---------------------------- |
+| Gardevoir (Mega) | 3     | #1   | 49.43 | Also Psychic, accessible     |
+| Zacian (Crowned) | 6     | #2   | 63.64 | Also #1 Steel, PvP #1       |
+| Shadow Gardevoir | 1     | #3   | 41.13 | Also Psychic, accessible     |
+| Xerneas          | 4     | #8   | 40.96 | Legendary, PvP #4            |
 
 **Fairy Raid Frequency**: Medium (Dragon/Dark/Fighting bosses)
 
@@ -249,15 +244,15 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon           | Count | Rank | ER    | Notes                       |
 | ----------------- | ----- | ---- | ----- | --------------------------- |
-| Lucario (Mega)    | 6     | #1   | 58.07 | Also #1 Steel, dual Mega    |
-| Blaziken (Mega)   | 6     | #2   | 57.78 | Also #1 Fire, dual Mega     |
-| Keldeo (Resolute) | 1     | #3   | —     | Account-limited             |
-| Shadow Blaziken   | 4     | #4   | 48.61 | Also #4 Fire, dual coverage |
-| Heracross (Mega)  | 6     | #5   | 55.06 | Also #1 Bug, dual coverage  |
-| Pheromosa         | 3     | #6   | 42.89 | Ultra Beast                 |
-| Shadow Machamp    | 2     | #8   | 47.05 | Very accessible shadow      |
-| Terrakion         | 5     | #9   | 51.02 | Also #5 Rock, legendary     |
-| Shadow Conkeldurr | 2     | #10+ | —     | Accessible shadow           |
+| Lucario (Mega)    | 5     | #1   | 59.31 | Also Steel                  |
+| Blaziken (Mega)   | 6     | #2   | 58.40 | Also Fire, dual Mega        |
+| Keldeo (Resolute) | 1     | #3   | 54.17 | Account-limited, PvP #49    |
+| Shadow Blaziken   | 3     | #4   | 49.42 | Also Fire                   |
+| Heracross (Mega)  | 4     | #5   | 49.29 | Also #1 Bug, dual coverage  |
+| Pheromosa         | 1     | #6   | 38.55 | Ultra Beast, glass cannon   |
+| Shadow Machamp    | 1     | #8   | 42.03 | Very accessible shadow      |
+| Terrakion         | 4     | #9   | 45.98 | Also Rock, legendary        |
+| Shadow Conkeldurr | 1     | #10+ | 44.91 | Accessible shadow           |
 
 **Fighting Raid Frequency**: High (Normal/Dark/Steel/Ice/Rock bosses common)
 
@@ -267,16 +262,16 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon           | Count | Rank | ER    | Notes                        |
 | ----------------- | ----- | ---- | ----- | ---------------------------- |
-| Blaziken (Mega)   | 6     | #1   | 57.78 | Also #2 Fighting, dual Mega  |
-| Charizard (Mega)  | 1     | #2   | —     | Accessible                   |
-| Shadow Chandelure | 5     | #3   | 51.49 | Also #2 Ghost, dual coverage |
-| Shadow Darmanitan | 3     | #4   | 49.08 | Also Ice-type                |
-| Shadow Blaziken   | 4     | #5   | 48.61 | Also #3 Fighting             |
-| Shadow Moltres    | 6     | #6   | 51.93 | Also #5 Flying, Giovanni     |
-| Shadow Heatran    | 5     | #7   | ~50   | Also Steel, Giovanni         |
-| Blacephalon       | 4     | #8   | —     | Ultra Beast, also Ghost      |
-| Reshiram          | 5     | #9   | 51.79 | Also Dragon, legendary       |
-| Heatran           | 3     | #10+ | ~42   | Also Steel, legendary        |
+| Blaziken (Mega)   | 6     | #1   | 58.40 | Also Fighting, dual Mega     |
+| Charizard (Mega)  | 3     | #2   | 54.03 | Accessible                   |
+| Shadow Chandelure | 3     | #3   | 46.99 | Also Ghost                   |
+| Shadow Darmanitan | 3     | #4   | 45.33 | Also Ice-type                |
+| Shadow Blaziken   | 3     | #5   | 49.42 | Also Fighting                |
+| Shadow Moltres    | 4     | #6   | 47.51 | Also Flying, Giovanni        |
+| Shadow Heatran    | 4     | #7   | 48.54 | Also Steel, Giovanni         |
+| Blacephalon       | 5     | #8   | 51.15 | Ultra Beast, also Ghost      |
+| Reshiram          | 5     | #9   | 47.46 | Also Dragon, PvP #8          |
+| Heatran           | 3     | #10+ | 41.93 | Also Steel, legendary        |
 
 **Fire Raid Frequency**: Medium-High (Grass/Bug/Steel/Ice bosses)
 
@@ -286,13 +281,13 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon          | Count | Rank | ER    | Notes                         |
 | ---------------- | ----- | ---- | ----- | ----------------------------- |
-| Rayquaza (Mega)  | 6     | #1   | 81.15 | Also #2 Dragon, dominates     |
-| Shadow Salamence | 6     | #3   | 54.31 | Also #3 Dragon, dual coverage |
-| Shadow Honchkrow | 3     | #4   | 48.91 | Also #1 Dark, accessible      |
-| Shadow Moltres   | 6     | #5   | 51.93 | Also #5 Fire, Giovanni        |
-| Shadow Staraptor | 2     | #6   | 48.24 | Also Normal, accessible       |
-| Shadow Dragonite | 4     | #7   | 52.70 | Also #5 Dragon                |
-| Shadow Zapdos    | 4     | #9   | 47.94 | Also #5 Electric, Giovanni    |
+| Rayquaza (Mega)  | 6     | #1   | 73.98 | Also Dragon, dominates        |
+| Shadow Salamence | 4     | #3   | 56.14 | Also Dragon, accessible       |
+| Shadow Honchkrow | 1     | #4   | 44.85 | Also Dark, accessible         |
+| Shadow Moltres   | 4     | #5   | 47.51 | Also Fire, Giovanni           |
+| Shadow Staraptor | 2     | #6   | 46.21 | Also Normal, accessible       |
+| Shadow Dragonite | 3     | #7   | 48.71 | Also Dragon, PvP #45          |
+| Shadow Zapdos    | 3     | #9   | 43.25 | Also Electric, Giovanni       |
 
 **Flying Raid Frequency**: Medium (Fighting/Bug/Grass bosses)
 
@@ -302,13 +297,13 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon             | Count | Rank | ER    | Notes                       |
 | ------------------- | ----- | ---- | ----- | --------------------------- |
-| Dawn Wings Necrozma | 6     | #1   | —     | Legendary fusion, dominates |
-| Gengar (Mega)       | 5     | #2   | 57.59 | Also #1 Poison, accessible  |
-| Shadow Chandelure   | 5     | #3   | 51.49 | Also #2 Fire, dual coverage |
-| Shadow Gengar       | 4     | #4   | 48.42 | Also #2 Poison              |
-| Blacephalon         | 4     | #5   | —     | Ultra Beast, also Fire      |
-| Hoopa (Unbound)     | 5     | #6   | 50.16 | Also Dark, mythical         |
-| Lunala              | 4     | #7   | —     | Also Psychic, legendary     |
+| Dawn Wings Necrozma | 6     | #1   | 63.07 | Legendary, PvP #18          |
+| Gengar (Mega)       | 4     | #2   | 52.21 | Also Poison, accessible     |
+| Shadow Chandelure   | 3     | #3   | 46.99 | Also Fire                   |
+| Shadow Gengar       | 1     | #4   | 43.93 | Also Poison, accessible     |
+| Blacephalon         | 5     | #5   | 51.15 | Ultra Beast, also Fire      |
+| Hoopa (Unbound)     | 4     | #6   | 46.00 | Also Dark, mythical         |
+| Lunala              | 4     | #7   | 44.18 | Also Psychic, PvP #9        |
 
 **Ghost Raid Frequency**: Medium (Psychic bosses)
 
@@ -318,9 +313,9 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon          | Count | Rank | ER    | Notes                      |
 | ---------------- | ----- | ---- | ----- | -------------------------- |
-| Sceptile (Mega)  | 4     | #1   | 56.25 | Accessible                 |
-| Kartana          | 5     | #2   | 48.09 | Also #5 Steel, Ultra Beast |
-| Shadow Tangrowth | 2     | #8   | 44.06 | Accessible shadow          |
+| Sceptile (Mega)  | 3     | #1   | 53.14 | Accessible                 |
+| Kartana          | 3     | #2   | 43.52 | Also Steel, Ultra Beast    |
+| Shadow Tangrowth | 2     | #8   | 41.26 | Accessible shadow          |
 
 **Grass Raid Frequency**: Medium-High (Water/Ground/Rock bosses)
 
@@ -330,16 +325,16 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon            | Count | Rank | ER    | Notes                         |
 | ------------------ | ----- | ---- | ----- | ----------------------------- |
-| Groudon (Primal)   | 6     | #1   | 64.29 | Massive ER, Primal evolution  |
-| Garchomp (Mega)    | 6     | #2   | 61.11 | Also #4 Dragon, dual coverage |
-| Shadow Groudon     | 5     | #3   | 54.66 | Shadow legendary, Giovanni    |
-| Shadow Garchomp    | 4     | #4   | 53.95 | Also #6 Dragon                |
-| Shadow Excadrill   | 4     | #5   | 48.66 | Also #3 Steel, dual coverage  |
-| Shadow Mamoswine   | 3     | #6   | 49.62 | Also #1 Ice                   |
-| Swampert (Mega)    | 5     | #7   | 55.62 | Also #4 Water                 |
-| Shadow Rhyperior   | 4     | #8   | 51.67 | Also #4 Rock                  |
-| Shadow Swampert    | 3     | #9   | 47.10 | Also Water                    |
-| Landorus (Therian) | 4     | #10  | 47.71 | Legendary                     |
+| Groudon (Primal)   | 6     | #1   | 57.56 | Primal evolution, PvP #20     |
+| Garchomp (Mega)    | 6     | #2   | 58.60 | Also Dragon, dual coverage    |
+| Shadow Groudon     | 5     | #3   | 49.16 | Shadow legendary, PvP #46     |
+| Shadow Garchomp    | 5     | #4   | 52.00 | Also Dragon, dual coverage    |
+| Shadow Excadrill   | 2     | #5   | 44.79 | Also Steel                    |
+| Shadow Mamoswine   | 2     | #6   | 44.50 | Also Ice                      |
+| Swampert (Mega)    | 2     | #7   | 49.78 | Also Water, accessible        |
+| Shadow Rhyperior   | 3     | #8   | 47.30 | Also Rock                     |
+| Shadow Swampert    | 1     | #9   | 42.19 | Also Water, accessible        |
+| Landorus (Therian) | 5     | #10  | 45.69 | Legendary, PvP #43            |
 
 **Ground Raid Frequency**: High (Electric/Fire/Poison/Rock/Steel bosses)
 
@@ -349,11 +344,11 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon          | Count | Rank | ER    | Notes                       |
 | ---------------- | ----- | ---- | ----- | --------------------------- |
-| Kyurem (White)   | 6     | #1   | —     | Legendary forme, Dragon/Ice |
-| Kyurem (Black)   | 6     | #2   | —     | Legendary forme, Dragon/Ice |
-| Shadow Mamoswine | 3     | #3   | 49.62 | Also #6 Ground              |
-| Shadow Weavile   | 4     | #4   | 46.95 | Also #5 Dark, dual coverage |
-| Kyurem (regular) | 4     | #5+  | 46.93 | Regular forme, legendary    |
+| Kyurem (White)   | 6     | #1   | 54.19 | Legendary, PvP #6           |
+| Kyurem (Black)   | 6     | #2   | 60.56 | Legendary, PvP #11          |
+| Shadow Mamoswine | 2     | #3   | 44.50 | Also Ground                 |
+| Shadow Weavile   | 2     | #4   | 42.60 | Also Dark                   |
+| Kyurem (regular) | 4     | #5+  | 43.20 | Regular forme, PvP #44      |
 
 **Ice Raid Frequency**: High (Dragon/Flying/Grass/Ground bosses common)
 
@@ -363,9 +358,9 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon          | Count | Rank | ER    | Notes                      |
 | ---------------- | ----- | ---- | ----- | -------------------------- |
-| Shadow Regigigas | 6     | #1   | 56.54 | Shadow legendary, Giovanni |
-| Shadow Staraptor | 2     | #2   | 48.24 | Also Flying, accessible    |
-| Regigigas        | 4     | #7   | 49.00 | Legendary                  |
+| Shadow Regigigas | 6     | #1   | 69.09 | Shadow legendary, Giovanni |
+| Shadow Staraptor | 2     | #2   | 46.21 | Also Flying, accessible    |
+| Regigigas        | 6     | #7   | 59.64 | Legendary                  |
 
 **Normal Raid Frequency**: Very Low (almost never needed)
 
@@ -375,10 +370,10 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon          | Count | Rank | ER    | Notes                          |
 | ---------------- | ----- | ---- | ----- | ------------------------------ |
-| Eternatus        | 1     | #1   | —     | Also #1 Dragon (1 per account) |
-| Gengar (Mega)    | 5     | #2   | 57.59 | Also #1 Ghost, accessible      |
-| Shadow Gengar    | 4     | #3   | 48.42 | Also #3 Ghost                  |
-| Shadow Toxicroak | 2     | #5   | 41.01 | Also Fighting                  |
+| Eternatus        | 1     | #1   | 67.53 | Also #1 Dragon (1 per account) |
+| Gengar (Mega)    | 4     | #2   | 52.21 | Also Ghost, accessible         |
+| Shadow Gengar    | 1     | #3   | 43.93 | Also Ghost, accessible         |
+| Shadow Toxicroak | 1     | #5   | 36.64 | Also Fighting, accessible      |
 
 **Poison Raid Frequency**: Low (Fairy bosses uncommon)
 
@@ -386,15 +381,15 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 ### Psychic Type
 
-| Pokemon          | Count | Rank | ER    | Notes                        |
-| ---------------- | ----- | ---- | ----- | ---------------------------- |
-| Shadow Mewtwo    | 6     | #1   | 63.29 | Dominates type, Giovanni     |
-| Alakazam (Mega)  | 4     | #2   | 56.96 | Accessible                   |
-| Deoxys (Attack)  | 1     | #3   | 38.45 | Glass cannon (TDO: 171.8)    |
-| Shadow Metagross | 6     | #4   | 55.59 | Also #2 Steel, dual coverage |
-| Shadow Alakazam  | 2     | #5   | 47.53 | Accessible shadow            |
-| Mewtwo           | 5     | #6   | 54.57 | Legendary                    |
-| Shadow Latios    | 5     | #10  | 51.67 | Also Dragon, legendary       |
+| Pokemon          | Count | Rank | ER    | Notes                          |
+| ---------------- | ----- | ---- | ----- | ------------------------------ |
+| Shadow Mewtwo    | 6     | #1   | 58.23 | Dominates type, Giovanni       |
+| Alakazam (Mega)  | 4     | #2   | 52.18 | Accessible                     |
+| Deoxys (Attack)  | 1     | #3   | 34.96 | Glass cannon                   |
+| Shadow Metagross | 5     | #4   | 53.29 | Also Steel, PvP #12            |
+| Shadow Alakazam  | 1     | #5   | 43.56 | Accessible shadow              |
+| Mewtwo           | 5     | #6   | 50.28 | Legendary                      |
+| Shadow Latios    | 4     | #10  | 49.89 | Also Dragon, PvP #24           |
 
 **Psychic Raid Frequency**: Medium-High (Fighting/Poison bosses)
 
@@ -404,13 +399,13 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon          | Count | Rank | ER    | Notes                       |
 | ---------------- | ----- | ---- | ----- | --------------------------- |
-| Diancie (Mega)   | 1     | #1   | —     | Mythical (1 per account)    |
-| Shadow Rampardos | 4     | #2   | 50.05 | Glass cannon, high DPS      |
-| Shadow Tyranitar | 5     | #3   | 53.64 | Also #3 Dark, dual coverage |
-| Tyranitar (Mega) | 6     | #4   | 58.91 | Also #4 Dark, excellent ER  |
-| Shadow Rhyperior | 4     | #5   | 51.67 | Also #8 Ground              |
-| Terrakion        | 5     | #6   | 51.02 | Also #9 Fighting, legendary |
-| Rampardos        | 2     | #7   | 42.94 | Glass cannon, non-shadow    |
+| Diancie (Mega)   | 1     | #1   | 45.44 | Mythical (1 per account)    |
+| Shadow Rampardos | 2     | #2   | 44.97 | Glass cannon, high DPS      |
+| Shadow Tyranitar | 4     | #3   | 47.89 | Also Dark, PvP #41          |
+| Tyranitar (Mega) | 5     | #4   | 52.57 | Also Dark, dual coverage    |
+| Shadow Rhyperior | 3     | #5   | 47.30 | Also Ground                 |
+| Terrakion        | 4     | #6   | 45.98 | Also Fighting, legendary    |
+| Rampardos        | 1     | #7   | 38.59 | Glass cannon, non-shadow    |
 
 **Rock Raid Frequency**: High (Fire/Flying/Bug/Ice bosses)
 
@@ -420,18 +415,18 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon             | Count | Rank | ER    | Notes                          |
 | ------------------- | ----- | ---- | ----- | ------------------------------ |
-| Zacian (Crowned)    | 6     | #1   | —     | Also #2 Fairy, legendary       |
-| Zamazenta (Crowned) | 6     | #2   | —     | Highest Steel TDO              |
-| Dusk Mane Necrozma  | 6     | #3   | —     | Legendary fusion               |
-| Lucario (Mega)      | 6     | #4   | 58.07 | Also #1 Fighting               |
-| Shadow Metagross    | 6     | #5   | 55.59 | Also #4 Psychic, dual coverage |
-| Shadow Dialga       | 2     | #6   | —     | Giovanni-limited               |
-| Shadow Excadrill    | 4     | #7   | 48.66 | Also #5 Ground, dual coverage  |
-| Metagross (Mega)    | 5     | #8   | 58.01 | Excellent ER                   |
-| Kartana             | 5     | #9   | 48.09 | Also #2 Grass, Ultra Beast     |
-| Dialga (Origin)     | 5     | #10  | 54.37 | Also Dragon, legendary         |
-| Shadow Heatran      | 5     | #10+ | ~50   | Also Fire, Giovanni            |
-| Shadow Magnezone    | 3     | #10+ | 46.11 | Also Electric                  |
+| Zacian (Crowned)    | 6     | #1   | 63.64 | Also Fairy, PvP #1             |
+| Zamazenta (Crowned) | 6     | #2   | 63.84 | Highest Steel TDO, PvP #5      |
+| Dusk Mane Necrozma  | 6     | #3   | 63.07 | Legendary, PvP #21             |
+| Lucario (Mega)      | 5     | #4   | 59.31 | Also Fighting                  |
+| Shadow Metagross    | 5     | #5   | 53.29 | Also Psychic, PvP #12          |
+| Shadow Dialga       | 6     | #6   | 51.41 | Giovanni, PvP #27              |
+| Shadow Excadrill    | 2     | #7   | 44.79 | Also Ground                    |
+| Metagross (Mega)    | 6     | #8   | 55.68 | PvP #3                         |
+| Kartana             | 3     | #9   | 43.52 | Also Grass, Ultra Beast        |
+| Dialga (Origin)     | 6     | #10  | 52.31 | Also Dragon, PvP #7            |
+| Shadow Heatran      | 4     | #10+ | 48.54 | Also Fire, Giovanni            |
+| Shadow Magnezone    | 2     | #10+ | 42.22 | Also Electric                  |
 
 **Steel Raid Frequency**: Medium (Fairy/Ice/Rock bosses)
 
@@ -441,12 +436,12 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 | Pokemon         | Count | Rank | ER    | Notes                        |
 | --------------- | ----- | ---- | ----- | ---------------------------- |
-| Kyogre (Primal) | 6     | #1   | 64.38 | Massive ER, Primal evolution |
-| Shadow Kyogre   | 5     | #2   | 54.76 | Shadow legendary, Giovanni   |
-| Palkia (Origin) | 5     | #3   | 54.48 | Also #9 Dragon, legendary    |
-| Swampert (Mega) | 5     | #4   | 55.62 | Also #7 Ground               |
-| Shadow Swampert | 3     | #6   | 47.10 | Also Ground                  |
-| Palkia          | 4     | #10  | 47.39 | Regular forme, legendary     |
+| Kyogre (Primal) | 6     | #1   | 57.74 | Primal evolution, PvP #23    |
+| Shadow Kyogre   | 4     | #2   | 49.23 | Shadow legendary, Giovanni   |
+| Palkia (Origin) | 6     | #3   | 50.21 | Also Dragon, PvP #2          |
+| Swampert (Mega) | 2     | #4   | 49.78 | Also Ground, accessible      |
+| Shadow Swampert | 1     | #6   | 42.19 | Also Ground, accessible      |
+| Palkia          | 4     | #10  | 44.32 | Regular forme, PvP #25       |
 
 **Water Raid Frequency**: Medium-High (Fire/Ground/Rock bosses)
 
@@ -468,16 +463,16 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 | -------------------- | ----- | --------------- | ------------------------- |
 | **Shadow Mewtwo**    | 6     | 3-5 copies      | #1 Psychic, irreplaceable |
 | **Shadow Regigigas** | 6     | 2-4 copies      | #1 Normal                 |
-| **Shadow Moltres**   | 6     | 2-4 copies      | #5 Fire, #5 Flying        |
-| **Shadow Groudon**   | 5     | 1-3 copies      | #3 Ground                 |
-| **Shadow Kyogre**    | 5     | 1-3 copies      | #2 Water                  |
-| **Shadow Heatran**   | 5     | 1-3 copies      | #7 Fire, #10+ Steel       |
-| **Shadow Latios**    | 5     | 1-3 copies      | #8 Dragon, #10 Psychic    |
+| **Shadow Palkia**    | 6     | 1-3 copies      | Dragon/Water, PvP #14     |
+| **Shadow Dialga**    | 6     | 1-3 copies      | Steel/Dragon, PvP #27     |
+| **Shadow Groudon**   | 5     | 1-3 copies      | #3 Ground, PvP #46        |
+| **Shadow Kyogre**    | 4     | 1-3 copies      | #2 Water                  |
+| **Shadow Moltres**   | 4     | 1-3 copies      | Fire, Flying              |
+| **Shadow Heatran**   | 4     | 1-3 copies      | Fire, Steel               |
+| **Shadow Latios**    | 4     | 1-3 copies      | Dragon, PvP #24           |
 | **Shadow Raikou**    | 4     | 1-3 copies      | #3 Electric               |
-| **Shadow Zapdos**    | 4     | 1-3 copies      | #5 Electric, #9 Flying    |
-| **Shadow Darkrai**   | 3     | 1-2 copies      | Mythical shadow           |
-| **Shadow Dialga**    | 2     | 0-1 copies      | #6 Steel (May 2025)       |
-| **Shadow Palkia**    | 2     | 0-1 copies      | #5 Dragon (early 2025)    |
+| **Shadow Darkrai**   | 4     | 1-2 copies      | Mythical shadow           |
+| **Shadow Zapdos**    | 3     | 1-2 copies      | Electric, Flying          |
 
 ---
 
@@ -485,45 +480,43 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability).
 
 ### Tier S: Keep 6 (19 species)
 
-- Rayquaza (Mega), Groudon (Primal), Kyogre (Primal), Garchomp (Mega)
-- Shadow Mewtwo, Shadow Salamence, Shadow Metagross, Shadow Moltres, Shadow Regigigas
-- Tyranitar (Mega), Heracross (Mega), Blaziken (Mega), Lucario (Mega)
-- Kyurem White, Kyurem Black, Zacian, Zamazenta, Dawn Wings Necrozma, Dusk Mane Necrozma
+- Rayquaza (Mega), Shadow Regigigas, Zamazenta, Zacian, Dawn Wings Necrozma, Dusk Mane Necrozma
+- Kyurem Black, Regigigas, Garchomp (Mega), Blaziken (Mega), Shadow Mewtwo
+- Kyogre (Primal), Groudon (Primal), Metagross (Mega), Kyurem White
+- Dialga Origin, Shadow Dialga, Shadow Palkia, Palkia Origin
 
-### Tier A: Keep 5 (18 species)
+### Tier A: Keep 5 (12 species)
 
-- Mewtwo, Palkia Origin, Dialga Origin, Reshiram, Yveltal, Hoopa Unbound, Terrakion
-- Shadow Groudon, Shadow Kyogre, Shadow Tyranitar, Shadow Heatran, Shadow Latios, Shadow Chandelure
-- Gengar (Mega), Metagross (Mega), Swampert (Mega)
-- Regieleki, Kartana
+- Lucario (Mega), Shadow Metagross, Tyranitar (Mega), Shadow Garchomp
+- Blacephalon, Regieleki, Mewtwo
+- Shadow Groudon, Reshiram, Yveltal, Landorus Therian, Zekrom
 
-### Tier B: Keep 4 (22 species)
+### Tier B: Keep 4 (19 species)
 
-- Zekrom, Kyurem, Lunala, Blacephalon, Landorus Therian, Regigigas, Palkia, Dialga, Xurkitree
-- Shadow Dragonite, Shadow Garchomp, Shadow Rampardos, Shadow Rhyperior, Shadow Blaziken
-- Shadow Gengar, Shadow Raikou, Shadow Zapdos, Shadow Excadrill, Shadow Weavile
-- Sceptile (Mega), Salamence (Mega), Alakazam (Mega)
+- Salamence (Mega), Shadow Salamence, Gengar (Mega), Alakazam (Mega)
+- Shadow Latios, Heracross (Mega), Shadow Kyogre, Shadow Heatran
+- Shadow Tyranitar, Shadow Moltres, Shadow Raikou, Shadow Darkrai
+- Hoopa Unbound, Terrakion, Dialga, Palkia, Lunala, Kyurem, Xerneas
 
-### Tier C: Keep 3 (11 species)
+### Tier C: Keep 3 (12 species)
 
-- Xerneas, Heatran, Pheromosa
-- Shadow Honchkrow, Shadow Mamoswine, Shadow Electivire, Shadow Magnezone
-- Shadow Swampert, Shadow Darmanitan, Shadow Darkrai
-- Gardevoir (Mega)
+- Charizard (Mega), Sceptile (Mega), Gardevoir (Mega)
+- Shadow Blaziken, Shadow Dragonite, Shadow Rhyperior, Shadow Chandelure, Shadow Darmanitan
+- Xurkitree, Kartana, Shadow Zapdos, Heatran
 
-### Tier D: Keep 2 (13 species)
+### Tier D: Keep 2 (12 species)
 
-- Rampardos, Volcarona, Hydreigon
-- Shadow Gardevoir, Shadow Staraptor, Shadow Alakazam, Shadow Machamp
-- Shadow Conkeldurr, Shadow Toxicroak, Shadow Tangrowth
-- Shadow Palkia, Shadow Dialga
-- Beedrill (Mega)
+- Swampert (Mega), Shadow Staraptor
+- Shadow Rampardos, Shadow Excadrill, Shadow Mamoswine, Shadow Electivire
+- Beedrill (Mega), Shadow Weavile, Shadow Magnezone, Shadow Tangrowth
+- Volcarona, Hydreigon
 
-### Tier E: Keep 1 (7 species)
+### Tier E: Keep 1 (16 species)
 
 - Eternatus, Keldeo, Diancie (Mega) — account-limited
-- Deoxys Attack — glass cannon mythical
-- Charizard (Mega), Pinsir (Mega), Scizor (Mega) — accessible Megas
+- Shadow Conkeldurr, Shadow Honchkrow, Shadow Gengar, Shadow Alakazam
+- Shadow Swampert, Pinsir (Mega), Shadow Machamp, Shadow Gardevoir, Scizor (Mega)
+- Rampardos, Pheromosa, Shadow Toxicroak, Deoxys Attack
 
 ### Not Tracked (keep 0-1 as needed)
 
@@ -542,8 +535,8 @@ Accessible alternatives not worth dedicated storage. Replace from wild catches a
 3. **Mega evolution**: Merged entries include both Mega and non-Mega copies. You can only have 1 Mega active, but keep extras for non-Mega raid use
 4. **Transfer priority**: When reducing storage, transfer from lowest tier first (Not Tracked → E → D → C)
 5. **Update frequency**: Revisit this list after major game updates or new Pokemon releases
-6. **Total recommended**: ~358 copies across 90 tracked species (down from ~530 across 110 entries)
+6. **Total recommended**: ~326 copies across 90 tracked species
 
 ---
 
-_Last Updated: 2026-02-16 | Methodology: ER-based tiers with explicit modifiers (GitHub Issue #1 recalibration)_
+_Last Updated: 2026-02-21 | Methodology: ER-based tiers with 5 modifiers (PokeBase + PokemonGOHub + PvPoke cross-reference)_

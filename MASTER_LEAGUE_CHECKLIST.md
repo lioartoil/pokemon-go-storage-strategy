@@ -57,14 +57,14 @@ Before starting, verify:
 
 **⚠️ CRITICAL**: If raid attackers are NOT tagged yet, STOP and tag them first. Use these queries:
 
-**Non-Shadow Query** (59 species):
+**Non-Shadow Query** (48 species):
 ```
-!shadow&(rayquaza,mewtwo,groudon,kyogre,kyurem,terrakion,reshiram,zekrom,xerneas,yveltal,hoopa,heracross,pheromosa,tyranitar,garchomp,blaziken,gengar,sceptile,kartana,lucario,metagross,gardevoir,mamoswine,weavile,glaceon,landorus,xurkitree,electivire,rampardos,swampert,volcarona,roserade,chandelure,espeon,alakazam,togekiss,primarina,granbull,hydreigon,salamence,dragonite,palkia,dialga,heatran,regigigas,staraptor,pinsir,deoxys,beedrill,necrozma,lunala,blacephalon,zacian,zamazenta,eternatus,keldeo,regieleki,diancie,charizard)
+!shadow&(alakazam,beedrill,blacephalon,blaziken,charizard,deoxys,dialga,diancie,eternatus,garchomp,gardevoir,gengar,groudon,heatran,heracross,hoopa,hydreigon,kartana,keldeo,kyogre,kyurem,landorus,lucario,lunala,metagross,mewtwo,necrozma,palkia,pheromosa,pinsir,rampardos,rayquaza,regieleki,regigigas,reshiram,salamence,sceptile,scizor,swampert,terrakion,tyranitar,volcarona,xerneas,xurkitree,yveltal,zacian,zamazenta,zekrom)
 ```
 
-**Shadow Query** (40 species):
+**Shadow Query** (37 species):
 ```
-shadow&(mewtwo,salamence,dragonite,tyranitar,heatran,groudon,kyogre,garchomp,blaziken,chandelure,gengar,mamoswine,weavile,honchkrow,rampardos,rhyperior,electivire,raikou,zapdos,magnezone,moltres,darmanitan,machamp,excadrill,swampert,venusaur,tangrowth,scizor,alakazam,granbull,regigigas,staraptor,toxicroak,latios,metagross,gardevoir,darkrai,conkeldurr,dialga,palkia)
+shadow&(alakazam,blaziken,chandelure,conkeldurr,darkrai,darmanitan,dialga,dragonite,electivire,excadrill,garchomp,gardevoir,gengar,groudon,heatran,honchkrow,kyogre,latios,machamp,magnezone,mamoswine,metagross,mewtwo,moltres,palkia,raikou,rampardos,regigigas,rhyperior,salamence,staraptor,swampert,tangrowth,toxicroak,tyranitar,weavile,zapdos)
 ```
 
 Tag all results with `#Attackers` tag.

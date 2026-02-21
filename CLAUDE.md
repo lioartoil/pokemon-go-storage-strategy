@@ -196,6 +196,12 @@ Added 4 attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina (Ghos
 shadow&(alakazam,blaziken,chandelure,conkeldurr,darkrai,darmanitan,dialga,dragonite,electivire,excadrill,garchomp,gardevoir,gengar,groudon,heatran,honchkrow,kyogre,latios,machamp,magnezone,mamoswine,metagross,mewtwo,moltres,palkia,raikou,rampardos,regigigas,rhyperior,salamence,staraptor,swampert,tangrowth,toxicroak,tyranitar,weavile,zapdos)
 ```
 
+**Attacker Tag Filter** (non-shadow, exclude tracked species):
+
+```
+!shadow&!alakazam&!beedrill&!blacephalon&!blaziken&!charizard&!deoxys&!dialga&!diancie&!eternatus&!garchomp&!gardevoir&!gengar&!groudon&!heatran&!heracross&!hoopa&!hydreigon&!kartana&!keldeo&!kyogre&!kyurem&!landorus&!lucario&!lunala&!metagross&!mewtwo&!necrozma&!palkia&!pheromosa&!pinsir&!rampardos&!rayquaza&!regieleki&!regigigas&!reshiram&!salamence&!sceptile&!scizor&!swampert&!terrakion&!tyranitar&!volcarona&!xerneas&!xurkitree&!yveltal&!zacian&!zamazenta&!zekrom&attackers
+```
+
 ### Current State
 
 **Completed (2026-02-21)**:

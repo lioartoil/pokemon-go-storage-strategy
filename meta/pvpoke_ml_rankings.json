@@ -1,0 +1,4773 @@
+{
+  "source": "pvpoke",
+  "league": "master",
+  "cp_cap": 10000,
+  "last_fetched": "2026-02-21",
+  "total_entries": 397,
+  "rankings": [
+    {
+      "rank": 1,
+      "speciesId": "zacian_crowned_sword",
+      "speciesName": "Zacian (Crowned Sword)",
+      "score": 99.3,
+      "rating": 713,
+      "moveset": [
+        "METAL_CLAW",
+        "CLOSE_COMBAT",
+        "BEHEMOTH_BLADE"
+      ]
+    },
+    {
+      "rank": 2,
+      "speciesId": "palkia_origin",
+      "speciesName": "Palkia (Origin)",
+      "score": 98.9,
+      "rating": 818,
+      "moveset": [
+        "DRAGON_BREATH",
+        "AQUA_TAIL",
+        "SPACIAL_REND"
+      ]
+    },
+    {
+      "rank": 3,
+      "speciesId": "metagross",
+      "speciesName": "Metagross",
+      "score": 98.1,
+      "rating": 726,
+      "moveset": [
+        "SHADOW_CLAW",
+        "METEOR_MASH",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 4,
+      "speciesId": "xerneas",
+      "speciesName": "Xerneas",
+      "score": 96.7,
+      "rating": 736,
+      "moveset": [
+        "GEOMANCY",
+        "CLOSE_COMBAT",
+        "MOONBLAST"
+      ]
+    },
+    {
+      "rank": 5,
+      "speciesId": "zamazenta_crowned_shield",
+      "speciesName": "Zamazenta (Crowned Shield)",
+      "score": 95.6,
+      "rating": 717,
+      "moveset": [
+        "ICE_FANG",
+        "CLOSE_COMBAT",
+        "BEHEMOTH_BASH"
+      ]
+    },
+    {
+      "rank": 6,
+      "speciesId": "kyurem_white",
+      "speciesName": "Kyurem (White)",
+      "score": 94.8,
+      "rating": 769,
+      "moveset": [
+        "DRAGON_BREATH",
+        "FUSION_FLARE",
+        "ICE_BURN"
+      ]
+    },
+    {
+      "rank": 7,
+      "speciesId": "dialga_origin",
+      "speciesName": "Dialga (Origin)",
+      "score": 94.4,
+      "rating": 753,
+      "moveset": [
+        "DRAGON_BREATH",
+        "ROAR_OF_TIME",
+        "IRON_HEAD"
+      ]
+    },
+    {
+      "rank": 8,
+      "speciesId": "reshiram",
+      "speciesName": "Reshiram",
+      "score": 94.3,
+      "rating": 783,
+      "moveset": [
+        "DRAGON_BREATH",
+        "FUSION_FLARE",
+        "DRACO_METEOR"
+      ]
+    },
+    {
+      "rank": 9,
+      "speciesId": "lunala",
+      "speciesName": "Lunala",
+      "score": 94,
+      "rating": 726,
+      "moveset": [
+        "SHADOW_CLAW",
+        "SHADOW_BALL",
+        "MOONBLAST"
+      ]
+    },
+    {
+      "rank": 10,
+      "speciesId": "zekrom",
+      "speciesName": "Zekrom",
+      "score": 93.3,
+      "rating": 762,
+      "moveset": [
+        "DRAGON_BREATH",
+        "OUTRAGE",
+        "FUSION_BOLT"
+      ]
+    },
+    {
+      "rank": 11,
+      "speciesId": "kyurem_black",
+      "speciesName": "Kyurem (Black)",
+      "score": 92.7,
+      "rating": 737,
+      "moveset": [
+        "DRAGON_TAIL",
+        "FREEZE_SHOCK",
+        "FUSION_BOLT"
+      ]
+    },
+    {
+      "rank": 12,
+      "speciesId": "metagross_shadow",
+      "speciesName": "Metagross (Shadow)",
+      "score": 91.4,
+      "rating": 698,
+      "moveset": [
+        "SHADOW_CLAW",
+        "METEOR_MASH",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 13,
+      "speciesId": "lugia",
+      "speciesName": "Lugia",
+      "score": 90.9,
+      "rating": 735,
+      "moveset": [
+        "DRAGON_TAIL",
+        "AEROBLAST",
+        "FLY"
+      ]
+    },
+    {
+      "rank": 14,
+      "speciesId": "palkia_shadow",
+      "speciesName": "Palkia (Shadow)",
+      "score": 90.6,
+      "rating": 790,
+      "moveset": [
+        "DRAGON_BREATH",
+        "AQUA_TAIL",
+        "DRACO_METEOR"
+      ]
+    },
+    {
+      "rank": 15,
+      "speciesId": "eternatus",
+      "speciesName": "Eternatus",
+      "score": 90.5,
+      "rating": 774,
+      "moveset": [
+        "DRAGON_TAIL",
+        "DYNAMAX_CANNON",
+        "FLAMETHROWER"
+      ]
+    },
+    {
+      "rank": 16,
+      "speciesId": "lugia_shadow",
+      "speciesName": "Lugia (Shadow)",
+      "score": 89.9,
+      "rating": 725,
+      "moveset": [
+        "DRAGON_TAIL",
+        "AEROBLAST",
+        "FLY"
+      ]
+    },
+    {
+      "rank": 17,
+      "speciesId": "yveltal",
+      "speciesName": "Yveltal",
+      "score": 89.6,
+      "rating": 734,
+      "moveset": [
+        "SUCKER_PUNCH",
+        "DARK_PULSE",
+        "OBLIVION_WING"
+      ]
+    },
+    {
+      "rank": 18,
+      "speciesId": "necrozma_dawn_wings",
+      "speciesName": "Necrozma (Dawn Wings)",
+      "score": 89.4,
+      "rating": 664,
+      "moveset": [
+        "SHADOW_CLAW",
+        "DARK_PULSE",
+        "MOONGEIST_BEAM"
+      ]
+    },
+    {
+      "rank": 19,
+      "speciesId": "ho_oh",
+      "speciesName": "Ho-Oh",
+      "score": 88.7,
+      "rating": 662,
+      "moveset": [
+        "INCINERATE",
+        "BRAVE_BIRD",
+        "SACRED_FIRE"
+      ]
+    },
+    {
+      "rank": 20,
+      "speciesId": "groudon",
+      "speciesName": "Groudon",
+      "score": 88.6,
+      "rating": 729,
+      "moveset": [
+        "DRAGON_TAIL",
+        "FIRE_PUNCH",
+        "PRECIPICE_BLADES"
+      ]
+    },
+    {
+      "rank": 21,
+      "speciesId": "necrozma_dusk_mane",
+      "speciesName": "Necrozma (Dusk Mane)",
+      "score": 88,
+      "rating": 675,
+      "moveset": [
+        "SHADOW_CLAW",
+        "DARK_PULSE",
+        "SUNSTEEL_STRIKE"
+      ]
+    },
+    {
+      "rank": 22,
+      "speciesId": "meloetta_aria",
+      "speciesName": "Meloetta (Aria)",
+      "score": 87.8,
+      "rating": 728,
+      "moveset": [
+        "CONFUSION",
+        "PSYSHOCK",
+        "DAZZLING_GLEAM"
+      ]
+    },
+    {
+      "rank": 23,
+      "speciesId": "kyogre",
+      "speciesName": "Kyogre",
+      "score": 87.3,
+      "rating": 596,
+      "moveset": [
+        "WATERFALL",
+        "AVALANCHE",
+        "ORIGIN_PULSE"
+      ]
+    },
+    {
+      "rank": 24,
+      "speciesId": "latios_shadow",
+      "speciesName": "Latios (Shadow)",
+      "score": 87.2,
+      "rating": 752,
+      "moveset": [
+        "DRAGON_BREATH",
+        "AURA_SPHERE",
+        "LUSTER_PURGE"
+      ]
+    },
+    {
+      "rank": 25,
+      "speciesId": "palkia",
+      "speciesName": "Palkia",
+      "score": 87.2,
+      "rating": 757,
+      "moveset": [
+        "DRAGON_BREATH",
+        "AQUA_TAIL",
+        "FIRE_BLAST"
+      ]
+    },
+    {
+      "rank": 26,
+      "speciesId": "zygarde_complete",
+      "speciesName": "Zygarde (Complete Forme)",
+      "score": 87.1,
+      "rating": 753,
+      "moveset": [
+        "DRAGON_TAIL",
+        "CRUNCH",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 27,
+      "speciesId": "dialga_shadow",
+      "speciesName": "Dialga (Shadow)",
+      "score": 87,
+      "rating": 698,
+      "moveset": [
+        "DRAGON_BREATH",
+        "IRON_HEAD",
+        "DRACO_METEOR"
+      ]
+    },
+    {
+      "rank": 28,
+      "speciesId": "gholdengo",
+      "speciesName": "Gholdengo",
+      "score": 87,
+      "rating": 695,
+      "moveset": [
+        "HEX",
+        "SHADOW_BALL",
+        "FOCUS_BLAST"
+      ]
+    },
+    {
+      "rank": 29,
+      "speciesId": "jirachi",
+      "speciesName": "Jirachi",
+      "score": 87,
+      "rating": 687,
+      "moveset": [
+        "CONFUSION",
+        "DOOM_DESIRE",
+        "AURA_SPHERE"
+      ]
+    },
+    {
+      "rank": 30,
+      "speciesId": "solgaleo",
+      "speciesName": "Solgaleo",
+      "score": 86.9,
+      "rating": 725,
+      "moveset": [
+        "FIRE_SPIN",
+        "PSYCHIC_FANGS",
+        "IRON_HEAD"
+      ]
+    },
+    {
+      "rank": 31,
+      "speciesId": "florges",
+      "speciesName": "Florges",
+      "score": 86.8,
+      "rating": 714,
+      "moveset": [
+        "FAIRY_WIND",
+        "MOONBLAST",
+        "CHILLING_WATER"
+      ]
+    },
+    {
+      "rank": 32,
+      "speciesId": "dialga",
+      "speciesName": "Dialga",
+      "score": 86.5,
+      "rating": 732,
+      "moveset": [
+        "DRAGON_BREATH",
+        "IRON_HEAD",
+        "DRACO_METEOR"
+      ]
+    },
+    {
+      "rank": 33,
+      "speciesId": "annihilape_shadow",
+      "speciesName": "Annihilape (Shadow)",
+      "score": 86.3,
+      "rating": 697,
+      "moveset": [
+        "COUNTER",
+        "RAGE_FIST",
+        "ICE_PUNCH"
+      ]
+    },
+    {
+      "rank": 34,
+      "speciesId": "latios",
+      "speciesName": "Latios",
+      "score": 86,
+      "rating": 753,
+      "moveset": [
+        "DRAGON_BREATH",
+        "AURA_SPHERE",
+        "LUSTER_PURGE"
+      ]
+    },
+    {
+      "rank": 35,
+      "speciesId": "togekiss",
+      "speciesName": "Togekiss",
+      "score": 85.9,
+      "rating": 712,
+      "moveset": [
+        "PECK",
+        "DAZZLING_GLEAM",
+        "AURA_SPHERE"
+      ]
+    },
+    {
+      "rank": 36,
+      "speciesId": "latias_shadow",
+      "speciesName": "Latias (Shadow)",
+      "score": 85.2,
+      "rating": 738,
+      "moveset": [
+        "DRAGON_BREATH",
+        "AURA_SPHERE",
+        "MIST_BALL"
+      ]
+    },
+    {
+      "rank": 37,
+      "speciesId": "hydreigon_shadow",
+      "speciesName": "Hydreigon (Shadow)",
+      "score": 84.8,
+      "rating": 764,
+      "moveset": [
+        "DRAGON_BREATH",
+        "BRUTAL_SWING",
+        "FLY"
+      ]
+    },
+    {
+      "rank": 38,
+      "speciesId": "tapu_lele",
+      "speciesName": "Tapu Lele",
+      "score": 84.8,
+      "rating": 681,
+      "moveset": [
+        "ASTONISH",
+        "PSYSHOCK",
+        "NATURES_MADNESS"
+      ]
+    },
+    {
+      "rank": 39,
+      "speciesId": "primarina",
+      "speciesName": "Primarina",
+      "score": 84.7,
+      "rating": 611,
+      "moveset": [
+        "CHARM",
+        "DISARMING_VOICE",
+        "HYDRO_CANNON"
+      ]
+    },
+    {
+      "rank": 40,
+      "speciesId": "annihilape",
+      "speciesName": "Annihilape",
+      "score": 84,
+      "rating": 693,
+      "moveset": [
+        "COUNTER",
+        "RAGE_FIST",
+        "ICE_PUNCH"
+      ]
+    },
+    {
+      "rank": 41,
+      "speciesId": "tyranitar_shadow",
+      "speciesName": "Tyranitar (Shadow)",
+      "score": 83.8,
+      "rating": 716,
+      "moveset": [
+        "DRAGON_BREATH",
+        "BRUTAL_SWING",
+        "STONE_EDGE"
+      ]
+    },
+    {
+      "rank": 42,
+      "speciesId": "latias",
+      "speciesName": "Latias",
+      "score": 83.5,
+      "rating": 734,
+      "moveset": [
+        "DRAGON_BREATH",
+        "AURA_SPHERE",
+        "MIST_BALL"
+      ]
+    },
+    {
+      "rank": 43,
+      "speciesId": "landorus_therian",
+      "speciesName": "Landorus (Therian)",
+      "score": 83.4,
+      "rating": 675,
+      "moveset": [
+        "MUD_SHOT",
+        "SANDSEAR_STORM",
+        "STONE_EDGE"
+      ]
+    },
+    {
+      "rank": 44,
+      "speciesId": "kyurem",
+      "speciesName": "Kyurem",
+      "score": 83.3,
+      "rating": 728,
+      "moveset": [
+        "DRAGON_BREATH",
+        "GLACIATE",
+        "DRAGON_CLAW"
+      ]
+    },
+    {
+      "rank": 45,
+      "speciesId": "dragonite_shadow",
+      "speciesName": "Dragonite (Shadow)",
+      "score": 83.2,
+      "rating": 757,
+      "moveset": [
+        "DRAGON_BREATH",
+        "THUNDER_PUNCH",
+        "SUPER_POWER"
+      ]
+    },
+    {
+      "rank": 46,
+      "speciesId": "groudon_shadow",
+      "speciesName": "Groudon (Shadow)",
+      "score": 83,
+      "rating": 700,
+      "moveset": [
+        "DRAGON_TAIL",
+        "PRECIPICE_BLADES",
+        "FIRE_PUNCH"
+      ]
+    },
+    {
+      "rank": 47,
+      "speciesId": "goodra",
+      "speciesName": "Goodra",
+      "score": 82.9,
+      "rating": 759,
+      "moveset": [
+        "DRAGON_BREATH",
+        "AQUA_TAIL",
+        "DRACO_METEOR"
+      ]
+    },
+    {
+      "rank": 48,
+      "speciesId": "urshifu_single_strike",
+      "speciesName": "Urshifu (Single Strike)",
+      "score": 82.6,
+      "rating": 681,
+      "moveset": [
+        "SUCKER_PUNCH",
+        "DYNAMIC_PUNCH",
+        "PAYBACK"
+      ]
+    },
+    {
+      "rank": 49,
+      "speciesId": "keldeo_resolute",
+      "speciesName": "Keldeo (Resolute)",
+      "score": 82.5,
+      "rating": 686,
+      "moveset": [
+        "POISON_JAB",
+        "SECRET_SWORD",
+        "AQUA_JET"
+      ]
+    },
+    {
+      "rank": 50,
+      "speciesId": "ho_oh_shadow",
+      "speciesName": "Ho-Oh (Shadow)",
+      "score": 82,
+      "rating": 618,
+      "moveset": [
+        "INCINERATE",
+        "BRAVE_BIRD",
+        "SACRED_FIRE"
+      ]
+    },
+    {
+      "rank": 51,
+      "speciesId": "gyarados",
+      "speciesName": "Gyarados",
+      "score": 81.9,
+      "rating": 687,
+      "moveset": [
+        "DRAGON_BREATH",
+        "AQUA_TAIL",
+        "CRUNCH"
+      ]
+    },
+    {
+      "rank": 52,
+      "speciesId": "mewtwo",
+      "speciesName": "Mewtwo",
+      "score": 81.8,
+      "rating": 692,
+      "moveset": [
+        "PSYCHO_CUT",
+        "PSYSTRIKE",
+        "SHADOW_BALL"
+      ]
+    },
+    {
+      "rank": 53,
+      "speciesId": "rhyperior",
+      "speciesName": "Rhyperior",
+      "score": 81.6,
+      "rating": 670,
+      "moveset": [
+        "MUD_SLAP",
+        "BREAKING_SWIPE",
+        "ROCK_WRECKER"
+      ]
+    },
+    {
+      "rank": 54,
+      "speciesId": "heatran_shadow",
+      "speciesName": "Heatran (Shadow)",
+      "score": 81.4,
+      "rating": 655,
+      "moveset": [
+        "FIRE_SPIN",
+        "MAGMA_STORM",
+        "STONE_EDGE"
+      ]
+    },
+    {
+      "rank": 55,
+      "speciesId": "garchomp_shadow",
+      "speciesName": "Garchomp (Shadow)",
+      "score": 81.2,
+      "rating": 673,
+      "moveset": [
+        "DRAGON_TAIL",
+        "BREAKING_SWIPE",
+        "EARTH_POWER"
+      ]
+    },
+    {
+      "rank": 56,
+      "speciesId": "gyarados_shadow",
+      "speciesName": "Gyarados (Shadow)",
+      "score": 81.2,
+      "rating": 693,
+      "moveset": [
+        "DRAGON_BREATH",
+        "AQUA_TAIL",
+        "CRUNCH"
+      ]
+    },
+    {
+      "rank": 57,
+      "speciesId": "dragonite",
+      "speciesName": "Dragonite",
+      "score": 80.9,
+      "rating": 737,
+      "moveset": [
+        "DRAGON_BREATH",
+        "THUNDER_PUNCH",
+        "SUPER_POWER"
+      ]
+    },
+    {
+      "rank": 58,
+      "speciesId": "enamorus_therian",
+      "speciesName": "Enamorus (Therian)",
+      "score": 80.8,
+      "rating": 666,
+      "moveset": [
+        "FAIRY_WIND",
+        "MYSTICAL_FIRE",
+        "MOONBLAST"
+      ]
+    },
+    {
+      "rank": 59,
+      "speciesId": "tyranitar",
+      "speciesName": "Tyranitar",
+      "score": 80.8,
+      "rating": 694,
+      "moveset": [
+        "DRAGON_BREATH",
+        "BRUTAL_SWING",
+        "STONE_EDGE"
+      ]
+    },
+    {
+      "rank": 60,
+      "speciesId": "marshadow",
+      "speciesName": "Marshadow",
+      "score": 80.6,
+      "rating": 708,
+      "moveset": [
+        "SUCKER_PUNCH",
+        "CLOSE_COMBAT",
+        "ICE_PUNCH"
+      ]
+    },
+    {
+      "rank": 61,
+      "speciesId": "garchomp",
+      "speciesName": "Garchomp",
+      "score": 80.3,
+      "rating": 699,
+      "moveset": [
+        "DRAGON_TAIL",
+        "BREAKING_SWIPE",
+        "EARTH_POWER"
+      ]
+    },
+    {
+      "rank": 62,
+      "speciesId": "melmetal",
+      "speciesName": "Melmetal",
+      "score": 80.1,
+      "rating": 676,
+      "moveset": [
+        "THUNDER_SHOCK",
+        "DOUBLE_IRON_BASH",
+        "THUNDERBOLT"
+      ]
+    },
+    {
+      "rank": 63,
+      "speciesId": "raikou_shadow",
+      "speciesName": "Raikou (Shadow)",
+      "score": 80.1,
+      "rating": 705,
+      "moveset": [
+        "THUNDER_SHOCK",
+        "WILD_CHARGE",
+        "AURA_SPHERE"
+      ]
+    },
+    {
+      "rank": 64,
+      "speciesId": "zapdos_shadow",
+      "speciesName": "Zapdos (Shadow)",
+      "score": 79.7,
+      "rating": 691,
+      "moveset": [
+        "THUNDER_SHOCK",
+        "DRILL_PECK",
+        "THUNDERBOLT"
+      ]
+    },
+    {
+      "rank": 65,
+      "speciesId": "victini",
+      "speciesName": "Victini",
+      "score": 79.6,
+      "rating": 652,
+      "moveset": [
+        "CONFUSION",
+        "V_CREATE",
+        "PSYSHOCK"
+      ]
+    },
+    {
+      "rank": 66,
+      "speciesId": "raikou",
+      "speciesName": "Raikou",
+      "score": 79.5,
+      "rating": 679,
+      "moveset": [
+        "THUNDER_SHOCK",
+        "AURA_SPHERE",
+        "WILD_CHARGE"
+      ]
+    },
+    {
+      "rank": 67,
+      "speciesId": "mewtwo_armored",
+      "speciesName": "Mewtwo (Armored)",
+      "score": 79.2,
+      "rating": 653,
+      "moveset": [
+        "CONFUSION",
+        "PSYSTRIKE",
+        "DYNAMIC_PUNCH"
+      ]
+    },
+    {
+      "rank": 68,
+      "speciesId": "giratina_origin",
+      "speciesName": "Giratina (Origin)",
+      "score": 79,
+      "rating": 725,
+      "moveset": [
+        "DRAGON_TAIL",
+        "SHADOW_BALL",
+        "OMINOUS_WIND"
+      ]
+    },
+    {
+      "rank": 69,
+      "speciesId": "rhyperior_shadow",
+      "speciesName": "Rhyperior (Shadow)",
+      "score": 79,
+      "rating": 648,
+      "moveset": [
+        "MUD_SLAP",
+        "BREAKING_SWIPE",
+        "ROCK_WRECKER"
+      ]
+    },
+    {
+      "rank": 70,
+      "speciesId": "salamence_shadow",
+      "speciesName": "Salamence (Shadow)",
+      "score": 78.7,
+      "rating": 725,
+      "moveset": [
+        "DRAGON_TAIL",
+        "FLY",
+        "BRUTAL_SWING"
+      ]
+    },
+    {
+      "rank": 71,
+      "speciesId": "keldeo_ordinary",
+      "speciesName": "Keldeo (Ordinary)",
+      "score": 78.6,
+      "rating": 661,
+      "moveset": [
+        "POISON_JAB",
+        "AQUA_JET",
+        "SACRED_SWORD"
+      ]
+    },
+    {
+      "rank": 72,
+      "speciesId": "giratina_altered_shadow",
+      "speciesName": "Giratina (Altered) (Shadow)",
+      "score": 78.4,
+      "rating": 723,
+      "moveset": [
+        "DRAGON_BREATH",
+        "ANCIENT_POWER",
+        "DRAGON_CLAW"
+      ]
+    },
+    {
+      "rank": 73,
+      "speciesId": "kartana",
+      "speciesName": "Kartana",
+      "score": 78.4,
+      "rating": 665,
+      "moveset": [
+        "FURY_CUTTER",
+        "LEAF_BLADE",
+        "SACRED_SWORD"
+      ]
+    },
+    {
+      "rank": 74,
+      "speciesId": "zapdos",
+      "speciesName": "Zapdos",
+      "score": 78.1,
+      "rating": 672,
+      "moveset": [
+        "THUNDER_SHOCK",
+        "DRILL_PECK",
+        "THUNDERBOLT"
+      ]
+    },
+    {
+      "rank": 75,
+      "speciesId": "baxcalibur",
+      "speciesName": "Baxcalibur",
+      "score": 78,
+      "rating": 657,
+      "moveset": [
+        "DRAGON_BREATH",
+        "AVALANCHE",
+        "DRAGON_CLAW"
+      ]
+    },
+    {
+      "rank": 76,
+      "speciesId": "heatran",
+      "speciesName": "Heatran",
+      "score": 78,
+      "rating": 648,
+      "moveset": [
+        "FIRE_SPIN",
+        "MAGMA_STORM",
+        "IRON_HEAD"
+      ]
+    },
+    {
+      "rank": 77,
+      "speciesId": "genesect_chill",
+      "speciesName": "Genesect (Chill)",
+      "score": 77.4,
+      "rating": 651,
+      "moveset": [
+        "FURY_CUTTER",
+        "MAGNET_BOMB",
+        "TECHNO_BLAST_CHILL"
+      ]
+    },
+    {
+      "rank": 78,
+      "speciesId": "zacian_hero",
+      "speciesName": "Zacian (Hero)",
+      "score": 77.4,
+      "rating": 627,
+      "moveset": [
+        "QUICK_ATTACK",
+        "WILD_CHARGE",
+        "PLAY_ROUGH"
+      ]
+    },
+    {
+      "rank": 79,
+      "speciesId": "hydreigon",
+      "speciesName": "Hydreigon",
+      "score": 77,
+      "rating": 690,
+      "moveset": [
+        "DRAGON_BREATH",
+        "BRUTAL_SWING",
+        "FLASH_CANNON"
+      ]
+    },
+    {
+      "rank": 80,
+      "speciesId": "zamazenta_hero",
+      "speciesName": "Zamazenta (Hero)",
+      "score": 77,
+      "rating": 629,
+      "moveset": [
+        "ICE_FANG",
+        "CLOSE_COMBAT",
+        "CRUNCH"
+      ]
+    },
+    {
+      "rank": 81,
+      "speciesId": "golisopod",
+      "speciesName": "Golisopod",
+      "score": 76.9,
+      "rating": 650,
+      "moveset": [
+        "FURY_CUTTER",
+        "AQUA_JET",
+        "X_SCISSOR"
+      ]
+    },
+    {
+      "rank": 82,
+      "speciesId": "avalugg_hisuian",
+      "speciesName": "Avalugg (Hisuian)",
+      "score": 76.6,
+      "rating": 645,
+      "moveset": [
+        "POWDER_SNOW",
+        "ROCK_SLIDE",
+        "ICY_WIND"
+      ]
+    },
+    {
+      "rank": 83,
+      "speciesId": "giratina_altered",
+      "speciesName": "Giratina (Altered)",
+      "score": 76.5,
+      "rating": 718,
+      "moveset": [
+        "DRAGON_BREATH",
+        "DRAGON_CLAW",
+        "ANCIENT_POWER"
+      ]
+    },
+    {
+      "rank": 84,
+      "speciesId": "urshifu_rapid_strike",
+      "speciesName": "Urshifu (Rapid Strike)",
+      "score": 76.5,
+      "rating": 599,
+      "moveset": [
+        "COUNTER",
+        "AQUA_JET",
+        "DYNAMIC_PUNCH"
+      ]
+    },
+    {
+      "rank": 85,
+      "speciesId": "hippowdon_shadow",
+      "speciesName": "Hippowdon (Shadow)",
+      "score": 76.4,
+      "rating": 631,
+      "moveset": [
+        "SAND_ATTACK",
+        "WEATHER_BALL_ROCK",
+        "EARTH_POWER"
+      ]
+    },
+    {
+      "rank": 86,
+      "speciesId": "tapu_bulu",
+      "speciesName": "Tapu Bulu",
+      "score": 76.2,
+      "rating": 586,
+      "moveset": [
+        "BULLET_SEED",
+        "GRASS_KNOT",
+        "NATURES_MADNESS"
+      ]
+    },
+    {
+      "rank": 87,
+      "speciesId": "cobalion",
+      "speciesName": "Cobalion",
+      "score": 76,
+      "rating": 630,
+      "moveset": [
+        "DOUBLE_KICK",
+        "SACRED_SWORD",
+        "STONE_EDGE"
+      ]
+    },
+    {
+      "rank": 88,
+      "speciesId": "kommo_o",
+      "speciesName": "Kommo-o",
+      "score": 76,
+      "rating": 688,
+      "moveset": [
+        "DRAGON_TAIL",
+        "CLANGING_SCALES",
+        "UPPER_HAND"
+      ]
+    },
+    {
+      "rank": 89,
+      "speciesId": "tapu_fini",
+      "speciesName": "Tapu Fini",
+      "score": 75.8,
+      "rating": 568,
+      "moveset": [
+        "WATER_GUN",
+        "SURF",
+        "NATURES_MADNESS"
+      ]
+    },
+    {
+      "rank": 90,
+      "speciesId": "skeledirge",
+      "speciesName": "Skeledirge",
+      "score": 75.4,
+      "rating": 660,
+      "moveset": [
+        "INCINERATE",
+        "TORCH_SONG",
+        "SHADOW_BALL"
+      ]
+    },
+    {
+      "rank": 91,
+      "speciesId": "volcanion",
+      "speciesName": "Volcanion",
+      "score": 75.4,
+      "rating": 614,
+      "moveset": [
+        "INCINERATE",
+        "SLUDGE_BOMB",
+        "OVERHEAT"
+      ]
+    },
+    {
+      "rank": 92,
+      "speciesId": "mamoswine_shadow",
+      "speciesName": "Mamoswine (Shadow)",
+      "score": 75.3,
+      "rating": 615,
+      "moveset": [
+        "POWDER_SNOW",
+        "HIGH_HORSEPOWER",
+        "ICICLE_SPEAR"
+      ]
+    },
+    {
+      "rank": 93,
+      "speciesId": "hippowdon",
+      "speciesName": "Hippowdon",
+      "score": 75.2,
+      "rating": 615,
+      "moveset": [
+        "SAND_ATTACK",
+        "WEATHER_BALL_ROCK",
+        "EARTH_POWER"
+      ]
+    },
+    {
+      "rank": 94,
+      "speciesId": "mewtwo_shadow",
+      "speciesName": "Mewtwo (Shadow)",
+      "score": 74.8,
+      "rating": 584,
+      "moveset": [
+        "CONFUSION",
+        "PSYSTRIKE",
+        "SHADOW_BALL"
+      ]
+    },
+    {
+      "rank": 95,
+      "speciesId": "sylveon",
+      "speciesName": "Sylveon",
+      "score": 74.6,
+      "rating": 577,
+      "moveset": [
+        "CHARM",
+        "MOONBLAST",
+        "PSYSHOCK"
+      ]
+    },
+    {
+      "rank": 96,
+      "speciesId": "ursaluna",
+      "speciesName": "Ursaluna",
+      "score": 74.5,
+      "rating": 610,
+      "moveset": [
+        "TACKLE",
+        "SWIFT",
+        "HIGH_HORSEPOWER"
+      ]
+    },
+    {
+      "rank": 97,
+      "speciesId": "conkeldurr_shadow",
+      "speciesName": "Conkeldurr (Shadow)",
+      "score": 74.3,
+      "rating": 592,
+      "moveset": [
+        "COUNTER",
+        "DYNAMIC_PUNCH",
+        "BRUTAL_SWING"
+      ]
+    },
+    {
+      "rank": 98,
+      "speciesId": "kyogre_shadow",
+      "speciesName": "Kyogre (Shadow)",
+      "score": 74.3,
+      "rating": 587,
+      "moveset": [
+        "WATERFALL",
+        "AVALANCHE",
+        "SURF"
+      ]
+    },
+    {
+      "rank": 99,
+      "speciesId": "mamoswine",
+      "speciesName": "Mamoswine",
+      "score": 74.3,
+      "rating": 623,
+      "moveset": [
+        "POWDER_SNOW",
+        "ICICLE_SPEAR",
+        "HIGH_HORSEPOWER"
+      ]
+    },
+    {
+      "rank": 100,
+      "speciesId": "enamorus_incarnate",
+      "speciesName": "Enamorus (Incarnate)",
+      "score": 74.1,
+      "rating": 619,
+      "moveset": [
+        "FAIRY_WIND",
+        "FLY",
+        "DAZZLING_GLEAM"
+      ]
+    },
+    {
+      "rank": 101,
+      "speciesId": "blacephalon",
+      "speciesName": "Blacephalon",
+      "score": 73.8,
+      "rating": 592,
+      "moveset": [
+        "INCINERATE",
+        "MIND_BLOWN",
+        "SHADOW_BALL"
+      ]
+    },
+    {
+      "rank": 102,
+      "speciesId": "genesect_shock",
+      "speciesName": "Genesect (Shock)",
+      "score": 73.8,
+      "rating": 652,
+      "moveset": [
+        "FURY_CUTTER",
+        "MAGNET_BOMB",
+        "TECHNO_BLAST_SHOCK"
+      ]
+    },
+    {
+      "rank": 103,
+      "speciesId": "ursaluna_shadow",
+      "speciesName": "Ursaluna (Shadow)",
+      "score": 73.8,
+      "rating": 601,
+      "moveset": [
+        "TACKLE",
+        "SWIFT",
+        "HIGH_HORSEPOWER"
+      ]
+    },
+    {
+      "rank": 104,
+      "speciesId": "salamence",
+      "speciesName": "Salamence",
+      "score": 73.6,
+      "rating": 701,
+      "moveset": [
+        "DRAGON_TAIL",
+        "FLY",
+        "BRUTAL_SWING"
+      ]
+    },
+    {
+      "rank": 105,
+      "speciesId": "terrakion",
+      "speciesName": "Terrakion",
+      "score": 73.5,
+      "rating": 663,
+      "moveset": [
+        "DOUBLE_KICK",
+        "SACRED_SWORD",
+        "ROCK_SLIDE"
+      ]
+    },
+    {
+      "rank": 106,
+      "speciesId": "mew",
+      "speciesName": "Mew",
+      "score": 73.4,
+      "rating": 634,
+      "moveset": [
+        "SHADOW_CLAW",
+        "PSYSHOCK",
+        "WILD_CHARGE"
+      ]
+    },
+    {
+      "rank": 107,
+      "speciesId": "virizion",
+      "speciesName": "Virizion",
+      "score": 73.3,
+      "rating": 604,
+      "moveset": [
+        "DOUBLE_KICK",
+        "LEAF_BLADE",
+        "SACRED_SWORD"
+      ]
+    },
+    {
+      "rank": 108,
+      "speciesId": "armarouge",
+      "speciesName": "Armarouge",
+      "score": 73.2,
+      "rating": 638,
+      "moveset": [
+        "INCINERATE",
+        "PSYSHOCK",
+        "FLAME_CHARGE"
+      ]
+    },
+    {
+      "rank": 109,
+      "speciesId": "regidrago",
+      "speciesName": "Regidrago",
+      "score": 73.2,
+      "rating": 646,
+      "moveset": [
+        "DRAGON_BREATH",
+        "DRAGON_ENERGY",
+        "VICE_GRIP"
+      ]
+    },
+    {
+      "rank": 110,
+      "speciesId": "tapu_koko",
+      "speciesName": "Tapu Koko",
+      "score": 73.2,
+      "rating": 565,
+      "moveset": [
+        "VOLT_SWITCH",
+        "THUNDERBOLT",
+        "NATURES_MADNESS"
+      ]
+    },
+    {
+      "rank": 111,
+      "speciesId": "thundurus_incarnate_shadow",
+      "speciesName": "Thundurus (Incarnate) (Shadow)",
+      "score": 73,
+      "rating": 600,
+      "moveset": [
+        "THUNDER_SHOCK",
+        "THUNDER_PUNCH",
+        "BRICK_BREAK"
+      ]
+    },
+    {
+      "rank": 112,
+      "speciesId": "thundurus_therian",
+      "speciesName": "Thundurus (Therian)",
+      "score": 73,
+      "rating": 618,
+      "moveset": [
+        "VOLT_SWITCH",
+        "WILDBOLT_STORM",
+        "FOCUS_BLAST"
+      ]
+    },
+    {
+      "rank": 113,
+      "speciesId": "genesect_burn",
+      "speciesName": "Genesect (Burn)",
+      "score": 72.9,
+      "rating": 641,
+      "moveset": [
+        "FURY_CUTTER",
+        "MAGNET_BOMB",
+        "TECHNO_BLAST_BURN"
+      ]
+    },
+    {
+      "rank": 114,
+      "speciesId": "ceruledge",
+      "speciesName": "Ceruledge",
+      "score": 72.5,
+      "rating": 622,
+      "moveset": [
+        "INCINERATE",
+        "SHADOW_BALL",
+        "FLAME_CHARGE"
+      ]
+    },
+    {
+      "rank": 115,
+      "speciesId": "scizor_shadow",
+      "speciesName": "Scizor (Shadow)",
+      "score": 72.4,
+      "rating": 622,
+      "moveset": [
+        "BULLET_PUNCH",
+        "NIGHT_SLASH",
+        "TRAILBLAZE"
+      ]
+    },
+    {
+      "rank": 116,
+      "speciesId": "sneasler_shadow",
+      "speciesName": "Sneasler (Shadow)",
+      "score": 72.3,
+      "rating": 607,
+      "moveset": [
+        "SHADOW_CLAW",
+        "CLOSE_COMBAT",
+        "X_SCISSOR"
+      ]
+    },
+    {
+      "rank": 117,
+      "speciesId": "chandelure_shadow",
+      "speciesName": "Chandelure (Shadow)",
+      "score": 72.2,
+      "rating": 554,
+      "moveset": [
+        "INCINERATE",
+        "SHADOW_BALL",
+        "FLAME_CHARGE"
+      ]
+    },
+    {
+      "rank": 118,
+      "speciesId": "xurkitree",
+      "speciesName": "Xurkitree",
+      "score": 72.2,
+      "rating": 609,
+      "moveset": [
+        "THUNDER_SHOCK",
+        "DISCHARGE",
+        "DAZZLING_GLEAM"
+      ]
+    },
+    {
+      "rank": 119,
+      "speciesId": "avalugg",
+      "speciesName": "Avalugg",
+      "score": 72.1,
+      "rating": 597,
+      "moveset": [
+        "ICE_FANG",
+        "AVALANCHE",
+        "BODY_SLAM"
+      ]
+    },
+    {
+      "rank": 120,
+      "speciesId": "genesect",
+      "speciesName": "Genesect",
+      "score": 72.1,
+      "rating": 626,
+      "moveset": [
+        "FURY_CUTTER",
+        "MAGNET_BOMB",
+        "TECHNO_BLAST_NORMAL"
+      ]
+    },
+    {
+      "rank": 121,
+      "speciesId": "excadrill_shadow",
+      "speciesName": "Excadrill (Shadow)",
+      "score": 72,
+      "rating": 565,
+      "moveset": [
+        "MUD_SLAP",
+        "DRILL_RUN",
+        "ROCK_SLIDE"
+      ]
+    },
+    {
+      "rank": 122,
+      "speciesId": "kingambit",
+      "speciesName": "Kingambit",
+      "score": 72,
+      "rating": 605,
+      "moveset": [
+        "SNARL",
+        "FOUL_PLAY",
+        "IRON_HEAD"
+      ]
+    },
+    {
+      "rank": 123,
+      "speciesId": "magnezone_shadow",
+      "speciesName": "Magnezone (Shadow)",
+      "score": 72,
+      "rating": 639,
+      "moveset": [
+        "VOLT_SWITCH",
+        "WILD_CHARGE",
+        "MIRROR_SHOT"
+      ]
+    },
+    {
+      "rank": 124,
+      "speciesId": "necrozma",
+      "speciesName": "Necrozma",
+      "score": 72,
+      "rating": 577,
+      "moveset": [
+        "SHADOW_CLAW",
+        "DARK_PULSE",
+        "OUTRAGE"
+      ]
+    },
+    {
+      "rank": 125,
+      "speciesId": "cetitan",
+      "speciesName": "Cetitan",
+      "score": 71.8,
+      "rating": 615,
+      "moveset": [
+        "POWDER_SNOW",
+        "AVALANCHE",
+        "SUPER_POWER"
+      ]
+    },
+    {
+      "rank": 126,
+      "speciesId": "chandelure",
+      "speciesName": "Chandelure",
+      "score": 71.6,
+      "rating": 575,
+      "moveset": [
+        "INCINERATE",
+        "SHADOW_BALL",
+        "FLAME_CHARGE"
+      ]
+    },
+    {
+      "rank": 127,
+      "speciesId": "milotic_shadow",
+      "speciesName": "Milotic (Shadow)",
+      "score": 71.5,
+      "rating": 574,
+      "moveset": [
+        "DRAGON_TAIL",
+        "AQUA_TAIL",
+        "WRAP"
+      ]
+    },
+    {
+      "rank": 128,
+      "speciesId": "swampert",
+      "speciesName": "Swampert",
+      "score": 71.5,
+      "rating": 586,
+      "moveset": [
+        "MUD_SHOT",
+        "HYDRO_CANNON",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 129,
+      "speciesId": "zygarde",
+      "speciesName": "Zygarde (50% Forme)",
+      "score": 71.5,
+      "rating": 641,
+      "moveset": [
+        "DRAGON_TAIL",
+        "CRUNCH",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 130,
+      "speciesId": "moltres_galarian",
+      "speciesName": "Moltres (Galarian)",
+      "score": 71.3,
+      "rating": 626,
+      "moveset": [
+        "SUCKER_PUNCH",
+        "ANCIENT_POWER",
+        "PAYBACK"
+      ]
+    },
+    {
+      "rank": 131,
+      "speciesId": "genesect_douse",
+      "speciesName": "Genesect (Douse)",
+      "score": 71.2,
+      "rating": 638,
+      "moveset": [
+        "FURY_CUTTER",
+        "MAGNET_BOMB",
+        "TECHNO_BLAST_DOUSE"
+      ]
+    },
+    {
+      "rank": 132,
+      "speciesId": "regirock",
+      "speciesName": "Regirock",
+      "score": 71.1,
+      "rating": 615,
+      "moveset": [
+        "LOCK_ON",
+        "STONE_EDGE",
+        "FOCUS_BLAST"
+      ]
+    },
+    {
+      "rank": 133,
+      "speciesId": "landorus_incarnate",
+      "speciesName": "Landorus (Incarnate)",
+      "score": 70.9,
+      "rating": 589,
+      "moveset": [
+        "MUD_SHOT",
+        "EARTH_POWER",
+        "ROCK_SLIDE"
+      ]
+    },
+    {
+      "rank": 134,
+      "speciesId": "machamp_shadow",
+      "speciesName": "Machamp (Shadow)",
+      "score": 70.9,
+      "rating": 637,
+      "moveset": [
+        "KARATE_CHOP",
+        "CROSS_CHOP",
+        "STONE_EDGE"
+      ]
+    },
+    {
+      "rank": 135,
+      "speciesId": "celebi",
+      "speciesName": "Celebi",
+      "score": 70.8,
+      "rating": 627,
+      "moveset": [
+        "CONFUSION",
+        "AURA_SPHERE",
+        "LEAF_STORM"
+      ]
+    },
+    {
+      "rank": 136,
+      "speciesId": "golurk_shadow",
+      "speciesName": "Golurk (Shadow)",
+      "score": 70.7,
+      "rating": 608,
+      "moveset": [
+        "MUD_SLAP",
+        "SHADOW_PUNCH",
+        "DYNAMIC_PUNCH"
+      ]
+    },
+    {
+      "rank": 137,
+      "speciesId": "torterra_shadow",
+      "speciesName": "Torterra (Shadow)",
+      "score": 70.6,
+      "rating": 521,
+      "moveset": [
+        "MUD_SLAP",
+        "FRENZY_PLANT",
+        "STONE_EDGE"
+      ]
+    },
+    {
+      "rank": 138,
+      "speciesId": "empoleon_shadow",
+      "speciesName": "Empoleon (Shadow)",
+      "score": 70.5,
+      "rating": 612,
+      "moveset": [
+        "METAL_SOUND",
+        "HYDRO_CANNON",
+        "DRILL_PECK"
+      ]
+    },
+    {
+      "rank": 139,
+      "speciesId": "entei",
+      "speciesName": "Entei",
+      "score": 70.4,
+      "rating": 572,
+      "moveset": [
+        "FIRE_SPIN",
+        "FLAME_CHARGE",
+        "SCORCHING_SANDS"
+      ]
+    },
+    {
+      "rank": 140,
+      "speciesId": "milotic",
+      "speciesName": "Milotic",
+      "score": 70.4,
+      "rating": 562,
+      "moveset": [
+        "DRAGON_TAIL",
+        "AQUA_TAIL",
+        "WRAP"
+      ]
+    },
+    {
+      "rank": 141,
+      "speciesId": "empoleon",
+      "speciesName": "Empoleon",
+      "score": 69.9,
+      "rating": 583,
+      "moveset": [
+        "METAL_SOUND",
+        "HYDRO_CANNON",
+        "DRILL_PECK"
+      ]
+    },
+    {
+      "rank": 142,
+      "speciesId": "feraligatr",
+      "speciesName": "Feraligatr",
+      "score": 69.6,
+      "rating": 568,
+      "moveset": [
+        "SHADOW_CLAW",
+        "HYDRO_CANNON",
+        "ICE_BEAM"
+      ]
+    },
+    {
+      "rank": 143,
+      "speciesId": "swampert_shadow",
+      "speciesName": "Swampert (Shadow)",
+      "score": 69.6,
+      "rating": 585,
+      "moveset": [
+        "MUD_SHOT",
+        "HYDRO_CANNON",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 144,
+      "speciesId": "machamp",
+      "speciesName": "Machamp",
+      "score": 69.5,
+      "rating": 607,
+      "moveset": [
+        "KARATE_CHOP",
+        "CROSS_CHOP",
+        "ROCK_SLIDE"
+      ]
+    },
+    {
+      "rank": 145,
+      "speciesId": "conkeldurr",
+      "speciesName": "Conkeldurr",
+      "score": 69.3,
+      "rating": 596,
+      "moveset": [
+        "COUNTER",
+        "DYNAMIC_PUNCH",
+        "BRUTAL_SWING"
+      ]
+    },
+    {
+      "rank": 146,
+      "speciesId": "torterra",
+      "speciesName": "Torterra",
+      "score": 69.3,
+      "rating": 548,
+      "moveset": [
+        "MUD_SLAP",
+        "FRENZY_PLANT",
+        "STONE_EDGE"
+      ]
+    },
+    {
+      "rank": 147,
+      "speciesId": "grimmsnarl",
+      "speciesName": "Grimmsnarl",
+      "score": 69.2,
+      "rating": 584,
+      "moveset": [
+        "SUCKER_PUNCH",
+        "FOUL_PLAY",
+        "PLAY_ROUGH"
+      ]
+    },
+    {
+      "rank": 148,
+      "speciesId": "buzzwole",
+      "speciesName": "Buzzwole",
+      "score": 69.1,
+      "rating": 590,
+      "moveset": [
+        "COUNTER",
+        "SUPER_POWER",
+        "LUNGE"
+      ]
+    },
+    {
+      "rank": 149,
+      "speciesId": "excadrill",
+      "speciesName": "Excadrill",
+      "score": 69,
+      "rating": 569,
+      "moveset": [
+        "MUD_SLAP",
+        "DRILL_RUN",
+        "ROCK_SLIDE"
+      ]
+    },
+    {
+      "rank": 150,
+      "speciesId": "krookodile",
+      "speciesName": "Krookodile",
+      "score": 68.9,
+      "rating": 586,
+      "moveset": [
+        "MUD_SLAP",
+        "CRUNCH",
+        "BRICK_BREAK"
+      ]
+    },
+    {
+      "rank": 151,
+      "speciesId": "entei_shadow",
+      "speciesName": "Entei (Shadow)",
+      "score": 68.8,
+      "rating": 544,
+      "moveset": [
+        "FIRE_SPIN",
+        "FLAME_CHARGE",
+        "SCORCHING_SANDS"
+      ]
+    },
+    {
+      "rank": 152,
+      "speciesId": "aurorus_shadow",
+      "speciesName": "Aurorus (Shadow)",
+      "score": 68.7,
+      "rating": 601,
+      "moveset": [
+        "POWDER_SNOW",
+        "WEATHER_BALL_ICE",
+        "METEOR_BEAM"
+      ]
+    },
+    {
+      "rank": 153,
+      "speciesId": "snorlax_shadow",
+      "speciesName": "Snorlax (Shadow)",
+      "score": 68.6,
+      "rating": 605,
+      "moveset": [
+        "LICK",
+        "BODY_SLAM",
+        "SUPER_POWER"
+      ]
+    },
+    {
+      "rank": 154,
+      "speciesId": "feraligatr_shadow",
+      "speciesName": "Feraligatr (Shadow)",
+      "score": 68.5,
+      "rating": 587,
+      "moveset": [
+        "SHADOW_CLAW",
+        "HYDRO_CANNON",
+        "ICE_BEAM"
+      ]
+    },
+    {
+      "rank": 155,
+      "speciesId": "scizor",
+      "speciesName": "Scizor",
+      "score": 68.5,
+      "rating": 603,
+      "moveset": [
+        "BULLET_PUNCH",
+        "NIGHT_SLASH",
+        "TRAILBLAZE"
+      ]
+    },
+    {
+      "rank": 156,
+      "speciesId": "cresselia",
+      "speciesName": "Cresselia",
+      "score": 68.4,
+      "rating": 581,
+      "moveset": [
+        "CONFUSION",
+        "MOONBLAST",
+        "GRASS_KNOT"
+      ]
+    },
+    {
+      "rank": 157,
+      "speciesId": "nihilego",
+      "speciesName": "Nihilego",
+      "score": 68.4,
+      "rating": 579,
+      "moveset": [
+        "POISON_JAB",
+        "POWER_GEM",
+        "SLUDGE_BOMB"
+      ]
+    },
+    {
+      "rank": 158,
+      "speciesId": "zarude",
+      "speciesName": "Zarude",
+      "score": 68.4,
+      "rating": 594,
+      "moveset": [
+        "VINE_WHIP",
+        "DARK_PULSE",
+        "POWER_WHIP"
+      ]
+    },
+    {
+      "rank": 159,
+      "speciesId": "snorlax",
+      "speciesName": "Snorlax",
+      "score": 68.3,
+      "rating": 587,
+      "moveset": [
+        "LICK",
+        "BODY_SLAM",
+        "SUPER_POWER"
+      ]
+    },
+    {
+      "rank": 160,
+      "speciesId": "gallade_shadow",
+      "speciesName": "Gallade (Shadow)",
+      "score": 68.2,
+      "rating": 618,
+      "moveset": [
+        "CONFUSION",
+        "CLOSE_COMBAT",
+        "LEAF_BLADE"
+      ]
+    },
+    {
+      "rank": 161,
+      "speciesId": "pangoro",
+      "speciesName": "Pangoro",
+      "score": 68.1,
+      "rating": 644,
+      "moveset": [
+        "KARATE_CHOP",
+        "CLOSE_COMBAT",
+        "NIGHT_SLASH"
+      ]
+    },
+    {
+      "rank": 162,
+      "speciesId": "regirock_shadow",
+      "speciesName": "Regirock (Shadow)",
+      "score": 68.1,
+      "rating": 599,
+      "moveset": [
+        "LOCK_ON",
+        "STONE_EDGE",
+        "FOCUS_BLAST"
+      ]
+    },
+    {
+      "rank": 163,
+      "speciesId": "typhlosion_hisuian",
+      "speciesName": "Typhlosion (Hisuian)",
+      "score": 68,
+      "rating": 553,
+      "moveset": [
+        "HEX",
+        "SHADOW_BALL",
+        "FIRE_PUNCH"
+      ]
+    },
+    {
+      "rank": 164,
+      "speciesId": "magnezone",
+      "speciesName": "Magnezone",
+      "score": 67.5,
+      "rating": 639,
+      "moveset": [
+        "VOLT_SWITCH",
+        "WILD_CHARGE",
+        "MIRROR_SHOT"
+      ]
+    },
+    {
+      "rank": 165,
+      "speciesId": "delphox_shadow",
+      "speciesName": "Delphox (Shadow)",
+      "score": 67.4,
+      "rating": 520,
+      "moveset": [
+        "FIRE_SPIN",
+        "PSYSHOCK",
+        "BLAST_BURN"
+      ]
+    },
+    {
+      "rank": 166,
+      "speciesId": "gallade",
+      "speciesName": "Gallade",
+      "score": 67.4,
+      "rating": 622,
+      "moveset": [
+        "CONFUSION",
+        "CLOSE_COMBAT",
+        "LEAF_BLADE"
+      ]
+    },
+    {
+      "rank": 167,
+      "speciesId": "golurk",
+      "speciesName": "Golurk",
+      "score": 67.3,
+      "rating": 595,
+      "moveset": [
+        "MUD_SLAP",
+        "SHADOW_PUNCH",
+        "DYNAMIC_PUNCH"
+      ]
+    },
+    {
+      "rank": 168,
+      "speciesId": "electivire_shadow",
+      "speciesName": "Electivire (Shadow)",
+      "score": 67.2,
+      "rating": 598,
+      "moveset": [
+        "THUNDER_SHOCK",
+        "WILD_CHARGE",
+        "ICE_PUNCH"
+      ]
+    },
+    {
+      "rank": 169,
+      "speciesId": "haxorus",
+      "speciesName": "Haxorus",
+      "score": 67,
+      "rating": 621,
+      "moveset": [
+        "DRAGON_TAIL",
+        "NIGHT_SLASH",
+        "SURF"
+      ]
+    },
+    {
+      "rank": 170,
+      "speciesId": "dhelmise",
+      "speciesName": "Dhelmise",
+      "score": 66.8,
+      "rating": 601,
+      "moveset": [
+        "SHADOW_CLAW",
+        "SHADOW_BALL",
+        "BRUTAL_SWING"
+      ]
+    },
+    {
+      "rank": 171,
+      "speciesId": "walrein_shadow",
+      "speciesName": "Walrein (Shadow)",
+      "score": 66.6,
+      "rating": 547,
+      "moveset": [
+        "POWDER_SNOW",
+        "ICICLE_SPEAR",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 172,
+      "speciesId": "hoopa",
+      "speciesName": "Hoopa",
+      "score": 66.1,
+      "rating": 494,
+      "moveset": [
+        "ASTONISH",
+        "SHADOW_BALL",
+        "PSYCHIC"
+      ]
+    },
+    {
+      "rank": 173,
+      "speciesId": "walrein",
+      "speciesName": "Walrein",
+      "score": 65.9,
+      "rating": 540,
+      "moveset": [
+        "POWDER_SNOW",
+        "ICICLE_SPEAR",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 174,
+      "speciesId": "zapdos_galarian",
+      "speciesName": "Zapdos (Galarian)",
+      "score": 65.8,
+      "rating": 556,
+      "moveset": [
+        "COUNTER",
+        "ANCIENT_POWER",
+        "BRAVE_BIRD"
+      ]
+    },
+    {
+      "rank": 175,
+      "speciesId": "darmanitan_standard_shadow",
+      "speciesName": "Darmanitan (Standard) (Shadow)",
+      "score": 65.7,
+      "rating": 507,
+      "moveset": [
+        "INCINERATE",
+        "ROCK_SLIDE",
+        "OVERHEAT"
+      ]
+    },
+    {
+      "rank": 176,
+      "speciesId": "donphan_shadow",
+      "speciesName": "Donphan (Shadow)",
+      "score": 65.7,
+      "rating": 543,
+      "moveset": [
+        "MUD_SLAP",
+        "BODY_SLAM",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 177,
+      "speciesId": "dragapult",
+      "speciesName": "Dragapult",
+      "score": 65.7,
+      "rating": 580,
+      "moveset": [
+        "DRAGON_TAIL",
+        "SHADOW_BALL",
+        "OUTRAGE"
+      ]
+    },
+    {
+      "rank": 178,
+      "speciesId": "suicune",
+      "speciesName": "Suicune",
+      "score": 65.7,
+      "rating": 508,
+      "moveset": [
+        "ICE_FANG",
+        "SCALD",
+        "ICE_BEAM"
+      ]
+    },
+    {
+      "rank": 179,
+      "speciesId": "charizard",
+      "speciesName": "Charizard",
+      "score": 65.5,
+      "rating": 581,
+      "moveset": [
+        "DRAGON_BREATH",
+        "BLAST_BURN",
+        "AIR_CUTTER"
+      ]
+    },
+    {
+      "rank": 180,
+      "speciesId": "rayquaza",
+      "speciesName": "Rayquaza",
+      "score": 65.3,
+      "rating": 618,
+      "moveset": [
+        "DRAGON_TAIL",
+        "BREAKING_SWIPE",
+        "DRAGON_ASCENT"
+      ]
+    },
+    {
+      "rank": 181,
+      "speciesId": "delphox",
+      "speciesName": "Delphox",
+      "score": 65.2,
+      "rating": 534,
+      "moveset": [
+        "FIRE_SPIN",
+        "PSYSHOCK",
+        "BLAST_BURN"
+      ]
+    },
+    {
+      "rank": 182,
+      "speciesId": "moltres_shadow",
+      "speciesName": "Moltres (Shadow)",
+      "score": 65.1,
+      "rating": 518,
+      "moveset": [
+        "FIRE_SPIN",
+        "SKY_ATTACK",
+        "ANCIENT_POWER"
+      ]
+    },
+    {
+      "rank": 183,
+      "speciesId": "mudsdale",
+      "speciesName": "Mudsdale",
+      "score": 65,
+      "rating": 540,
+      "moveset": [
+        "MUD_SLAP",
+        "BODY_SLAM",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 184,
+      "speciesId": "vaporeon",
+      "speciesName": "Vaporeon",
+      "score": 65,
+      "rating": 548,
+      "moveset": [
+        "WATER_GUN",
+        "AQUA_TAIL",
+        "LAST_RESORT"
+      ]
+    },
+    {
+      "rank": 185,
+      "speciesId": "thundurus_incarnate",
+      "speciesName": "Thundurus (Incarnate)",
+      "score": 64.9,
+      "rating": 562,
+      "moveset": [
+        "THUNDER_SHOCK",
+        "CRUNCH",
+        "THUNDER"
+      ]
+    },
+    {
+      "rank": 186,
+      "speciesId": "sneasler",
+      "speciesName": "Sneasler",
+      "score": 64.7,
+      "rating": 554,
+      "moveset": [
+        "SHADOW_CLAW",
+        "CLOSE_COMBAT",
+        "AERIAL_ACE"
+      ]
+    },
+    {
+      "rank": 187,
+      "speciesId": "hariyama_shadow",
+      "speciesName": "Hariyama (Shadow)",
+      "score": 64.6,
+      "rating": 532,
+      "moveset": [
+        "FORCE_PALM",
+        "UPPER_HAND",
+        "HEAVY_SLAM"
+      ]
+    },
+    {
+      "rank": 188,
+      "speciesId": "typhlosion_shadow",
+      "speciesName": "Typhlosion (Shadow)",
+      "score": 64.6,
+      "rating": 542,
+      "moveset": [
+        "INCINERATE",
+        "BLAST_BURN",
+        "THUNDER_PUNCH"
+      ]
+    },
+    {
+      "rank": 189,
+      "speciesId": "ursaring_shadow",
+      "speciesName": "Ursaring (Shadow)",
+      "score": 64.4,
+      "rating": 592,
+      "moveset": [
+        "SHADOW_CLAW",
+        "CLOSE_COMBAT",
+        "SWIFT"
+      ]
+    },
+    {
+      "rank": 190,
+      "speciesId": "cresselia_shadow",
+      "speciesName": "Cresselia (Shadow)",
+      "score": 64.3,
+      "rating": 557,
+      "moveset": [
+        "CONFUSION",
+        "MOONBLAST",
+        "GRASS_KNOT"
+      ]
+    },
+    {
+      "rank": 191,
+      "speciesId": "centiskorch",
+      "speciesName": "Centiskorch",
+      "score": 64.2,
+      "rating": 519,
+      "moveset": [
+        "EMBER",
+        "CRUNCH",
+        "LUNGE"
+      ]
+    },
+    {
+      "rank": 192,
+      "speciesId": "articuno_shadow",
+      "speciesName": "Articuno (Shadow)",
+      "score": 64.1,
+      "rating": 494,
+      "moveset": [
+        "ICE_SHARD",
+        "TRIPLE_AXEL",
+        "ANCIENT_POWER"
+      ]
+    },
+    {
+      "rank": 193,
+      "speciesId": "darmanitan_standard",
+      "speciesName": "Darmanitan (Standard)",
+      "score": 64.1,
+      "rating": 511,
+      "moveset": [
+        "INCINERATE",
+        "ROCK_SLIDE",
+        "OVERHEAT"
+      ]
+    },
+    {
+      "rank": 194,
+      "speciesId": "sirfetchd",
+      "speciesName": "Sirfetch'd",
+      "score": 64.1,
+      "rating": 574,
+      "moveset": [
+        "FURY_CUTTER",
+        "CLOSE_COMBAT",
+        "LEAF_BLADE"
+      ]
+    },
+    {
+      "rank": 195,
+      "speciesId": "donphan",
+      "speciesName": "Donphan",
+      "score": 63.9,
+      "rating": 531,
+      "moveset": [
+        "MUD_SLAP",
+        "BODY_SLAM",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 196,
+      "speciesId": "gardevoir_shadow",
+      "speciesName": "Gardevoir (Shadow)",
+      "score": 63.8,
+      "rating": 526,
+      "moveset": [
+        "CHARM",
+        "SHADOW_BALL",
+        "TRIPLE_AXEL"
+      ]
+    },
+    {
+      "rank": 197,
+      "speciesId": "hydrapple",
+      "speciesName": "Hydrapple",
+      "score": 63.8,
+      "rating": 571,
+      "moveset": [
+        "DRAGON_TAIL",
+        "SEED_BOMB",
+        "OUTRAGE"
+      ]
+    },
+    {
+      "rank": 198,
+      "speciesId": "charizard_shadow",
+      "speciesName": "Charizard (Shadow)",
+      "score": 63.7,
+      "rating": 468,
+      "moveset": [
+        "DRAGON_BREATH",
+        "BLAST_BURN",
+        "DRAGON_CLAW"
+      ]
+    },
+    {
+      "rank": 199,
+      "speciesId": "passimian",
+      "speciesName": "Passimian",
+      "score": 63.7,
+      "rating": 552,
+      "moveset": [
+        "COUNTER",
+        "CLOSE_COMBAT",
+        "BRUTAL_SWING"
+      ]
+    },
+    {
+      "rank": 200,
+      "speciesId": "typhlosion",
+      "speciesName": "Typhlosion",
+      "score": 63.7,
+      "rating": 541,
+      "moveset": [
+        "INCINERATE",
+        "BLAST_BURN",
+        "THUNDER_PUNCH"
+      ]
+    },
+    {
+      "rank": 201,
+      "speciesId": "aggron_shadow",
+      "speciesName": "Aggron (Shadow)",
+      "score": 63.5,
+      "rating": 524,
+      "moveset": [
+        "DRAGON_TAIL",
+        "THUNDER",
+        "ROCK_TOMB"
+      ]
+    },
+    {
+      "rank": 202,
+      "speciesId": "tornadus_therian",
+      "speciesName": "Tornadus (Therian)",
+      "score": 63.5,
+      "rating": 560,
+      "moveset": [
+        "ASTONISH",
+        "BLEAKWIND_STORM",
+        "FOCUS_BLAST"
+      ]
+    },
+    {
+      "rank": 203,
+      "speciesId": "arcanine",
+      "speciesName": "Arcanine",
+      "score": 63.4,
+      "rating": 564,
+      "moveset": [
+        "FIRE_FANG",
+        "WILD_CHARGE",
+        "PSYCHIC_FANGS"
+      ]
+    },
+    {
+      "rank": 204,
+      "speciesId": "magmortar_shadow",
+      "speciesName": "Magmortar (Shadow)",
+      "score": 63.4,
+      "rating": 561,
+      "moveset": [
+        "KARATE_CHOP",
+        "FIRE_PUNCH",
+        "THUNDERBOLT"
+      ]
+    },
+    {
+      "rank": 205,
+      "speciesId": "lapras_shadow",
+      "speciesName": "Lapras (Shadow)",
+      "score": 63.1,
+      "rating": 527,
+      "moveset": [
+        "PSYWAVE",
+        "SPARKLING_ARIA",
+        "ICE_BEAM"
+      ]
+    },
+    {
+      "rank": 206,
+      "speciesId": "dondozo",
+      "speciesName": "Dondozo",
+      "score": 63,
+      "rating": 539,
+      "moveset": [
+        "WATER_GUN",
+        "LIQUIDATION",
+        "SURF"
+      ]
+    },
+    {
+      "rank": 207,
+      "speciesId": "gigalith",
+      "speciesName": "Gigalith",
+      "score": 63,
+      "rating": 506,
+      "moveset": [
+        "MUD_SLAP",
+        "SUPER_POWER",
+        "METEOR_BEAM"
+      ]
+    },
+    {
+      "rank": 208,
+      "speciesId": "heracross",
+      "speciesName": "Heracross",
+      "score": 63,
+      "rating": 504,
+      "moveset": [
+        "COUNTER",
+        "UPPER_HAND",
+        "MEGAHORN"
+      ]
+    },
+    {
+      "rank": 209,
+      "speciesId": "rhydon",
+      "speciesName": "Rhydon",
+      "score": 62.8,
+      "rating": 525,
+      "moveset": [
+        "MUD_SLAP",
+        "STONE_EDGE",
+        "SURF"
+      ]
+    },
+    {
+      "rank": 210,
+      "speciesId": "lapras",
+      "speciesName": "Lapras",
+      "score": 62.7,
+      "rating": 504,
+      "moveset": [
+        "PSYWAVE",
+        "SURF",
+        "ICE_BEAM"
+      ]
+    },
+    {
+      "rank": 211,
+      "speciesId": "rhydon_shadow",
+      "speciesName": "Rhydon (Shadow)",
+      "score": 62.6,
+      "rating": 522,
+      "moveset": [
+        "MUD_SLAP",
+        "STONE_EDGE",
+        "SURF"
+      ]
+    },
+    {
+      "rank": 212,
+      "speciesId": "articuno",
+      "speciesName": "Articuno",
+      "score": 62.4,
+      "rating": 492,
+      "moveset": [
+        "ICE_SHARD",
+        "TRIPLE_AXEL",
+        "ANCIENT_POWER"
+      ]
+    },
+    {
+      "rank": 213,
+      "speciesId": "chesnaught_shadow",
+      "speciesName": "Chesnaught (Shadow)",
+      "score": 62.4,
+      "rating": 521,
+      "moveset": [
+        "VINE_WHIP",
+        "SUPER_POWER",
+        "FRENZY_PLANT"
+      ]
+    },
+    {
+      "rank": 214,
+      "speciesId": "hariyama",
+      "speciesName": "Hariyama",
+      "score": 62.4,
+      "rating": 532,
+      "moveset": [
+        "FORCE_PALM",
+        "UPPER_HAND",
+        "HEAVY_SLAM"
+      ]
+    },
+    {
+      "rank": 215,
+      "speciesId": "pinsir_shadow",
+      "speciesName": "Pinsir (Shadow)",
+      "score": 62.4,
+      "rating": 546,
+      "moveset": [
+        "FURY_CUTTER",
+        "CLOSE_COMBAT",
+        "X_SCISSOR"
+      ]
+    },
+    {
+      "rank": 216,
+      "speciesId": "suicune_shadow",
+      "speciesName": "Suicune (Shadow)",
+      "score": 62.4,
+      "rating": 477,
+      "moveset": [
+        "ICE_FANG",
+        "SCALD",
+        "ICE_BEAM"
+      ]
+    },
+    {
+      "rank": 217,
+      "speciesId": "vikavolt_shadow",
+      "speciesName": "Vikavolt (Shadow)",
+      "score": 62.3,
+      "rating": 567,
+      "moveset": [
+        "VOLT_SWITCH",
+        "DISCHARGE",
+        "X_SCISSOR"
+      ]
+    },
+    {
+      "rank": 218,
+      "speciesId": "gardevoir",
+      "speciesName": "Gardevoir",
+      "score": 62.2,
+      "rating": 509,
+      "moveset": [
+        "CHARM",
+        "SHADOW_BALL",
+        "TRIPLE_AXEL"
+      ]
+    },
+    {
+      "rank": 219,
+      "speciesId": "decidueye",
+      "speciesName": "Decidueye",
+      "score": 62.1,
+      "rating": 539,
+      "moveset": [
+        "ASTONISH",
+        "FRENZY_PLANT",
+        "SPIRIT_SHACKLE"
+      ]
+    },
+    {
+      "rank": 220,
+      "speciesId": "aggron",
+      "speciesName": "Aggron",
+      "score": 62,
+      "rating": 538,
+      "moveset": [
+        "DRAGON_TAIL",
+        "THUNDER",
+        "ROCK_TOMB"
+      ]
+    },
+    {
+      "rank": 221,
+      "speciesId": "gogoat",
+      "speciesName": "Gogoat",
+      "score": 62,
+      "rating": 527,
+      "moveset": [
+        "VINE_WHIP",
+        "LEAF_BLADE",
+        "BRICK_BREAK"
+      ]
+    },
+    {
+      "rank": 222,
+      "speciesId": "electivire",
+      "speciesName": "Electivire",
+      "score": 61.9,
+      "rating": 563,
+      "moveset": [
+        "THUNDER_SHOCK",
+        "WILD_CHARGE",
+        "ICE_PUNCH"
+      ]
+    },
+    {
+      "rank": 223,
+      "speciesId": "kingdra_shadow",
+      "speciesName": "Kingdra (Shadow)",
+      "score": 61.9,
+      "rating": 548,
+      "moveset": [
+        "DRAGON_BREATH",
+        "SWIFT",
+        "OUTRAGE"
+      ]
+    },
+    {
+      "rank": 224,
+      "speciesId": "sinistcha",
+      "speciesName": "Sinistcha",
+      "score": 61.9,
+      "rating": 484,
+      "moveset": [
+        "ASTONISH",
+        "SHADOW_BALL",
+        "ENERGY_BALL"
+      ]
+    },
+    {
+      "rank": 225,
+      "speciesId": "gourgeist_super",
+      "speciesName": "Gourgeist (Super)",
+      "score": 61.7,
+      "rating": 532,
+      "moveset": [
+        "HEX",
+        "SHADOW_BALL",
+        "FOUL_PLAY"
+      ]
+    },
+    {
+      "rank": 226,
+      "speciesId": "gigalith_shadow",
+      "speciesName": "Gigalith (Shadow)",
+      "score": 61.5,
+      "rating": 477,
+      "moveset": [
+        "MUD_SLAP",
+        "METEOR_BEAM",
+        "SUPER_POWER"
+      ]
+    },
+    {
+      "rank": 227,
+      "speciesId": "moltres",
+      "speciesName": "Moltres",
+      "score": 61.4,
+      "rating": 467,
+      "moveset": [
+        "WING_ATTACK",
+        "SKY_ATTACK",
+        "OVERHEAT"
+      ]
+    },
+    {
+      "rank": 228,
+      "speciesId": "emboar_shadow",
+      "speciesName": "Emboar (Shadow)",
+      "score": 61.3,
+      "rating": 537,
+      "moveset": [
+        "EMBER",
+        "BLAST_BURN",
+        "ROCK_SLIDE"
+      ]
+    },
+    {
+      "rank": 229,
+      "speciesId": "guzzlord",
+      "speciesName": "Guzzlord",
+      "score": 61.3,
+      "rating": 580,
+      "moveset": [
+        "DRAGON_TAIL",
+        "BRUTAL_SWING",
+        "DRAGON_CLAW"
+      ]
+    },
+    {
+      "rank": 230,
+      "speciesId": "articuno_galarian",
+      "speciesName": "Articuno (Galarian)",
+      "score": 61.1,
+      "rating": 529,
+      "moveset": [
+        "CONFUSION",
+        "ANCIENT_POWER",
+        "BRAVE_BIRD"
+      ]
+    },
+    {
+      "rank": 231,
+      "speciesId": "aurorus",
+      "speciesName": "Aurorus",
+      "score": 61.1,
+      "rating": 515,
+      "moveset": [
+        "POWDER_SNOW",
+        "WEATHER_BALL_ICE",
+        "THUNDERBOLT"
+      ]
+    },
+    {
+      "rank": 232,
+      "speciesId": "decidueye_hisuian",
+      "speciesName": "Decidueye (Hisuian)",
+      "score": 61.1,
+      "rating": 502,
+      "moveset": [
+        "PSYCHO_CUT",
+        "AURA_SPHERE",
+        "TRAILBLAZE"
+      ]
+    },
+    {
+      "rank": 233,
+      "speciesId": "vikavolt",
+      "speciesName": "Vikavolt",
+      "score": 61.1,
+      "rating": 545,
+      "moveset": [
+        "VOLT_SWITCH",
+        "DISCHARGE",
+        "X_SCISSOR"
+      ]
+    },
+    {
+      "rank": 234,
+      "speciesId": "kingdra",
+      "speciesName": "Kingdra",
+      "score": 60.9,
+      "rating": 554,
+      "moveset": [
+        "DRAGON_BREATH",
+        "SWIFT",
+        "OUTRAGE"
+      ]
+    },
+    {
+      "rank": 235,
+      "speciesId": "samurott_hisuian",
+      "speciesName": "Samurott (Hisuian)",
+      "score": 60.4,
+      "rating": 527,
+      "moveset": [
+        "FURY_CUTTER",
+        "SACRED_SWORD",
+        "ICY_WIND"
+      ]
+    },
+    {
+      "rank": 236,
+      "speciesId": "cursola",
+      "speciesName": "Cursola",
+      "score": 60.1,
+      "rating": 484,
+      "moveset": [
+        "ASTONISH",
+        "NIGHT_SHADE",
+        "POWER_GEM"
+      ]
+    },
+    {
+      "rank": 237,
+      "speciesId": "chesnaught",
+      "speciesName": "Chesnaught",
+      "score": 60,
+      "rating": 532,
+      "moveset": [
+        "VINE_WHIP",
+        "SUPER_POWER",
+        "FRENZY_PLANT"
+      ]
+    },
+    {
+      "rank": 238,
+      "speciesId": "darkrai",
+      "speciesName": "Darkrai",
+      "score": 60,
+      "rating": 522,
+      "moveset": [
+        "SNARL",
+        "DARK_PULSE",
+        "FOCUS_BLAST"
+      ]
+    },
+    {
+      "rank": 239,
+      "speciesId": "darkrai_shadow",
+      "speciesName": "Darkrai (Shadow)",
+      "score": 60,
+      "rating": 504,
+      "moveset": [
+        "SNARL",
+        "SHADOW_BALL",
+        "DARK_PULSE"
+      ]
+    },
+    {
+      "rank": 240,
+      "speciesId": "beartic",
+      "speciesName": "Beartic",
+      "score": 59.8,
+      "rating": 517,
+      "moveset": [
+        "POWDER_SNOW",
+        "ICE_PUNCH",
+        "LIQUIDATION"
+      ]
+    },
+    {
+      "rank": 241,
+      "speciesId": "emboar",
+      "speciesName": "Emboar",
+      "score": 59.8,
+      "rating": 529,
+      "moveset": [
+        "EMBER",
+        "BLAST_BURN",
+        "ROCK_SLIDE"
+      ]
+    },
+    {
+      "rank": 242,
+      "speciesId": "magmortar",
+      "speciesName": "Magmortar",
+      "score": 59.7,
+      "rating": 514,
+      "moveset": [
+        "KARATE_CHOP",
+        "FIRE_PUNCH",
+        "THUNDERBOLT"
+      ]
+    },
+    {
+      "rank": 243,
+      "speciesId": "overqwil",
+      "speciesName": "Overqwil",
+      "score": 59.7,
+      "rating": 532,
+      "moveset": [
+        "POISON_STING",
+        "AQUA_TAIL",
+        "SHADOW_BALL"
+      ]
+    },
+    {
+      "rank": 244,
+      "speciesId": "samurott_shadow",
+      "speciesName": "Samurott (Shadow)",
+      "score": 59.5,
+      "rating": 596,
+      "moveset": [
+        "FURY_CUTTER",
+        "HYDRO_CANNON",
+        "RAZOR_SHELL"
+      ]
+    },
+    {
+      "rank": 245,
+      "speciesId": "incineroar",
+      "speciesName": "Incineroar",
+      "score": 59.4,
+      "rating": 517,
+      "moveset": [
+        "SNARL",
+        "BLAST_BURN",
+        "DARKEST_LARIAT"
+      ]
+    },
+    {
+      "rank": 246,
+      "speciesId": "roserade",
+      "speciesName": "Roserade",
+      "score": 59.4,
+      "rating": 587,
+      "moveset": [
+        "POISON_STING",
+        "WEATHER_BALL_FIRE",
+        "LEAF_STORM"
+      ]
+    },
+    {
+      "rank": 247,
+      "speciesId": "regigigas",
+      "speciesName": "Regigigas",
+      "score": 59.3,
+      "rating": 447,
+      "moveset": [
+        "HIDDEN_POWER_ICE",
+        "CRUSH_GRIP",
+        "THUNDER"
+      ]
+    },
+    {
+      "rank": 248,
+      "speciesId": "samurott",
+      "speciesName": "Samurott",
+      "score": 59.3,
+      "rating": 568,
+      "moveset": [
+        "FURY_CUTTER",
+        "HYDRO_CANNON",
+        "RAZOR_SHELL"
+      ]
+    },
+    {
+      "rank": 249,
+      "speciesId": "ursaring",
+      "speciesName": "Ursaring",
+      "score": 59,
+      "rating": 530,
+      "moveset": [
+        "SHADOW_CLAW",
+        "CLOSE_COMBAT",
+        "SWIFT"
+      ]
+    },
+    {
+      "rank": 250,
+      "speciesId": "ampharos",
+      "speciesName": "Ampharos",
+      "score": 58.8,
+      "rating": 503,
+      "moveset": [
+        "VOLT_SWITCH",
+        "BRUTAL_SWING",
+        "THUNDER_PUNCH"
+      ]
+    },
+    {
+      "rank": 251,
+      "speciesId": "tauros_aqua",
+      "speciesName": "Tauros (Aqua)",
+      "score": 58.7,
+      "rating": 509,
+      "moveset": [
+        "DOUBLE_KICK",
+        "AQUA_JET",
+        "TRAILBLAZE"
+      ]
+    },
+    {
+      "rank": 252,
+      "speciesId": "drampa",
+      "speciesName": "Drampa",
+      "score": 58.4,
+      "rating": 551,
+      "moveset": [
+        "DRAGON_BREATH",
+        "SWIFT",
+        "FLY"
+      ]
+    },
+    {
+      "rank": 253,
+      "speciesId": "volcarona",
+      "speciesName": "Volcarona",
+      "score": 58.4,
+      "rating": 441,
+      "moveset": [
+        "FIRE_SPIN",
+        "OVERHEAT",
+        "BUG_BUZZ"
+      ]
+    },
+    {
+      "rank": 254,
+      "speciesId": "bewear",
+      "speciesName": "Bewear",
+      "score": 58.3,
+      "rating": 498,
+      "moveset": [
+        "SHADOW_CLAW",
+        "SUPER_POWER",
+        "PAYBACK"
+      ]
+    },
+    {
+      "rank": 255,
+      "speciesId": "regice",
+      "speciesName": "Regice",
+      "score": 58.3,
+      "rating": 453,
+      "moveset": [
+        "LOCK_ON",
+        "THUNDER",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 256,
+      "speciesId": "polteageist",
+      "speciesName": "Polteageist",
+      "score": 57.8,
+      "rating": 479,
+      "moveset": [
+        "HEX",
+        "SHADOW_BALL",
+        "DARK_PULSE"
+      ]
+    },
+    {
+      "rank": 257,
+      "speciesId": "golem_alolan",
+      "speciesName": "Golem (Alolan)",
+      "score": 57.7,
+      "rating": 476,
+      "moveset": [
+        "VOLT_SWITCH",
+        "WILD_CHARGE",
+        "STONE_EDGE"
+      ]
+    },
+    {
+      "rank": 258,
+      "speciesId": "bellibolt",
+      "speciesName": "Bellibolt",
+      "score": 57.6,
+      "rating": 490,
+      "moveset": [
+        "SUCKER_PUNCH",
+        "DISCHARGE",
+        "PARABOLIC_CHARGE"
+      ]
+    },
+    {
+      "rank": 259,
+      "speciesId": "espeon",
+      "speciesName": "Espeon",
+      "score": 57.6,
+      "rating": 553,
+      "moveset": [
+        "CONFUSION",
+        "PSYCHIC_FANGS",
+        "SHADOW_BALL"
+      ]
+    },
+    {
+      "rank": 260,
+      "speciesId": "barbaracle",
+      "speciesName": "Barbaracle",
+      "score": 57.5,
+      "rating": 520,
+      "moveset": [
+        "FURY_CUTTER",
+        "CROSS_CHOP",
+        "STONE_EDGE"
+      ]
+    },
+    {
+      "rank": 261,
+      "speciesId": "gourgeist_large",
+      "speciesName": "Gourgeist (Large)",
+      "score": 57.5,
+      "rating": 501,
+      "moveset": [
+        "INCINERATE",
+        "SHADOW_BALL",
+        "FOUL_PLAY"
+      ]
+    },
+    {
+      "rank": 262,
+      "speciesId": "venusaur_shadow",
+      "speciesName": "Venusaur (Shadow)",
+      "score": 57.5,
+      "rating": 513,
+      "moveset": [
+        "VINE_WHIP",
+        "FRENZY_PLANT",
+        "SLUDGE"
+      ]
+    },
+    {
+      "rank": 263,
+      "speciesId": "hoopa_unbound",
+      "speciesName": "Hoopa (Unbound)",
+      "score": 57.2,
+      "rating": 497,
+      "moveset": [
+        "CONFUSION",
+        "SHADOW_BALL",
+        "DARK_PULSE"
+      ]
+    },
+    {
+      "rank": 264,
+      "speciesId": "tangrowth_shadow",
+      "speciesName": "Tangrowth (Shadow)",
+      "score": 57.2,
+      "rating": 489,
+      "moveset": [
+        "VINE_WHIP",
+        "POWER_WHIP",
+        "ROCK_SLIDE"
+      ]
+    },
+    {
+      "rank": 265,
+      "speciesId": "ampharos_shadow",
+      "speciesName": "Ampharos (Shadow)",
+      "score": 57.1,
+      "rating": 520,
+      "moveset": [
+        "VOLT_SWITCH",
+        "BRUTAL_SWING",
+        "THUNDER_PUNCH"
+      ]
+    },
+    {
+      "rank": 266,
+      "speciesId": "celesteela",
+      "speciesName": "Celesteela",
+      "score": 57,
+      "rating": 499,
+      "moveset": [
+        "AIR_SLASH",
+        "BODY_SLAM",
+        "BULLDOZE"
+      ]
+    },
+    {
+      "rank": 267,
+      "speciesId": "golem_alolan_shadow",
+      "speciesName": "Golem (Alolan) (Shadow)",
+      "score": 56.9,
+      "rating": 434,
+      "moveset": [
+        "VOLT_SWITCH",
+        "WILD_CHARGE",
+        "STONE_EDGE"
+      ]
+    },
+    {
+      "rank": 268,
+      "speciesId": "tangrowth",
+      "speciesName": "Tangrowth",
+      "score": 56.9,
+      "rating": 507,
+      "moveset": [
+        "VINE_WHIP",
+        "POWER_WHIP",
+        "ROCK_SLIDE"
+      ]
+    },
+    {
+      "rank": 269,
+      "speciesId": "escavalier",
+      "speciesName": "Escavalier",
+      "score": 56.7,
+      "rating": 487,
+      "moveset": [
+        "BUG_BITE",
+        "DRILL_RUN",
+        "MEGAHORN"
+      ]
+    },
+    {
+      "rank": 270,
+      "speciesId": "registeel",
+      "speciesName": "Registeel",
+      "score": 56.6,
+      "rating": 449,
+      "moveset": [
+        "LOCK_ON",
+        "FOCUS_BLAST",
+        "FLASH_CANNON"
+      ]
+    },
+    {
+      "rank": 271,
+      "speciesId": "pinsir",
+      "speciesName": "Pinsir",
+      "score": 56.5,
+      "rating": 533,
+      "moveset": [
+        "FURY_CUTTER",
+        "CLOSE_COMBAT",
+        "X_SCISSOR"
+      ]
+    },
+    {
+      "rank": 272,
+      "speciesId": "stakataka",
+      "speciesName": "Stakataka",
+      "score": 56.4,
+      "rating": 500,
+      "moveset": [
+        "ROCK_THROW",
+        "STONE_EDGE",
+        "BULLDOZE"
+      ]
+    },
+    {
+      "rank": 273,
+      "speciesId": "venusaur",
+      "speciesName": "Venusaur",
+      "score": 56.4,
+      "rating": 511,
+      "moveset": [
+        "VINE_WHIP",
+        "FRENZY_PLANT",
+        "SLUDGE"
+      ]
+    },
+    {
+      "rank": 274,
+      "speciesId": "aerodactyl_shadow",
+      "speciesName": "Aerodactyl (Shadow)",
+      "score": 56.1,
+      "rating": 453,
+      "moveset": [
+        "DRAGON_BREATH",
+        "ROCK_SLIDE",
+        "EARTH_POWER"
+      ]
+    },
+    {
+      "rank": 275,
+      "speciesId": "escavalier_shadow",
+      "speciesName": "Escavalier (Shadow)",
+      "score": 56,
+      "rating": 464,
+      "moveset": [
+        "BUG_BITE",
+        "DRILL_RUN",
+        "MEGAHORN"
+      ]
+    },
+    {
+      "rank": 276,
+      "speciesId": "tauros_combat",
+      "speciesName": "Tauros (Combat)",
+      "score": 56,
+      "rating": 491,
+      "moveset": [
+        "DOUBLE_KICK",
+        "CLOSE_COMBAT",
+        "TRAILBLAZE"
+      ]
+    },
+    {
+      "rank": 277,
+      "speciesId": "tauros_blaze",
+      "speciesName": "Tauros (Blaze)",
+      "score": 55.9,
+      "rating": 488,
+      "moveset": [
+        "DOUBLE_KICK",
+        "FLAME_CHARGE",
+        "TRAILBLAZE"
+      ]
+    },
+    {
+      "rank": 278,
+      "speciesId": "tyrantrum_shadow",
+      "speciesName": "Tyrantrum (Shadow)",
+      "score": 55.8,
+      "rating": 481,
+      "moveset": [
+        "DRAGON_TAIL",
+        "METEOR_BEAM",
+        "ROCK_TOMB"
+      ]
+    },
+    {
+      "rank": 279,
+      "speciesId": "garganacl",
+      "speciesName": "Garganacl",
+      "score": 55.7,
+      "rating": 482,
+      "moveset": [
+        "MUD_SHOT",
+        "ROCK_TOMB",
+        "ROCK_BLAST"
+      ]
+    },
+    {
+      "rank": 280,
+      "speciesId": "tyrantrum",
+      "speciesName": "Tyrantrum",
+      "score": 55.4,
+      "rating": 508,
+      "moveset": [
+        "DRAGON_TAIL",
+        "METEOR_BEAM",
+        "ROCK_TOMB"
+      ]
+    },
+    {
+      "rank": 281,
+      "speciesId": "dudunsparce",
+      "speciesName": "Dudunsparce",
+      "score": 54.9,
+      "rating": 483,
+      "moveset": [
+        "ROLLOUT",
+        "BODY_SLAM",
+        "DRILL_RUN"
+      ]
+    },
+    {
+      "rank": 282,
+      "speciesId": "corviknight",
+      "speciesName": "Corviknight",
+      "score": 54.7,
+      "rating": 482,
+      "moveset": [
+        "SAND_ATTACK",
+        "AIR_CUTTER",
+        "IRON_HEAD"
+      ]
+    },
+    {
+      "rank": 283,
+      "speciesId": "poliwrath",
+      "speciesName": "Poliwrath",
+      "score": 54.7,
+      "rating": 484,
+      "moveset": [
+        "COUNTER",
+        "SCALD",
+        "ICY_WIND"
+      ]
+    },
+    {
+      "rank": 284,
+      "speciesId": "rillaboom",
+      "speciesName": "Rillaboom",
+      "score": 54.6,
+      "rating": 509,
+      "moveset": [
+        "RAZOR_LEAF",
+        "DRUM_BEATING",
+        "EARTH_POWER"
+      ]
+    },
+    {
+      "rank": 285,
+      "speciesId": "duraludon",
+      "speciesName": "Duraludon",
+      "score": 54.5,
+      "rating": 487,
+      "moveset": [
+        "DRAGON_TAIL",
+        "DRAGON_CLAW",
+        "FLASH_CANNON"
+      ]
+    },
+    {
+      "rank": 286,
+      "speciesId": "cryogonal",
+      "speciesName": "Cryogonal",
+      "score": 54.4,
+      "rating": 459,
+      "moveset": [
+        "ICE_SHARD",
+        "TRIPLE_AXEL",
+        "NIGHT_SLASH"
+      ]
+    },
+    {
+      "rank": 287,
+      "speciesId": "cinderace",
+      "speciesName": "Cinderace",
+      "score": 54.3,
+      "rating": 445,
+      "moveset": [
+        "FIRE_SPIN",
+        "FLAMETHROWER",
+        "FLAME_CHARGE"
+      ]
+    },
+    {
+      "rank": 288,
+      "speciesId": "poliwrath_shadow",
+      "speciesName": "Poliwrath (Shadow)",
+      "score": 54.3,
+      "rating": 468,
+      "moveset": [
+        "COUNTER",
+        "SCALD",
+        "ICY_WIND"
+      ]
+    },
+    {
+      "rank": 289,
+      "speciesId": "blastoise",
+      "speciesName": "Blastoise",
+      "score": 54.1,
+      "rating": 451,
+      "moveset": [
+        "ROLLOUT",
+        "HYDRO_CANNON",
+        "ICE_BEAM"
+      ]
+    },
+    {
+      "rank": 290,
+      "speciesId": "weavile_shadow",
+      "speciesName": "Weavile (Shadow)",
+      "score": 54.1,
+      "rating": 440,
+      "moveset": [
+        "SNARL",
+        "AVALANCHE",
+        "FOCUS_BLAST"
+      ]
+    },
+    {
+      "rank": 291,
+      "speciesId": "tentacruel",
+      "speciesName": "Tentacruel",
+      "score": 54,
+      "rating": 423,
+      "moveset": [
+        "ACID",
+        "SCALD",
+        "PAYBACK"
+      ]
+    },
+    {
+      "rank": 292,
+      "speciesId": "kangaskhan",
+      "speciesName": "Kangaskhan",
+      "score": 53.9,
+      "rating": 478,
+      "moveset": [
+        "MUD_SLAP",
+        "BRICK_BREAK",
+        "CRUNCH"
+      ]
+    },
+    {
+      "rank": 293,
+      "speciesId": "exeggutor_alolan",
+      "speciesName": "Exeggutor (Alolan)",
+      "score": 53.8,
+      "rating": 514,
+      "moveset": [
+        "DRAGON_TAIL",
+        "SEED_BOMB",
+        "DRACO_METEOR"
+      ]
+    },
+    {
+      "rank": 294,
+      "speciesId": "regice_shadow",
+      "speciesName": "Regice (Shadow)",
+      "score": 53.8,
+      "rating": 441,
+      "moveset": [
+        "LOCK_ON",
+        "THUNDER",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 295,
+      "speciesId": "weavile",
+      "speciesName": "Weavile",
+      "score": 53.8,
+      "rating": 452,
+      "moveset": [
+        "SNARL",
+        "AVALANCHE",
+        "FOCUS_BLAST"
+      ]
+    },
+    {
+      "rank": 296,
+      "speciesId": "aerodactyl",
+      "speciesName": "Aerodactyl",
+      "score": 53.7,
+      "rating": 455,
+      "moveset": [
+        "DRAGON_BREATH",
+        "ROCK_SLIDE",
+        "EARTH_POWER"
+      ]
+    },
+    {
+      "rank": 297,
+      "speciesId": "darmanitan_galarian_standard",
+      "speciesName": "Darmanitan (Galarian)",
+      "score": 53.5,
+      "rating": 426,
+      "moveset": [
+        "ICE_FANG",
+        "AVALANCHE",
+        "SUPER_POWER"
+      ]
+    },
+    {
+      "rank": 298,
+      "speciesId": "pyroar",
+      "speciesName": "Pyroar",
+      "score": 53.5,
+      "rating": 470,
+      "moveset": [
+        "INCINERATE",
+        "FLAME_CHARGE",
+        "DARK_PULSE"
+      ]
+    },
+    {
+      "rank": 299,
+      "speciesId": "quaquaval",
+      "speciesName": "Quaquaval",
+      "score": 53.2,
+      "rating": 504,
+      "moveset": [
+        "WING_ATTACK",
+        "CLOSE_COMBAT",
+        "HYDRO_CANNON"
+      ]
+    },
+    {
+      "rank": 300,
+      "speciesId": "revavroom",
+      "speciesName": "Revavroom",
+      "score": 52.8,
+      "rating": 457,
+      "moveset": [
+        "METAL_SOUND",
+        "GYRO_BALL",
+        "OVERHEAT"
+      ]
+    },
+    {
+      "rank": 301,
+      "speciesId": "mesprit",
+      "speciesName": "Mesprit",
+      "score": 52.6,
+      "rating": 505,
+      "moveset": [
+        "CONFUSION",
+        "SWIFT",
+        "FUTURE_SIGHT"
+      ]
+    },
+    {
+      "rank": 302,
+      "speciesId": "slowking_galarian",
+      "speciesName": "Slowking (Galarian)",
+      "score": 52.6,
+      "rating": 469,
+      "moveset": [
+        "HEX",
+        "PSYSHOCK",
+        "SHADOW_BALL"
+      ]
+    },
+    {
+      "rank": 303,
+      "speciesId": "tentacruel_shadow",
+      "speciesName": "Tentacruel (Shadow)",
+      "score": 52.6,
+      "rating": 401,
+      "moveset": [
+        "POISON_STING",
+        "SCALD",
+        "PAYBACK"
+      ]
+    },
+    {
+      "rank": 304,
+      "speciesId": "flareon",
+      "speciesName": "Flareon",
+      "score": 52.5,
+      "rating": 434,
+      "moveset": [
+        "EMBER",
+        "SUPER_POWER",
+        "FLAMETHROWER"
+      ]
+    },
+    {
+      "rank": 305,
+      "speciesId": "exeggutor_alolan_shadow",
+      "speciesName": "Exeggutor (Alolan) (Shadow)",
+      "score": 52.4,
+      "rating": 489,
+      "moveset": [
+        "DRAGON_TAIL",
+        "SEED_BOMB",
+        "DRACO_METEOR"
+      ]
+    },
+    {
+      "rank": 306,
+      "speciesId": "steelix",
+      "speciesName": "Steelix",
+      "score": 52.4,
+      "rating": 466,
+      "moveset": [
+        "DRAGON_TAIL",
+        "PSYCHIC_FANGS",
+        "CRUNCH"
+      ]
+    },
+    {
+      "rank": 307,
+      "speciesId": "steelix_shadow",
+      "speciesName": "Steelix (Shadow)",
+      "score": 52.2,
+      "rating": 462,
+      "moveset": [
+        "DRAGON_TAIL",
+        "PSYCHIC_FANGS",
+        "CRUNCH"
+      ]
+    },
+    {
+      "rank": 308,
+      "speciesId": "gliscor_shadow",
+      "speciesName": "Gliscor (Shadow)",
+      "score": 52.1,
+      "rating": 484,
+      "moveset": [
+        "SAND_ATTACK",
+        "NIGHT_SLASH",
+        "AERIAL_ACE"
+      ]
+    },
+    {
+      "rank": 309,
+      "speciesId": "tsareena",
+      "speciesName": "Tsareena",
+      "score": 52.1,
+      "rating": 463,
+      "moveset": [
+        "MAGICAL_LEAF",
+        "TRIPLE_AXEL",
+        "HIGH_JUMP_KICK"
+      ]
+    },
+    {
+      "rank": 310,
+      "speciesId": "blastoise_shadow",
+      "speciesName": "Blastoise (Shadow)",
+      "score": 52,
+      "rating": 454,
+      "moveset": [
+        "ROLLOUT",
+        "HYDRO_CANNON",
+        "ICE_BEAM"
+      ]
+    },
+    {
+      "rank": 311,
+      "speciesId": "coalossal",
+      "speciesName": "Coalossal",
+      "score": 52,
+      "rating": 448,
+      "moveset": [
+        "FIRE_SPIN",
+        "ROCK_SLIDE",
+        "FLAME_CHARGE"
+      ]
+    },
+    {
+      "rank": 312,
+      "speciesId": "mr_rime",
+      "speciesName": "Mr. Rime",
+      "score": 52,
+      "rating": 443,
+      "moveset": [
+        "CONFUSION",
+        "ICE_PUNCH",
+        "TRIPLE_AXEL"
+      ]
+    },
+    {
+      "rank": 313,
+      "speciesId": "leafeon",
+      "speciesName": "Leafeon",
+      "score": 51.9,
+      "rating": 450,
+      "moveset": [
+        "QUICK_ATTACK",
+        "LEAF_BLADE",
+        "LAST_RESORT"
+      ]
+    },
+    {
+      "rank": 314,
+      "speciesId": "shaymin_sky",
+      "speciesName": "Shaymin (Sky)",
+      "score": 51.9,
+      "rating": 448,
+      "moveset": [
+        "MAGICAL_LEAF",
+        "GRASS_KNOT",
+        "ENERGY_BALL"
+      ]
+    },
+    {
+      "rank": 315,
+      "speciesId": "registeel_shadow",
+      "speciesName": "Registeel (Shadow)",
+      "score": 51.8,
+      "rating": 422,
+      "moveset": [
+        "LOCK_ON",
+        "FOCUS_BLAST",
+        "FLASH_CANNON"
+      ]
+    },
+    {
+      "rank": 316,
+      "speciesId": "alakazam_shadow",
+      "speciesName": "Alakazam (Shadow)",
+      "score": 51.5,
+      "rating": 438,
+      "moveset": [
+        "CONFUSION",
+        "FIRE_PUNCH",
+        "SHADOW_BALL"
+      ]
+    },
+    {
+      "rank": 317,
+      "speciesId": "exeggutor_shadow",
+      "speciesName": "Exeggutor (Shadow)",
+      "score": 51.5,
+      "rating": 465,
+      "moveset": [
+        "CONFUSION",
+        "SEED_BOMB",
+        "PSYCHIC"
+      ]
+    },
+    {
+      "rank": 318,
+      "speciesId": "glaceon",
+      "speciesName": "Glaceon",
+      "score": 51.4,
+      "rating": 404,
+      "moveset": [
+        "ICE_SHARD",
+        "AVALANCHE",
+        "WATER_PULSE"
+      ]
+    },
+    {
+      "rank": 319,
+      "speciesId": "obstagoon_shadow",
+      "speciesName": "Obstagoon (Shadow)",
+      "score": 51.3,
+      "rating": 453,
+      "moveset": [
+        "COUNTER",
+        "NIGHT_SLASH",
+        "CROSS_CHOP"
+      ]
+    },
+    {
+      "rank": 320,
+      "speciesId": "regigigas_shadow",
+      "speciesName": "Regigigas (Shadow)",
+      "score": 51.2,
+      "rating": 420,
+      "moveset": [
+        "HIDDEN_POWER_ICE",
+        "CRUSH_GRIP",
+        "THUNDER"
+      ]
+    },
+    {
+      "rank": 321,
+      "speciesId": "stonjourner",
+      "speciesName": "Stonjourner",
+      "score": 51.2,
+      "rating": 464,
+      "moveset": [
+        "ROCK_THROW",
+        "ROCK_SLIDE",
+        "STOMP"
+      ]
+    },
+    {
+      "rank": 322,
+      "speciesId": "kleavor",
+      "speciesName": "Kleavor",
+      "score": 50.9,
+      "rating": 459,
+      "moveset": [
+        "QUICK_ATTACK",
+        "X_SCISSOR",
+        "STONE_EDGE"
+      ]
+    },
+    {
+      "rank": 323,
+      "speciesId": "armaldo_shadow",
+      "speciesName": "Armaldo (Shadow)",
+      "score": 50.7,
+      "rating": 500,
+      "moveset": [
+        "FURY_CUTTER",
+        "ROCK_BLAST",
+        "CROSS_POISON"
+      ]
+    },
+    {
+      "rank": 324,
+      "speciesId": "diancie",
+      "speciesName": "Diancie",
+      "score": 50.7,
+      "rating": 413,
+      "moveset": [
+        "ROCK_THROW",
+        "ROCK_SLIDE",
+        "MOONBLAST"
+      ]
+    },
+    {
+      "rank": 325,
+      "speciesId": "arboliva",
+      "speciesName": "Arboliva",
+      "score": 50.5,
+      "rating": 440,
+      "moveset": [
+        "MAGICAL_LEAF",
+        "TRAILBLAZE",
+        "EARTH_POWER"
+      ]
+    },
+    {
+      "rank": 326,
+      "speciesId": "muk",
+      "speciesName": "Muk",
+      "score": 50.5,
+      "rating": 462,
+      "moveset": [
+        "ACID",
+        "THUNDER_PUNCH",
+        "DARK_PULSE"
+      ]
+    },
+    {
+      "rank": 327,
+      "speciesId": "toedscruel",
+      "speciesName": "Toedscruel",
+      "score": 50.5,
+      "rating": 448,
+      "moveset": [
+        "MUD_SLAP",
+        "EARTH_POWER",
+        "SEED_BOMB"
+      ]
+    },
+    {
+      "rank": 328,
+      "speciesId": "muk_shadow",
+      "speciesName": "Muk (Shadow)",
+      "score": 50.1,
+      "rating": 456,
+      "moveset": [
+        "POISON_JAB",
+        "THUNDER_PUNCH",
+        "DARK_PULSE"
+      ]
+    },
+    {
+      "rank": 329,
+      "speciesId": "slowbro",
+      "speciesName": "Slowbro",
+      "score": 50.1,
+      "rating": 419,
+      "moveset": [
+        "CONFUSION",
+        "SURF",
+        "ICE_BEAM"
+      ]
+    },
+    {
+      "rank": 330,
+      "speciesId": "stoutland",
+      "speciesName": "Stoutland",
+      "score": 49.4,
+      "rating": 426,
+      "moveset": [
+        "SAND_ATTACK",
+        "WILD_CHARGE",
+        "CRUNCH"
+      ]
+    },
+    {
+      "rank": 331,
+      "speciesId": "oranguru",
+      "speciesName": "Oranguru",
+      "score": 49.3,
+      "rating": 459,
+      "moveset": [
+        "CONFUSION",
+        "BRUTAL_SWING",
+        "TRAILBLAZE"
+      ]
+    },
+    {
+      "rank": 332,
+      "speciesId": "rampardos_shadow",
+      "speciesName": "Rampardos (Shadow)",
+      "score": 49.3,
+      "rating": 454,
+      "moveset": [
+        "SMACK_DOWN",
+        "ROCK_SLIDE",
+        "FLAMETHROWER"
+      ]
+    },
+    {
+      "rank": 333,
+      "speciesId": "relicanth",
+      "speciesName": "Relicanth",
+      "score": 49.2,
+      "rating": 443,
+      "moveset": [
+        "WATER_GUN",
+        "AQUA_TAIL",
+        "ANCIENT_POWER"
+      ]
+    },
+    {
+      "rank": 334,
+      "speciesId": "reuniclus_shadow",
+      "speciesName": "Reuniclus (Shadow)",
+      "score": 49,
+      "rating": 407,
+      "moveset": [
+        "CHARM",
+        "PSYSHOCK",
+        "SHADOW_BALL"
+      ]
+    },
+    {
+      "rank": 335,
+      "speciesId": "exeggutor",
+      "speciesName": "Exeggutor",
+      "score": 48.9,
+      "rating": 463,
+      "moveset": [
+        "CONFUSION",
+        "SEED_BOMB",
+        "PSYCHIC"
+      ]
+    },
+    {
+      "rank": 336,
+      "speciesId": "jolteon",
+      "speciesName": "Jolteon",
+      "score": 48.8,
+      "rating": 464,
+      "moveset": [
+        "VOLT_SWITCH",
+        "DISCHARGE",
+        "LAST_RESORT"
+      ]
+    },
+    {
+      "rank": 337,
+      "speciesId": "muk_alolan",
+      "speciesName": "Muk (Alolan)",
+      "score": 48.8,
+      "rating": 435,
+      "moveset": [
+        "POISON_JAB",
+        "DARK_PULSE",
+        "SLUDGE_WAVE"
+      ]
+    },
+    {
+      "rank": 338,
+      "speciesId": "lickilicky",
+      "speciesName": "Lickilicky",
+      "score": 48.7,
+      "rating": 422,
+      "moveset": [
+        "ROLLOUT",
+        "BODY_SLAM",
+        "SHADOW_BALL"
+      ]
+    },
+    {
+      "rank": 339,
+      "speciesId": "alakazam",
+      "speciesName": "Alakazam",
+      "score": 48.5,
+      "rating": 434,
+      "moveset": [
+        "CONFUSION",
+        "FIRE_PUNCH",
+        "SHADOW_BALL"
+      ]
+    },
+    {
+      "rank": 340,
+      "speciesId": "golem",
+      "speciesName": "Golem",
+      "score": 48.5,
+      "rating": 431,
+      "moveset": [
+        "MUD_SLAP",
+        "EARTHQUAKE",
+        "STONE_EDGE"
+      ]
+    },
+    {
+      "rank": 341,
+      "speciesId": "porygon_z",
+      "speciesName": "Porygon-Z",
+      "score": 48.5,
+      "rating": 413,
+      "moveset": [
+        "LOCK_ON",
+        "TRI_ATTACK",
+        "BLIZZARD"
+      ]
+    },
+    {
+      "rank": 342,
+      "speciesId": "slowking",
+      "speciesName": "Slowking",
+      "score": 48.5,
+      "rating": 429,
+      "moveset": [
+        "CONFUSION",
+        "SURF",
+        "SCALD"
+      ]
+    },
+    {
+      "rank": 343,
+      "speciesId": "glimmora",
+      "speciesName": "Glimmora",
+      "score": 48.3,
+      "rating": 435,
+      "moveset": [
+        "SMACK_DOWN",
+        "METEOR_BEAM",
+        "POWER_GEM"
+      ]
+    },
+    {
+      "rank": 344,
+      "speciesId": "luxray_shadow",
+      "speciesName": "Luxray (Shadow)",
+      "score": 48.3,
+      "rating": 507,
+      "moveset": [
+        "SNARL",
+        "WILD_CHARGE",
+        "PSYCHIC_FANGS"
+      ]
+    },
+    {
+      "rank": 345,
+      "speciesId": "vanilluxe",
+      "speciesName": "Vanilluxe",
+      "score": 48.2,
+      "rating": 374,
+      "moveset": [
+        "ASTONISH",
+        "AVALANCHE",
+        "SIGNAL_BEAM"
+      ]
+    },
+    {
+      "rank": 346,
+      "speciesId": "obstagoon",
+      "speciesName": "Obstagoon",
+      "score": 48.1,
+      "rating": 459,
+      "moveset": [
+        "COUNTER",
+        "NIGHT_SLASH",
+        "OBSTRUCT"
+      ]
+    },
+    {
+      "rank": 347,
+      "speciesId": "crabominable",
+      "speciesName": "Crabominable",
+      "score": 48,
+      "rating": 400,
+      "moveset": [
+        "BUBBLE",
+        "ICE_PUNCH",
+        "BRICK_BREAK"
+      ]
+    },
+    {
+      "rank": 348,
+      "speciesId": "arcanine_hisuian",
+      "speciesName": "Arcanine (Hisuian)",
+      "score": 47.9,
+      "rating": 435,
+      "moveset": [
+        "SNARL",
+        "WILD_CHARGE",
+        "ROCK_SLIDE"
+      ]
+    },
+    {
+      "rank": 349,
+      "speciesId": "azelf",
+      "speciesName": "Azelf",
+      "score": 47.9,
+      "rating": 472,
+      "moveset": [
+        "CONFUSION",
+        "SWIFT",
+        "FUTURE_SIGHT"
+      ]
+    },
+    {
+      "rank": 350,
+      "speciesId": "armaldo",
+      "speciesName": "Armaldo",
+      "score": 47.8,
+      "rating": 459,
+      "moveset": [
+        "FURY_CUTTER",
+        "ROCK_BLAST",
+        "CROSS_POISON"
+      ]
+    },
+    {
+      "rank": 351,
+      "speciesId": "reuniclus",
+      "speciesName": "Reuniclus",
+      "score": 47.8,
+      "rating": 411,
+      "moveset": [
+        "CHARM",
+        "PSYSHOCK",
+        "SHADOW_BALL"
+      ]
+    },
+    {
+      "rank": 352,
+      "speciesId": "druddigon",
+      "speciesName": "Druddigon",
+      "score": 47.7,
+      "rating": 466,
+      "moveset": [
+        "DRAGON_TAIL",
+        "NIGHT_SLASH",
+        "ROCK_TOMB"
+      ]
+    },
+    {
+      "rank": 353,
+      "speciesId": "seismitoad",
+      "speciesName": "Seismitoad",
+      "score": 47.6,
+      "rating": 427,
+      "moveset": [
+        "MUD_SHOT",
+        "EARTH_POWER",
+        "MUDDY_WATER"
+      ]
+    },
+    {
+      "rank": 354,
+      "speciesId": "wyrdeer",
+      "speciesName": "Wyrdeer",
+      "score": 47.3,
+      "rating": 446,
+      "moveset": [
+        "CONFUSION",
+        "WILD_CHARGE",
+        "STOMP"
+      ]
+    },
+    {
+      "rank": 355,
+      "speciesId": "uxie",
+      "speciesName": "Uxie",
+      "score": 47,
+      "rating": 445,
+      "moveset": [
+        "CONFUSION",
+        "SWIFT",
+        "FUTURE_SIGHT"
+      ]
+    },
+    {
+      "rank": 356,
+      "speciesId": "archeops_shadow",
+      "speciesName": "Archeops (Shadow)",
+      "score": 46.9,
+      "rating": 369,
+      "moveset": [
+        "WING_ATTACK",
+        "ANCIENT_POWER",
+        "CRUNCH"
+      ]
+    },
+    {
+      "rank": 357,
+      "speciesId": "porygon_z_shadow",
+      "speciesName": "Porygon-Z (Shadow)",
+      "score": 46.9,
+      "rating": 376,
+      "moveset": [
+        "LOCK_ON",
+        "TRI_ATTACK",
+        "BLIZZARD"
+      ]
+    },
+    {
+      "rank": 358,
+      "speciesId": "bisharp",
+      "speciesName": "Bisharp",
+      "score": 46.7,
+      "rating": 426,
+      "moveset": [
+        "SNARL",
+        "DARK_PULSE",
+        "X_SCISSOR"
+      ]
+    },
+    {
+      "rank": 359,
+      "speciesId": "muk_alolan_shadow",
+      "speciesName": "Muk (Alolan) (Shadow)",
+      "score": 46.6,
+      "rating": 404,
+      "moveset": [
+        "POISON_JAB",
+        "DARK_PULSE",
+        "SLUDGE_WAVE"
+      ]
+    },
+    {
+      "rank": 360,
+      "speciesId": "arcanine_shadow",
+      "speciesName": "Arcanine (Shadow)",
+      "score": 46.5,
+      "rating": 467,
+      "moveset": [
+        "SNARL",
+        "WILD_CHARGE",
+        "PSYCHIC_FANGS"
+      ]
+    },
+    {
+      "rank": 361,
+      "speciesId": "golem_shadow",
+      "speciesName": "Golem (Shadow)",
+      "score": 46.4,
+      "rating": 433,
+      "moveset": [
+        "MUD_SLAP",
+        "EARTHQUAKE",
+        "STONE_EDGE"
+      ]
+    },
+    {
+      "rank": 362,
+      "speciesId": "omastar_shadow",
+      "speciesName": "Omastar (Shadow)",
+      "score": 46.4,
+      "rating": 412,
+      "moveset": [
+        "MUD_SHOT",
+        "ROCK_SLIDE",
+        "ROCK_BLAST"
+      ]
+    },
+    {
+      "rank": 363,
+      "speciesId": "slowbro_shadow",
+      "speciesName": "Slowbro (Shadow)",
+      "score": 46.2,
+      "rating": 405,
+      "moveset": [
+        "CONFUSION",
+        "SURF",
+        "ICE_BEAM"
+      ]
+    },
+    {
+      "rank": 364,
+      "speciesId": "slowking_shadow",
+      "speciesName": "Slowking (Shadow)",
+      "score": 45.7,
+      "rating": 408,
+      "moveset": [
+        "CONFUSION",
+        "SURF",
+        "PSYCHIC"
+      ]
+    },
+    {
+      "rank": 365,
+      "speciesId": "carracosta_shadow",
+      "speciesName": "Carracosta (Shadow)",
+      "score": 45.6,
+      "rating": 408,
+      "moveset": [
+        "ROCK_THROW",
+        "LIQUIDATION",
+        "BODY_SLAM"
+      ]
+    },
+    {
+      "rank": 366,
+      "speciesId": "gliscor",
+      "speciesName": "Gliscor",
+      "score": 45.3,
+      "rating": 457,
+      "moveset": [
+        "WING_ATTACK",
+        "NIGHT_SLASH",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 367,
+      "speciesId": "luxray",
+      "speciesName": "Luxray",
+      "score": 45,
+      "rating": 485,
+      "moveset": [
+        "SNARL",
+        "WILD_CHARGE",
+        "PSYCHIC_FANGS"
+      ]
+    },
+    {
+      "rank": 368,
+      "speciesId": "oinkologne_female",
+      "speciesName": "Oinkologne (Female)",
+      "score": 45,
+      "rating": 396,
+      "moveset": [
+        "TACKLE",
+        "BODY_SLAM",
+        "TRAILBLAZE"
+      ]
+    },
+    {
+      "rank": 369,
+      "speciesId": "oinkologne",
+      "speciesName": "Oinkologne",
+      "score": 44.8,
+      "rating": 394,
+      "moveset": [
+        "TACKLE",
+        "BODY_SLAM",
+        "TRAILBLAZE"
+      ]
+    },
+    {
+      "rank": 370,
+      "speciesId": "archeops",
+      "speciesName": "Archeops",
+      "score": 44.1,
+      "rating": 366,
+      "moveset": [
+        "WING_ATTACK",
+        "ANCIENT_POWER",
+        "CRUNCH"
+      ]
+    },
+    {
+      "rank": 371,
+      "speciesId": "yanmega",
+      "speciesName": "Yanmega",
+      "score": 43.4,
+      "rating": 419,
+      "moveset": [
+        "BUG_BITE",
+        "AERIAL_ACE",
+        "ANCIENT_POWER"
+      ]
+    },
+    {
+      "rank": 372,
+      "speciesId": "bouffalant",
+      "speciesName": "Bouffalant",
+      "score": 43.2,
+      "rating": 384,
+      "moveset": [
+        "MUD_SHOT",
+        "STOMP",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 373,
+      "speciesId": "omastar",
+      "speciesName": "Omastar",
+      "score": 43.2,
+      "rating": 393,
+      "moveset": [
+        "MUD_SHOT",
+        "ROCK_SLIDE",
+        "ROCK_BLAST"
+      ]
+    },
+    {
+      "rank": 374,
+      "speciesId": "rampardos",
+      "speciesName": "Rampardos",
+      "score": 43.2,
+      "rating": 414,
+      "moveset": [
+        "SMACK_DOWN",
+        "ROCK_SLIDE",
+        "FLAMETHROWER"
+      ]
+    },
+    {
+      "rank": 375,
+      "speciesId": "carracosta",
+      "speciesName": "Carracosta",
+      "score": 42.5,
+      "rating": 389,
+      "moveset": [
+        "WATER_GUN",
+        "LIQUIDATION",
+        "BODY_SLAM"
+      ]
+    },
+    {
+      "rank": 376,
+      "speciesId": "klinklang",
+      "speciesName": "Klinklang",
+      "score": 42.4,
+      "rating": 396,
+      "moveset": [
+        "METAL_SOUND",
+        "MIRROR_SHOT",
+        "ZAP_CANNON"
+      ]
+    },
+    {
+      "rank": 377,
+      "speciesId": "naganadel",
+      "speciesName": "Naganadel",
+      "score": 42.1,
+      "rating": 394,
+      "moveset": [
+        "POISON_JAB",
+        "DRAGON_CLAW",
+        "SLUDGE_BOMB"
+      ]
+    },
+    {
+      "rank": 378,
+      "speciesId": "miltank",
+      "speciesName": "Miltank",
+      "score": 41.9,
+      "rating": 379,
+      "moveset": [
+        "ROLLOUT",
+        "BODY_SLAM",
+        "ICE_BEAM"
+      ]
+    },
+    {
+      "rank": 379,
+      "speciesId": "porygon2",
+      "speciesName": "Porygon2",
+      "score": 41.1,
+      "rating": 376,
+      "moveset": [
+        "LOCK_ON",
+        "TRI_ATTACK",
+        "RETURN"
+      ]
+    },
+    {
+      "rank": 380,
+      "speciesId": "porygon2_shadow",
+      "speciesName": "Porygon2 (Shadow)",
+      "score": 40.3,
+      "rating": 369,
+      "moveset": [
+        "LOCK_ON",
+        "TRI_ATTACK",
+        "ZAP_CANNON"
+      ]
+    },
+    {
+      "rank": 381,
+      "speciesId": "braviary",
+      "speciesName": "Braviary",
+      "score": 39.5,
+      "rating": 326,
+      "moveset": [
+        "AIR_SLASH",
+        "CLOSE_COMBAT",
+        "BRAVE_BIRD"
+      ]
+    },
+    {
+      "rank": 382,
+      "speciesId": "blissey",
+      "speciesName": "Blissey",
+      "score": 39.3,
+      "rating": 326,
+      "moveset": [
+        "ZEN_HEADBUTT",
+        "WILD_CHARGE",
+        "DAZZLING_GLEAM"
+      ]
+    },
+    {
+      "rank": 383,
+      "speciesId": "crobat_shadow",
+      "speciesName": "Crobat (Shadow)",
+      "score": 38.7,
+      "rating": 377,
+      "moveset": [
+        "AIR_SLASH",
+        "AIR_CUTTER",
+        "SHADOW_BALL"
+      ]
+    },
+    {
+      "rank": 384,
+      "speciesId": "umbreon",
+      "speciesName": "Umbreon",
+      "score": 38.1,
+      "rating": 359,
+      "moveset": [
+        "SNARL",
+        "FOUL_PLAY",
+        "LAST_RESORT"
+      ]
+    },
+    {
+      "rank": 385,
+      "speciesId": "deoxys_defense",
+      "speciesName": "Deoxys (Defense)",
+      "score": 37.8,
+      "rating": 357,
+      "moveset": [
+        "COUNTER",
+        "PSYCHO_BOOST",
+        "ROCK_SLIDE"
+      ]
+    },
+    {
+      "rank": 386,
+      "speciesId": "crobat",
+      "speciesName": "Crobat",
+      "score": 37.4,
+      "rating": 370,
+      "moveset": [
+        "AIR_SLASH",
+        "AIR_CUTTER",
+        "SHADOW_BALL"
+      ]
+    },
+    {
+      "rank": 387,
+      "speciesId": "tornadus_incarnate",
+      "speciesName": "Tornadus (Incarnate)",
+      "score": 36.8,
+      "rating": 336,
+      "moveset": [
+        "AIR_SLASH",
+        "DARK_PULSE",
+        "GRASS_KNOT"
+      ]
+    },
+    {
+      "rank": 388,
+      "speciesId": "musharna",
+      "speciesName": "Musharna",
+      "score": 36.7,
+      "rating": 336,
+      "moveset": [
+        "CHARGE_BEAM",
+        "PSYSHOCK",
+        "DAZZLING_GLEAM"
+      ]
+    },
+    {
+      "rank": 389,
+      "speciesId": "throh_shadow",
+      "speciesName": "Throh (Shadow)",
+      "score": 36.1,
+      "rating": 307,
+      "moveset": [
+        "LOW_KICK",
+        "BRICK_BREAK",
+        "BODY_SLAM"
+      ]
+    },
+    {
+      "rank": 390,
+      "speciesId": "braviary_hisuian",
+      "speciesName": "Braviary (Hisuian)",
+      "score": 35.4,
+      "rating": 349,
+      "moveset": [
+        "AIR_SLASH",
+        "BRAVE_BIRD",
+        "FLY"
+      ]
+    },
+    {
+      "rank": 391,
+      "speciesId": "throh",
+      "speciesName": "Throh",
+      "score": 34.9,
+      "rating": 316,
+      "moveset": [
+        "LOW_KICK",
+        "BRICK_BREAK",
+        "BODY_SLAM"
+      ]
+    },
+    {
+      "rank": 392,
+      "speciesId": "tornadus_incarnate_shadow",
+      "speciesName": "Tornadus (Incarnate) (Shadow)",
+      "score": 34.6,
+      "rating": 354,
+      "moveset": [
+        "AIR_SLASH",
+        "DARK_PULSE",
+        "GRASS_KNOT"
+      ]
+    },
+    {
+      "rank": 393,
+      "speciesId": "slaking",
+      "speciesName": "Slaking",
+      "score": 30.9,
+      "rating": 289,
+      "moveset": [
+        "YAWN",
+        "BODY_SLAM",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 394,
+      "speciesId": "slaking_shadow",
+      "speciesName": "Slaking (Shadow)",
+      "score": 27.4,
+      "rating": 257,
+      "moveset": [
+        "YAWN",
+        "BODY_SLAM",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "rank": 395,
+      "speciesId": "deoxys_speed",
+      "speciesName": "Deoxys (Speed)",
+      "score": 26.6,
+      "rating": 277,
+      "moveset": [
+        "CHARGE_BEAM",
+        "PSYCHO_BOOST",
+        "SWIFT"
+      ]
+    },
+    {
+      "rank": 396,
+      "speciesId": "shaymin_land",
+      "speciesName": "Shaymin (Land)",
+      "score": 23.9,
+      "rating": 234,
+      "moveset": [
+        "ZEN_HEADBUTT",
+        "GRASS_KNOT",
+        "SEED_FLARE"
+      ]
+    },
+    {
+      "rank": 397,
+      "speciesId": "noivern",
+      "speciesName": "Noivern",
+      "score": 23,
+      "rating": 278,
+      "moveset": [
+        "AIR_SLASH",
+        "HURRICANE",
+        "DRACO_METEOR"
+      ]
+    }
+  ]
+}

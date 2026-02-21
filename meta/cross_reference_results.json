@@ -1,0 +1,2005 @@
+{
+  "generated": "2026-02-21",
+  "sources": {
+    "pokebase": {
+      "entries": 1658,
+      "file": "/Users/lioartoil/workspace/lioartoil/pokemon/meta/pokebase/comprehensive_dps.json"
+    },
+    "pokemongohub": {
+      "types": 18,
+      "file": "/Users/lioartoil/workspace/lioartoil/pokemon/meta/pokemongohub"
+    },
+    "pvpoke": {
+      "entries": 397,
+      "file": "/Users/lioartoil/workspace/lioartoil/pokemon/meta/pvpoke_ml_rankings.json"
+    },
+    "gamepress": {
+      "entries": 138,
+      "file": "/Users/lioartoil/workspace/lioartoil/pokemon/meta/raid_attackers_by_type.json"
+    }
+  },
+  "summary": {
+    "total_species": 90,
+    "current_copies": 358,
+    "recommended_copies": 326,
+    "net_change": -32,
+    "count_increases": 13,
+    "count_decreases": 38,
+    "er_updates": 87,
+    "pvp_modifiers": 29
+  },
+  "results": [
+    {
+      "pokemon": "Rayquaza (Mega)",
+      "current_count": 6,
+      "recommended_count": 6,
+      "current_er": 81.15,
+      "new_er": 73.98,
+      "er_source": "pokebase",
+      "tdo": 1128.0,
+      "hub_rank": {
+        "type": "Flying",
+        "rank": 1,
+        "dps": 39.55,
+        "score": 36.08
+      },
+      "pvpoke_rank": 180,
+      "pvpoke_score": 65.3,
+      "type_coverage": [
+        "Dragon",
+        "Flying"
+      ],
+      "tier_calc": "S(6)+dual+legend\u2192cap6",
+      "current_types": "Dragon, Flying",
+      "change": 0
+    },
+    {
+      "pokemon": "Groudon (Primal)",
+      "current_count": 6,
+      "recommended_count": 6,
+      "current_er": 64.29,
+      "new_er": 57.56,
+      "er_source": "pokebase",
+      "tdo": 1013.0,
+      "hub_rank": {
+        "type": "Ground",
+        "rank": 1,
+        "dps": 30.5,
+        "score": 28.27
+      },
+      "pvpoke_rank": 20,
+      "pvpoke_score": 88.6,
+      "type_coverage": [
+        "Ground"
+      ],
+      "tier_calc": "A(5)+legend+pvp#20\u2192cap6",
+      "current_types": "Ground",
+      "change": 0
+    },
+    {
+      "pokemon": "Kyogre (Primal)",
+      "current_count": 6,
+      "recommended_count": 6,
+      "current_er": 64.38,
+      "new_er": 57.74,
+      "er_source": "pokebase",
+      "tdo": 1016.0,
+      "hub_rank": {
+        "type": "Water",
+        "rank": 1,
+        "dps": 30.78,
+        "score": 28.51
+      },
+      "pvpoke_rank": 23,
+      "pvpoke_score": 87.3,
+      "type_coverage": [
+        "Ice",
+        "Water"
+      ],
+      "tier_calc": "A(5)+dual+legend+pvp#23\u2192cap6",
+      "current_types": "Water",
+      "change": 0
+    },
+    {
+      "pokemon": "Shadow Mewtwo",
+      "current_count": 6,
+      "recommended_count": 6,
+      "current_er": 63.29,
+      "new_er": 58.23,
+      "er_source": "pokebase",
+      "tdo": 672.0,
+      "hub_rank": {
+        "type": "Psychic",
+        "rank": 1,
+        "dps": 34.44,
+        "score": 30.2
+      },
+      "pvpoke_rank": 94,
+      "pvpoke_score": 74.8,
+      "type_coverage": [
+        "Ghost",
+        "Psychic"
+      ],
+      "tier_calc": "A(5)+dual+legendGiovanni\u2192cap6",
+      "current_types": "Psychic",
+      "change": 0
+    },
+    {
+      "pokemon": "Garchomp (Mega)",
+      "current_count": 6,
+      "recommended_count": 6,
+      "current_er": 61.11,
+      "new_er": 58.6,
+      "er_source": "pokebase",
+      "tdo": 963.0,
+      "hub_rank": {
+        "type": "Ground",
+        "rank": 2,
+        "dps": 28.23,
+        "score": 25.92
+      },
+      "pvpoke_rank": 61,
+      "pvpoke_score": 80.3,
+      "type_coverage": [
+        "Dragon",
+        "Ground"
+      ],
+      "tier_calc": "A(5)+dual",
+      "current_types": "Dragon, Ground",
+      "change": 0
+    },
+    {
+      "pokemon": "Shadow Salamence",
+      "current_count": 6,
+      "recommended_count": 4,
+      "current_er": 54.31,
+      "new_er": 56.14,
+      "er_source": "pokebase",
+      "tdo": 617.0,
+      "hub_rank": {
+        "type": "Flying",
+        "rank": 4,
+        "dps": 27.7,
+        "score": 24.08
+      },
+      "pvpoke_rank": 70,
+      "pvpoke_score": 78.7,
+      "type_coverage": [
+        "Flying"
+      ],
+      "tier_calc": "A(5)-access",
+      "current_types": "Dragon, Flying",
+      "change": -2
+    },
+    {
+      "pokemon": "Shadow Metagross",
+      "current_count": 6,
+      "recommended_count": 5,
+      "current_er": 55.59,
+      "new_er": 53.29,
+      "er_source": "pokebase",
+      "tdo": 663.0,
+      "hub_rank": {
+        "type": "Steel",
+        "rank": 5,
+        "dps": 29.76,
+        "score": 26.42
+      },
+      "pvpoke_rank": 12,
+      "pvpoke_score": 91.4,
+      "type_coverage": [
+        "Steel"
+      ],
+      "tier_calc": "B(4)+pvp#12",
+      "current_types": "Psychic, Steel",
+      "change": -1
+    },
+    {
+      "pokemon": "Shadow Moltres",
+      "current_count": 6,
+      "recommended_count": 4,
+      "current_er": 51.93,
+      "new_er": 47.51,
+      "er_source": "pokebase",
+      "tdo": 534.0,
+      "hub_rank": {
+        "type": "Flying",
+        "rank": 5,
+        "dps": 27.0,
+        "score": 23.55
+      },
+      "pvpoke_rank": 182,
+      "pvpoke_score": 65.1,
+      "type_coverage": [
+        "Flying"
+      ],
+      "tier_calc": "C(3)+legendGiovanni",
+      "current_types": "Fire, Flying",
+      "change": -2
+    },
+    {
+      "pokemon": "Shadow Regigigas",
+      "current_count": 6,
+      "recommended_count": 6,
+      "current_er": 56.54,
+      "new_er": 69.09,
+      "er_source": "pokebase",
+      "tdo": 901.0,
+      "hub_rank": {
+        "type": "Normal",
+        "rank": 1,
+        "dps": 35.8,
+        "score": 31.99
+      },
+      "pvpoke_rank": 320,
+      "pvpoke_score": 51.2,
+      "type_coverage": [
+        "Normal"
+      ],
+      "tier_calc": "S(6)+legendGiovanni\u2192cap6",
+      "current_types": "Normal",
+      "change": 0
+    },
+    {
+      "pokemon": "Tyranitar (Mega)",
+      "current_count": 6,
+      "recommended_count": 5,
+      "current_er": 58.91,
+      "new_er": 52.57,
+      "er_source": "pokebase",
+      "tdo": 966.0,
+      "hub_rank": {
+        "type": "Dark",
+        "rank": 1,
+        "dps": 28.03,
+        "score": 26.05
+      },
+      "pvpoke_rank": 59,
+      "pvpoke_score": 80.8,
+      "type_coverage": [
+        "Dark",
+        "Rock"
+      ],
+      "tier_calc": "B(4)+dual",
+      "current_types": "Rock, Dark",
+      "change": -1
+    },
+    {
+      "pokemon": "Heracross (Mega)",
+      "current_count": 6,
+      "recommended_count": 4,
+      "current_er": 55.06,
+      "new_er": 49.29,
+      "er_source": "pokebase",
+      "tdo": 692.0,
+      "hub_rank": {
+        "type": "Bug",
+        "rank": 1,
+        "dps": 24.51,
+        "score": 22.13
+      },
+      "pvpoke_rank": 208,
+      "pvpoke_score": 63,
+      "type_coverage": [
+        "Bug",
+        "Fighting"
+      ],
+      "tier_calc": "C(3)+dual",
+      "current_types": "Bug, Fighting",
+      "change": -2
+    },
+    {
+      "pokemon": "Blaziken (Mega)",
+      "current_count": 6,
+      "recommended_count": 6,
+      "current_er": 57.78,
+      "new_er": 58.4,
+      "er_source": "pokebase",
+      "tdo": 673.0,
+      "hub_rank": {
+        "type": "Fire",
+        "rank": 1,
+        "dps": 31.98,
+        "score": 28.04
+      },
+      "pvpoke_rank": null,
+      "pvpoke_score": null,
+      "type_coverage": [
+        "Fighting",
+        "Fire"
+      ],
+      "tier_calc": "A(5)+dual",
+      "current_types": "Fire, Fighting",
+      "change": 0
+    },
+    {
+      "pokemon": "Lucario (Mega)",
+      "current_count": 6,
+      "recommended_count": 5,
+      "current_er": 58.07,
+      "new_er": 59.31,
+      "er_source": "pokebase",
+      "tdo": 656.0,
+      "hub_rank": {
+        "type": "Fighting",
+        "rank": 1,
+        "dps": 35.65,
+        "score": 31.0
+      },
+      "pvpoke_rank": null,
+      "pvpoke_score": null,
+      "type_coverage": [
+        "Fighting"
+      ],
+      "tier_calc": "A(5)",
+      "current_types": "Fighting, Steel",
+      "change": -1
+    },
+    {
+      "pokemon": "Kyurem (White)",
+      "current_count": 6,
+      "recommended_count": 6,
+      "current_er": null,
+      "new_er": 54.19,
+      "er_source": "pokebase",
+      "tdo": 792.0,
+      "hub_rank": {
+        "type": "Ice",
+        "rank": 1,
+        "dps": 30.57,
+        "score": 27.74
+      },
+      "pvpoke_rank": 6,
+      "pvpoke_score": 94.8,
+      "type_coverage": [
+        "Ice"
+      ],
+      "tier_calc": "B(4)+legend+pvp#6",
+      "current_types": "Ice, Dragon",
+      "change": 0
+    },
+    {
+      "pokemon": "Kyurem (Black)",
+      "current_count": 6,
+      "recommended_count": 6,
+      "current_er": null,
+      "new_er": 60.56,
+      "er_source": "pokebase",
+      "tdo": 885.0,
+      "hub_rank": {
+        "type": "Ice",
+        "rank": 2,
+        "dps": 27.17,
+        "score": 24.64
+      },
+      "pvpoke_rank": 11,
+      "pvpoke_score": 92.7,
+      "type_coverage": [
+        "Ice"
+      ],
+      "tier_calc": "S(6)+legend+pvp#11\u2192cap6",
+      "current_types": "Ice, Dragon",
+      "change": 0
+    },
+    {
+      "pokemon": "Zacian (Crowned)",
+      "current_count": 6,
+      "recommended_count": 6,
+      "current_er": null,
+      "new_er": 63.64,
+      "er_source": "pokebase",
+      "tdo": 948.0,
+      "hub_rank": null,
+      "pvpoke_rank": 1,
+      "pvpoke_score": 99.3,
+      "type_coverage": [],
+      "tier_calc": "S(6)+legend+pvp#1\u2192cap6",
+      "current_types": "Steel, Fairy",
+      "change": 0
+    },
+    {
+      "pokemon": "Zamazenta (Crowned)",
+      "current_count": 6,
+      "recommended_count": 6,
+      "current_er": null,
+      "new_er": 63.84,
+      "er_source": "pokebase",
+      "tdo": 1093.0,
+      "hub_rank": null,
+      "pvpoke_rank": 5,
+      "pvpoke_score": 95.6,
+      "type_coverage": [],
+      "tier_calc": "S(6)+legend+pvp#5\u2192cap6",
+      "current_types": "Steel",
+      "change": 0
+    },
+    {
+      "pokemon": "Dawn Wings Necrozma",
+      "current_count": 6,
+      "recommended_count": 6,
+      "current_er": null,
+      "new_er": 63.07,
+      "er_source": "pokebase",
+      "tdo": 909.0,
+      "hub_rank": {
+        "type": "Ghost",
+        "rank": 1,
+        "dps": 32.38,
+        "score": 29.34
+      },
+      "pvpoke_rank": 18,
+      "pvpoke_score": 89.4,
+      "type_coverage": [
+        "Ghost"
+      ],
+      "tier_calc": "S(6)+legend+pvp#18\u2192cap6",
+      "current_types": "Ghost, Psychic",
+      "change": 0
+    },
+    {
+      "pokemon": "Dusk Mane Necrozma",
+      "current_count": 6,
+      "recommended_count": 6,
+      "current_er": null,
+      "new_er": 63.07,
+      "er_source": "pokebase",
+      "tdo": 909.0,
+      "hub_rank": {
+        "type": "Steel",
+        "rank": 3,
+        "dps": 33.68,
+        "score": 30.45
+      },
+      "pvpoke_rank": 21,
+      "pvpoke_score": 88,
+      "type_coverage": [
+        "Steel"
+      ],
+      "tier_calc": "S(6)+legend+pvp#21\u2192cap6",
+      "current_types": "Steel, Psychic",
+      "change": 0
+    },
+    {
+      "pokemon": "Mewtwo",
+      "current_count": 5,
+      "recommended_count": 5,
+      "current_er": 54.57,
+      "new_er": 50.28,
+      "er_source": "pokebase",
+      "tdo": 665.0,
+      "hub_rank": {
+        "type": "Psychic",
+        "rank": 3,
+        "dps": 29.03,
+        "score": 25.97
+      },
+      "pvpoke_rank": 52,
+      "pvpoke_score": 81.8,
+      "type_coverage": [
+        "Psychic"
+      ],
+      "tier_calc": "B(4)+legend",
+      "current_types": "Psychic",
+      "change": 0
+    },
+    {
+      "pokemon": "Shadow Groudon",
+      "current_count": 5,
+      "recommended_count": 5,
+      "current_er": 54.66,
+      "new_er": 49.16,
+      "er_source": "pokebase",
+      "tdo": 645.0,
+      "hub_rank": {
+        "type": "Ground",
+        "rank": 3,
+        "dps": 27.72,
+        "score": 24.8
+      },
+      "pvpoke_rank": 46,
+      "pvpoke_score": 83,
+      "type_coverage": [
+        "Ground"
+      ],
+      "tier_calc": "C(3)+legend+pvp#46Giovanni",
+      "current_types": "Ground",
+      "change": 0
+    },
+    {
+      "pokemon": "Shadow Kyogre",
+      "current_count": 5,
+      "recommended_count": 4,
+      "current_er": 54.76,
+      "new_er": 49.23,
+      "er_source": "pokebase",
+      "tdo": 646.0,
+      "hub_rank": {
+        "type": "Water",
+        "rank": 3,
+        "dps": 27.93,
+        "score": 24.98
+      },
+      "pvpoke_rank": 98,
+      "pvpoke_score": 74.3,
+      "type_coverage": [
+        "Water"
+      ],
+      "tier_calc": "C(3)+legendGiovanni",
+      "current_types": "Water",
+      "change": -1
+    },
+    {
+      "pokemon": "Palkia (Origin)",
+      "current_count": 5,
+      "recommended_count": 6,
+      "current_er": 54.48,
+      "new_er": 50.21,
+      "er_source": "pokebase",
+      "tdo": 702.0,
+      "hub_rank": null,
+      "pvpoke_rank": 2,
+      "pvpoke_score": 98.9,
+      "type_coverage": [],
+      "tier_calc": "B(4)+legend+pvp#2",
+      "current_types": "Dragon, Water",
+      "change": 1
+    },
+    {
+      "pokemon": "Dialga (Origin)",
+      "current_count": 5,
+      "recommended_count": 6,
+      "current_er": 54.37,
+      "new_er": 52.31,
+      "er_source": "pokebase",
+      "tdo": 779.0,
+      "hub_rank": null,
+      "pvpoke_rank": 7,
+      "pvpoke_score": 94.4,
+      "type_coverage": [],
+      "tier_calc": "B(4)+legend+pvp#7",
+      "current_types": "Dragon, Steel",
+      "change": 1
+    },
+    {
+      "pokemon": "Shadow Tyranitar",
+      "current_count": 5,
+      "recommended_count": 4,
+      "current_er": 53.64,
+      "new_er": 47.89,
+      "er_source": "pokebase",
+      "tdo": 626.0,
+      "hub_rank": {
+        "type": "Dark",
+        "rank": 2,
+        "dps": 27.83,
+        "score": 24.89
+      },
+      "pvpoke_rank": 41,
+      "pvpoke_score": 83.8,
+      "type_coverage": [
+        "Dark"
+      ],
+      "tier_calc": "C(3)+pvp#41",
+      "current_types": "Rock, Dark",
+      "change": -1
+    },
+    {
+      "pokemon": "Yveltal",
+      "current_count": 5,
+      "recommended_count": 5,
+      "current_er": 50.29,
+      "new_er": 46.1,
+      "er_source": "pokebase",
+      "tdo": 681.0,
+      "hub_rank": {
+        "type": "Flying",
+        "rank": 7,
+        "dps": 25.01,
+        "score": 22.7
+      },
+      "pvpoke_rank": 17,
+      "pvpoke_score": 89.6,
+      "type_coverage": [],
+      "tier_calc": "C(3)+legend+pvp#17",
+      "current_types": "Dark, Flying",
+      "change": 0
+    },
+    {
+      "pokemon": "Hoopa (Unbound)",
+      "current_count": 5,
+      "recommended_count": 4,
+      "current_er": 50.16,
+      "new_er": 46.0,
+      "er_source": "pokebase",
+      "tdo": 543.0,
+      "hub_rank": null,
+      "pvpoke_rank": 263,
+      "pvpoke_score": 57.2,
+      "type_coverage": [],
+      "tier_calc": "C(3)+legend",
+      "current_types": "Dark, Ghost, Psychic",
+      "change": -1
+    },
+    {
+      "pokemon": "Reshiram",
+      "current_count": 5,
+      "recommended_count": 5,
+      "current_er": 51.79,
+      "new_er": 47.46,
+      "er_source": "pokebase",
+      "tdo": 676.0,
+      "hub_rank": {
+        "type": "Fire",
+        "rank": 6,
+        "dps": 26.58,
+        "score": 24.0
+      },
+      "pvpoke_rank": 8,
+      "pvpoke_score": 94.3,
+      "type_coverage": [],
+      "tier_calc": "C(3)+legend+pvp#8",
+      "current_types": "Fire, Dragon",
+      "change": 0
+    },
+    {
+      "pokemon": "Shadow Heatran",
+      "current_count": 5,
+      "recommended_count": 4,
+      "current_er": 50.0,
+      "new_er": 48.54,
+      "er_source": "pokebase",
+      "tdo": 615.0,
+      "hub_rank": {
+        "type": "Fire",
+        "rank": 3,
+        "dps": 28.61,
+        "score": 25.43
+      },
+      "pvpoke_rank": 54,
+      "pvpoke_score": 81.4,
+      "type_coverage": [
+        "Fire"
+      ],
+      "tier_calc": "C(3)+legendGiovanni",
+      "current_types": "Fire, Steel",
+      "change": -1
+    },
+    {
+      "pokemon": "Shadow Latios",
+      "current_count": 5,
+      "recommended_count": 4,
+      "current_er": 51.67,
+      "new_er": 49.89,
+      "er_source": "pokebase",
+      "tdo": 590.0,
+      "hub_rank": {
+        "type": "Psychic",
+        "rank": 9,
+        "dps": 27.29,
+        "score": 24.02
+      },
+      "pvpoke_rank": 24,
+      "pvpoke_score": 87.2,
+      "type_coverage": [],
+      "tier_calc": "C(3)+pvp#24",
+      "current_types": "Dragon, Psychic",
+      "change": -1
+    },
+    {
+      "pokemon": "Shadow Chandelure",
+      "current_count": 5,
+      "recommended_count": 3,
+      "current_er": 51.49,
+      "new_er": 46.99,
+      "er_source": "pokebase",
+      "tdo": 434.0,
+      "hub_rank": {
+        "type": "Ghost",
+        "rank": 5,
+        "dps": 27.11,
+        "score": 22.75
+      },
+      "pvpoke_rank": 117,
+      "pvpoke_score": 72.2,
+      "type_coverage": [
+        "Ghost"
+      ],
+      "tier_calc": "C(3)",
+      "current_types": "Fire, Ghost",
+      "change": -2
+    },
+    {
+      "pokemon": "Gengar (Mega)",
+      "current_count": 5,
+      "recommended_count": 4,
+      "current_er": 57.59,
+      "new_er": 52.21,
+      "er_source": "pokebase",
+      "tdo": 588.0,
+      "hub_rank": {
+        "type": "Ghost",
+        "rank": 2,
+        "dps": 31.32,
+        "score": 27.32
+      },
+      "pvpoke_rank": null,
+      "pvpoke_score": null,
+      "type_coverage": [
+        "Ghost",
+        "Poison"
+      ],
+      "tier_calc": "B(4)+dual-access",
+      "current_types": "Ghost, Poison",
+      "change": -1
+    },
+    {
+      "pokemon": "Metagross (Mega)",
+      "current_count": 5,
+      "recommended_count": 6,
+      "current_er": 58.01,
+      "new_er": 55.68,
+      "er_source": "pokebase",
+      "tdo": 939.0,
+      "hub_rank": {
+        "type": "Steel",
+        "rank": 4,
+        "dps": 28.96,
+        "score": 26.72
+      },
+      "pvpoke_rank": 3,
+      "pvpoke_score": 98.1,
+      "type_coverage": [
+        "Steel"
+      ],
+      "tier_calc": "A(5)+pvp#3",
+      "current_types": "Psychic, Steel",
+      "change": 1
+    },
+    {
+      "pokemon": "Swampert (Mega)",
+      "current_count": 5,
+      "recommended_count": 2,
+      "current_er": 55.62,
+      "new_er": 49.78,
+      "er_source": "pokebase",
+      "tdo": 774.0,
+      "hub_rank": {
+        "type": "Water",
+        "rank": 2,
+        "dps": 27.6,
+        "score": 25.19
+      },
+      "pvpoke_rank": 128,
+      "pvpoke_score": 71.5,
+      "type_coverage": [
+        "Water"
+      ],
+      "tier_calc": "C(3)-access",
+      "current_types": "Water, Ground",
+      "change": -3
+    },
+    {
+      "pokemon": "Regieleki",
+      "current_count": 5,
+      "recommended_count": 5,
+      "current_er": null,
+      "new_er": 50.97,
+      "er_source": "pokebase",
+      "tdo": 481.0,
+      "hub_rank": {
+        "type": "Electric",
+        "rank": 3,
+        "dps": 27.46,
+        "score": 23.15
+      },
+      "pvpoke_rank": null,
+      "pvpoke_score": null,
+      "type_coverage": [
+        "Electric"
+      ],
+      "tier_calc": "B(4)+legend",
+      "current_types": "Electric",
+      "change": 0
+    },
+    {
+      "pokemon": "Terrakion",
+      "current_count": 5,
+      "recommended_count": 4,
+      "current_er": 51.02,
+      "new_er": 45.98,
+      "er_source": "pokebase",
+      "tdo": 621.0,
+      "hub_rank": {
+        "type": "Fighting",
+        "rank": 6,
+        "dps": 26.59,
+        "score": 23.83
+      },
+      "pvpoke_rank": 105,
+      "pvpoke_score": 73.5,
+      "type_coverage": [],
+      "tier_calc": "C(3)+legend",
+      "current_types": "Rock, Fighting",
+      "change": -1
+    },
+    {
+      "pokemon": "Kartana",
+      "current_count": 5,
+      "recommended_count": 3,
+      "current_er": 48.09,
+      "new_er": 43.52,
+      "er_source": "pokebase",
+      "tdo": 428.0,
+      "hub_rank": {
+        "type": "Grass",
+        "rank": 2,
+        "dps": 26.57,
+        "score": 22.6
+      },
+      "pvpoke_rank": 73,
+      "pvpoke_score": 78.4,
+      "type_coverage": [
+        "Grass"
+      ],
+      "tier_calc": "D(2)+legend",
+      "current_types": "Grass, Steel",
+      "change": -2
+    },
+    {
+      "pokemon": "Shadow Dragonite",
+      "current_count": 4,
+      "recommended_count": 3,
+      "current_er": 52.7,
+      "new_er": 48.71,
+      "er_source": "pokebase",
+      "tdo": 586.0,
+      "hub_rank": {
+        "type": "Dragon",
+        "rank": 11,
+        "dps": 28.32,
+        "score": 25.0
+      },
+      "pvpoke_rank": 45,
+      "pvpoke_score": 83.2,
+      "type_coverage": [],
+      "tier_calc": "C(3)+pvp#45-access",
+      "current_types": "Dragon, Flying",
+      "change": -1
+    },
+    {
+      "pokemon": "Zekrom",
+      "current_count": 4,
+      "recommended_count": 5,
+      "current_er": 49.85,
+      "new_er": 45.6,
+      "er_source": "pokebase",
+      "tdo": 649.0,
+      "hub_rank": {
+        "type": "Electric",
+        "rank": 8,
+        "dps": 24.84,
+        "score": 22.47
+      },
+      "pvpoke_rank": 10,
+      "pvpoke_score": 93.3,
+      "type_coverage": [],
+      "tier_calc": "C(3)+legend+pvp#10",
+      "current_types": "Electric, Dragon",
+      "change": 1
+    },
+    {
+      "pokemon": "Shadow Garchomp",
+      "current_count": 4,
+      "recommended_count": 5,
+      "current_er": 53.95,
+      "new_er": 52.0,
+      "er_source": "pokebase",
+      "tdo": 676.0,
+      "hub_rank": {
+        "type": "Dragon",
+        "rank": 4,
+        "dps": 30.4,
+        "score": 27.15
+      },
+      "pvpoke_rank": 55,
+      "pvpoke_score": 81.2,
+      "type_coverage": [
+        "Dragon",
+        "Ground"
+      ],
+      "tier_calc": "B(4)+dual",
+      "current_types": "Dragon, Ground",
+      "change": 1
+    },
+    {
+      "pokemon": "Shadow Rampardos",
+      "current_count": 4,
+      "recommended_count": 2,
+      "current_er": 50.05,
+      "new_er": 44.97,
+      "er_source": "pokebase",
+      "tdo": 373.0,
+      "hub_rank": {
+        "type": "Rock",
+        "rank": 4,
+        "dps": 27.07,
+        "score": 22.19
+      },
+      "pvpoke_rank": 332,
+      "pvpoke_score": 49.3,
+      "type_coverage": [
+        "Rock"
+      ],
+      "tier_calc": "D(2)",
+      "current_types": "Rock",
+      "change": -2
+    },
+    {
+      "pokemon": "Shadow Rhyperior",
+      "current_count": 4,
+      "recommended_count": 3,
+      "current_er": 51.67,
+      "new_er": 47.3,
+      "er_source": "pokebase",
+      "tdo": 630.0,
+      "hub_rank": {
+        "type": "Rock",
+        "rank": 2,
+        "dps": 26.8,
+        "score": 23.99
+      },
+      "pvpoke_rank": 69,
+      "pvpoke_score": 79,
+      "type_coverage": [
+        "Rock"
+      ],
+      "tier_calc": "C(3)",
+      "current_types": "Rock, Ground",
+      "change": -1
+    },
+    {
+      "pokemon": "Landorus (Therian)",
+      "current_count": 4,
+      "recommended_count": 5,
+      "current_er": 47.71,
+      "new_er": 45.69,
+      "er_source": "pokebase",
+      "tdo": 580.0,
+      "hub_rank": {
+        "type": "Ground",
+        "rank": 5,
+        "dps": 25.84,
+        "score": 22.98
+      },
+      "pvpoke_rank": 43,
+      "pvpoke_score": 83.4,
+      "type_coverage": [
+        "Ground"
+      ],
+      "tier_calc": "C(3)+legend+pvp#43",
+      "current_types": "Ground, Flying",
+      "change": 1
+    },
+    {
+      "pokemon": "Shadow Blaziken",
+      "current_count": 4,
+      "recommended_count": 3,
+      "current_er": 48.61,
+      "new_er": 49.42,
+      "er_source": "pokebase",
+      "tdo": 441.0,
+      "hub_rank": {
+        "type": "Fighting",
+        "rank": 4,
+        "dps": 29.24,
+        "score": 24.39
+      },
+      "pvpoke_rank": null,
+      "pvpoke_score": null,
+      "type_coverage": [
+        "Fighting"
+      ],
+      "tier_calc": "C(3)",
+      "current_types": "Fire, Fighting",
+      "change": -1
+    },
+    {
+      "pokemon": "Kyurem (regular)",
+      "current_count": 4,
+      "recommended_count": 4,
+      "current_er": 46.93,
+      "new_er": 43.2,
+      "er_source": "pokebase",
+      "tdo": 600.0,
+      "hub_rank": {
+        "type": "Ice",
+        "rank": 18,
+        "dps": 19.92,
+        "score": 17.93
+      },
+      "pvpoke_rank": 44,
+      "pvpoke_score": 83.3,
+      "type_coverage": [],
+      "tier_calc": "D(2)+legend+pvp#44",
+      "current_types": "Ice, Dragon",
+      "change": 0
+    },
+    {
+      "pokemon": "Shadow Gengar",
+      "current_count": 4,
+      "recommended_count": 1,
+      "current_er": 48.42,
+      "new_er": 43.93,
+      "er_source": "pokebase",
+      "tdo": 354.0,
+      "hub_rank": {
+        "type": "Ghost",
+        "rank": 8,
+        "dps": 26.73,
+        "score": 21.74
+      },
+      "pvpoke_rank": null,
+      "pvpoke_score": null,
+      "type_coverage": [],
+      "tier_calc": "D(2)-access",
+      "current_types": "Ghost, Poison",
+      "change": -3
+    },
+    {
+      "pokemon": "Lunala",
+      "current_count": 4,
+      "recommended_count": 4,
+      "current_er": null,
+      "new_er": 44.18,
+      "er_source": "pokebase",
+      "tdo": 701.0,
+      "hub_rank": {
+        "type": "Ghost",
+        "rank": 7,
+        "dps": 23.94,
+        "score": 21.95
+      },
+      "pvpoke_rank": 9,
+      "pvpoke_score": 94,
+      "type_coverage": [],
+      "tier_calc": "D(2)+legend+pvp#9",
+      "current_types": "Ghost, Psychic",
+      "change": 0
+    },
+    {
+      "pokemon": "Blacephalon",
+      "current_count": 4,
+      "recommended_count": 5,
+      "current_er": null,
+      "new_er": 51.15,
+      "er_source": "pokebase",
+      "tdo": 443.0,
+      "hub_rank": {
+        "type": "Fire",
+        "rank": 4,
+        "dps": 30.66,
+        "score": 25.39
+      },
+      "pvpoke_rank": 101,
+      "pvpoke_score": 73.8,
+      "type_coverage": [
+        "Fire"
+      ],
+      "tier_calc": "B(4)+legend",
+      "current_types": "Fire, Ghost",
+      "change": 1
+    },
+    {
+      "pokemon": "Shadow Raikou",
+      "current_count": 4,
+      "recommended_count": 4,
+      "current_er": 48.96,
+      "new_er": 47.17,
+      "er_source": "pokebase",
+      "tdo": 558.0,
+      "hub_rank": {
+        "type": "Electric",
+        "rank": 2,
+        "dps": 26.94,
+        "score": 23.68
+      },
+      "pvpoke_rank": 63,
+      "pvpoke_score": 80.1,
+      "type_coverage": [
+        "Electric"
+      ],
+      "tier_calc": "C(3)+legendGiovanni",
+      "current_types": "Electric",
+      "change": 0
+    },
+    {
+      "pokemon": "Shadow Zapdos",
+      "current_count": 4,
+      "recommended_count": 3,
+      "current_er": 47.94,
+      "new_er": 43.25,
+      "er_source": "pokebase",
+      "tdo": 493.0,
+      "hub_rank": {
+        "type": "Electric",
+        "rank": 7,
+        "dps": 25.72,
+        "score": 22.49
+      },
+      "pvpoke_rank": 64,
+      "pvpoke_score": 79.7,
+      "type_coverage": [],
+      "tier_calc": "D(2)+legendGiovanni",
+      "current_types": "Electric, Flying",
+      "change": -1
+    },
+    {
+      "pokemon": "Xurkitree",
+      "current_count": 4,
+      "recommended_count": 3,
+      "current_er": 47.99,
+      "new_er": 43.88,
+      "er_source": "pokebase",
+      "tdo": 463.0,
+      "hub_rank": {
+        "type": "Electric",
+        "rank": 4,
+        "dps": 26.69,
+        "score": 23.0
+      },
+      "pvpoke_rank": 118,
+      "pvpoke_score": 72.2,
+      "type_coverage": [
+        "Electric"
+      ],
+      "tier_calc": "D(2)+legend",
+      "current_types": "Electric",
+      "change": -1
+    },
+    {
+      "pokemon": "Shadow Excadrill",
+      "current_count": 4,
+      "recommended_count": 2,
+      "current_er": 48.66,
+      "new_er": 44.79,
+      "er_source": "pokebase",
+      "tdo": 446.0,
+      "hub_rank": {
+        "type": "Ground",
+        "rank": 6,
+        "dps": 26.22,
+        "score": 22.35
+      },
+      "pvpoke_rank": 121,
+      "pvpoke_score": 72,
+      "type_coverage": [],
+      "tier_calc": "D(2)",
+      "current_types": "Ground, Steel",
+      "change": -2
+    },
+    {
+      "pokemon": "Shadow Weavile",
+      "current_count": 4,
+      "recommended_count": 2,
+      "current_er": 46.95,
+      "new_er": 42.6,
+      "er_source": "pokebase",
+      "tdo": 405.0,
+      "hub_rank": {
+        "type": "Ice",
+        "rank": 7,
+        "dps": 23.65,
+        "score": 19.96
+      },
+      "pvpoke_rank": 290,
+      "pvpoke_score": 54.1,
+      "type_coverage": [],
+      "tier_calc": "D(2)",
+      "current_types": "Ice, Dark",
+      "change": -2
+    },
+    {
+      "pokemon": "Regigigas",
+      "current_count": 4,
+      "recommended_count": 6,
+      "current_er": 49.0,
+      "new_er": 59.64,
+      "er_source": "pokebase",
+      "tdo": 892.0,
+      "hub_rank": {
+        "type": "Normal",
+        "rank": 2,
+        "dps": 30.46,
+        "score": 27.68
+      },
+      "pvpoke_rank": 247,
+      "pvpoke_score": 59.3,
+      "type_coverage": [
+        "Normal"
+      ],
+      "tier_calc": "A(5)+legend",
+      "current_types": "Normal",
+      "change": 2
+    },
+    {
+      "pokemon": "Palkia",
+      "current_count": 4,
+      "recommended_count": 4,
+      "current_er": 47.39,
+      "new_er": 44.32,
+      "er_source": "pokebase",
+      "tdo": 604.0,
+      "hub_rank": {
+        "type": "Dragon",
+        "rank": 24,
+        "dps": 25.21,
+        "score": 22.63
+      },
+      "pvpoke_rank": 25,
+      "pvpoke_score": 87.2,
+      "type_coverage": [],
+      "tier_calc": "D(2)+legend+pvp#25",
+      "current_types": "Water, Dragon",
+      "change": 0
+    },
+    {
+      "pokemon": "Dialga",
+      "current_count": 4,
+      "recommended_count": 4,
+      "current_er": null,
+      "new_er": 44.83,
+      "er_source": "pokebase",
+      "tdo": 638.0,
+      "hub_rank": {
+        "type": "Steel",
+        "rank": 13,
+        "dps": 22.44,
+        "score": 20.26
+      },
+      "pvpoke_rank": 32,
+      "pvpoke_score": 86.5,
+      "type_coverage": [],
+      "tier_calc": "D(2)+legend+pvp#32",
+      "current_types": "Steel, Dragon",
+      "change": 0
+    },
+    {
+      "pokemon": "Sceptile (Mega)",
+      "current_count": 4,
+      "recommended_count": 3,
+      "current_er": 56.25,
+      "new_er": 53.14,
+      "er_source": "pokebase",
+      "tdo": 613.0,
+      "hub_rank": {
+        "type": "Grass",
+        "rank": 1,
+        "dps": 29.66,
+        "score": 25.96
+      },
+      "pvpoke_rank": null,
+      "pvpoke_score": null,
+      "type_coverage": [
+        "Grass"
+      ],
+      "tier_calc": "B(4)-access",
+      "current_types": "Grass",
+      "change": -1
+    },
+    {
+      "pokemon": "Salamence (Mega)",
+      "current_count": 4,
+      "recommended_count": 4,
+      "current_er": 56.03,
+      "new_er": 57.43,
+      "er_source": "pokebase",
+      "tdo": 958.0,
+      "hub_rank": {
+        "type": "Flying",
+        "rank": 3,
+        "dps": 26.27,
+        "score": 24.17
+      },
+      "pvpoke_rank": 104,
+      "pvpoke_score": 73.6,
+      "type_coverage": [
+        "Flying"
+      ],
+      "tier_calc": "A(5)-access",
+      "current_types": "Dragon, Flying",
+      "change": 0
+    },
+    {
+      "pokemon": "Alakazam (Mega)",
+      "current_count": 4,
+      "recommended_count": 4,
+      "current_er": 56.96,
+      "new_er": 52.18,
+      "er_source": "pokebase",
+      "tdo": 580.0,
+      "hub_rank": {
+        "type": "Psychic",
+        "rank": 2,
+        "dps": 31.53,
+        "score": 27.47
+      },
+      "pvpoke_rank": 339,
+      "pvpoke_score": 48.5,
+      "type_coverage": [
+        "Fairy",
+        "Psychic"
+      ],
+      "tier_calc": "B(4)+dual-access",
+      "current_types": "Psychic",
+      "change": 0
+    },
+    {
+      "pokemon": "Shadow Honchkrow",
+      "current_count": 3,
+      "recommended_count": 1,
+      "current_er": 48.91,
+      "new_er": 44.85,
+      "er_source": "pokebase",
+      "tdo": 365.0,
+      "hub_rank": {
+        "type": "Dark",
+        "rank": 23,
+        "dps": 22.94,
+        "score": 18.7
+      },
+      "pvpoke_rank": null,
+      "pvpoke_score": null,
+      "type_coverage": [],
+      "tier_calc": "D(2)-access",
+      "current_types": "Dark, Flying",
+      "change": -2
+    },
+    {
+      "pokemon": "Xerneas",
+      "current_count": 3,
+      "recommended_count": 4,
+      "current_er": 44.41,
+      "new_er": 40.96,
+      "er_source": "pokebase",
+      "tdo": 605.0,
+      "hub_rank": {
+        "type": "Fairy",
+        "rank": 9,
+        "dps": 20.93,
+        "score": 19.01
+      },
+      "pvpoke_rank": 4,
+      "pvpoke_score": 96.7,
+      "type_coverage": [],
+      "tier_calc": "D(2)+legend+pvp#4",
+      "current_types": "Fairy",
+      "change": 1
+    },
+    {
+      "pokemon": "Shadow Mamoswine",
+      "current_count": 3,
+      "recommended_count": 2,
+      "current_er": 49.62,
+      "new_er": 44.5,
+      "er_source": "pokebase",
+      "tdo": 482.0,
+      "hub_rank": {
+        "type": "Ice",
+        "rank": 3,
+        "dps": 25.14,
+        "score": 21.77
+      },
+      "pvpoke_rank": 92,
+      "pvpoke_score": 75.3,
+      "type_coverage": [
+        "Ice"
+      ],
+      "tier_calc": "D(2)",
+      "current_types": "Ice, Ground",
+      "change": -1
+    },
+    {
+      "pokemon": "Shadow Electivire",
+      "current_count": 3,
+      "recommended_count": 2,
+      "current_er": 47.32,
+      "new_er": 44.14,
+      "er_source": "pokebase",
+      "tdo": 420.0,
+      "hub_rank": {
+        "type": "Electric",
+        "rank": 6,
+        "dps": 26.68,
+        "score": 22.53
+      },
+      "pvpoke_rank": 168,
+      "pvpoke_score": 67.2,
+      "type_coverage": [],
+      "tier_calc": "D(2)",
+      "current_types": "Electric",
+      "change": -1
+    },
+    {
+      "pokemon": "Shadow Magnezone",
+      "current_count": 3,
+      "recommended_count": 2,
+      "current_er": 46.11,
+      "new_er": 42.22,
+      "er_source": "pokebase",
+      "tdo": 455.0,
+      "hub_rank": {
+        "type": "Electric",
+        "rank": 10,
+        "dps": 25.27,
+        "score": 21.87
+      },
+      "pvpoke_rank": 123,
+      "pvpoke_score": 72,
+      "type_coverage": [],
+      "tier_calc": "D(2)",
+      "current_types": "Electric, Steel",
+      "change": -1
+    },
+    {
+      "pokemon": "Shadow Swampert",
+      "current_count": 3,
+      "recommended_count": 1,
+      "current_er": 47.1,
+      "new_er": 42.19,
+      "er_source": "pokebase",
+      "tdo": 491.0,
+      "hub_rank": {
+        "type": "Water",
+        "rank": 7,
+        "dps": 24.64,
+        "score": 21.6
+      },
+      "pvpoke_rank": 143,
+      "pvpoke_score": 69.6,
+      "type_coverage": [],
+      "tier_calc": "D(2)-access",
+      "current_types": "Water, Ground",
+      "change": -2
+    },
+    {
+      "pokemon": "Shadow Darmanitan",
+      "current_count": 3,
+      "recommended_count": 3,
+      "current_er": 49.08,
+      "new_er": 45.33,
+      "er_source": "pokebase",
+      "tdo": 404.0,
+      "hub_rank": null,
+      "pvpoke_rank": null,
+      "pvpoke_score": null,
+      "type_coverage": [],
+      "tier_calc": "C(3)",
+      "current_types": "Fire, Ice",
+      "change": 0
+    },
+    {
+      "pokemon": "Gardevoir (Mega)",
+      "current_count": 3,
+      "recommended_count": 3,
+      "current_er": 53.93,
+      "new_er": 49.43,
+      "er_source": "pokebase",
+      "tdo": 652.0,
+      "hub_rank": {
+        "type": "Fairy",
+        "rank": 1,
+        "dps": 27.44,
+        "score": 24.51
+      },
+      "pvpoke_rank": 218,
+      "pvpoke_score": 62.2,
+      "type_coverage": [
+        "Fairy",
+        "Psychic"
+      ],
+      "tier_calc": "C(3)+dual-access",
+      "current_types": "Fairy, Psychic",
+      "change": 0
+    },
+    {
+      "pokemon": "Heatran",
+      "current_count": 3,
+      "recommended_count": 3,
+      "current_er": 42.0,
+      "new_er": 41.93,
+      "er_source": "pokebase",
+      "tdo": 609.0,
+      "hub_rank": {
+        "type": "Fire",
+        "rank": 17,
+        "dps": 23.93,
+        "score": 21.67
+      },
+      "pvpoke_rank": 76,
+      "pvpoke_score": 78,
+      "type_coverage": [],
+      "tier_calc": "D(2)+legend",
+      "current_types": "Fire, Steel",
+      "change": 0
+    },
+    {
+      "pokemon": "Pheromosa",
+      "current_count": 3,
+      "recommended_count": 1,
+      "current_er": 42.89,
+      "new_er": 38.55,
+      "er_source": "pokebase",
+      "tdo": 266.0,
+      "hub_rank": {
+        "type": "Bug",
+        "rank": 22,
+        "dps": 22.77,
+        "score": 17.74
+      },
+      "pvpoke_rank": null,
+      "pvpoke_score": null,
+      "type_coverage": [],
+      "tier_calc": "E(1)+legend-glass",
+      "current_types": "Bug, Fighting",
+      "change": -2
+    },
+    {
+      "pokemon": "Shadow Darkrai",
+      "current_count": 3,
+      "recommended_count": 4,
+      "current_er": null,
+      "new_er": 46.06,
+      "er_source": "pokebase",
+      "tdo": 484.0,
+      "hub_rank": {
+        "type": "Dark",
+        "rank": 4,
+        "dps": 27.5,
+        "score": 23.69
+      },
+      "pvpoke_rank": 239,
+      "pvpoke_score": 60,
+      "type_coverage": [
+        "Dark"
+      ],
+      "tier_calc": "C(3)+legendGiovanni",
+      "current_types": "Dark",
+      "change": 1
+    },
+    {
+      "pokemon": "Shadow Gardevoir",
+      "current_count": 2,
+      "recommended_count": 1,
+      "current_er": 44.85,
+      "new_er": 41.13,
+      "er_source": "pokebase",
+      "tdo": 423.0,
+      "hub_rank": {
+        "type": "Fairy",
+        "rank": 4,
+        "dps": 23.85,
+        "score": 20.47
+      },
+      "pvpoke_rank": 196,
+      "pvpoke_score": 63.8,
+      "type_coverage": [
+        "Fairy"
+      ],
+      "tier_calc": "D(2)-access",
+      "current_types": "Fairy, Psychic",
+      "change": -1
+    },
+    {
+      "pokemon": "Shadow Staraptor",
+      "current_count": 2,
+      "recommended_count": 2,
+      "current_er": 48.24,
+      "new_er": 46.21,
+      "er_source": "pokebase",
+      "tdo": 422.0,
+      "hub_rank": {
+        "type": "Flying",
+        "rank": 8,
+        "dps": 26.96,
+        "score": 22.57
+      },
+      "pvpoke_rank": null,
+      "pvpoke_score": null,
+      "type_coverage": [],
+      "tier_calc": "C(3)-access",
+      "current_types": "Normal, Flying",
+      "change": 0
+    },
+    {
+      "pokemon": "Shadow Alakazam",
+      "current_count": 2,
+      "recommended_count": 1,
+      "current_er": 47.53,
+      "new_er": 43.56,
+      "er_source": "pokebase",
+      "tdo": 364.0,
+      "hub_rank": {
+        "type": "Psychic",
+        "rank": 15,
+        "dps": 26.89,
+        "score": 22.07
+      },
+      "pvpoke_rank": 316,
+      "pvpoke_score": 51.5,
+      "type_coverage": [],
+      "tier_calc": "D(2)-access",
+      "current_types": "Psychic",
+      "change": -1
+    },
+    {
+      "pokemon": "Shadow Machamp",
+      "current_count": 2,
+      "recommended_count": 1,
+      "current_er": 47.05,
+      "new_er": 42.03,
+      "er_source": "pokebase",
+      "tdo": 432.0,
+      "hub_rank": {
+        "type": "Fighting",
+        "rank": 12,
+        "dps": 25.43,
+        "score": 21.82
+      },
+      "pvpoke_rank": 134,
+      "pvpoke_score": 70.9,
+      "type_coverage": [],
+      "tier_calc": "D(2)-access",
+      "current_types": "Fighting",
+      "change": -1
+    },
+    {
+      "pokemon": "Shadow Conkeldurr",
+      "current_count": 2,
+      "recommended_count": 1,
+      "current_er": null,
+      "new_er": 44.91,
+      "er_source": "pokebase",
+      "tdo": 499.0,
+      "hub_rank": {
+        "type": "Fighting",
+        "rank": 7,
+        "dps": 26.85,
+        "score": 23.36
+      },
+      "pvpoke_rank": 97,
+      "pvpoke_score": 74.3,
+      "type_coverage": [],
+      "tier_calc": "D(2)-access",
+      "current_types": "Fighting",
+      "change": -1
+    },
+    {
+      "pokemon": "Shadow Toxicroak",
+      "current_count": 2,
+      "recommended_count": 1,
+      "current_er": 41.01,
+      "new_er": 36.64,
+      "er_source": "pokebase",
+      "tdo": 320.0,
+      "hub_rank": {
+        "type": "Poison",
+        "rank": 11,
+        "dps": 22.28,
+        "score": 18.49
+      },
+      "pvpoke_rank": null,
+      "pvpoke_score": null,
+      "type_coverage": [],
+      "tier_calc": "E(1)-access\u2192cap1",
+      "current_types": "Poison, Fighting",
+      "change": -1
+    },
+    {
+      "pokemon": "Shadow Tangrowth",
+      "current_count": 2,
+      "recommended_count": 2,
+      "current_er": 44.06,
+      "new_er": 41.26,
+      "er_source": "pokebase",
+      "tdo": 497.0,
+      "hub_rank": {
+        "type": "Grass",
+        "rank": 8,
+        "dps": 24.26,
+        "score": 21.38
+      },
+      "pvpoke_rank": 264,
+      "pvpoke_score": 57.2,
+      "type_coverage": [],
+      "tier_calc": "D(2)",
+      "current_types": "Grass",
+      "change": 0
+    },
+    {
+      "pokemon": "Rampardos",
+      "current_count": 2,
+      "recommended_count": 1,
+      "current_er": 42.94,
+      "new_er": 38.59,
+      "er_source": "pokebase",
+      "tdo": 367.0,
+      "hub_rank": {
+        "type": "Rock",
+        "rank": 11,
+        "dps": 23.43,
+        "score": 19.8
+      },
+      "pvpoke_rank": 374,
+      "pvpoke_score": 43.2,
+      "type_coverage": [],
+      "tier_calc": "E(1)",
+      "current_types": "Rock",
+      "change": -1
+    },
+    {
+      "pokemon": "Volcarona",
+      "current_count": 2,
+      "recommended_count": 2,
+      "current_er": 44.46,
+      "new_er": 41.08,
+      "er_source": "pokebase",
+      "tdo": 529.0,
+      "hub_rank": {
+        "type": "Bug",
+        "rank": 6,
+        "dps": 22.3,
+        "score": 19.88
+      },
+      "pvpoke_rank": 253,
+      "pvpoke_score": 58.4,
+      "type_coverage": [],
+      "tier_calc": "D(2)",
+      "current_types": "Bug, Fire",
+      "change": 0
+    },
+    {
+      "pokemon": "Hydreigon",
+      "current_count": 2,
+      "recommended_count": 2,
+      "current_er": null,
+      "new_er": 40.85,
+      "er_source": "pokebase",
+      "tdo": 548.0,
+      "hub_rank": {
+        "type": "Dark",
+        "rank": 11,
+        "dps": 23.6,
+        "score": 21.13
+      },
+      "pvpoke_rank": 79,
+      "pvpoke_score": 77,
+      "type_coverage": [],
+      "tier_calc": "D(2)",
+      "current_types": "Dark, Dragon",
+      "change": 0
+    },
+    {
+      "pokemon": "Beedrill (Mega)",
+      "current_count": 2,
+      "recommended_count": 2,
+      "current_er": 46.35,
+      "new_er": 42.71,
+      "er_source": "pokebase",
+      "tdo": 406.0,
+      "hub_rank": {
+        "type": "Poison",
+        "rank": 3,
+        "dps": 26.25,
+        "score": 22.2
+      },
+      "pvpoke_rank": null,
+      "pvpoke_score": null,
+      "type_coverage": [
+        "Bug",
+        "Poison"
+      ],
+      "tier_calc": "D(2)+dual-access",
+      "current_types": "Bug",
+      "change": 0
+    },
+    {
+      "pokemon": "Shadow Palkia",
+      "current_count": 2,
+      "recommended_count": 6,
+      "current_er": null,
+      "new_er": 50.92,
+      "er_source": "pokebase",
+      "tdo": 605.0,
+      "hub_rank": {
+        "type": "Dragon",
+        "rank": 5,
+        "dps": 29.71,
+        "score": 26.18
+      },
+      "pvpoke_rank": 14,
+      "pvpoke_score": 90.6,
+      "type_coverage": [
+        "Dragon"
+      ],
+      "tier_calc": "B(4)+legend+pvp#14Giovanni",
+      "current_types": "Dragon, Water",
+      "change": 4
+    },
+    {
+      "pokemon": "Shadow Dialga",
+      "current_count": 2,
+      "recommended_count": 6,
+      "current_er": null,
+      "new_er": 51.41,
+      "er_source": "pokebase",
+      "tdo": 638.0,
+      "hub_rank": {
+        "type": "Steel",
+        "rank": 7,
+        "dps": 26.7,
+        "score": 23.66
+      },
+      "pvpoke_rank": 27,
+      "pvpoke_score": 87,
+      "type_coverage": [],
+      "tier_calc": "B(4)+legend+pvp#27Giovanni",
+      "current_types": "Steel, Dragon",
+      "change": 4
+    },
+    {
+      "pokemon": "Eternatus",
+      "current_count": 1,
+      "recommended_count": 1,
+      "current_er": null,
+      "new_er": 67.53,
+      "er_source": "pokebase",
+      "tdo": 1087.0,
+      "hub_rank": {
+        "type": "Dragon",
+        "rank": 1,
+        "dps": 35.97,
+        "score": 33.06
+      },
+      "pvpoke_rank": 15,
+      "pvpoke_score": 90.5,
+      "type_coverage": [
+        "Dragon",
+        "Poison"
+      ],
+      "tier_calc": "Account-limited",
+      "current_types": "Dragon, Poison",
+      "change": 0
+    },
+    {
+      "pokemon": "Keldeo (Resolute)",
+      "current_count": 1,
+      "recommended_count": 1,
+      "current_er": null,
+      "new_er": 54.17,
+      "er_source": "pokebase",
+      "tdo": 732.0,
+      "hub_rank": {
+        "type": "Fighting",
+        "rank": 3,
+        "dps": 30.85,
+        "score": 27.73
+      },
+      "pvpoke_rank": 49,
+      "pvpoke_score": 82.5,
+      "type_coverage": [
+        "Fighting"
+      ],
+      "tier_calc": "Account-limited",
+      "current_types": "Fighting, Water",
+      "change": 0
+    },
+    {
+      "pokemon": "Diancie (Mega)",
+      "current_count": 1,
+      "recommended_count": 1,
+      "current_er": null,
+      "new_er": 45.44,
+      "er_source": "pokebase",
+      "tdo": 529.0,
+      "hub_rank": {
+        "type": "Rock",
+        "rank": 1,
+        "dps": 27.36,
+        "score": 24.0
+      },
+      "pvpoke_rank": 324,
+      "pvpoke_score": 50.7,
+      "type_coverage": [
+        "Rock"
+      ],
+      "tier_calc": "Account-limited",
+      "current_types": "Rock, Fairy",
+      "change": 0
+    },
+    {
+      "pokemon": "Deoxys (Attack)",
+      "current_count": 1,
+      "recommended_count": 1,
+      "current_er": 38.45,
+      "new_er": 34.96,
+      "er_source": "pokebase",
+      "tdo": 141.0,
+      "hub_rank": null,
+      "pvpoke_rank": null,
+      "pvpoke_score": null,
+      "type_coverage": [],
+      "tier_calc": "E(1)+legend-glass",
+      "current_types": "Psychic",
+      "change": 0
+    },
+    {
+      "pokemon": "Charizard (Mega)",
+      "current_count": 1,
+      "recommended_count": 3,
+      "current_er": null,
+      "new_er": 54.03,
+      "er_source": "pokebase",
+      "tdo": 721.0,
+      "hub_rank": {
+        "type": "Fire",
+        "rank": 2,
+        "dps": 31.29,
+        "score": 28.0
+      },
+      "pvpoke_rank": 179,
+      "pvpoke_score": 65.5,
+      "type_coverage": [
+        "Fire"
+      ],
+      "tier_calc": "B(4)-access",
+      "current_types": "Fire, Flying",
+      "change": 2
+    },
+    {
+      "pokemon": "Pinsir (Mega)",
+      "current_count": 1,
+      "recommended_count": 1,
+      "current_er": 44.98,
+      "new_er": 42.17,
+      "er_source": "pokebase",
+      "tdo": 546.0,
+      "hub_rank": {
+        "type": "Bug",
+        "rank": 2,
+        "dps": 24.74,
+        "score": 22.04
+      },
+      "pvpoke_rank": 271,
+      "pvpoke_score": 56.5,
+      "type_coverage": [
+        "Bug"
+      ],
+      "tier_calc": "D(2)-access",
+      "current_types": "Bug",
+      "change": 0
+    },
+    {
+      "pokemon": "Scizor (Mega)",
+      "current_count": 1,
+      "recommended_count": 1,
+      "current_er": 41.86,
+      "new_er": 40.0,
+      "er_source": "pokebase",
+      "tdo": 568.0,
+      "hub_rank": {
+        "type": "Bug",
+        "rank": 3,
+        "dps": 22.89,
+        "score": 20.67
+      },
+      "pvpoke_rank": 155,
+      "pvpoke_score": 68.5,
+      "type_coverage": [
+        "Bug"
+      ],
+      "tier_calc": "D(2)-access",
+      "current_types": "Bug, Steel",
+      "change": 0
+    }
+  ]
+}

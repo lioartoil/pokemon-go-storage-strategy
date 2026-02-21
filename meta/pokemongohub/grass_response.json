@@ -1,7 +1,7 @@
 {
   "source": "pokemongohub",
   "type": "grass",
-  "last_fetched": "2026-02-14",
+  "last_fetched": "2026-02-21",
   "results": [
     {
       "attacker": {
@@ -92,6 +92,16 @@
       "dps": 24.32,
       "tdo": 395.1,
       "score": 21.09
+    },
+    {
+      "attacker": {
+        "name": "Mega Victreebel"
+      },
+      "qm": "Magical Leaf *",
+      "cm": "Leaf Blade",
+      "dps": 23.51,
+      "tdo": 440.4,
+      "score": 20.78
     },
     {
       "attacker": {
@@ -212,6 +222,16 @@
       "dps": 21.24,
       "tdo": 386.0,
       "score": 18.68
+    },
+    {
+      "attacker": {
+        "name": "Shaymin (Land Forme)"
+      },
+      "qm": "Magical Leaf",
+      "cm": "Grass Knot",
+      "dps": 20.34,
+      "tdo": 511.8,
+      "score": 18.52
     },
     {
       "attacker": {
@@ -482,26 +502,6 @@
       "dps": 18.51,
       "tdo": 353.8,
       "score": 16.38
-    },
-    {
-      "attacker": {
-        "name": "Simisage"
-      },
-      "qm": "Vine Whip",
-      "cm": "Grass Knot",
-      "dps": 19.37,
-      "tdo": 261.8,
-      "score": 16.36
-    },
-    {
-      "attacker": {
-        "name": "Exeggutor"
-      },
-      "qm": "Bullet Seed",
-      "cm": "Solar Beam",
-      "dps": 18.65,
-      "tdo": 329.3,
-      "score": 16.35
     }
   ]
 }

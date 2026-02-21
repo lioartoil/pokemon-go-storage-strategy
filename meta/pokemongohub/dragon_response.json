@@ -1,7 +1,7 @@
 {
   "source": "pokemongohub",
   "type": "dragon",
-  "last_fetched": "2026-02-14",
+  "last_fetched": "2026-02-21",
   "results": [
     {
       "attacker": {
@@ -92,6 +92,16 @@
       "dps": 28.2,
       "tdo": 638.1,
       "score": 25.4
+    },
+    {
+      "attacker": {
+        "name": "Mega Dragonite"
+      },
+      "qm": "Dragon Tail",
+      "cm": "Draco Meteor *",
+      "dps": 27.31,
+      "tdo": 769.8,
+      "score": 25.13
     },
     {
       "attacker": {
@@ -492,16 +502,6 @@
       "dps": 20.28,
       "tdo": 429.6,
       "score": 18.17
-    },
-    {
-      "attacker": {
-        "name": "Latias"
-      },
-      "qm": "Dragon Breath",
-      "cm": "Outrage",
-      "dps": 19.9,
-      "tdo": 496.3,
-      "score": 18.11
     }
   ]
 }

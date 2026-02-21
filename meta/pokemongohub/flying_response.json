@@ -1,7 +1,7 @@
 {
   "source": "pokemongohub",
   "type": "flying",
-  "last_fetched": "2026-02-14",
+  "last_fetched": "2026-02-21",
   "results": [
     {
       "attacker": {
@@ -345,6 +345,16 @@
     },
     {
       "attacker": {
+        "name": "Mega Dragonite"
+      },
+      "qm": "Dragon Tail",
+      "cm": "Hurricane",
+      "dps": 19.35,
+      "tdo": 545.6,
+      "score": 17.79
+    },
+    {
+      "attacker": {
         "name": "Shadow Dragonite"
       },
       "qm": "Dragon Tail",
@@ -492,16 +502,6 @@
       "dps": 18.0,
       "tdo": 384.6,
       "score": 16.12
-    },
-    {
-      "attacker": {
-        "name": "Mega Sceptile"
-      },
-      "qm": "Fury Cutter",
-      "cm": "Aerial Ace",
-      "dps": 18.03,
-      "tdo": 315.9,
-      "score": 15.8
     }
   ]
 }

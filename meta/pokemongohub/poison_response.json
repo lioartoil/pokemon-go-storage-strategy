@@ -1,7 +1,7 @@
 {
   "source": "pokemongohub",
   "type": "poison",
-  "last_fetched": "2026-02-14",
+  "last_fetched": "2026-02-21",
   "results": [
     {
       "attacker": {
@@ -62,6 +62,16 @@
       "dps": 23.69,
       "tdo": 366.5,
       "score": 20.42
+    },
+    {
+      "attacker": {
+        "name": "Mega Victreebel"
+      },
+      "qm": "Acid",
+      "cm": "Sludge Bomb",
+      "dps": 23.07,
+      "tdo": 432.0,
+      "score": 20.37
     },
     {
       "attacker": {
@@ -492,16 +502,6 @@
       "dps": 17.06,
       "tdo": 215.0,
       "score": 14.25
-    },
-    {
-      "attacker": {
-        "name": "Salazzle"
-      },
-      "qm": "Poison Jab",
-      "cm": "Sludge Wave",
-      "dps": 17.04,
-      "tdo": 211.9,
-      "score": 14.2
     }
   ]
 }

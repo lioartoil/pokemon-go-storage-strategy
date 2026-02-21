@@ -1,7 +1,7 @@
 {
   "source": "pokemongohub",
   "type": "fighting",
-  "last_fetched": "2026-02-14",
+  "last_fetched": "2026-02-21",
   "results": [
     {
       "attacker": {
@@ -485,6 +485,16 @@
     },
     {
       "attacker": {
+        "name": "Mega Dragonite"
+      },
+      "qm": "Dragon Tail",
+      "cm": "Superpower",
+      "dps": 19.25,
+      "tdo": 542.5,
+      "score": 17.7
+    },
+    {
+      "attacker": {
         "name": "Shadow Gallade"
       },
       "qm": "Low Kick",
@@ -492,16 +502,6 @@
       "dps": 20.44,
       "tdo": 306.7,
       "score": 17.53
-    },
-    {
-      "attacker": {
-        "name": "Shadow Chesnaught"
-      },
-      "qm": "Low Kick",
-      "cm": "Superpower",
-      "dps": 19.84,
-      "tdo": 369.6,
-      "score": 17.5
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "source": "pokemongohub",
   "type": "electric",
-  "last_fetched": "2026-02-14",
+  "last_fetched": "2026-02-21",
   "results": [
     {
       "attacker": {
@@ -385,6 +385,16 @@
     },
     {
       "attacker": {
+        "name": "Mega Dragonite"
+      },
+      "qm": "Dragon Tail",
+      "cm": "Thunder Punch",
+      "dps": 18.15,
+      "tdo": 511.6,
+      "score": 16.69
+    },
+    {
+      "attacker": {
         "name": "Mega Lucario"
       },
       "qm": "Force Palm *",
@@ -492,16 +502,6 @@
       "dps": 18.08,
       "tdo": 299.8,
       "score": 15.73
-    },
-    {
-      "attacker": {
-        "name": "Aria Forme Meloetta"
-      },
-      "qm": "Quick Attack",
-      "cm": "Thunderbolt",
-      "dps": 17.17,
-      "tdo": 461.1,
-      "score": 15.72
     }
   ]
 }

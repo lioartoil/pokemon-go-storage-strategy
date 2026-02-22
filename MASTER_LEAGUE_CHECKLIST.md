@@ -59,12 +59,12 @@ Before starting, verify:
 
 **Non-Shadow Query** (48 species):
 ```
-!shadow&(alakazam,beedrill,blacephalon,blaziken,charizard,deoxys,dialga,diancie,eternatus,garchomp,gardevoir,gengar,groudon,heatran,heracross,hoopa,hydreigon,kartana,keldeo,kyogre,kyurem,landorus,lucario,lunala,metagross,mewtwo,necrozma,palkia,pheromosa,pinsir,rampardos,rayquaza,regieleki,regigigas,reshiram,salamence,sceptile,scizor,swampert,terrakion,tyranitar,volcarona,xerneas,xurkitree,yveltal,zacian,zamazenta,zekrom)
+!shadow&alakazam,beedrill,blacephalon,blaziken,charizard,deoxys,dialga,diancie,eternatus,garchomp,gardevoir,gengar,groudon,heatran,heracross,hoopa,hydreigon,kartana,keldeo,kyogre,kyurem,landorus,lucario,lunala,metagross,mewtwo,necrozma,palkia,pheromosa,pinsir,rampardos,rayquaza,regieleki,regigigas,reshiram,salamence,sceptile,scizor,swampert,terrakion,tyranitar,volcarona,xerneas,xurkitree,yveltal,zacian,zamazenta,zekrom
 ```
 
 **Shadow Query** (37 species):
 ```
-shadow&(alakazam,blaziken,chandelure,conkeldurr,darkrai,darmanitan,dialga,dragonite,electivire,excadrill,garchomp,gardevoir,gengar,groudon,heatran,honchkrow,kyogre,latios,machamp,magnezone,mamoswine,metagross,mewtwo,moltres,palkia,raikou,rampardos,regigigas,rhyperior,salamence,staraptor,swampert,tangrowth,toxicroak,tyranitar,weavile,zapdos)
+shadow&alakazam,blaziken,chandelure,conkeldurr,darkrai,darmanitan,dialga,dragonite,electivire,excadrill,garchomp,gardevoir,gengar,groudon,heatran,honchkrow,kyogre,latios,machamp,magnezone,mamoswine,metagross,mewtwo,moltres,palkia,raikou,rampardos,regigigas,rhyperior,salamence,staraptor,swampert,tangrowth,toxicroak,tyranitar,weavile,zapdos
 ```
 
 Tag all results with `#Attackers` tag.

@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-> **Project Context** | Pokemon GO Storage Management System | Updated: 2026-02-16
+> **Project Context** | Pokemon GO Storage Management System | Updated: 2026-02-25
 
 ## Project Overview
 
@@ -49,19 +49,20 @@ pokemon/
 
 ## Recent Work
 
-### Session (2026-02-25): Data Refresh + 15 New Species
+### Session (2026-02-25): Data Refresh + 15 New Species + 41 Megas
 
 1. Refreshed all 3 data sources: PokeBase (1,658 entries), PokemonGOHub (18 types), PvPoke ML (397 entries)
 2. Fixed `ACCOUNT_LIMITED` in `cross_reference_raid_sources.py` from 1→2 (normal + shiny)
-3. Updated `LEGENDARY_UB_MYTHICAL` set: added enamorus, tapu lele, tapu koko, thundurus, nihilego, shaymin, zarude
-4. Updated `ACCESSIBLE` set: added vikavolt, delphox, toucannon, chesnaught, porygon-z, tyrantrum, gigalith, greninja, kingler
+3. Updated `LEGENDARY_UB_MYTHICAL` set: added enamorus, tapu lele, tapu koko, thundurus, nihilego, shaymin, zarude, zygarde, zeraora, latios, latias
+4. Updated `ACCESSIBLE` set: added ~50 species (Mega base forms + new shadow species)
 5. **MAJOR**: Added 15 new species to `docs/reference/RAID_ATTACKER_COUNTS.md`
    - Enamorus (4), Tapu Lele (4), Tapu Koko (3), Shaymin Sky (3), Zarude (3), Nihilego (3)
-   - Shadow Toucannon (2)
-   - Shadow Vikavolt (1), Shadow Delphox (1), Shadow Chesnaught (1), Shadow Porygon-Z (1)
-   - Shadow Tyrantrum (1), Shadow Gigalith (1), Shadow Greninja (1), Shadow Kingler (1)
-   - Total: ~359 copies across 105 species (up from ~329 across 90)
-6. Updated raid attacker queries: 53 non-shadow, 46 shadow (up from 48/37)
+   - Shadow Toucannon (2), Shadow Vikavolt (1), Shadow Delphox (1), etc.
+6. **MAJOR**: Added 41 Mega entries + 2 merges (all Megas with ER >= 40, incl. datamined)
+   - Merged: Mewtwo (ER 50.28→65.02, count 5→6), Heatran (ER 41.93→55.92, count 3→6)
+   - New entries: Mega Rayquaza (6), Mega Garchomp (5), Mega Salamence (5), Mega Metagross (5), etc.
+   - Final: ~459 copies across 146 species (up from ~329 across 90)
+7. Updated raid attacker queries: 94 non-shadow, 46 shadow (up from 48/37)
 
 ### Session (2026-02-21): Multi-Source Cross-Reference + ML PvP Modifier
 
@@ -286,15 +287,15 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 ### Git Status
 
 **Branch**: develop (main branch)
-**Clean working tree**: Yes (all changes committed)
+**Clean working tree**: Yes (all changes committed and pushed)
 **GitHub Issues**: [#1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) - CLOSED (recalibrated 2026-02-16)
 **Recent commits** (most recent first):
 
-1. `3d8f4ec` (2026-02-16) - feat(raid): recalibrate attacker counts with ER-based tier methodology
-2. `961febc` (2026-02-16) - docs(raid): add count tier methodology section
-3. `a775e08` (2026-02-16) - docs: add emergency reduction guide and fix tag/strategy docs
-4. `9283390` (2026-02-16) - fix: add PokeGenie, Primals, Unreviewed to cSpell dictionary
-5. `91ede0a` (2026-02-14) - data: refresh PokemonGOHub cache (2026-02-14)
+1. `cd42963` (2026-02-25) - feat(raid): add 41 Mega entries and merge 2 existing (146 species, ~459 copies)
+2. `cce41dd` (2026-02-25) - data: refresh all raid data sources (2026-02-25)
+3. `b501d40` (2026-02-25) - fix: remove parentheses from raid attacker queries
+4. `0c4cdec` (2026-02-25) - fix(raid): update account-limited counts to 2 (normal + shiny)
+5. `91f37b1` (2026-02-25) - fix: add cSpell words and attacker tag filter query
 
 ### Questions/Considerations
 
@@ -320,7 +321,7 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 
 ## Session Notes
 
-**Current Session (2026-02-25)**: Data Refresh + 15 New Species
+**Current Session (2026-02-25)**: Data Refresh + 15 New Species + 41 Megas
 
 **Emergency Reduction Queries** (run in Pokemon GO, in this order):
 

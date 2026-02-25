@@ -139,11 +139,12 @@ LEGENDARY_UB_MYTHICAL = {
     "zekrom", "xerneas", "yveltal", "palkia", "dialga", "regigigas",
     "heatran", "landorus", "zacian", "zamazenta", "necrozma", "lunala",
     "eternatus", "moltres", "raikou", "zapdos", "terrakion", "darkrai",
-    "regieleki", "deoxys",
+    "regieleki", "deoxys", "enamorus", "tapu lele", "tapu koko",
+    "thundurus", "zygarde", "zeraora", "latios", "latias",
     # Ultra Beasts
-    "pheromosa", "kartana", "xurkitree", "blacephalon",
+    "pheromosa", "kartana", "xurkitree", "blacephalon", "nihilego",
     # Mythical
-    "hoopa", "keldeo", "diancie",
+    "hoopa", "keldeo", "diancie", "shaymin", "zarude",
 }
 
 ACCESSIBLE = {
@@ -153,13 +154,26 @@ ACCESSIBLE = {
     "starly", "salamence", "bagon", "dragonite", "dratini",
     "charizard", "charmander", "pinsir", "scizor", "scyther",
     "conkeldurr", "timburr", "toxicroak", "croagunk", "swampert",
-    "mudkip",
+    "mudkip", "vikavolt", "grubbin", "delphox", "fennekin",
+    "toucannon", "pikipek", "chesnaught", "chespin", "porygon-z",
+    "porygon", "tyrantrum", "tyrunt", "gigalith", "roggenrola",
+    "greninja", "froakie", "kingler", "krabby",
+    # Mega-accessible species (base forms are common)
+    "venusaur", "bulbasaur", "blastoise", "squirtle", "pidgeot",
+    "pidgey", "gyarados", "magikarp", "ampharos", "mareep",
+    "houndoom", "houndour", "manectric", "electrike", "banette",
+    "shuppet", "lopunny", "buneary", "gallade", "starmie",
+    "staryu", "meganium", "chikorita", "feraligatr", "totodile",
+    "emboar", "tepig", "froslass", "snorunt", "golurk", "golett",
+    "pyroar", "litleo", "skarmory", "meowstic", "espurr",
+    "scovillain", "capsakid", "eelektross", "tynamo", "golisopod",
+    "wimpod", "victreebel", "bellsprout",
 }
 
 ACCOUNT_LIMITED = {
-    "eternatus": 1,
-    "keldeo": 1,
-    "diancie": 1,
+    "eternatus": 2,
+    "keldeo": 2,
+    "diancie": 2,
 }
 
 GIOVANNI_POKEMON = {

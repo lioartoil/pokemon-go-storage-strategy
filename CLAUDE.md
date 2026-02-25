@@ -49,6 +49,20 @@ pokemon/
 
 ## Recent Work
 
+### Session (2026-02-25): Data Refresh + 15 New Species
+
+1. Refreshed all 3 data sources: PokeBase (1,658 entries), PokemonGOHub (18 types), PvPoke ML (397 entries)
+2. Fixed `ACCOUNT_LIMITED` in `cross_reference_raid_sources.py` from 1→2 (normal + shiny)
+3. Updated `LEGENDARY_UB_MYTHICAL` set: added enamorus, tapu lele, tapu koko, thundurus, nihilego, shaymin, zarude
+4. Updated `ACCESSIBLE` set: added vikavolt, delphox, toucannon, chesnaught, porygon-z, tyrantrum, gigalith, greninja, kingler
+5. **MAJOR**: Added 15 new species to `docs/reference/RAID_ATTACKER_COUNTS.md`
+   - Enamorus (4), Tapu Lele (4), Tapu Koko (3), Shaymin Sky (3), Zarude (3), Nihilego (3)
+   - Shadow Toucannon (2)
+   - Shadow Vikavolt (1), Shadow Delphox (1), Shadow Chesnaught (1), Shadow Porygon-Z (1)
+   - Shadow Tyrantrum (1), Shadow Gigalith (1), Shadow Greninja (1), Shadow Kingler (1)
+   - Total: ~359 copies across 105 species (up from ~329 across 90)
+6. Updated raid attacker queries: 53 non-shadow, 46 shadow (up from 48/37)
+
 ### Session (2026-02-21): Multi-Source Cross-Reference + ML PvP Modifier
 
 1. Created `scripts/fetch_pokebase.py` — Playwright scraper for PokeBase DPS calc (1,658 Pokemon with ER)
@@ -157,7 +171,7 @@ Added 4 attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina (Ghos
 - **5 Modifiers**: +1 dual-type, +1 legendary/UB/mythical, +1 ML PvP top-50, -1 accessible, -1 glass cannon (TDO<300)
 - **Caps**: Max 6, min 1, account-limited = account limit, Giovanni-only = keep all
 - **Mega/Primal merge**: Same physical Pokemon → single entry using best ER
-- **Total**: ~326 copies across 90 tracked species
+- **Total**: ~459 copies across 146 tracked species
 
 ### Implementation Details
 
@@ -184,46 +198,48 @@ Added 4 attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina (Ghos
 
 **Raid Attacker Queries** (to exclude from transfers):
 
-**Non-Shadow Query** (48 species):
+**Non-Shadow Query** (94 species):
 
 ```
-!shadow&alakazam,beedrill,blacephalon,blaziken,charizard,deoxys,dialga,diancie,eternatus,garchomp,gardevoir,gengar,groudon,heatran,heracross,hoopa,hydreigon,kartana,keldeo,kyogre,kyurem,landorus,lucario,lunala,metagross,mewtwo,necrozma,palkia,pheromosa,pinsir,rampardos,rayquaza,regieleki,regigigas,reshiram,salamence,sceptile,scizor,swampert,terrakion,tyranitar,volcarona,xerneas,xurkitree,yveltal,zacian,zamazenta,zekrom
+!shadow&absol,aerodactyl,alakazam,ampharos,banette,baxcalibur,beedrill,blacephalon,blastoise,blaziken,chandelure,charizard,chesnaught,darkrai,delphox,deoxys,dialga,diancie,dragonite,drampa,eelektross,emboar,enamorus,eternatus,excadrill,feraligatr,froslass,gallade,garchomp,gardevoir,gengar,glimmora,golisopod,golurk,greninja,groudon,gyarados,hawlucha,heatran,heracross,hoopa,houndoom,hydreigon,kartana,keldeo,kyogre,kyurem,landorus,latias,latios,lopunny,lucario,lunala,manectric,meganium,meowstic,metagross,mewtwo,necrozma,nihilego,palkia,pheromosa,pidgeot,pinsir,pyroar,rampardos,rayquaza,regieleki,regigigas,reshiram,salamence,sceptile,scizor,scovillain,shaymin,skarmory,staraptor,starmie,swampert,tapu,terrakion,tyranitar,venusaur,victreebel,volcarona,xerneas,xurkitree,yveltal,zacian,zamazenta,zarude,zeraora,zekrom,zygarde
 ```
 
-**Shadow Query** (37 species):
+**Shadow Query** (46 species):
 
 ```
-shadow&alakazam,blaziken,chandelure,conkeldurr,darkrai,darmanitan,dialga,dragonite,electivire,excadrill,garchomp,gardevoir,gengar,groudon,heatran,honchkrow,kyogre,latios,machamp,magnezone,mamoswine,metagross,mewtwo,moltres,palkia,raikou,rampardos,regigigas,rhyperior,salamence,staraptor,swampert,tangrowth,toxicroak,tyranitar,weavile,zapdos
+shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,delphox,dialga,dragonite,electivire,excadrill,garchomp,gardevoir,gengar,gigalith,greninja,groudon,heatran,honchkrow,kingler,kyogre,latios,machamp,magnezone,mamoswine,metagross,mewtwo,moltres,palkia,porygon-z,raikou,rampardos,regigigas,rhyperior,salamence,staraptor,swampert,tangrowth,toucannon,toxicroak,tyranitar,tyrantrum,vikavolt,weavile,zapdos
 ```
 
 **Attacker Tag Filter** (non-shadow, exclude tracked species):
 
 ```
-!shadow&!alakazam&!beedrill&!blacephalon&!blaziken&!charizard&!deoxys&!dialga&!diancie&!eternatus&!garchomp&!gardevoir&!gengar&!groudon&!heatran&!heracross&!hoopa&!hydreigon&!kartana&!keldeo&!kyogre&!kyurem&!landorus&!lucario&!lunala&!metagross&!mewtwo&!necrozma&!palkia&!pheromosa&!pinsir&!rampardos&!rayquaza&!regieleki&!regigigas&!reshiram&!salamence&!sceptile&!scizor&!swampert&!terrakion&!tyranitar&!volcarona&!xerneas&!xurkitree&!yveltal&!zacian&!zamazenta&!zekrom&attackers
+!shadow&!absol&!aerodactyl&!alakazam&!ampharos&!banette&!baxcalibur&!beedrill&!blacephalon&!blastoise&!blaziken&!chandelure&!charizard&!chesnaught&!darkrai&!delphox&!deoxys&!dialga&!diancie&!dragonite&!drampa&!eelektross&!emboar&!enamorus&!eternatus&!excadrill&!feraligatr&!froslass&!gallade&!garchomp&!gardevoir&!gengar&!glimmora&!golisopod&!golurk&!greninja&!groudon&!gyarados&!hawlucha&!heatran&!heracross&!hoopa&!houndoom&!hydreigon&!kartana&!keldeo&!kyogre&!kyurem&!landorus&!latias&!latios&!lopunny&!lucario&!lunala&!manectric&!meganium&!meowstic&!metagross&!mewtwo&!necrozma&!nihilego&!palkia&!pheromosa&!pidgeot&!pinsir&!pyroar&!rampardos&!rayquaza&!regieleki&!regigigas&!reshiram&!salamence&!sceptile&!scizor&!scovillain&!shaymin&!skarmory&!staraptor&!starmie&!swampert&!tapu&!terrakion&!tyranitar&!venusaur&!victreebel&!volcarona&!xerneas&!xurkitree&!yveltal&!zacian&!zamazenta&!zarude&!zeraora&!zekrom&!zygarde&attackers
 ```
 
 ### Current State
 
-**Completed (2026-02-21)**:
+**Completed (2026-02-25)**:
 
-- [x] Cross-referenced 4 data sources with 5 modifiers (PokeBase, PokemonGOHub, PvPoke, GamePress)
-- [x] Created `scripts/fetch_pokebase.py` and `scripts/cross_reference_raid_sources.py`
-- [x] Updated RAID_ATTACKER_COUNTS.md with fresh ER data and ML PvP modifier
-- [x] Updated raid attacker queries (48 non-shadow, 37 shadow) — validated
+- [x] Refreshed all 3 data sources (PokeBase, PokemonGOHub, PvPoke ML rankings)
+- [x] Added 15 new species to RAID_ATTACKER_COUNTS.md
+- [x] Added 41 new Mega entries + 2 merges (Mewtwo→6, Heatran→6) — ~459 copies across 146 species
+- [x] Updated raid attacker queries (94 non-shadow, 46 shadow)
+- [x] Fixed account-limited counts in cross-reference script (1→2)
 
+**Completed (2026-02-21)**: Cross-referenced 4 data sources, added ML PvP modifier
 **Completed (2026-02-16)**: Tier methodology recalibration (Issue #1), doc fixes
 **Completed (2026-02-14)**: Validation scripts, query fixes, PokemonGOHub cache refresh
 
 **In Progress**:
 
 - [ ] **EMERGENCY: Free 200-300 storage slots** (11,235/11,325 = 0.8% free)
-- [ ] Re-tag raid attackers with `#Attackers` using updated queries (48+37 species)
-- [ ] Run `#Attackers` count to compare against recommended totals (~326 copies)
+- [ ] Re-tag raid attackers with `#Attackers` using updated queries (94+46 species)
+- [ ] Run `#Attackers` count to compare against recommended totals (~459 copies)
 
 ### Next Session Priorities
 
 1. **Re-tag `#Attackers`** (~10 min) — SAFETY PREREQUISITE before any transfers
-   - Run non-shadow query (48 species) and shadow query (37 species)
+   - Run non-shadow query (94 species) and shadow query (46 species)
    - Tag all untagged results with `#Attackers`
 
 2. **Emergency Storage Reduction** (~50 min, target 200-350 slots freed)
@@ -255,7 +271,7 @@ shadow&alakazam,blaziken,chandelure,conkeldurr,darkrai,darmanitan,dialga,dragoni
 - `docs/reference/TAG_SYSTEM.md` - 43-tag system documentation
 - `docs/reference/FAVORITE_QUERIES.md` - 40 saved search queries
 - `docs/reference/STORAGE_QUICK_REFERENCE.md` - Daily decision flowchart
-- `docs/reference/RAID_ATTACKER_COUNTS.md` - ER-based attacker retention counts (recalibrated 2026-02-16, Issue #1; 90 species, ~358 copies)
+- `docs/reference/RAID_ATTACKER_COUNTS.md` - ER-based attacker retention counts (updated 2026-02-25; 146 species, ~459 copies)
 
 **Meta Data**:
 
@@ -304,7 +320,7 @@ shadow&alakazam,blaziken,chandelure,conkeldurr,darkrai,darmanitan,dialga,dragoni
 
 ## Session Notes
 
-**Current Session (2026-02-16)**: Tier Methodology Recalibration (Issue #1) + Doc Fixes
+**Current Session (2026-02-25)**: Data Refresh + 15 New Species
 
 **Emergency Reduction Queries** (run in Pokemon GO, in this order):
 
@@ -320,8 +336,6 @@ Sort by name → keep best 1 per species, transfer rest.
 **Step 4 — Untagged Duplicates**: `!4*&!shiny&!lucky&!shadow&!costume&!@special&!legendary&!mythical&!#Attackers&!#rank1&!#rank2&!#rank3&!#rank4-20&!#great&!#ultra&!#little`
 Sort by name → transfer lowest-IV duplicates.
 
-**Note**: Raid attacker queries still include 15 "Not Tracked" species — needs cleanup next session.
-
 ---
 
-_Session handoff updated: 2026-02-16_
+_Session handoff updated: 2026-02-25_

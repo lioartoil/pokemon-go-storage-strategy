@@ -153,15 +153,15 @@ Added 4 attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina (Ghos
 
 **PokeGenie Format Standardization**:
 
-- All Favorite ₂ generators (High IV, Dynamax, Gigantamax) use identical format: `₂{Stage}{●/○}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}`
+- All Favorite ₂ generators (High IV, Dynamax, Gigantamax) use identical format: `₂{Stage}{•/°}{Name}{Rank}{IV}{Lvl}{Atk}{Atk2}{Leg}`
 - Rank field ALWAYS filled with rank number (auto-conditions: Pokemon's rank; manual: Master League rank)
 - Shadow/XXS/XXL formats simplified to match Shiny/Costume patterns
-- Level format uses `②`, `⑮`, `⑳` for whole levels and `②½`, `⑮½`, `⑳½` for half-levels
+- Level format uses `2`, `15`, `20` for whole levels and `2½`, `15½`, `20½` for half-levels
 
 **Symbol Standardization**:
 
-- Added `ⓛ` for Little League (was missing)
-- Added `Ⓜ` (Mega) and `Ⓟ` (Primal) evolution stages
+- Added `L` for Little League (was missing)
+- Added `M` (Mega) and `P` (Primal) evolution stages
 - Removed unused symbols: `⊖`, `⊕`, `•` (Default)
 - Fixed Costume prefix: `₃` → `₄`
 
@@ -180,7 +180,7 @@ Added 4 attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina (Ghos
 
 | Favorite | Prefix | Categories | Description                      |
 | -------- | ------ | ---------- | -------------------------------- |
-| (none)   | ⇄      | #10-13     | Transfer/Trade queue (default)   |
+| (none)   | ~      | #10-13     | Transfer/Trade queue (default)   |
 | ₁        | ₁      | #1a, #1b   | PvP IV (GL/UL/LL)                |
 | ₂        | ₂      | #2, Manual | Master League + High IV override |
 | ₃        | ₃      | #3         | Shiny Pokemon                    |
@@ -191,11 +191,11 @@ Added 4 attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina (Ghos
 | ₈        | ₈      | #8         | Dynamax Pokemon                  |
 | ₉        | ₉      | #9         | Gigantamax Pokemon               |
 
-**Evolution Stage Symbols**: Ⓑ (Baby), ⓪ (Basic), ① (Stage 1), ② (Stage 2), Ⓜ (Mega), Ⓟ (Primal)
+**Evolution Stage Symbols**: b (Baby), 0 (Basic), 1 (Stage 1), 2 (Stage 2), M (Mega), P (Primal)
 
-**League Symbols**: Ⓖ (Great ≤1500), Ⓤ (Ultra ≤2500), ⓛ (Little ≤500), (none) = Master (unlimited)
+**League Symbols**: G (Great ≤1500), U (Ultra ≤2500), L (Little ≤500), (none) = Master (unlimited)
 
-**Shadow/Purified**: ● (Shadow), ○ (Purified)
+**Shadow/Purified**: • (Shadow), ° (Purified)
 
 **Raid Attacker Queries** (to exclude from transfers):
 

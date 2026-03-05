@@ -150,7 +150,7 @@ Example: ₇0⁸²2Char㈩
 | Symbol                                      | Meaning                     | Symbol                       | Meaning         |
 | ------------------------------------------- | --------------------------- | ---------------------------- | --------------- |
 | `₁`, `₂`, `₃`, `₄`, `₅`, `₆`, `₇`, `₈`, `₉` | Favorite prefix             | `~`                          | Transfer/Trade  |
-| `C`, `G`, `U`                               | League (Cup/Great/Ultra)    | `-`, `0`, `1`, `2`, `M`, `P` | Evolution stage |
+| `C`, `G`, `U`                               | League (Cup/Great/Ultra)    | `.`, `0`, `1`, `2`, `M`, `P` | Evolution stage |
 | `•`                                         | Shadow                      | `°`                          | Purified        |
 | `2`, `15`, `20`                               | Level (whole)               | `2½`, `15½`, `20½`             | Level (half)    |
 | `⁸²`, `⁹⁶`, `¹⁰⁰`                           | IV percentage               | `84`, `38`, `15`             | PvP rank        |
@@ -159,7 +159,7 @@ Example: ₇0⁸²2Char㈩
 
 **Evolution Stage**:
 
-- `-` = Baby (e.g., Pichu, Riolu)
+- `.` = Baby (e.g., Pichu, Riolu)
 - `0` = Basic (e.g., Pikachu, Charmander)
 - `1` = Stage 1 (e.g., Raichu, Charmeleon)
 - `2` = Stage 2 (e.g., Charizard)

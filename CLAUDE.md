@@ -191,7 +191,7 @@ Added 4 attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina (Ghos
 | ₈        | ₈      | #8         | Dynamax Pokemon                  |
 | ₉        | ₉      | #9         | Gigantamax Pokemon               |
 
-**Evolution Stage Symbols**: - (Baby), 0 (Basic), 1 (Stage 1), 2 (Stage 2), M (Mega), P (Primal)
+**Evolution Stage Symbols**: . (Baby), 0 (Basic), 1 (Stage 1), 2 (Stage 2), M (Mega), P (Primal)
 
 **League Symbols**: C (Little/Cup ≤500), G (Great ≤1500), U (Ultra ≤2500), (none) = Master (unlimited)
 

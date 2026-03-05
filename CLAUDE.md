@@ -160,7 +160,7 @@ Added 4 attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina (Ghos
 
 **Symbol Standardization**:
 
-- Added `L` for Little League (was missing)
+- Added `C` for Little League/Cup (was missing)
 - Added `M` (Mega) and `P` (Primal) evolution stages
 - Removed unused symbols: `⊖`, `⊕`, `•` (Default)
 - Fixed Costume prefix: `₃` → `₄`
@@ -191,9 +191,9 @@ Added 4 attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina (Ghos
 | ₈        | ₈      | #8         | Dynamax Pokemon                  |
 | ₉        | ₉      | #9         | Gigantamax Pokemon               |
 
-**Evolution Stage Symbols**: b (Baby), 0 (Basic), 1 (Stage 1), 2 (Stage 2), M (Mega), P (Primal)
+**Evolution Stage Symbols**: - (Baby), 0 (Basic), 1 (Stage 1), 2 (Stage 2), M (Mega), P (Primal)
 
-**League Symbols**: G (Great ≤1500), U (Ultra ≤2500), L (Little ≤500), (none) = Master (unlimited)
+**League Symbols**: C (Little/Cup ≤500), G (Great ≤1500), U (Ultra ≤2500), (none) = Master (unlimited)
 
 **Shadow/Purified**: • (Shadow), ° (Purified)
 

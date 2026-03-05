@@ -97,7 +97,7 @@ They are structured as subcategories due to different retention rules (Little Le
 ₁{League}{Stage}{•/°}{Name}{Rank}{Atk}{Atk2}{Leg}
 Example: ₁G0Char84aa㈩      (GL Rank 84, basic, no shadow)
 Example: ₁U1°Venu38A        (UL Rank 38, stage 1, purified)
-Example: ₁L0Pika25aa         (LL Rank 25, basic, no shadow)
+Example: ₁C0Pika25aa         (LL Rank 25, basic, no shadow)
 ```
 
 **High IV / Master League Format** (Category #2, Dynamax, Gigantamax):
@@ -150,7 +150,7 @@ Example: ₇0⁸²2Char㈩
 | Symbol                                      | Meaning                     | Symbol                       | Meaning         |
 | ------------------------------------------- | --------------------------- | ---------------------------- | --------------- |
 | `₁`, `₂`, `₃`, `₄`, `₅`, `₆`, `₇`, `₈`, `₉` | Favorite prefix             | `~`                          | Transfer/Trade  |
-| `G`, `U`, `L`                               | League (Great/Ultra/Little) | `b`, `0`, `1`, `2`, `M`, `P` | Evolution stage |
+| `C`, `G`, `U`                               | League (Cup/Great/Ultra)    | `-`, `0`, `1`, `2`, `M`, `P` | Evolution stage |
 | `•`                                         | Shadow                      | `°`                          | Purified        |
 | `2`, `15`, `20`                               | Level (whole)               | `2½`, `15½`, `20½`             | Level (half)    |
 | `⁸²`, `⁹⁶`, `¹⁰⁰`                           | IV percentage               | `84`, `38`, `15`             | PvP rank        |
@@ -159,7 +159,7 @@ Example: ₇0⁸²2Char㈩
 
 **Evolution Stage**:
 
-- `b` = Baby (e.g., Pichu, Riolu)
+- `-` = Baby (e.g., Pichu, Riolu)
 - `0` = Basic (e.g., Pikachu, Charmander)
 - `1` = Stage 1 (e.g., Raichu, Charmeleon)
 - `2` = Stage 2 (e.g., Charizard)
@@ -170,7 +170,7 @@ Example: ₇0⁸²2Char㈩
 
 - `G` = Great League (CP ≤ 1,500)
 - `U` = Ultra League (CP ≤ 2,500)
-- `L` = Little League (CP ≤ 500)
+- `C` = Little League / Little Cup (CP ≤ 500)
 - No symbol = Master League (unlimited CP)
 
 **Level Format**:

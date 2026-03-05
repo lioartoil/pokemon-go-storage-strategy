@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-> **Project Context** | Pokemon GO Storage Management System | Updated: 2026-02-25
+> **Project Context** | Pokemon GO Storage Management System | Updated: 2026-03-05
 
 ## Project Overview
 
@@ -48,6 +48,19 @@ pokemon/
 ```
 
 ## Recent Work
+
+### Session (2026-03-05): Unicode Symbol Replacement
+
+1. **MAJOR**: Replaced 15 blocked Unicode symbols in PokeGenie naming system
+   - Pokemon GO update blocked Enclosed Alphanumerics (U+2460-U+24FF), Geometric Shapes (U+25A0-U+25FF), Arrows (U+2190-U+21FF)
+   - Shadow: ● → `•` (bullet), Purified: ○ → `°` (degree)
+   - Stages: ⓪→`0`, ①→`1`, ②→`2`, Ⓑ→`.` (dot), Ⓜ→`M`, Ⓟ→`P`
+   - Leagues: Ⓖ→`G`, Ⓤ→`U`, ⓛ→`C` (Cup, sorts before G)
+   - Transfer: ⇄→`~`, Levels: ②→`2`, ⑮→`15`, ⑳→`20`
+   - Still working: ₁-₉ (subscripts), ⁰-⁹ (superscripts), ½, ㈩
+2. Sort order fixes: `.` (Baby) < `0` (Basic), `C` (Cup) < `G` (Great) < `U` (Ultra)
+3. Added `prompt.md` to `.gitignore`
+4. Pokemon GO name sort order finding: `-` (dash) does NOT sort before digits — game has non-ASCII collation for hyphens
 
 ### Session (2026-02-25): Data Refresh + 15 New Species + 41 Megas
 
@@ -219,6 +232,12 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 
 ### Current State
 
+**Completed (2026-03-05)**:
+
+- [x] Replaced 15 blocked Unicode symbols in PokeGenie naming system
+- [x] Fixed sort order: Baby (`.`) before Basic (`0`), Little League (`C`) before Great (`G`)
+- [x] Added `prompt.md` to `.gitignore`
+
 **Completed (2026-02-25)**:
 
 - [x] Refreshed all 3 data sources (PokeBase, PokemonGOHub, PvPoke ML rankings)
@@ -291,11 +310,11 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 **GitHub Issues**: [#1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) - CLOSED (recalibrated 2026-02-16)
 **Recent commits** (most recent first):
 
-1. `cd42963` (2026-02-25) - feat(raid): add 41 Mega entries and merge 2 existing (146 species, ~459 copies)
-2. `cce41dd` (2026-02-25) - data: refresh all raid data sources (2026-02-25)
-3. `b501d40` (2026-02-25) - fix: remove parentheses from raid attacker queries
-4. `0c4cdec` (2026-02-25) - fix(raid): update account-limited counts to 2 (normal + shiny)
-5. `91f37b1` (2026-02-25) - fix: add cSpell words and attacker tag filter query
+1. `9a4421d` (2026-03-05) - fix(naming): change Baby stage symbol from - to . for correct sort order
+2. `86e3932` (2026-03-05) - fix(naming): adjust Baby and Little League symbols for correct sort order
+3. `c057e95` (2026-03-05) - fix(naming): replace blocked Unicode symbols with compatible alternatives
+4. `48a8f15` (2026-03-05) - chore: add prompt.md to .gitignore
+5. `cd42963` (2026-02-25) - feat(raid): add 41 Mega entries and merge 2 existing (146 species, ~459 copies)
 
 ### Questions/Considerations
 
@@ -315,13 +334,15 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 - PokeGenie Favorite limit: 10 groups (₀-₉)
 - PokeGenie tag limit: 50 tags (43 used, 7 free)
 - Pokemon GO name limit: 12 characters (all formats comply)
+- Pokemon GO blocked Unicode: Enclosed Alphanumerics (⓪-⑳, Ⓐ-Ⓩ), Geometric Shapes (●○), Arrows (⇄)
+- Pokemon GO name sort: `-` (dash) does NOT sort before digits; `.!,+#(*` DO sort before digits
 - User priority: Collecting > Raids > Trading >>> PvP (minimal)
 
 ---
 
 ## Session Notes
 
-**Current Session (2026-02-25)**: Data Refresh + 15 New Species + 41 Megas
+**Current Session (2026-03-05)**: Unicode Symbol Replacement
 
 **Emergency Reduction Queries** (run in Pokemon GO, in this order):
 
@@ -339,4 +360,4 @@ Sort by name → transfer lowest-IV duplicates.
 
 ---
 
-_Session handoff updated: 2026-02-25_
+_Session handoff updated: 2026-03-05_

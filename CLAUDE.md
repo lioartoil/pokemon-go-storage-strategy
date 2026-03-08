@@ -53,22 +53,27 @@ pokemon/
 
 ### Session (2026-03-08): Pokemon Violet Playthrough — Batch Updates
 
-1. **Party updates across 3 screenshot batches** (IMG_9887→9922):
-   - Larb (Fuecoco): Lv.17→19, Oran Berry consumed (no held item)
-   - Kai Yang (Fletchling): Lv.15→16, berry swap Chesto→Cheri
-   - Tod Mun (Pawmi): Lv.14→15, berry swap Chesto→Persim (Natural Cure synergy)
-   - Bua Loy (Azurill): Lv.13→15, berry swap Cheri→Pecha, learned **Bounce** (replaced Helping Hand)
-   - Carpaccio (Magikarp): Lv.10→12
-   - Macaron (Ralts): Lv.10→12, learned **Psybeam** via TM (replaced Confusion)
-2. **5 new boxed Pokemon** (box: 17→22):
+1. **Party updates across multiple screenshot batches** (IMG_9887→9922+):
+   - Larb (Fuecoco): Lv.17→21, learned **Metal Claw** (replaced Tackle), Oran Berry restored
+   - Kai Yang (Fletchling): Lv.15→18, berry swap Chesto→Cheri
+   - Tod Mun (Pawmi): Lv.14→17, berry swap Chesto→Persim (Natural Cure synergy)
+   - Bua Loy (Azurill): Lv.13→17, berry swap Cheri→Pecha, learned **Bounce** (replaced Helping Hand), moves: Water Gun/Slam/Bounce/Bubble Beam
+   - Carpaccio (Magikarp): Lv.10→14
+   - Macaron (Ralts): Lv.10→14, learned **Psybeam** via TM (replaced Confusion), IV refined: **Atk=27**, Speed 6-7
+2. **9 new boxed Pokemon** (box: 17→26):
    - Sunsnack (Sunkern F Lv.7) — Mild, **HA: Solar Power**, Def 26/31
    - Brioche (Fidough F Lv.6) — Quiet, Own Tempo, Atk 14/19
    - Broccoli (Bonsly F Lv.6) — Lonely, Rock Head, Speed 17/22/27
    - Nutella (Skwovet F Lv.8) — Hardy, Cheek Pouch, Speed 26/31
    - Sorbet (Surskit M Lv.8) — Sassy, Swift Swim, Sp.Atk 25/30
+   - Waffle (Combee M Lv.8) — Naive, Honey Gather, HP=30 (male, no evo)
+   - Mangkhut (Bounsweet F Lv.5) — Quiet, Oblivious, Def 24/29
+   - Pocky (Pachirisu M Lv.5) — Rash, Run Away, Sp.Def 21/26/31
+   - Tempura (Pichu F Lv.7) — Serious, Static, Atk 9/14/19, Sp.Atk 0-1
 3. **Berry reassignment** (strategic): Cheri for Electric weakness (Kai Yang), Persim for confusion-only coverage (Tod Mun has Natural Cure for other statuses on switch), Pecha for Poison weakness (Fairy types)
 4. **IV estimates** calculated for all new catches using base stats + nature + characteristic
-5. **Catch/box evaluations** for Bonsly, Skwovet, Surskit, Shroodle — all boxed (team slots locked for final evolutions)
+5. **Catch/box evaluations** for Bonsly, Skwovet, Surskit, Shroodle, Combee, Bounsweet, Pachirisu, Pichu — all boxed (team slots locked for final evolutions)
+6. **File cleanup**: removed redundant Type lines (when matching Tera Type), Hold Item: None from boxed Pokemon, TBD stat placeholders
 
 ### Session (2026-03-05): Unicode Symbol Replacement
 
@@ -331,11 +336,11 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 **GitHub Issues**: [#1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) - CLOSED (recalibrated 2026-02-16)
 **Recent commits** (most recent first):
 
-1. `9a4421d` (2026-03-05) - fix(naming): change Baby stage symbol from - to . for correct sort order
-2. `86e3932` (2026-03-05) - fix(naming): adjust Baby and Little League symbols for correct sort order
-3. `c057e95` (2026-03-05) - fix(naming): replace blocked Unicode symbols with compatible alternatives
-4. `48a8f15` (2026-03-05) - chore: add prompt.md to .gitignore
-5. `cd42963` (2026-02-25) - feat(raid): add 41 Mega entries and merge 2 existing (146 species, ~459 copies)
+1. `1368fce` (2026-03-08) - docs: session handoff 2026-03-08 — Violet playthrough batch updates
+2. `24df959` (2026-03-08) - docs: add Pokemon Violet playthrough tracker
+3. `7675649` (2026-03-05) - docs: session handoff 2026-03-05 — Unicode symbol replacement
+4. `9a4421d` (2026-03-05) - fix(naming): change Baby stage symbol from - to . for correct sort order
+5. `86e3932` (2026-03-05) - fix(naming): adjust Baby and Little League symbols for correct sort order
 
 ### Questions/Considerations
 
@@ -367,13 +372,12 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 
 ### Violet Playthrough State
 
-- **Party (6/6)**: Larb Lv.19, Kai Yang Lv.16, Tod Mun Lv.15, Bua Loy Lv.15, Carpaccio Lv.12, Macaron Lv.12
-- **Box**: 22 Pokemon (food-themed names, Thai + international)
+- **Party (6/6)**: Larb Lv.21, Kai Yang Lv.18, Tod Mun Lv.17, Bua Loy Lv.17, Carpaccio Lv.14, Macaron Lv.14
+- **Box**: 26 Pokemon (food-themed names, Thai + international)
 - **Final evolutions**: Skeledirge, Talonflame, Pawmot, Azumarill, Gyarados, Gardevoir
-- **Key file**: `violet/playthrough.md` — full party/box tables + detailed IV estimates for all 28 Pokemon
+- **Key file**: `violet/playthrough.md` — full party/box tables + detailed IV estimates for all 32 Pokemon
 - **Memory file**: `~/.claude/projects/.../memory/pokemon-violet-playthrough.md` — compact summary
 - **Workflow**: User sends screenshots (HEIC) → Claude converts via `sips` → reads stats/nature/characteristic → calculates IVs → updates files
-- **Pending**: Shroodle catch (recommended name: Wasabi or Sriracha) — screenshots not yet received
 
 ### Pokemon GO Emergency Queries
 

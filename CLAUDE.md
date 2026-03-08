@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-> **Project Context** | Pokemon GO Storage Management System | Updated: 2026-03-05
+> **Project Context** | Pokemon GO Storage + Violet Playthrough | Updated: 2026-03-08
 
 ## Project Overview
 
@@ -43,11 +43,32 @@ pokemon/
 │   ├── cross_reference_results.json     # Cross-reference output
 │   ├── pokebase/                        # PokeBase DPS calc data
 │   └── pokemongohub/                    # PokemonGOHub API responses
+├── violet/                              # Pokemon Violet playthrough tracker
+│   └── playthrough.md                   # Party, box, and detailed Pokemon records
 ├── leagues/                             # Generation-specific PvP tracking
 └── scripts/                             # Python automation scripts
 ```
 
 ## Recent Work
+
+### Session (2026-03-08): Pokemon Violet Playthrough — Batch Updates
+
+1. **Party updates across 3 screenshot batches** (IMG_9887→9922):
+   - Larb (Fuecoco): Lv.17→19, Oran Berry consumed (no held item)
+   - Kai Yang (Fletchling): Lv.15→16, berry swap Chesto→Cheri
+   - Tod Mun (Pawmi): Lv.14→15, berry swap Chesto→Persim (Natural Cure synergy)
+   - Bua Loy (Azurill): Lv.13→15, berry swap Cheri→Pecha, learned **Bounce** (replaced Helping Hand)
+   - Carpaccio (Magikarp): Lv.10→12
+   - Macaron (Ralts): Lv.10→12, learned **Psybeam** via TM (replaced Confusion)
+2. **5 new boxed Pokemon** (box: 17→22):
+   - Sunsnack (Sunkern F Lv.7) — Mild, **HA: Solar Power**, Def 26/31
+   - Brioche (Fidough F Lv.6) — Quiet, Own Tempo, Atk 14/19
+   - Broccoli (Bonsly F Lv.6) — Lonely, Rock Head, Speed 17/22/27
+   - Nutella (Skwovet F Lv.8) — Hardy, Cheek Pouch, Speed 26/31
+   - Sorbet (Surskit M Lv.8) — Sassy, Swift Swim, Sp.Atk 25/30
+3. **Berry reassignment** (strategic): Cheri for Electric weakness (Kai Yang), Persim for confusion-only coverage (Tod Mun has Natural Cure for other statuses on switch), Pecha for Poison weakness (Fairy types)
+4. **IV estimates** calculated for all new catches using base stats + nature + characteristic
+5. **Catch/box evaluations** for Bonsly, Skwovet, Surskit, Shroodle — all boxed (team slots locked for final evolutions)
 
 ### Session (2026-03-05): Unicode Symbol Replacement
 
@@ -342,22 +363,26 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 
 ## Session Notes
 
-**Current Session (2026-03-05)**: Unicode Symbol Replacement
+**Current Session (2026-03-08)**: Pokemon Violet Playthrough — Party/Box Updates
 
-**Emergency Reduction Queries** (run in Pokemon GO, in this order):
+### Violet Playthrough State
+
+- **Party (6/6)**: Larb Lv.19, Kai Yang Lv.16, Tod Mun Lv.15, Bua Loy Lv.15, Carpaccio Lv.12, Macaron Lv.12
+- **Box**: 22 Pokemon (food-themed names, Thai + international)
+- **Final evolutions**: Skeledirge, Talonflame, Pawmot, Azumarill, Gyarados, Gardevoir
+- **Key file**: `violet/playthrough.md` — full party/box tables + detailed IV estimates for all 28 Pokemon
+- **Memory file**: `~/.claude/projects/.../memory/pokemon-violet-playthrough.md` — compact summary
+- **Workflow**: User sends screenshots (HEIC) → Claude converts via `sips` → reads stats/nature/characteristic → calculates IVs → updates files
+- **Pending**: Shroodle catch (recommended name: Wasabi or Sriracha) — screenshots not yet received
+
+### Pokemon GO Emergency Queries
 
 **Step 0 — Tag Attackers First** (see Raid Attacker Queries in Implementation Details above)
-
 **Step 1 — Transfer Queue**: `#home`
-
 **Step 2 — Rank 51-100**: `#rank51-100&!#Attackers&!lucky&!shiny&!@special&!legendary&!mythical`
-
 **Step 3 — Rank 21-50 Excess**: `#rank21-50&!#Attackers&!lucky&!shiny&!@special&!legendary&!mythical`
-Sort by name → keep best 1 per species, transfer rest.
-
 **Step 4 — Untagged Duplicates**: `!4*&!shiny&!lucky&!shadow&!costume&!@special&!legendary&!mythical&!#Attackers&!#rank1&!#rank2&!#rank3&!#rank4-20&!#great&!#ultra&!#little`
-Sort by name → transfer lowest-IV duplicates.
 
 ---
 
-_Session handoff updated: 2026-03-05_
+_Session handoff updated: 2026-03-08_

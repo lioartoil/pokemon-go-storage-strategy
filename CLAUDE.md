@@ -378,6 +378,12 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 - **Key file**: `violet/playthrough.md` — full party/box tables + detailed IV estimates for all 32 Pokemon
 - **Memory file**: `~/.claude/projects/.../memory/pokemon-violet-playthrough.md` — compact summary
 - **Workflow**: User sends screenshots (HEIC) → Claude converts via `sips` → reads stats/nature/characteristic → calculates IVs → updates files
+- **File constraint**: `playthrough.md` ≤ 400 lines (currently at 400)
+- **Boxed entry conventions** (to save lines):
+  - Omit "Hold Item" when None (omission = no item)
+  - Omit "Type:" for single-type Pokemon (infer from species)
+  - Omit "Met:" when same area as recent catches (South Province Area One)
+  - Keep all fields for party Pokemon and multi-type boxed Pokemon
 
 ### Pokemon GO Emergency Queries
 

@@ -57,6 +57,19 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability). 
 - Entry format: `Species: count (Mega)` or `Species: count (Primal)`
 - Shadow forms remain separate entries (different Pokemon)
 
+### Step 5: Fusion Family Adjustment
+
+Fusion (Kyurem, Necrozma) locks both base Pokemon AND partner in storage
+(2 slots per fused copy). Fused forms cannot be traded or transferred.
+Unfusion is free but re-fusion costs 1,000 Energy + 60 Candy.
+
+| Rule                  | Effect                                                        |
+| --------------------- | ------------------------------------------------------------- |
+| Same-type formes      | Merge into one family entry, use best ER (e.g., Kyurem)       |
+| Different-type formes | Keep separate, apply -1 family discount each (e.g., Necrozma) |
+| Legendary modifier    | Remove for fusion formes (unfusion is free → no scarcity)     |
+| Partner storage       | Document total slots including locked partners                |
+
 ---
 
 ## Quick Reference Table
@@ -69,9 +82,9 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability). 
 | **Mewtwo** (Mega)       | **6** | 65.02 |     | Psychic              | S(6)+legend→cap6                 |
 | **Zamazenta (Crowned)** | **6** | 63.84 | #5  | Steel                | S(6)+legend+pvp→cap6             |
 | **Zacian (Crowned)**    | **6** | 63.64 | #1  | Steel, Fairy         | S(6)+legend+pvp→cap6             |
-| **Dawn Wings Necrozma** | **6** | 63.07 | #18 | Ghost, Psychic       | S(6)+legend+pvp→cap6             |
-| **Dusk Mane Necrozma**  | **6** | 63.07 | #21 | Steel, Psychic       | S(6)+legend+pvp→cap6             |
-| **Kyurem (Black)**      | **6** | 60.56 | #11 | Ice, Dragon          | S(6)+legend+pvp→cap6             |
+| Dawn Wings Necrozma     | 4     | 63.07 | #18 | Ghost, Psychic       | S(6)+pvp-fusion→4                |
+| Dusk Mane Necrozma      | 4     | 63.07 | #21 | Steel, Psychic       | S(6)+pvp-fusion→4                |
+| **Kyurem (Black/White)**| **6** | 60.56 | #6/#11 | Ice, Dragon       | S(6)+pvp→cap6, fusion (4B+2W)   |
 | **Regigigas**           | **6** | 59.64 |     | Normal               | A(5)+legend                      |
 | **Garchomp** (Mega)     | **6** | 58.60 |     | Dragon, Ground       | A(5)+dual                        |
 | **Blaziken** (Mega)     | **6** | 58.40 |     | Fire, Fighting       | A(5)+dual                        |
@@ -82,7 +95,6 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability). 
 | **Metagross** (Mega)    | **6** | 55.68 | #3  | Psychic, Steel       | A(5)+pvp                         |
 | **Zeraora** (Mega)      | **6** | 55.30 |     | Electric             | A(5)+legend                      |
 | **Latios** (Mega)       | **6** | 54.23 | #34 | Dragon, Psychic      | B(4)+legend+pvp                  |
-| **Kyurem (White)**      | **6** | 54.19 | #6  | Ice, Dragon          | B(4)+legend+pvp                  |
 | **Dialga (Origin)**     | **6** | 52.31 | #7  | Dragon, Steel        | B(4)+legend+pvp                  |
 | **Shadow Dialga**       | **6** | 51.41 | #27 | Steel, Dragon        | B(4)+legend+pvp, Giovanni        |
 | **Shadow Palkia**       | **6** | 50.92 | #14 | Dragon, Water        | B(4)+legend+pvp, Giovanni        |
@@ -123,7 +135,6 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability). 
 | Palkia                  | 4     | 44.32 | #25 | Water, Dragon        | D(2)+legend+pvp                  |
 | Lunala                  | 4     | 44.18 | #9  | Ghost, Psychic       | D(2)+legend+pvp                  |
 | Tapu Lele               | 4     | 43.69 | #38 | Fairy                | D(2)+legend+pvp                  |
-| Kyurem (regular)        | 4     | 43.20 | #44 | Ice, Dragon          | D(2)+legend+pvp                  |
 | Xerneas                 | 4     | 40.96 | #4  | Fairy                | D(2)+legend+pvp                  |
 | Charizard (Mega)        | 3     | 54.03 |     | Fire, Flying         | B(4)-access                      |
 | Sceptile (Mega)         | 3     | 53.14 |     | Grass                | B(4)-access                      |
@@ -298,6 +309,7 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability). 
 | Zekrom            | 5     | #9   | 45.60 | Also Dragon, PvP #10       |
 
 **Electric Raid Frequency**: Medium (Water/Flying bosses)
+**Fusion note**: 4 additional Zekrom locked as Black Kyurem fusion partners
 
 ---
 
@@ -363,6 +375,7 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability). 
 | Reshiram          | 5     | #9   | 47.46 | Also Dragon, PvP #8       |
 
 **Fire Raid Frequency**: Medium-High (Grass/Bug/Steel/Ice bosses)
+**Fusion note**: 2 additional Reshiram locked as White Kyurem fusion partners
 
 ---
 
@@ -392,7 +405,7 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability). 
 
 | Pokemon             | Count | Rank | ER    | Notes                   |
 | ------------------- | ----- | ---- | ----- | ----------------------- |
-| Dawn Wings Necrozma | 6     | #1   | 63.07 | Legendary, PvP #18      |
+| Dawn Wings Necrozma | 4     | #1   | 63.07 | Fusion family, PvP #18  |
 | Chandelure (Mega)   | 4     | #10+ | 51.62 | Also Fire               |
 | Gengar (Mega)       | 4     | #2   | 52.21 | Also Poison, accessible |
 | Shadow Chandelure   | 3     | #3   | 46.99 | Also Fire               |
@@ -405,6 +418,7 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability). 
 | Lunala              | 4     | #7   | 44.18 | Also Psychic, PvP #9    |
 
 **Ghost Raid Frequency**: Medium (Psychic bosses)
+**Fusion storage**: Dawn Wings = 8 slots (4 fused + 4 Lunala locked). 4 additional Lunala locked in fusion beyond standalone count.
 
 ---
 
@@ -454,15 +468,14 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability). 
 
 | Pokemon           | Count | Rank | ER    | Notes                  |
 | ----------------- | ----- | ---- | ----- | ---------------------- |
-| Kyurem (White)    | 6     | #1   | 54.19 | Legendary, PvP #6      |
-| Kyurem (Black)    | 6     | #2   | 60.56 | Legendary, PvP #11     |
-| Baxcalibur (Mega) | 3     | #10+ | 45.95 | Also Dragon            |
-| Shadow Mamoswine  | 2     | #3   | 44.50 | Also Ground            |
-| Froslass (Mega)   | 1     | #10+ | 42.78 | Also Ghost, accessible |
-| Shadow Weavile    | 2     | #4   | 42.60 | Also Dark              |
-| Kyurem (regular)  | 4     | #5+  | 43.20 | Regular forme, PvP #44 |
+| Kyurem (Black/White) | 6  | #1/#2 | 60.56/54.19 | Fusion family: 4 Black + 2 White |
+| Baxcalibur (Mega)    | 3  | #10+  | 45.95       | Also Dragon                      |
+| Shadow Mamoswine     | 2  | #3    | 44.50       | Also Ground                      |
+| Froslass (Mega)      | 1  | #10+  | 42.78       | Also Ghost, accessible           |
+| Shadow Weavile       | 2  | #4    | 42.60       | Also Dark                        |
 
 **Ice Raid Frequency**: High (Dragon/Flying/Grass/Ground bosses common)
+**Fusion storage**: 12 slots total (6 Kyurem fused + 4 Zekrom + 2 Reshiram locked)
 
 ---
 
@@ -550,7 +563,7 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability). 
 | ------------------- | ----- | ---- | ----- | ------------------------- |
 | Zacian (Crowned)    | 6     | #1   | 63.64 | Also Fairy, PvP #1        |
 | Zamazenta (Crowned) | 6     | #2   | 63.84 | Highest Steel TDO, PvP #5 |
-| Dusk Mane Necrozma  | 6     | #3   | 63.07 | Legendary, PvP #21        |
+| Dusk Mane Necrozma  | 4     | #3   | 63.07 | Fusion family, PvP #21    |
 | Heatran (Mega)      | 6     | #10+ | 55.92 | Also Fire, legendary      |
 | Lucario (Mega)      | 5     | #4   | 59.31 | Also Fighting             |
 | Shadow Metagross    | 5     | #5   | 53.29 | Also Psychic, PvP #12     |
@@ -565,6 +578,7 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability). 
 | Shadow Magnezone    | 2     | #10+ | 42.22 | Also Electric             |
 
 **Steel Raid Frequency**: Medium (Fairy/Ice/Rock bosses)
+**Fusion storage**: Dusk Mane = 8 slots (4 fused + 4 Solgaleo locked)
 
 ---
 
@@ -622,13 +636,18 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability). 
 
 ## Summary by Count Tier
 
-### Tier S: Keep 6 (24 species)
+### Tier S: Keep 6 (21 species + 1 fusion family)
 
 - Rayquaza (Mega), Shadow Regigigas, Zygarde (Mega), Mewtwo (Mega), Zamazenta, Zacian
-- Dawn Wings Necrozma, Dusk Mane Necrozma, Kyurem Black, Regigigas
-- Garchomp (Mega), Blaziken (Mega), Shadow Mewtwo, Kyogre (Primal), Groudon (Primal)
+- **Kyurem (Black/White)** — fusion family: 4 Black + 2 White, 12 storage slots
+- Regigigas, Garchomp (Mega), Blaziken (Mega), Shadow Mewtwo, Kyogre (Primal), Groudon (Primal)
 - Heatran (Mega), Metagross (Mega), Zeraora (Mega), Latios (Mega)
-- Kyurem White, Dialga Origin, Shadow Dialga, Shadow Palkia, Palkia Origin
+- Dialga Origin, Shadow Dialga, Shadow Palkia, Palkia Origin
+
+### Fusion-Discounted: Keep 4 (2 species)
+
+- **Dawn Wings Necrozma** — fusion: 8 slots (4 fused + 4 Lunala locked)
+- **Dusk Mane Necrozma** — fusion: 8 slots (4 fused + 4 Solgaleo locked)
 
 ### Tier A: Keep 5 (12 species)
 
@@ -643,7 +662,7 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability). 
 - Shadow Latios, Heracross (Mega), Shadow Kyogre, Shadow Heatran, Darkrai (Mega)
 - Shadow Tyranitar, Shadow Moltres, Shadow Raikou, Shadow Darkrai
 - Hoopa Unbound, Terrakion, Enamorus (Incarnate)
-- Dialga, Palkia, Lunala, Tapu Lele, Kyurem, Xerneas
+- Dialga, Palkia, Lunala, Tapu Lele, Xerneas
 
 ### Tier C: Keep 3 (22 species)
 
@@ -691,7 +710,8 @@ Accessible alternatives not worth dedicated storage. Replace from wild catches a
 3. **Mega evolution**: Merged entries include both Mega and non-Mega copies. You can only have 1 Mega active, but keep extras for non-Mega raid use
 4. **Transfer priority**: When reducing storage, transfer from lowest tier first (Not Tracked → E → D → C)
 5. **Update frequency**: Revisit this list after major game updates or new Pokemon releases
-6. **Total recommended**: ~459 copies across 146 tracked species
+6. **Total recommended**: ~445 copies across 144 tracked species
+7. **Fusion partner storage**: +14 locked partner slots (4 Zekrom, 2 Reshiram, 4 Lunala, 4 Solgaleo) = ~459 actual storage slots
 
 ---
 

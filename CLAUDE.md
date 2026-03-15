@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-> **Project Context** | Pokemon GO Storage + Violet Playthrough | Updated: 2026-03-08
+> **Project Context** | Pokemon GO Storage + Violet Playthrough | Updated: 2026-03-15
 
 ## Project Overview
 
@@ -50,6 +50,20 @@ pokemon/
 ```
 
 ## Recent Work
+
+### Session (2026-03-15): Fusion Family Methodology Fix
+
+1. **MAJOR**: Added "Step 5: Fusion Family Adjustment" to raid attacker methodology
+   - Pokemon GO fusion (Kyurem, Necrozma) locks base + partner = 2 storage slots per fused copy
+   - Fused forms cannot be traded/transferred; unfusion is free
+   - Same-type formes merge (Kyurem); different-type formes get -1 discount (Necrozma)
+   - Legendary modifier removed for fusion formes (unfusion negates scarcity)
+2. **Kyurem**: Merged 3 entries → 1 family entry. 16 copies → 6 (4 Black + 2 White). Storage: 28 → 12 slots
+3. **Necrozma**: Dawn Wings 6→4, Dusk Mane 6→4. Storage: 24 → 16 slots
+4. **Partner storage notes** added to Electric (Zekrom), Fire (Reshiram), Ghost (Lunala), Steel (Solgaleo) sections
+5. **Totals**: ~445 copies across 144 species (+14 locked partners = ~459 actual storage)
+6. **GitHub Issue [#3](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/3)**: PvP modifier review deferred
+7. **Verified NOT fusion**: Dialga/Palkia Origin (separate raid catches, no form-change)
 
 ### Session (2026-03-08): Pokemon Violet Playthrough — Batch Updates
 
@@ -211,7 +225,7 @@ Added 4 attackers (Necrozma formes, Lunala, Blacephalon), removed Giratina (Ghos
 - **5 Modifiers**: +1 dual-type, +1 legendary/UB/mythical, +1 ML PvP top-50, -1 accessible, -1 glass cannon (TDO<300)
 - **Caps**: Max 6, min 1, account-limited = account limit, Giovanni-only = keep all
 - **Mega/Primal merge**: Same physical Pokemon → single entry using best ER
-- **Total**: ~459 copies across 146 tracked species
+- **Total**: ~445 copies across 144 tracked species (+14 locked fusion partners = ~459 actual storage)
 
 ### Implementation Details
 
@@ -317,7 +331,7 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 - `docs/reference/TAG_SYSTEM.md` - 43-tag system documentation
 - `docs/reference/FAVORITE_QUERIES.md` - 40 saved search queries
 - `docs/reference/STORAGE_QUICK_REFERENCE.md` - Daily decision flowchart
-- `docs/reference/RAID_ATTACKER_COUNTS.md` - ER-based attacker retention counts (updated 2026-02-25; 146 species, ~459 copies)
+- `docs/reference/RAID_ATTACKER_COUNTS.md` - ER-based attacker retention counts (updated 2026-03-15; 144 species, ~445 copies + 14 fusion partners)
 
 **Meta Data**:
 
@@ -333,7 +347,7 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 
 **Branch**: develop (main branch)
 **Clean working tree**: Yes (all changes committed and pushed)
-**GitHub Issues**: [#1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) - CLOSED (recalibrated 2026-02-16)
+**GitHub Issues**: [#1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) - CLOSED (recalibrated 2026-02-16) | [#3](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/3) - OPEN (PvP modifier review)
 **Recent commits** (most recent first):
 
 1. `1368fce` (2026-03-08) - docs: session handoff 2026-03-08 — Violet playthrough batch updates

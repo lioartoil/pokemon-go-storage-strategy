@@ -61,165 +61,165 @@ ER is a composite metric combining DPS (damage output) and TDO (survivability). 
 
 Fusion (Kyurem, Necrozma) locks both base Pokemon AND partner in storage
 (2 slots per fused copy). Fused forms cannot be traded or transferred.
-Unfusion is free but re-fusion costs 1,000 Energy + 60 Candy.
+Separation is free but re-fusion costs 1,000 Energy + 60 Candy.
 
 | Rule                  | Effect                                                        |
 | --------------------- | ------------------------------------------------------------- |
 | Same-type formes      | Merge into one family entry, use best ER (e.g., Kyurem)       |
 | Different-type formes | Keep separate, apply -1 family discount each (e.g., Necrozma) |
-| Legendary modifier    | Remove for fusion formes (unfusion is free → no scarcity)     |
+| Legendary modifier    | Remove for fusion formes (separation is free → no scarcity)   |
 | Partner storage       | Document total slots including locked partners                |
 
 ---
 
 ## Quick Reference Table
 
-| Pokemon                 | Count | ER    | PvP | Types Covered        | Tier Calc                        |
-| ----------------------- | ----- | ----- | --- | -------------------- | -------------------------------- |
-| **Rayquaza** (Mega)     | **6** | 73.98 |     | Dragon, Flying       | S(6)+dual+legend→cap6            |
-| **Shadow Regigigas**    | **6** | 69.09 |     | Normal               | S(6)+legend, Giovanni            |
-| **Zygarde** (Mega)      | **6** | 66.47 | #26 | Dragon, Ground       | S(6)+legend+pvp→cap6             |
-| **Mewtwo** (Mega)       | **6** | 65.02 |     | Psychic              | S(6)+legend→cap6                 |
-| **Zamazenta (Crowned)** | **6** | 63.84 | #5  | Steel                | S(6)+legend+pvp→cap6             |
-| **Zacian (Crowned)**    | **6** | 63.64 | #1  | Steel, Fairy         | S(6)+legend+pvp→cap6             |
-| Dawn Wings Necrozma     | 4     | 63.07 | #18 | Ghost, Psychic       | S(6)+pvp-fusion→4                |
-| Dusk Mane Necrozma      | 4     | 63.07 | #21 | Steel, Psychic       | S(6)+pvp-fusion→4                |
-| **Kyurem (Black/White)**| **6** | 60.56 | #6/#11 | Ice, Dragon       | S(6)+pvp→cap6, fusion (4B+2W)   |
-| **Regigigas**           | **6** | 59.64 |     | Normal               | A(5)+legend                      |
-| **Garchomp** (Mega)     | **6** | 58.60 |     | Dragon, Ground       | A(5)+dual                        |
-| **Blaziken** (Mega)     | **6** | 58.40 |     | Fire, Fighting       | A(5)+dual                        |
-| **Shadow Mewtwo**       | **6** | 58.23 |     | Psychic              | A(5)+dual+legend, Giovanni       |
-| **Kyogre** (Primal)     | **6** | 57.74 | #23 | Water                | A(5)+dual+legend+pvp→cap6        |
-| **Groudon** (Primal)    | **6** | 57.56 | #20 | Ground               | A(5)+legend+pvp→cap6             |
-| **Heatran** (Mega)      | **6** | 55.92 |     | Fire, Steel          | A(5)+legend                      |
-| **Metagross** (Mega)    | **6** | 55.68 | #3  | Psychic, Steel       | A(5)+pvp                         |
-| **Zeraora** (Mega)      | **6** | 55.30 |     | Electric             | A(5)+legend                      |
-| **Latios** (Mega)       | **6** | 54.23 | #34 | Dragon, Psychic      | B(4)+legend+pvp                  |
-| **Dialga (Origin)**     | **6** | 52.31 | #7  | Dragon, Steel        | B(4)+legend+pvp                  |
-| **Shadow Dialga**       | **6** | 51.41 | #27 | Steel, Dragon        | B(4)+legend+pvp, Giovanni        |
-| **Shadow Palkia**       | **6** | 50.92 | #14 | Dragon, Water        | B(4)+legend+pvp, Giovanni        |
-| **Palkia (Origin)**     | **6** | 50.21 | #2  | Dragon, Water        | B(4)+legend+pvp                  |
-| Lucario (Mega)          | 5     | 59.31 |     | Fighting, Steel      | A(5)                             |
-| Shadow Metagross        | 5     | 53.29 | #12 | Psychic, Steel       | B(4)+pvp                         |
-| Tyranitar (Mega)        | 5     | 52.57 |     | Rock, Dark           | B(4)+dual                        |
-| Shadow Garchomp         | 5     | 52.00 |     | Dragon, Ground       | B(4)+dual                        |
-| Blacephalon             | 5     | 51.15 |     | Fire, Ghost          | B(4)+legend                      |
-| Regieleki               | 5     | 50.97 |     | Electric             | B(4)+legend                      |
-| Latias (Mega)           | 5     | 49.21 | #42 | Dragon, Psychic      | C(3)+legend+pvp                  |
-| Shadow Groudon          | 5     | 49.16 | #46 | Ground               | C(3)+legend+pvp, Giovanni        |
-| Reshiram                | 5     | 47.46 | #8  | Fire, Dragon         | C(3)+legend+pvp                  |
-| Yveltal                 | 5     | 46.10 | #17 | Dark, Flying         | C(3)+legend+pvp                  |
-| Landorus (Therian)      | 5     | 45.69 | #43 | Ground, Flying       | C(3)+legend+pvp                  |
-| Zekrom                  | 5     | 45.60 | #10 | Electric, Dragon     | C(3)+legend+pvp                  |
-| Salamence (Mega)        | 4     | 57.43 |     | Dragon, Flying       | A(5)-access                      |
-| Shadow Salamence        | 4     | 56.14 |     | Dragon, Flying       | A(5)-access                      |
-| Delphox (Mega)          | 4     | 56.74 |     | Fire, Psychic        | A(5)-access                      |
-| Gengar (Mega)           | 4     | 52.21 |     | Ghost, Poison        | B(4)+dual-access                 |
-| Alakazam (Mega)         | 4     | 52.18 |     | Psychic              | B(4)+dual-access                 |
-| Chandelure (Mega)       | 4     | 51.62 |     | Fire, Ghost          | B(4)                             |
-| Hawlucha (Mega)         | 4     | 51.34 |     | Fighting, Flying     | B(4)                             |
-| Excadrill (Mega)        | 4     | 50.86 |     | Ground, Steel        | B(4)                             |
-| Shadow Latios           | 4     | 49.89 | #24 | Dragon, Psychic      | C(3)+pvp                         |
-| Heracross (Mega)        | 4     | 49.29 |     | Bug, Fighting        | C(3)+dual                        |
-| Shadow Kyogre           | 4     | 49.23 |     | Water                | C(3)+legend, Giovanni            |
-| Shadow Heatran          | 4     | 48.54 |     | Fire, Steel          | C(3)+legend, Giovanni            |
-| Darkrai (Mega)          | 4     | 47.87 |     | Dark                 | C(3)+legend                      |
-| Shadow Tyranitar        | 4     | 47.89 | #41 | Rock, Dark           | C(3)+pvp                         |
-| Shadow Moltres          | 4     | 47.51 |     | Fire, Flying         | C(3)+legend, Giovanni            |
-| Shadow Raikou           | 4     | 47.17 |     | Electric             | C(3)+legend, Giovanni            |
-| Shadow Darkrai          | 4     | 46.06 |     | Dark                 | C(3)+legend, Giovanni            |
-| Hoopa (Unbound)         | 4     | 46.00 |     | Dark, Ghost, Psychic | C(3)+legend                      |
-| Terrakion               | 4     | 45.98 |     | Rock, Fighting       | C(3)+legend                      |
-| Enamorus (Incarnate)    | 4     | 45.68 |     | Fairy                | C(3)+legend                      |
-| Dialga                  | 4     | 44.83 | #32 | Steel, Dragon        | D(2)+legend+pvp                  |
-| Palkia                  | 4     | 44.32 | #25 | Water, Dragon        | D(2)+legend+pvp                  |
-| Lunala                  | 4     | 44.18 | #9  | Ghost, Psychic       | D(2)+legend+pvp                  |
-| Tapu Lele               | 4     | 43.69 | #38 | Fairy                | D(2)+legend+pvp                  |
-| Xerneas                 | 4     | 40.96 | #4  | Fairy                | D(2)+legend+pvp                  |
-| Charizard (Mega)        | 3     | 54.03 |     | Fire, Flying         | B(4)-access                      |
-| Sceptile (Mega)         | 3     | 53.14 |     | Grass                | B(4)-access                      |
-| Feraligatr (Mega)       | 3     | 51.74 |     | Water                | B(4)-access                      |
-| Greninja (Mega)         | 3     | 50.28 |     | Water, Dark          | B(4)-access                      |
-| Dragonite (Mega)        | 3     | 50.21 |     | Dragon, Flying       | B(4)-access                      |
-| Emboar (Mega)           | 3     | 50.05 |     | Fire, Fighting       | B(4)-access                      |
-| Gardevoir (Mega)        | 3     | 49.43 |     | Fairy, Psychic       | C(3)+dual-access                 |
-| Glimmora (Mega)         | 3     | 49.19 |     | Rock, Poison         | C(3)                             |
-| Shadow Blaziken         | 3     | 49.42 |     | Fire, Fighting       | C(3)                             |
-| Shadow Dragonite        | 3     | 48.71 | #45 | Dragon, Flying       | C(3)+pvp-access                  |
-| Shadow Rhyperior        | 3     | 47.30 |     | Rock, Ground         | C(3)                             |
-| Shadow Chandelure       | 3     | 46.99 |     | Fire, Ghost          | C(3)                             |
-| Baxcalibur (Mega)       | 3     | 45.95 |     | Dragon, Ice          | C(3)                             |
-| Absol (Mega)            | 3     | 45.69 |     | Dark                 | C(3)                             |
-| Shadow Darmanitan       | 3     | 45.33 |     | Fire, Ice            | C(3)                             |
-| Xurkitree               | 3     | 43.88 |     | Electric             | D(2)+legend                      |
-| Kartana                 | 3     | 43.52 |     | Grass, Steel         | D(2)+legend                      |
-| Shadow Zapdos           | 3     | 43.25 |     | Electric, Flying     | D(2)+legend, Giovanni            |
-| Zarude                  | 3     | 42.65 |     | Grass, Dark          | D(2)+legend                      |
-| Shaymin (Sky Forme)     | 3     | 42.54 |     | Grass, Flying        | D(2)+legend                      |
-| Nihilego                | 3     | 41.88 |     | Poison, Rock         | D(2)+legend                      |
-| Tapu Koko               | 3     | 40.81 |     | Fairy, Electric      | D(2)+legend                      |
-| Swampert (Mega)         | 2     | 49.78 |     | Water, Ground        | C(3)-access                      |
-| Gallade (Mega)          | 2     | 49.48 |     | Fighting, Psychic    | C(3)-access                      |
-| Meganium (Mega)         | 2     | 49.46 |     | Grass                | C(3)-access                      |
-| Staraptor (Mega)        | 2     | 48.77 |     | Normal, Flying       | C(3)-access                      |
-| Shadow Toucannon        | 2     | 48.16 |     | Normal, Flying       | C(3)-access                      |
-| Chesnaught (Mega)       | 2     | 46.34 |     | Grass, Fighting      | C(3)-access                      |
-| Shadow Staraptor        | 2     | 46.21 |     | Normal, Flying       | C(3)-access                      |
-| Blastoise (Mega)        | 2     | 45.20 |     | Water                | C(3)-access                      |
-| Shadow Rampardos        | 2     | 44.97 |     | Rock                 | D(2)                             |
-| Shadow Excadrill        | 2     | 44.79 |     | Ground, Steel        | D(2)                             |
-| Shadow Mamoswine        | 2     | 44.50 |     | Ice, Ground          | D(2)                             |
-| Shadow Electivire       | 2     | 44.14 |     | Electric             | D(2)                             |
-| Beedrill (Mega)         | 2     | 42.71 |     | Bug                  | D(2)+dual-access                 |
-| Shadow Weavile          | 2     | 42.60 |     | Ice, Dark            | D(2)                             |
-| Shadow Magnezone        | 2     | 42.22 |     | Electric, Steel      | D(2)                             |
-| Drampa (Mega)           | 2     | 41.87 |     | Normal, Dragon       | D(2)                             |
-| Aerodactyl (Mega)       | 2     | 41.72 |     | Rock, Flying         | D(2)                             |
-| Shadow Tangrowth        | 2     | 41.26 |     | Grass                | D(2)                             |
-| Volcarona               | 2     | 41.08 |     | Bug, Fire            | D(2)                             |
-| Hydreigon               | 2     | 40.85 |     | Dark, Dragon         | D(2)                             |
-| Eternatus               | 2     | 67.53 | #15 | Dragon, Poison       | Account-limited (normal + shiny) |
-| Keldeo (Resolute)       | 2     | 54.17 | #49 | Fighting, Water      | Account-limited (normal + shiny) |
-| Diancie (Mega)          | 2     | 45.44 |     | Rock, Fairy          | Account-limited (normal + shiny) |
-| Shadow Conkeldurr       | 1     | 44.91 |     | Fighting             | D(2)-access                      |
-| Shadow Delphox          | 1     | 44.90 |     | Fire, Psychic        | D(2)-access                      |
-| Shadow Honchkrow        | 1     | 44.85 |     | Dark, Flying         | D(2)-access                      |
-| Starmie (Mega)          | 1     | 44.66 |     | Water, Psychic       | D(2)-access                      |
-| Gyarados (Mega)         | 1     | 44.62 |     | Water, Dark          | D(2)-access                      |
-| Banette (Mega)          | 1     | 44.51 |     | Ghost                | D(2)-access                      |
-| Shadow Tyrantrum        | 1     | 44.29 |     | Rock, Dragon         | D(2)-access                      |
-| Venusaur (Mega)         | 1     | 44.19 |     | Grass, Poison        | D(2)-access                      |
-| Manectric (Mega)        | 1     | 43.92 |     | Electric             | D(2)-access                      |
-| Shadow Gengar           | 1     | 43.93 |     | Ghost, Poison        | D(2)-access                      |
-| Skarmory (Mega)         | 1     | 43.73 |     | Steel, Flying        | D(2)-access                      |
-| Meowstic (Mega)         | 1     | 43.59 |     | Psychic              | D(2)-access                      |
-| Shadow Alakazam         | 1     | 43.56 |     | Psychic              | D(2)-access                      |
-| Shadow Vikavolt         | 1     | 43.54 |     | Bug, Electric        | D(2)-access                      |
-| Pidgeot (Mega)          | 1     | 43.19 |     | Normal, Flying       | D(2)-access                      |
-| Shadow Greninja         | 1     | 43.09 |     | Water, Dark          | D(2)-access                      |
-| Houndoom (Mega)         | 1     | 43.02 |     | Dark, Fire           | D(2)-access                      |
-| Pyroar (Mega)           | 1     | 42.79 |     | Fire, Normal         | D(2)-access                      |
-| Froslass (Mega)         | 1     | 42.78 |     | Ice, Ghost           | D(2)-access                      |
-| Golurk (Mega)           | 1     | 42.75 |     | Ground, Ghost        | D(2)-access                      |
-| Shadow Chesnaught       | 1     | 42.66 |     | Grass, Fighting      | D(2)-access                      |
-| Shadow Porygon-Z        | 1     | 42.40 |     | Normal               | D(2)-access                      |
-| Shadow Kingler          | 1     | 42.28 |     | Water                | D(2)-access                      |
-| Shadow Swampert         | 1     | 42.19 |     | Water, Ground        | D(2)-access                      |
-| Pinsir (Mega)           | 1     | 42.17 |     | Bug                  | D(2)-access                      |
-| Shadow Machamp          | 1     | 42.03 |     | Fighting             | D(2)-access                      |
-| Shadow Gigalith         | 1     | 41.76 |     | Rock                 | D(2)-access                      |
-| Ampharos (Mega)         | 1     | 41.61 |     | Electric, Dragon     | D(2)-access                      |
-| Lopunny (Mega)          | 1     | 41.51 |     | Normal, Fighting     | D(2)-access                      |
-| Scovillain (Mega)       | 1     | 41.49 |     | Grass, Fire          | D(2)-access                      |
-| Shadow Gardevoir        | 1     | 41.13 |     | Fairy, Psychic       | D(2)-access                      |
-| Eelektross (Mega)       | 1     | 40.76 |     | Electric             | D(2)-access                      |
-| Golisopod (Mega)        | 1     | 40.35 |     | Bug, Water           | D(2)-access                      |
-| Victreebel (Mega)       | 1     | 40.23 |     | Grass, Poison        | D(2)-access                      |
-| Scizor (Mega)           | 1     | 40.00 |     | Bug, Steel           | D(2)-access                      |
-| Rampardos               | 1     | 38.59 |     | Rock                 | E(1)                             |
-| Pheromosa               | 1     | 38.55 |     | Bug, Fighting        | E(1)+legend-glass                |
-| Shadow Toxicroak        | 1     | 36.64 |     | Poison, Fighting     | E(1)-access→cap1                 |
-| Deoxys (Attack)         | 1     | 34.96 |     | Psychic              | E(1)+legend-glass                |
+| Pokemon                  | Count | ER    | PvP    | Types Covered        | Tier Calc                        |
+| ------------------------ | ----- | ----- | ------ | -------------------- | -------------------------------- |
+| **Rayquaza** (Mega)      | **6** | 73.98 |        | Dragon, Flying       | S(6)+dual+legend→cap6            |
+| **Shadow Regigigas**     | **6** | 69.09 |        | Normal               | S(6)+legend, Giovanni            |
+| **Zygarde** (Mega)       | **6** | 66.47 | #26    | Dragon, Ground       | S(6)+legend+pvp→cap6             |
+| **Mewtwo** (Mega)        | **6** | 65.02 |        | Psychic              | S(6)+legend→cap6                 |
+| **Zamazenta (Crowned)**  | **6** | 63.84 | #5     | Steel                | S(6)+legend+pvp→cap6             |
+| **Zacian (Crowned)**     | **6** | 63.64 | #1     | Steel, Fairy         | S(6)+legend+pvp→cap6             |
+| Dawn Wings Necrozma      | 4     | 63.07 | #18    | Ghost, Psychic       | S(6)+pvp-fusion→4                |
+| Dusk Mane Necrozma       | 4     | 63.07 | #21    | Steel, Psychic       | S(6)+pvp-fusion→4                |
+| **Kyurem (Black/White)** | **6** | 60.56 | #6/#11 | Ice, Dragon          | S(6)+pvp→cap6, fusion (4B+2W)    |
+| **Regigigas**            | **6** | 59.64 |        | Normal               | A(5)+legend                      |
+| **Garchomp** (Mega)      | **6** | 58.60 |        | Dragon, Ground       | A(5)+dual                        |
+| **Blaziken** (Mega)      | **6** | 58.40 |        | Fire, Fighting       | A(5)+dual                        |
+| **Shadow Mewtwo**        | **6** | 58.23 |        | Psychic              | A(5)+dual+legend, Giovanni       |
+| **Kyogre** (Primal)      | **6** | 57.74 | #23    | Water                | A(5)+dual+legend+pvp→cap6        |
+| **Groudon** (Primal)     | **6** | 57.56 | #20    | Ground               | A(5)+legend+pvp→cap6             |
+| **Heatran** (Mega)       | **6** | 55.92 |        | Fire, Steel          | A(5)+legend                      |
+| **Metagross** (Mega)     | **6** | 55.68 | #3     | Psychic, Steel       | A(5)+pvp                         |
+| **Zeraora** (Mega)       | **6** | 55.30 |        | Electric             | A(5)+legend                      |
+| **Latios** (Mega)        | **6** | 54.23 | #34    | Dragon, Psychic      | B(4)+legend+pvp                  |
+| **Dialga (Origin)**      | **6** | 52.31 | #7     | Dragon, Steel        | B(4)+legend+pvp                  |
+| **Shadow Dialga**        | **6** | 51.41 | #27    | Steel, Dragon        | B(4)+legend+pvp, Giovanni        |
+| **Shadow Palkia**        | **6** | 50.92 | #14    | Dragon, Water        | B(4)+legend+pvp, Giovanni        |
+| **Palkia (Origin)**      | **6** | 50.21 | #2     | Dragon, Water        | B(4)+legend+pvp                  |
+| Lucario (Mega)           | 5     | 59.31 |        | Fighting, Steel      | A(5)                             |
+| Shadow Metagross         | 5     | 53.29 | #12    | Psychic, Steel       | B(4)+pvp                         |
+| Tyranitar (Mega)         | 5     | 52.57 |        | Rock, Dark           | B(4)+dual                        |
+| Shadow Garchomp          | 5     | 52.00 |        | Dragon, Ground       | B(4)+dual                        |
+| Blacephalon              | 5     | 51.15 |        | Fire, Ghost          | B(4)+legend                      |
+| Regieleki                | 5     | 50.97 |        | Electric             | B(4)+legend                      |
+| Latias (Mega)            | 5     | 49.21 | #42    | Dragon, Psychic      | C(3)+legend+pvp                  |
+| Shadow Groudon           | 5     | 49.16 | #46    | Ground               | C(3)+legend+pvp, Giovanni        |
+| Reshiram                 | 5     | 47.46 | #8     | Fire, Dragon         | C(3)+legend+pvp                  |
+| Yveltal                  | 5     | 46.10 | #17    | Dark, Flying         | C(3)+legend+pvp                  |
+| Landorus (Therian)       | 5     | 45.69 | #43    | Ground, Flying       | C(3)+legend+pvp                  |
+| Zekrom                   | 5     | 45.60 | #10    | Electric, Dragon     | C(3)+legend+pvp                  |
+| Salamence (Mega)         | 4     | 57.43 |        | Dragon, Flying       | A(5)-access                      |
+| Shadow Salamence         | 4     | 56.14 |        | Dragon, Flying       | A(5)-access                      |
+| Delphox (Mega)           | 4     | 56.74 |        | Fire, Psychic        | A(5)-access                      |
+| Gengar (Mega)            | 4     | 52.21 |        | Ghost, Poison        | B(4)+dual-access                 |
+| Alakazam (Mega)          | 4     | 52.18 |        | Psychic              | B(4)+dual-access                 |
+| Chandelure (Mega)        | 4     | 51.62 |        | Fire, Ghost          | B(4)                             |
+| Hawlucha (Mega)          | 4     | 51.34 |        | Fighting, Flying     | B(4)                             |
+| Excadrill (Mega)         | 4     | 50.86 |        | Ground, Steel        | B(4)                             |
+| Shadow Latios            | 4     | 49.89 | #24    | Dragon, Psychic      | C(3)+pvp                         |
+| Heracross (Mega)         | 4     | 49.29 |        | Bug, Fighting        | C(3)+dual                        |
+| Shadow Kyogre            | 4     | 49.23 |        | Water                | C(3)+legend, Giovanni            |
+| Shadow Heatran           | 4     | 48.54 |        | Fire, Steel          | C(3)+legend, Giovanni            |
+| Darkrai (Mega)           | 4     | 47.87 |        | Dark                 | C(3)+legend                      |
+| Shadow Tyranitar         | 4     | 47.89 | #41    | Rock, Dark           | C(3)+pvp                         |
+| Shadow Moltres           | 4     | 47.51 |        | Fire, Flying         | C(3)+legend, Giovanni            |
+| Shadow Raikou            | 4     | 47.17 |        | Electric             | C(3)+legend, Giovanni            |
+| Shadow Darkrai           | 4     | 46.06 |        | Dark                 | C(3)+legend, Giovanni            |
+| Hoopa (Unbound)          | 4     | 46.00 |        | Dark, Ghost, Psychic | C(3)+legend                      |
+| Terrakion                | 4     | 45.98 |        | Rock, Fighting       | C(3)+legend                      |
+| Enamorus (Incarnate)     | 4     | 45.68 |        | Fairy                | C(3)+legend                      |
+| Dialga                   | 4     | 44.83 | #32    | Steel, Dragon        | D(2)+legend+pvp                  |
+| Palkia                   | 4     | 44.32 | #25    | Water, Dragon        | D(2)+legend+pvp                  |
+| Lunala                   | 4     | 44.18 | #9     | Ghost, Psychic       | D(2)+legend+pvp                  |
+| Tapu Lele                | 4     | 43.69 | #38    | Fairy                | D(2)+legend+pvp                  |
+| Xerneas                  | 4     | 40.96 | #4     | Fairy                | D(2)+legend+pvp                  |
+| Charizard (Mega)         | 3     | 54.03 |        | Fire, Flying         | B(4)-access                      |
+| Sceptile (Mega)          | 3     | 53.14 |        | Grass                | B(4)-access                      |
+| Feraligatr (Mega)        | 3     | 51.74 |        | Water                | B(4)-access                      |
+| Greninja (Mega)          | 3     | 50.28 |        | Water, Dark          | B(4)-access                      |
+| Dragonite (Mega)         | 3     | 50.21 |        | Dragon, Flying       | B(4)-access                      |
+| Emboar (Mega)            | 3     | 50.05 |        | Fire, Fighting       | B(4)-access                      |
+| Gardevoir (Mega)         | 3     | 49.43 |        | Fairy, Psychic       | C(3)+dual-access                 |
+| Glimmora (Mega)          | 3     | 49.19 |        | Rock, Poison         | C(3)                             |
+| Shadow Blaziken          | 3     | 49.42 |        | Fire, Fighting       | C(3)                             |
+| Shadow Dragonite         | 3     | 48.71 | #45    | Dragon, Flying       | C(3)+pvp-access                  |
+| Shadow Rhyperior         | 3     | 47.30 |        | Rock, Ground         | C(3)                             |
+| Shadow Chandelure        | 3     | 46.99 |        | Fire, Ghost          | C(3)                             |
+| Baxcalibur (Mega)        | 3     | 45.95 |        | Dragon, Ice          | C(3)                             |
+| Absol (Mega)             | 3     | 45.69 |        | Dark                 | C(3)                             |
+| Shadow Darmanitan        | 3     | 45.33 |        | Fire, Ice            | C(3)                             |
+| Xurkitree                | 3     | 43.88 |        | Electric             | D(2)+legend                      |
+| Kartana                  | 3     | 43.52 |        | Grass, Steel         | D(2)+legend                      |
+| Shadow Zapdos            | 3     | 43.25 |        | Electric, Flying     | D(2)+legend, Giovanni            |
+| Zarude                   | 3     | 42.65 |        | Grass, Dark          | D(2)+legend                      |
+| Shaymin (Sky Forme)      | 3     | 42.54 |        | Grass, Flying        | D(2)+legend                      |
+| Nihilego                 | 3     | 41.88 |        | Poison, Rock         | D(2)+legend                      |
+| Tapu Koko                | 3     | 40.81 |        | Fairy, Electric      | D(2)+legend                      |
+| Swampert (Mega)          | 2     | 49.78 |        | Water, Ground        | C(3)-access                      |
+| Gallade (Mega)           | 2     | 49.48 |        | Fighting, Psychic    | C(3)-access                      |
+| Meganium (Mega)          | 2     | 49.46 |        | Grass                | C(3)-access                      |
+| Staraptor (Mega)         | 2     | 48.77 |        | Normal, Flying       | C(3)-access                      |
+| Shadow Toucannon         | 2     | 48.16 |        | Normal, Flying       | C(3)-access                      |
+| Chesnaught (Mega)        | 2     | 46.34 |        | Grass, Fighting      | C(3)-access                      |
+| Shadow Staraptor         | 2     | 46.21 |        | Normal, Flying       | C(3)-access                      |
+| Blastoise (Mega)         | 2     | 45.20 |        | Water                | C(3)-access                      |
+| Shadow Rampardos         | 2     | 44.97 |        | Rock                 | D(2)                             |
+| Shadow Excadrill         | 2     | 44.79 |        | Ground, Steel        | D(2)                             |
+| Shadow Mamoswine         | 2     | 44.50 |        | Ice, Ground          | D(2)                             |
+| Shadow Electivire        | 2     | 44.14 |        | Electric             | D(2)                             |
+| Beedrill (Mega)          | 2     | 42.71 |        | Bug                  | D(2)+dual-access                 |
+| Shadow Weavile           | 2     | 42.60 |        | Ice, Dark            | D(2)                             |
+| Shadow Magnezone         | 2     | 42.22 |        | Electric, Steel      | D(2)                             |
+| Drampa (Mega)            | 2     | 41.87 |        | Normal, Dragon       | D(2)                             |
+| Aerodactyl (Mega)        | 2     | 41.72 |        | Rock, Flying         | D(2)                             |
+| Shadow Tangrowth         | 2     | 41.26 |        | Grass                | D(2)                             |
+| Volcarona                | 2     | 41.08 |        | Bug, Fire            | D(2)                             |
+| Hydreigon                | 2     | 40.85 |        | Dark, Dragon         | D(2)                             |
+| Eternatus                | 2     | 67.53 | #15    | Dragon, Poison       | Account-limited (normal + shiny) |
+| Keldeo (Resolute)        | 2     | 54.17 | #49    | Fighting, Water      | Account-limited (normal + shiny) |
+| Diancie (Mega)           | 2     | 45.44 |        | Rock, Fairy          | Account-limited (normal + shiny) |
+| Shadow Conkeldurr        | 1     | 44.91 |        | Fighting             | D(2)-access                      |
+| Shadow Delphox           | 1     | 44.90 |        | Fire, Psychic        | D(2)-access                      |
+| Shadow Honchkrow         | 1     | 44.85 |        | Dark, Flying         | D(2)-access                      |
+| Starmie (Mega)           | 1     | 44.66 |        | Water, Psychic       | D(2)-access                      |
+| Gyarados (Mega)          | 1     | 44.62 |        | Water, Dark          | D(2)-access                      |
+| Banette (Mega)           | 1     | 44.51 |        | Ghost                | D(2)-access                      |
+| Shadow Tyrantrum         | 1     | 44.29 |        | Rock, Dragon         | D(2)-access                      |
+| Venusaur (Mega)          | 1     | 44.19 |        | Grass, Poison        | D(2)-access                      |
+| Manectric (Mega)         | 1     | 43.92 |        | Electric             | D(2)-access                      |
+| Shadow Gengar            | 1     | 43.93 |        | Ghost, Poison        | D(2)-access                      |
+| Skarmory (Mega)          | 1     | 43.73 |        | Steel, Flying        | D(2)-access                      |
+| Meowstic (Mega)          | 1     | 43.59 |        | Psychic              | D(2)-access                      |
+| Shadow Alakazam          | 1     | 43.56 |        | Psychic              | D(2)-access                      |
+| Shadow Vikavolt          | 1     | 43.54 |        | Bug, Electric        | D(2)-access                      |
+| Pidgeot (Mega)           | 1     | 43.19 |        | Normal, Flying       | D(2)-access                      |
+| Shadow Greninja          | 1     | 43.09 |        | Water, Dark          | D(2)-access                      |
+| Houndoom (Mega)          | 1     | 43.02 |        | Dark, Fire           | D(2)-access                      |
+| Pyroar (Mega)            | 1     | 42.79 |        | Fire, Normal         | D(2)-access                      |
+| Froslass (Mega)          | 1     | 42.78 |        | Ice, Ghost           | D(2)-access                      |
+| Golurk (Mega)            | 1     | 42.75 |        | Ground, Ghost        | D(2)-access                      |
+| Shadow Chesnaught        | 1     | 42.66 |        | Grass, Fighting      | D(2)-access                      |
+| Shadow Porygon-Z         | 1     | 42.40 |        | Normal               | D(2)-access                      |
+| Shadow Kingler           | 1     | 42.28 |        | Water                | D(2)-access                      |
+| Shadow Swampert          | 1     | 42.19 |        | Water, Ground        | D(2)-access                      |
+| Pinsir (Mega)            | 1     | 42.17 |        | Bug                  | D(2)-access                      |
+| Shadow Machamp           | 1     | 42.03 |        | Fighting             | D(2)-access                      |
+| Shadow Gigalith          | 1     | 41.76 |        | Rock                 | D(2)-access                      |
+| Ampharos (Mega)          | 1     | 41.61 |        | Electric, Dragon     | D(2)-access                      |
+| Lopunny (Mega)           | 1     | 41.51 |        | Normal, Fighting     | D(2)-access                      |
+| Scovillain (Mega)        | 1     | 41.49 |        | Grass, Fire          | D(2)-access                      |
+| Shadow Gardevoir         | 1     | 41.13 |        | Fairy, Psychic       | D(2)-access                      |
+| Eelektross (Mega)        | 1     | 40.76 |        | Electric             | D(2)-access                      |
+| Golisopod (Mega)         | 1     | 40.35 |        | Bug, Water           | D(2)-access                      |
+| Victreebel (Mega)        | 1     | 40.23 |        | Grass, Poison        | D(2)-access                      |
+| Scizor (Mega)            | 1     | 40.00 |        | Bug, Steel           | D(2)-access                      |
+| Rampardos                | 1     | 38.59 |        | Rock                 | E(1)                             |
+| Pheromosa                | 1     | 38.55 |        | Bug, Fighting        | E(1)+legend-glass                |
+| Shadow Toxicroak         | 1     | 36.64 |        | Poison, Fighting     | E(1)-access→cap1                 |
+| Deoxys (Attack)          | 1     | 34.96 |        | Psychic              | E(1)+legend-glass                |
 
 ---
 
@@ -466,13 +466,13 @@ Unfusion is free but re-fusion costs 1,000 Energy + 60 Candy.
 
 ### Ice Type
 
-| Pokemon           | Count | Rank | ER    | Notes                  |
-| ----------------- | ----- | ---- | ----- | ---------------------- |
-| Kyurem (Black/White) | 6  | #1/#2 | 60.56/54.19 | Fusion family: 4 Black + 2 White |
-| Baxcalibur (Mega)    | 3  | #10+  | 45.95       | Also Dragon                      |
-| Shadow Mamoswine     | 2  | #3    | 44.50       | Also Ground                      |
-| Froslass (Mega)      | 1  | #10+  | 42.78       | Also Ghost, accessible           |
-| Shadow Weavile       | 2  | #4    | 42.60       | Also Dark                        |
+| Pokemon              | Count | Rank  | ER          | Notes                            |
+| -------------------- | ----- | ----- | ----------- | -------------------------------- |
+| Kyurem (Black/White) | 6     | #1/#2 | 60.56/54.19 | Fusion family: 4 Black + 2 White |
+| Baxcalibur (Mega)    | 3     | #10+  | 45.95       | Also Dragon                      |
+| Shadow Mamoswine     | 2     | #3    | 44.50       | Also Ground                      |
+| Froslass (Mega)      | 1     | #10+  | 42.78       | Also Ghost, accessible           |
+| Shadow Weavile       | 2     | #4    | 42.60       | Also Dark                        |
 
 **Ice Raid Frequency**: High (Dragon/Flying/Grass/Ground bosses common)
 **Fusion storage**: 12 slots total (6 Kyurem fused + 4 Zekrom + 2 Reshiram locked)

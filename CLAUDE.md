@@ -382,14 +382,14 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 
 ## Session Notes
 
-**Current Session (2026-03-08)**: Pokemon Violet Playthrough — Party/Box Updates
+**Current Session (2026-03-15)**: Fusion Family Methodology Fix + Violet Updates
 
 ### Violet Playthrough State
 
-- **Party (6/6)**: Larb Lv.21, Kai Yang Lv.18, Tod Mun Lv.17, Bua Loy Lv.17, Carpaccio Lv.14, Macaron Lv.14
-- **Box**: 26 Pokemon (food-themed names, Thai + international)
+- **Party (6/6)**: Larb Lv.21 (Oran Berry, Metal Claw), Kai Yang Lv.18, Tod Mun Lv.17, Bua Loy Lv.17, Carpaccio Lv.14, Macaron Lv.14 (Atk IV confirmed 27)
+- **Box**: 27 Pokemon (food-themed names, Thai + international) — added Tempura (Pichu F Lv.7)
 - **Final evolutions**: Skeledirge, Talonflame, Pawmot, Azumarill, Gyarados, Gardevoir
-- **Key file**: `violet/playthrough.md` — full party/box tables + detailed IV estimates for all 32 Pokemon
+- **Key file**: `violet/playthrough.md` — full party/box tables + detailed IV estimates for all 33 Pokemon
 - **Memory file**: `~/.claude/projects/.../memory/pokemon-violet-playthrough.md` — compact summary
 - **Workflow**: User sends screenshots (HEIC) → Claude converts via `sips` → reads stats/nature/characteristic → calculates IVs → updates files
 - **File constraint**: `playthrough.md` ≤ 400 lines (currently at 400)
@@ -409,4 +409,4 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 
 ---
 
-_Session handoff updated: 2026-03-08_
+_Session handoff updated: 2026-03-15_

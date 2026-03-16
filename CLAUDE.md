@@ -51,7 +51,7 @@ pokemon/
 
 ## Recent Work
 
-### Session (2026-03-15): Fusion Family Methodology Fix
+### Session (2026-03-15): Fusion Family Methodology Fix + Falinks Guide
 
 1. **MAJOR**: Added "Step 5: Fusion Family Adjustment" to raid attacker methodology
    - Pokemon GO fusion (Kyurem, Necrozma) locks base + partner = 2 storage slots per fused copy
@@ -64,6 +64,7 @@ pokemon/
 5. **Totals**: ~445 copies across 144 species (+14 locked partners = ~459 actual storage)
 6. **GitHub Issue [#3](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/3)**: PvP modifier review deferred
 7. **Verified NOT fusion**: Dialga/Palkia Origin (separate raid catches, no form-change)
+8. **NEW**: Created `docs/guides/MAX_BATTLE_FALINKS_SOLO.md` — solo strategy for 3-Star Dynamax Falinks Max Battle (charger strategy, Gardevoir double-resist, verified mechanics)
 
 ### Session (2026-03-08): Pokemon Violet Playthrough — Batch Updates
 
@@ -350,8 +351,9 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 **GitHub Issues**: [#1](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/1) - CLOSED (recalibrated 2026-02-16) | [#3](https://github.com/lioartoil/pokemon-go-storage-strategy/issues/3) - OPEN (PvP modifier review)
 **Recent commits** (most recent first):
 
-1. `1368fce` (2026-03-08) - docs: session handoff 2026-03-08 — Violet playthrough batch updates
-2. `24df959` (2026-03-08) - docs: add Pokemon Violet playthrough tracker
+1. `f33d158` (2026-03-15) - docs: session handoff 2026-03-15 — fusion family methodology fix
+2. `988f542` (2026-03-15) - fix(methodology): add fusion family adjustment, reduce Kyurem/Necrozma counts
+3. `141a86f` (2026-03-08) - docs: session handoff 2026-03-08 — add Violet file conventions
 3. `7675649` (2026-03-05) - docs: session handoff 2026-03-05 — Unicode symbol replacement
 4. `9a4421d` (2026-03-05) - fix(naming): change Baby stage symbol from - to . for correct sort order
 5. `86e3932` (2026-03-05) - fix(naming): adjust Baby and Little League symbols for correct sort order
@@ -409,4 +411,4 @@ shadow&alakazam,blaziken,chandelure,chesnaught,conkeldurr,darkrai,darmanitan,del
 
 ---
 
-_Session handoff updated: 2026-03-15_
+_Session handoff updated: 2026-03-16_
